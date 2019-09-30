@@ -1,4 +1,4 @@
 # Data-structures-and-Algorithms
-    - learning note
+  learning note
 
 # Content
