@@ -2,3 +2,5 @@
   learning note
 
 # Content
+  -week_2
+  -week_3
