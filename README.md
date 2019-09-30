@@ -1,5 +1,4 @@
 # Data-structures-and-Algorithms
-learning note
+    - learning note
 
-# week_1
-
+# Content
