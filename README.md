@@ -4,3 +4,5 @@
 # Content
   ● week_2
   
+'''python
+print('try');
