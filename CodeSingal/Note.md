@@ -4,4 +4,3 @@
 | 2進位制| - | bin(int(x, 8)) | bin(int(x, 10) | bin(int(x, 16)) |
 
 
-## cCc
