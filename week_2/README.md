@@ -27,9 +27,13 @@
 
 # return
 > keyword用在函數或方法中**回傳值(return value)**，若在函數或方法中沒有用到return，預設回傳**None**
-  - 基本上，只會回傳一個數值，若要
+  - 基本上，只會回傳一個數值，若逗號區隔多個數值，則回傳一個序對(tuple)
+  - 
 
 ### Source
-[]
+- [Python 簡單陳述return]
+(https://kaiching.org/pydoing/py/python-return.html)
+
+
 
 # Design Linked List
