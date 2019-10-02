@@ -26,7 +26,7 @@
 
 
 # return
-> keyword用在函數或方法中**回傳值(return value)**，若在函數或方法中沒有用到return，預設回傳None
+> keyword用在函數或方法中**回傳值(return value)**，若在函數或方法中沒有用到return，預設回傳**None**
   - 基本上，只會回傳一個數值，若要
 
 ### Source
