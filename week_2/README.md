@@ -17,11 +17,13 @@
       - 也可以是空的，之後再新增資料
   - 並不是必要的
   
-         python自由度高，可以直接給屬性，不透過`__init__`
+       python自由度高，可以直接給屬性，不透過`__init__`
 
 
  ### Source
 [Python Class](https://medium.com/@weilihmen/%E9%97%9C%E6%96%BCpython%E7%9A%84%E9%A1%9E%E5%88%A5-class-%E5%9F%BA%E6%9C%AC%E7%AF%87-5468812c58f2)
+
+
 
 
 
