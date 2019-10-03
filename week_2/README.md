@@ -81,7 +81,7 @@
 ## Test linked list
 > following teacher's
 
-由`node`跟`pointer`組成一連串的linked list
+由`node`跟`pointer`組成一連串向右的linked list
   - `node`：創造儲存值的空間
   - `pointer`：將空間與空間組合起來，串起零碎的空間
 
@@ -90,10 +90,15 @@ Code
   - .val：node內儲存的值
   - .next：node和下一個node之間的連結
 - `get(index)`：得到node在linked list中的index，如果index無效，回傳-1
-    > 先考慮位置，箭頭指在第一個node的位置，往後必須一個一個走訪
+    > 考慮index位置，箭頭指在第一個node的位置，往後必須一個一個走訪
     - 要第一個位置的值(第一個是否存在?)
         - 存在：回傳箭頭所在位置的值
         - 不存在：回傳-1
     - 要第一個以後的值：一個個往下指到index的位置(下一個是否存在?)
         - 存在：箭頭指向下一個，指到index回傳值
         - 不存在：回傳-1
+- `addAtHead(val)：增加一個值是val的node在所有node的前面，變成第一個(向左增加)
+    > 考慮第一個node是否已經有值存在
+    - 存在：將原本的值存到一個暫存的空間，把val存入空出來的位置，再在他的下一個創造一個新的node空間，存入原本的值，並把原本值的下一個指派給val的下下一個
+    - 不存在：直接存到第一個node中
+
