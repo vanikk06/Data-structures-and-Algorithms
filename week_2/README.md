@@ -81,7 +81,7 @@
 ## Test linked list
 > following teacher's
 
-由`node`跟`pointer`組成
+由`node`跟`pointer`組成一連串的linked list
   - `node`：創造儲存值的空間
   - `pointer`：將空間與空間組合起來，串起零碎的空間
 
@@ -89,3 +89,8 @@ Code
 - `__init__`:linked list基礎的屬性設定
   - .val：node內儲存的值
   - .next：node和下一個node之間的連結
+- `get(index)`：得到node在linked list中的index，如果index無效，回傳-1
+  1. 先考慮位置，self指在第一個node的位置，，往後必須一個一個走訪
+    - 要第一個位置的值
+        - 不存在：回傳-1
+        - 存在：回傳self.val
