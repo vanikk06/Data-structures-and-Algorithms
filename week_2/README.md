@@ -37,6 +37,10 @@
 
 
 # Design Linked List
+> Array VS. Linked list
+ - Array
+    - pros:
+        1. 連續的記憶體空間
 
 
 ## Test linked list
