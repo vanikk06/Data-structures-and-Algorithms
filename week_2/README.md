@@ -84,6 +84,7 @@
 由`node`跟`pointer`組成
   - `node`：創造儲存值的空間
   - `pointer`：將空間與空間組合起來，串起零碎的空間
+
 Code
 - `__init__`:linked list基礎的屬性設定
   - .val：node內儲存的值
