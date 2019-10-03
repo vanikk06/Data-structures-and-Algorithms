@@ -80,3 +80,6 @@
 
 ## Test linked list
 > following teacher's
+由`node`跟`pointer`組成
+  - `node`:創造儲存值的空間
+  - `pointer`:將空間與空間組合起來，串起零碎的空間
