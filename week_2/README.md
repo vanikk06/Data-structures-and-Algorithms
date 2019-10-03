@@ -62,6 +62,7 @@
  
 #### Source
 [區塊鏈是什麼?](https://medium.com/cobinhood-%E4%B8%AD%E6%96%87%E5%A0%B1/what-is-blockchain-53a7ee374e6c#8f35)
+[白話的Hash Table](https://blog.techbridge.cc/2017/01/21/simple-hash-table-intro/)
    
 
 
