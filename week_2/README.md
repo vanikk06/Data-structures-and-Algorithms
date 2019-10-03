@@ -105,6 +105,8 @@ Code
     > 考慮前面是否已經存在
     - 存在：箭頭指到最後一個，在它之後創要一個node空間，存入val
     - 不存在：直接存到第一個node中
+- `addAtIndex(index, val)`：增加一個值為val的node在指定的index位置
+    > 
 
 
 
