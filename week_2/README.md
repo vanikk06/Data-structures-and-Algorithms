@@ -29,7 +29,7 @@
  #### Source
 [Python Class](https://medium.com/@weilihmen/%E9%97%9C%E6%96%BCpython%E7%9A%84%E9%A1%9E%E5%88%A5-class-%E5%9F%BA%E6%9C%AC%E7%AF%87-5468812c58f2)
 
-[🚗](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚗_](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
 
 
 
@@ -44,7 +44,7 @@
 #### Source
 [Python 簡單陳述return](https://kaiching.org/pydoing/py/python-return.html)
 
-[🚕](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚕__](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
 
 # Design Linked List
 > Array VS. Linked list
@@ -74,7 +74,7 @@
 
 [白話的Hash Table](https://blog.techbridge.cc/2017/01/21/simple-hash-table-intro/)
 
-[🚙](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚙___](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
    
 
 
@@ -107,4 +107,4 @@ Code
 
 
 
-[🚌](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
