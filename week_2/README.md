@@ -43,13 +43,25 @@
  - Array
     - pros:
         1. 連續的記憶體空間
-        2. 放入資料是連續的(方便走訪)
+        2. 速度快，放入資料是連續的(走訪方便)
     - cons:
         連續的記憶空間，無法有效使用記憶體(零星的空間)
  - Linked list
-      - pros: 將空間中零碎的空間串起，優化記憶體配置
-    
-    
+      - pros:將空間中零碎的空間串起，優化記憶體配置
+      - cons:資料不連續，要建立空間的連結
+      
+ #### Blockchain 區塊鏈
+ > 分散式架構的資料運算與儲存平台，同時具備特殊的P2P(點對點)特性
+  - 特性；
+      1. 去中心化
+      2. 不可竄改之安全性
+ 
+linked list中再包一個hash(one way，)
+
+ 
+#### Source
+[區塊鏈是什麼?](https://medium.com/cobinhood-%E4%B8%AD%E6%96%87%E5%A0%B1/what-is-blockchain-53a7ee374e6c#8f35)
+   
 
 
 ## Test linked list
