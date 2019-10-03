@@ -1,6 +1,8 @@
 # Content
   - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#class)
   - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#return)
+  - [Design Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#design-linked-list)
+  -[]()
 
 # Class
   > 像是一個模組，產出具有相同特性的實體(物件)
