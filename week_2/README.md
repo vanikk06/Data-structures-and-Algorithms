@@ -1,5 +1,5 @@
 # Content
-  - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/edit/master/week_2/README.md#class)
+  - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/master/week_2/README.md#class)
 
 # Class
   > 像是一個模組，產出具有相同特性的實體(物件)
