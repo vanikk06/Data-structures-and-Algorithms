@@ -66,7 +66,7 @@
  
 `linked list中再包一個hash`
   - hash
-      - One way:無法往回影響(不被串改)
+      - One way：無法往回影響(不被串改)
  
 #### Source
 [區塊鏈是什麼?](https://medium.com/cobinhood-%E4%B8%AD%E6%96%87%E5%A0%B1/what-is-blockchain-53a7ee374e6c#8f35)
@@ -80,6 +80,11 @@
 
 ## Test linked list
 > following teacher's
+
 由`node`跟`pointer`組成
-  - `node`:創造儲存值的空間
-  - `pointer`:將空間與空間組合起來，串起零碎的空間
+  - `node`：創造儲存值的空間
+  - `pointer`：將空間與空間組合起來，串起零碎的空間
+Code
+- `__init__`:linked list基礎的屬性設定
+  - .val：node內儲存的值
+  - .next：node和下一個node之間的連結
