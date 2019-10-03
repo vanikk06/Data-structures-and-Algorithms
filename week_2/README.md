@@ -30,6 +30,7 @@
   - 基本上，只會回傳一個數值，若逗號區隔多個數值，則回傳一個序對(tuple)
   - 若出現在函數或方法外，會錯誤
     > P.S. 函式或方法中回傳較不適用`print()`
+ ![image](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/1570076731275.jpg)
     
 #### Source
 [Python 簡單陳述return](https://kaiching.org/pydoing/py/python-return.html)
