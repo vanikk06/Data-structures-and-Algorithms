@@ -29,7 +29,7 @@
  #### Source
 [Python Class](https://medium.com/@weilihmen/%E9%97%9C%E6%96%BCpython%E7%9A%84%E9%A1%9E%E5%88%A5-class-%E5%9F%BA%E6%9C%AC%E7%AF%87-5468812c58f2)
 
-[🛸](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚗](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
 
 
 
@@ -44,7 +44,7 @@
 #### Source
 [Python 簡單陳述return](https://kaiching.org/pydoing/py/python-return.html)
 
-[🚈](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚕](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
 
 # Design Linked List
 > Array VS. Linked list
@@ -74,7 +74,7 @@
 
 [白話的Hash Table](https://blog.techbridge.cc/2017/01/21/simple-hash-table-intro/)
 
-[🛫](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚙](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
    
 
 
@@ -97,8 +97,14 @@ Code
     - 要第一個以後的值：一個個往下指到index的位置(下一個是否存在?)
         - 存在：箭頭指向下一個，指到index回傳值
         - 不存在：回傳-1
-- `addAtHead(val)：增加一個值是val的node在所有node的前面，變成第一個(向左增加)
+- `addAtHead(val)`：增加一個值是val的node在所有node的前面，變成第一個(向左增加)
     > 考慮第一個node是否已經有值存在
     - 存在：將原本的值存到一個暫存的空間，把val存入空出來的位置，再在他的下一個創造一個新的node空間，存入原本的值，並把原本值的下一個指派給val的下下一個
     - 不存在：直接存到第一個node中
 
+
+
+
+
+
+[🚌](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
