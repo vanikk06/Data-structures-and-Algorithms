@@ -90,7 +90,7 @@ Code
   - .val：node內儲存的值
   - .next：node和下一個node之間的連結
 - `get(index)`：得到node在linked list中的index，如果index無效，回傳-1
-  1. 先考慮位置，self指在第一個node的位置，，往後必須一個一個走訪
+    > 先考慮位置，self指在第一個node的位置，，往後必須一個一個走訪
     - 要第一個位置的值
         - 不存在：回傳-1
         - 存在：回傳self.val
