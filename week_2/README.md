@@ -29,7 +29,7 @@
 > keyword用在函數或方法中**回傳值(return value)**，若在函數或方法中沒有用到return，**預設回傳None**
   - 基本上，只會回傳一個數值，若逗號區隔多個數值，則回傳一個序對(tuple)
   - 若出現在函數或方法外，會錯誤
-    > P.S. 函式或方法中回傳較不適用`print()`
+    > P.S. 函式或方法中回傳較不適用`print()`，print是打印，放到def中，執行到會打印出設定的結果，但此並非def的回傳值，所以仍會回傳預設的return(None)
     
  ![image](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/1570076731275.jpg)
     
