@@ -64,13 +64,13 @@ class MyLinkedList:
         """
         Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted.
         """
-        i = 0 
-        p = self
-        pre = p 
         if index <= 0:                 #向左增加 = 增加在最前面
             self.addAtHead(val)
             return
         
+        i = 0 
+        p = self
+        pre = p 
         while i < index:               #指到index位置，在他的前一個後面創造一個node
             i += 1
             pre = p
@@ -88,9 +88,7 @@ class MyLinkedList:
     def deleteAtIndex(self, index: int) -> None:
         """
         Delete the index-th node in the linked list, if the index is valid.
-        """
-        i = 0
-        p = self        
+        """                
         if index < 0:                 #index<0 不存在
             return
         if index == 0:                #刪掉第一個
@@ -101,6 +99,9 @@ class MyLinkedList:
                 return
             self.val = self.next.val
             self.next = self.next.next
+            
+        i = 0
+        p = self
         pre = p 
         while i < index:              #指到要刪掉的位置
             i += 1
