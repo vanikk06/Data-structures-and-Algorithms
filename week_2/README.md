@@ -84,7 +84,7 @@
 
 
 ## Test linked list
-[HERE](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Test%20%20design%20linked%20list.py)
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Test%20%20design%20linked%20list.py)
 > following teacher's
 
 由`node`跟`pointer`組成一連串向右的linked list
