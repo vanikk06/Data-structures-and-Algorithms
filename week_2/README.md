@@ -45,7 +45,7 @@
   - 若出現在函數或方法外，會錯誤
     > P.S. 函式或方法中回傳較不適用`print()`，print是打印(裡面不能放運算式)，放到def中，執行到會打印出設定的結果，但此並非def的回傳值，所以仍會回傳預設的return(None)
     
- ![image](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/1570205871567.jpg)
+ ![image](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/1570208923463.jpg)
     
 #### Source
 [Python 簡單陳述return](https://kaiching.org/pydoing/py/python-return.html)
