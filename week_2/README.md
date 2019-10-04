@@ -115,7 +115,7 @@ Code
     > 
 
 Wrong Answer
-  1. 在函式中`return`後面加**空值**時會跳出函式
+  1. 在函式中`return`後面加**空值**時，會直接跳出函式
   ![Return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/Return.jpg)
   2. 
 
