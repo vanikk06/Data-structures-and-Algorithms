@@ -88,7 +88,7 @@
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Test%20%20design%20linked%20list.py)
 > following teacher's
 
-由`node`跟`pointer`組成一連串向右的linked list
+由`node`跟`pointer`組成一連串的linked list
   - `node`：創造儲存值的空間
   - `pointer`：將空間與空間組合起來，串起零碎的空間
 
@@ -98,10 +98,10 @@ Code
   - .next：node和下一個node之間的連結
 - `get(index)`：得到node在linked list中的index，如果index無效，回傳-1
     > 考慮index位置，起初，箭頭指在第一個node的位置，往後必須一個一個走訪
-    - 要第一個位置的值(第一個是否存在?)
+    - 要第一個位置的值(第一個是否存在!?)
         - 存在：回傳箭頭所在位置的值
         - 不存在：回傳-1
-    - 要第一個以後的值：一個個往下指到index的位置(下一個是否存在?)
+    - 要第一個以後的值：一個個往下指到index的位置(下一個是否存在!?)
         - 存在：箭頭指向下一個，指到index回傳值
         - 不存在：回傳-1
 - `addAtHead(val)`：增加一個值是val的node在所有node的前面，第一個(向左增加)
@@ -113,7 +113,11 @@ Code
     - 存在：箭頭指到最後一個，在它之後創要一個node空間，存入val
     - 不存在：直接存到第一個node中
 - `addAtIndex(index, val)`：增加一個值為val的node在指定的index位置
-    > 
+    > 先考慮位置
+    - index <= 0：向左增加，使用`addAtHead()`
+    - index > 0：向右增加，一個個往下指 (index是否在linked list的長度內?!)
+        > 把箭頭指到index，
+         在那個位置插入一個新的node (在*index-1的下一個位置*創造一個node)
 
 Wrong Answer
   1. 在函式中`return`後面加**空值**時，會直接跳出函式
