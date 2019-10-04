@@ -116,7 +116,7 @@ Code
 
 Wrong Answer
   1. 在函式中`return`後面加**空值**時會跳出函式
-  ![FALSE](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/FALSE.jpg) ![TRUE](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/TRUE.jpg)
+  ![Return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/Return.jpg)
 
 
 [🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
