@@ -4,6 +4,11 @@
   - [Design Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#design-linked-list)
     - [Test linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#test-linked-list)
 
+
+```
++ red 
+```
+
 # Class
   > 像是一個模組，產出具有相同特性的實體(物件)
    - `class` 跟 `def` 是組成模組功能的最低架構
