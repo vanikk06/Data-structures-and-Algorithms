@@ -92,11 +92,11 @@
   - `pointer`：將空間與空間組合起來，串起零碎的空間
 
 Code
-- `__init__`:linked list基礎的屬性設定
+- `__init__`:node基礎的屬性設定
   - .val：node內儲存的值
   - .next：node和下一個node之間的連結
 - `get(index)`：得到node在linked list中的index，如果index無效，回傳-1
-    > 考慮index位置，箭頭指在第一個node的位置，往後必須一個一個走訪
+    > 考慮index位置，起初，箭頭指在第一個node的位置，往後必須一個一個走訪
     - 要第一個位置的值(第一個是否存在?)
         - 存在：回傳箭頭所在位置的值
         - 不存在：回傳-1
@@ -117,6 +117,7 @@ Code
 Wrong Answer
   1. 在函式中`return`後面加**空值**時會跳出函式
   ![Return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/Return.jpg)
+  2. 
 
 
 [🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
