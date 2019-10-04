@@ -39,7 +39,7 @@
 
 > 若在函數或方法中沒有用到return，**預設回傳None**
 
-> 若在函數或方法中放入return加空值，會跳出函數或方法
+> 若在函數或方法中放入`return`加**空值**，會跳出函數或方法
   - 基本上，只會回傳一個數值，若逗號區隔多個數值，則回傳一個序對(tuple)
   - 若出現在函數或方法外，會錯誤
     > P.S. 函式或方法中回傳較不適用`print()`，print是打印(裡面不能放運算式)，放到def中，執行到會打印出設定的結果，但此並非def的回傳值，所以仍會回傳預設的return(None)
@@ -114,8 +114,9 @@ Code
 - `addAtIndex(index, val)`：增加一個值為val的node在指定的index位置
     > 
 
-
-
+Wrong Answer
+  1. 在函式中`return`後面加**空值**時會跳出函式
+  ![FALSE](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/FALSE.jpg) ![TRUE](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/TRUE.jpg)
 
 
 [🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
