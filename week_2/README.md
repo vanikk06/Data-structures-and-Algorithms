@@ -144,7 +144,7 @@ Code
 Wrong Answer
   1. 在函式中`return`後面加**空值**時，會直接跳出函式
   ![Return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/Return.jpg)
-  2. 
-
+  2. p = self，`p = p.next`才是建立node的連結
+  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/addAtTail.jpg)
 
 [🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
