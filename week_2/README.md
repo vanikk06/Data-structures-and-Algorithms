@@ -136,7 +136,7 @@ Code
         > 第一個是否為空值?!
         - Yes：return
         - No：
-            > 後面是否有其他node?!
+            > 後面是否有node?!
             - Yes：改變node的連結，將第二個node取代第一個node
             - No：將self設為空值，return
     - index > 0；
