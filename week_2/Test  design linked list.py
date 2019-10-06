@@ -12,7 +12,7 @@ class MyLinkedList:
         """
         Get the value of the index-th node in the linked list. If the index is invalid, return -1.
         """
-        if self.val == None:             #第一個不存在
+        if self.val == None:             #第一個是空的
             return -1
         
         if index == 0 :                  #取第一個值(index=0)
@@ -32,7 +32,7 @@ class MyLinkedList:
         """
         Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.
         """
-        if self.val == None:            #第一個不存在，直接存到第一個位置
+        if self.val == None:            #第一個是空的，直接存到第一個位置
             self.val = val
             return
         
@@ -49,7 +49,7 @@ class MyLinkedList:
         """
         Append a node of value val to the last element of the linked list.
         """
-        if self.val == None:           #第一個不存在，直接存到第一個位置
+        if self.val == None:           #第一個是空的，直接存到第一個位置
             self.val = val
             return
         
