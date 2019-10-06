@@ -109,8 +109,8 @@ class MyLinkedList:
             if pre == None:
                 return
             p = p.next
-        if p != None:                    #要刪除值的下一個不是空的，上一個的下一個變成要刪除值的下一個
+        if p != None:                    
             pre.next = p.next
         else:
-            pre.next = None              #是空的，上一個的下一個變None
+            pre.next = None              
         return
