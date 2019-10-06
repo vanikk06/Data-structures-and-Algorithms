@@ -125,11 +125,11 @@ Code
         > index是否在linked list的長度內?!
         >> 走訪在乎是否走到index或是最後一個，而非下一個是否存在(先走再判斷)
         - Yes：將箭頭指到index位置 
-            (往下走的條件：self != None and self.val != None，前者判斷是否為最後一個，後者避免linked list建構失敗)
+            (往下條件：self != None and self.val != None，前者判斷是否為最後一個，後者避免linked list建構失敗)
         - No：指到最後一個
           > 插入方法：把箭頭指到index，在那個位置插入一個新的node (在*index-1的下一個位置*創造一個node)
 - `deleteAtIndex(index)`：刪掉在index上的node
-    > 考慮位置、是否存在
+    > 考慮位置、是否為空值
     - index < 0：不存在，return
     - index == 0：刪掉第一個
         > 第一個是否為空值?!
@@ -138,7 +138,11 @@ Code
             > 後面是否有node?!
             - Yes：改變node的連結，將第二個node取代第一個node
             - No：將self設為空值，return
-    - index > 0；
+    - index > 0：
+        > index是否大於linked list的長度
+        - Yes：最後一個後面.next = None
+        - No：重新建構連結，讓index-1的下一個和index的下一個建立連結
+    
 
 Wrong Answer
   1. 在函式中`return`後面加**空值**時，會直接跳出函式
