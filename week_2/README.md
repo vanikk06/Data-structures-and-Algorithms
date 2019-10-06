@@ -124,9 +124,10 @@ Code
     - index > 0：向右增加，先指到index位置
         > index是否在linked list的長度內?!
         >> 走訪在乎是否走到index或是最後一個，而非下一個是否存在(先走再判斷)
-        - Yes：將箭頭指到index位置 (往下走的條件：self != None and self.val != None，前者判斷是否為最後一個，後者避免linked list建構失敗)
+        - Yes：將箭頭指到index位置 
+            (往下走的條件：self != None and self.val != None，前者判斷是否為最後一個，後者避免linked list建構失敗)
         - No：指到最後一個
-          → 把箭頭指到index，在那個位置插入一個新的node (在*index-1的下一個位置*創造一個node)
+          > 插入方法：把箭頭指到index，在那個位置插入一個新的node (在*index-1的下一個位置*創造一個node)
 - `deleteAtIndex(index)`：刪掉在index上的node
     > 考慮位置、是否存在
     - index < 0：不存在，return
