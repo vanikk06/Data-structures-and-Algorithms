@@ -1,3 +1,4 @@
+# Contents
 
 # Stack & Queue
  > 儲存資料的方式
@@ -36,3 +37,5 @@
     - `getSize`：回傳queue裡的資料個數
    
   
+#### Source
+ [Data Structures: Stacks and Queues](https://www.youtube.com/watch?time_continue=9&v=wjI1WNcIntg)
