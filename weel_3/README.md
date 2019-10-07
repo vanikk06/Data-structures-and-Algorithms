@@ -44,3 +44,8 @@
   
 #### Source
  [Data Structures: Stacks and Queues](https://www.youtube.com/watch?time_continue=9&v=wjI1WNcIntg)
+
+
+## Test min stack
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20min%20stack.py)
+> following teacher's
