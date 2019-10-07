@@ -18,3 +18,7 @@
       - [Try design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#try-design-linked-list)
       
 [🧝🏻‍♀️🧝🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+
+
+# week_3
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3)
