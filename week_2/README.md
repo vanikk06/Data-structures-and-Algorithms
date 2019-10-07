@@ -152,7 +152,7 @@
   ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/addAtTail.jpg)
   
 
-## Try linked list  
-  [👉🏼HERE👈🏼]()
+## Try design linked list  
+  [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Try%20design%20linked%20list.py)
   > by myslef
 [🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
