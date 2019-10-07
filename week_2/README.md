@@ -141,6 +141,7 @@ Code
     - index > 0：
         > index是否大於linked list的長度
         - Yes：最後一個後面.next = None
+             (往下條件：`pre != None`，)
         - No：重新建構連結，讓index-1的下一個和index的下一個建立連結
     
 
