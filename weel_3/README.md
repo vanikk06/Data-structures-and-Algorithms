@@ -1,7 +1,10 @@
-# Contents
+# Content
+ - [Stack & Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#stack--queue)
 
 # Stack & Queue
  > 儲存資料的方式
+  - [Stack](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#stack)
+  - [Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#queue)
  
  ## Stack
   > 先進後出（LIFO：last in first out）
@@ -17,7 +20,8 @@
     - `top`：回傳「最上面」的data（查看）
     - `IsEmpty`：確認stack裡是否有資料
     - `getSize`：回傳stack裡的資料個數
-  
+    
+  [~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
  ## Queue
   > 後進先出（FIFO：first in first out）
   
@@ -36,6 +40,7 @@
     - `IsEmpty`：確認queue裡是否有資料
     - `getSize`：回傳queue裡的資料個數
    
+  [🐙~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
   
 #### Source
  [Data Structures: Stacks and Queues](https://www.youtube.com/watch?time_continue=9&v=wjI1WNcIntg)
