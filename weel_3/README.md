@@ -24,7 +24,7 @@
   - 使用地方：
     - 安排多個程式的執行順序  e.g.作業系統（多個程式共享的資源，一次只能執行一個需求）
     - 演算法：
-      - BDS(廣度優先搜尋)(http://www.voidcn.com/article/p-dxtqiskv-bpm.html)
-      - [Tree的Level-Order Traversal(http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html#level)
+      - [BDS(廣度優先搜尋)](http://www.voidcn.com/article/p-dxtqiskv-bpm.html)
+      - [Tree的Level-Order Traversal](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html#level)
    
   
