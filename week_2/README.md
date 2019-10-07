@@ -96,7 +96,7 @@
   - `node`：創造儲存值的空間
   - `pointer`：將空間與空間組合起來，串起零碎的空間
 
-Code
+#### Code
 - `__init__`:node基礎的屬性設定
   - .val：node內儲存的值
   - .next：node和下一個node之間的連結(pointer)
@@ -145,10 +145,14 @@ Code
         - No：重新建構連結，讓index-1的下一個和index的下一個建立連結
     
 
-Wrong Answer
+#### Wrong Answer
   1. 在函式中`return`後面加**空值**時，會直接跳出函式
   ![Return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/Return.jpg)
   2. p = self，`p = p.next`才是建立node的連結
   ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/addAtTail.jpg)
+  
 
+## Try linked list  
+  [👉🏼HERE👈🏼]()
+  > by myslef
 [🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
