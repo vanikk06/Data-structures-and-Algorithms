@@ -88,7 +88,7 @@
    
 
 
-## Test linked list
+## Test design linked list
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Test%20%20design%20linked%20list.py)
 > following teacher's
 
