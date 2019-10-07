@@ -19,13 +19,13 @@ class MinStack:
             self.topnode = node(x, None)
         else:
             temp = self.topnode
-            self.topnode = node(x, temp)
+            self.topnode.next = temp
+            self.topnode = node(x, self.topnode.next)
 
     def pop(self) -> None:
-        
+        return self.topnode = slef.topnode.next
 
     def top(self) -> int:
-        
+        return slef.topnode.val
 
     def getMin(self) -> int:
-        
