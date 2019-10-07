@@ -1,9 +1,10 @@
 class node:
     
-    def__init__(self, val, nextnode=None):
+    def __init__(self, val, nextnode=None):
         
         self.val = val
         self.next = nextnode
+        self.min = val
 
 class MinStack:
 
@@ -18,14 +19,16 @@ class MinStack:
         if self.topnode == None:
             self.topnode = node(x, None)
         else:
-            temp = self.topnode
-            self.topnode.next = temp
-            self.topnode = node(x, self.topnode.next)
+            temp = self.topnode.min
+            self.topnode = node(x, self.topnode)
+            if temp < self.topnode.min:
+                self.topnode.min = temp
 
     def pop(self) -> None:
-        return self.topnode = slef.topnode.next
+        self.topnode = self.topnode.next
 
     def top(self) -> int:
-        return slef.topnode.val
+        return self.topnode.val
 
     def getMin(self) -> int:
+        return self.topnode.min
