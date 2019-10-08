@@ -3,6 +3,8 @@
   - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#return)
   - [Design Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#design-linked-list)
     - [Test linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#test-design-linked-list)
+      - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#code)
+      - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#wrong-answer)
 
 
 # Class
