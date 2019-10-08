@@ -66,6 +66,10 @@
  - `pop()`：取出top的資料，將下一筆資料成為新的top
  - `top()`：查看top那筆資料的值
  - `getMin()`：查看stack中最小的值
+ 
+ ##### Source
+ [用兩個stack來實作MinStack：O(1)](http://alrightchiu.github.io/SecondRound/stack-neng-gou-zai-o1qu-de-zui-xiao-zhi-de-minstack.html#minstack)
+ 
 
 
 ## Try min stack
