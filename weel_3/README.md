@@ -2,6 +2,8 @@
  - [Stack & Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#stack--queue)
     - [Test min stack](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#test-min-stack)
         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#code)
+    - [Try min stack by linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#try-min-stack)
+        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#code-1)
 
 # Stack & Queue
  > 儲存資料的方式
@@ -72,7 +74,7 @@
  ##### Source
  [用兩個stack來實作MinStack：O(1)](http://alrightchiu.github.io/SecondRound/stack-neng-gou-zai-o1qu-de-zui-xiao-zhi-de-minstack.html#minstack)
  
-
+[~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
 
 ## Try min stack
 > Using linked list
@@ -94,5 +96,7 @@
  - `top()`：查看top那筆資料的值
  - `getMin()`：一筆筆比較stack中的值，找出最小值     🤺
    > 利用node.next比較各筆資料，不動到topnode的指標
+
+[🐙~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
 
 > Using array
