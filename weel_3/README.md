@@ -60,8 +60,8 @@
  - `push(x)`：增加一筆資料，變成新的top
    > 考慮stack內是否已有值存在
    - Yes：先將topnode.min存到暫存區，創建一個node存入x值成為topnode，再與暫存區內的值做比較
-      - <：取代topnode.min
-      - >=l：不動
+      - 小於：取代topnode.min
+      - 大於、等於：不動
    - No：創建一個node存入x值，成為topnode
  - `pop()`：取出top的資料，將下一筆資料成為新的top
  - `top()`：查看top那筆資料的值
