@@ -79,7 +79,7 @@
 
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20linked%20list.py)
 
-Status：Time Limit Exceeded
+🚫Status：Time Limit Exceeded🚫
 
 - 利用`node`建立儲存空間（包含.val和.next），無增加min
 
@@ -92,6 +92,7 @@ Status：Time Limit Exceeded
    - No：創建一個node存入x值，成為topnode，next為None
  - `pop()`：取出top的資料，將下一筆資料成為新的top
  - `top()`：查看top那筆資料的值
- - 👁‍🗨`getMin()`：一筆筆比較stack中的值，找出最小值
+ - `getMin()`：一筆筆比較stack中的值，找出最小值     🤺
+   > 利用node.next比較各筆資料，不動到topnode的指標
 
 > Using array
