@@ -64,3 +64,8 @@
  - `pop()`：取出top的資料，將下一筆資料成為新的top
  - `top()`：查看top那筆資料的值
  - `getMin()`：查看stack中最小的值
+
+
+## Try min stack
+> Using node
+> Using array
