@@ -1,7 +1,7 @@
 # Content
  - [Stack & Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#stack--queue)
-    - [Try min stack by linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#try-min-stack)
-        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#code-1)
+    - [Try min stack ](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#try-min-stack)
+        - [Code_by linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#code-1)
     - [Test min stack](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#test-min-stack)
         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#code)
     
