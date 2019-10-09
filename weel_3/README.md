@@ -80,15 +80,30 @@
 
  Status：Runtime：76ms, Memory：17.9 MB
  
+ - 將top的資料，存在list最後一筆
+ - 使用tuple的方式存入資料(x, min)
+ 
  #### Code
+ - `__intit__`：min stack基礎的屬性設定
+     - .min_stack：空的list
+ - `push(x)`：增加一筆資料，變成新的top
+   > 考慮stack內是否已有值存在
+   - Yes：比較x與上一筆資料誰為min，以(x, min)方式增加
+   - No：利用`append()`在list內增加一筆資料(x, x)
+ - `pop()`：利用`pop()`回傳最後一筆資料，並將它刪除
+ - `top()`：查看最後一筆資料第0的位置
+ - `getMin()`：查看最後一筆資料第1的位置
+ 
  #### Note
-  - 判斷list為空
+  - 判斷list為空：空list本身等同於False
   ```Python
    list = []
    
    if list:
       print(list)
   ```
+  > None、0、0.0、""、()、{}本身都皆為False
+  
 
  #### Source
  [Python 判斷list是否為空](https://www.itread01.com/p/435567.html)
