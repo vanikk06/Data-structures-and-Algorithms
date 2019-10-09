@@ -76,15 +76,32 @@
    
 > Using array
 
-[]()
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20list.py)
 
+ Status：Runtime：76ms, Memory：17.9 MB
+ 
+ #### Code
+ #### Note
+  - 判斷list為空
+  ```Python
+   list = []
+   
+   if list:
+      print(list)
+  ```
 
+ #### Source
+ [Python 判斷list是否為空](https://www.itread01.com/p/435567.html)
+ 
 [~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
 
 
 ## Test min stack
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20min%20stack.py)
 > following teacher's
+
+Status：Runtime：76ms, Memory：18.6 MB
+
 
 資料結構：先進後出，取出必須要是`top`的資料
  - 利用`node`建立儲存空間（包含.val和.next），多加一個.min，配合要求
@@ -102,6 +119,7 @@
  - `pop()`：取出top的資料，將下一筆資料成為新的top
  - `top()`：查看top那筆資料的值
  - `getMin()`：查看stack中最小的值
+    > 在node屬性中增加一個.min的屬性，在增加資料時，就將最小值的val當作屬性儲存
  
  ##### Source
  [用兩個stack來實作MinStack：O(1)](http://alrightchiu.github.io/SecondRound/stack-neng-gou-zai-o1qu-de-zui-xiao-zhi-de-minstack.html#minstack)
