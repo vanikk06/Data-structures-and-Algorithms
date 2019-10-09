@@ -54,7 +54,7 @@
 ## Try min stack
 > Using linked list
 
-[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20linked%20list.py)
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20linked%20list.py)
 
 🚫Status：Time Limit Exceeded🚫
 
@@ -76,12 +76,14 @@
    
 > Using array
 
+[]()
+
 
 [~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
 
 
 ## Test min stack
-[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20min%20stack.py)
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20min%20stack.py)
 > following teacher's
 
 資料結構：先進後出，取出必須要是`top`的資料
