@@ -59,6 +59,7 @@
 🚫Status：Time Limit Exceeded🚫
 
 - 利用`node`建立儲存空間（包含.val和.next），無增加min
+- 箭頭指在top那筆資料
 
 #### Code
 - `__intit__`：min stack基礎的屬性設定
@@ -85,11 +86,11 @@
 
 資料結構：先進後出，取出必須要是`top`的資料
  - 利用`node`建立儲存空間（包含.val和.next），多加一個.min，配合要求
- - 將箭頭放在top那筆
+ - 箭頭指在top那筆資料
 
 #### Code
  - `__intit__`：min stack基礎的屬性設定
-     - .topnode：ˋ在stack內top那筆資料
+     - .topnode：在stack內top那筆資料
  - `push(x)`：增加一筆資料，變成新的top
    > 考慮stack內是否已有值存在
    - Yes：先將topnode.min存到暫存區，創建一個node存入x值成為topnode，再與暫存區內的值做比較
