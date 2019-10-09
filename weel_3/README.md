@@ -1,9 +1,10 @@
 # Content
  - [Stack & Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#stack--queue)
-    - [Test min stack](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#test-min-stack)
-        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#code)
     - [Try min stack by linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#try-min-stack)
         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#code-1)
+    - [Test min stack](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#test-min-stack)
+        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#code)
+    
 
 # Stack & Queue
  > 儲存資料的方式
@@ -50,6 +51,34 @@
  [Data Structures: Stacks and Queues](https://www.youtube.com/watch?time_continue=9&v=wjI1WNcIntg)
 
 
+## Try min stack
+> Using linked list
+
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20linked%20list.py)
+
+🚫Status：Time Limit Exceeded🚫
+
+- 利用`node`建立儲存空間（包含.val和.next），無增加min
+
+#### Code
+- `__intit__`：min stack基礎的屬性設定
+     - .topnode：ˋ在stack內top那筆資料
+ - `push(x)`：增加一筆資料，變成新的top
+   > 考慮stack內是否已有值存在
+   - Yes：創建一個node存入x值，成為新的topnode，next為舊的topnode
+   - No：創建一個node存入x值，成為topnode，next為None
+ - `pop()`：取出top的資料，將下一筆資料成為新的top
+ - `top()`：查看top那筆資料的值
+ - `getMin()`：一筆筆比較stack中的值，找出最小值     🤺🤺🤺
+   > 利用node.next比較各筆資料，不動到topnode的指標
+   
+   
+> Using array
+
+
+[~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
+
+
 ## Test min stack
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20min%20stack.py)
 > following teacher's
@@ -74,29 +103,7 @@
  ##### Source
  [用兩個stack來實作MinStack：O(1)](http://alrightchiu.github.io/SecondRound/stack-neng-gou-zai-o1qu-de-zui-xiao-zhi-de-minstack.html#minstack)
  
-[~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
-
-## Try min stack
-> Using linked list
-
-[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20linked%20list.py)
-
-🚫Status：Time Limit Exceeded🚫
-
-- 利用`node`建立儲存空間（包含.val和.next），無增加min
-
-#### Code
-- `__intit__`：min stack基礎的屬性設定
-     - .topnode：ˋ在stack內top那筆資料
- - `push(x)`：增加一筆資料，變成新的top
-   > 考慮stack內是否已有值存在
-   - Yes：創建一個node存入x值，成為新的topnode，next為舊的topnode
-   - No：創建一個node存入x值，成為topnode，next為None
- - `pop()`：取出top的資料，將下一筆資料成為新的top
- - `top()`：查看top那筆資料的值
- - `getMin()`：一筆筆比較stack中的值，找出最小值     🤺
-   > 利用node.next比較各筆資料，不動到topnode的指標
-
 [🐙~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
 
-> Using array
+
+
