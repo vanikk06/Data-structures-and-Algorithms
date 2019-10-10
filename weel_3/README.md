@@ -1,5 +1,5 @@
 # Content
--[Object](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#object)
+- [Object](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#object)
 - [Stack & Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#stack--queue)
     - [Try min stack ](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#try-min-stack)
         - [Code_by linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#code-1)
