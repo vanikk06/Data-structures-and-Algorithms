@@ -13,7 +13,8 @@
 在Python中，所有的操作都是針對object(對象)，一個object包括兩方面的特徵：
 > object(對象)=屬性+方法
  - 屬性（類別屬性class attribute）：描述它的特徵
- - 方法（實例屬性instance attribute/資料屬性data attribute）：它所具有的行為（其實也是一種屬性，一種區別於數據屬性的可調整屬性）
+ - 方法（實例屬性instance attribute/資料屬性data attribute）：它所具有的行為
+    > 其實也是一種屬性，一種區別於數據屬性的可調整屬性
  
  把具有相同屬性和方法的object歸為一類，即為`class`，一種模型、藍圖，可創鍵多個object實例
  ```
