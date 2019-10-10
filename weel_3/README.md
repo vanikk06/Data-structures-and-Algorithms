@@ -52,11 +52,11 @@
 
 
 ## Try min stack
-> Using linked list
+>> Using linked list
 
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20linked%20list.py)
 
-🚫Status：Time Limit Exceeded🚫
+🚫Status：Time Limit Exceeded
 
 - 利用`node`建立儲存空間（包含.val和.next），無增加min
 - 箭頭指在top那筆資料
@@ -74,7 +74,7 @@
    > 利用node.next比較各筆資料，不動到topnode的指標
    
    
-> Using array
+>> Using array
 
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20list.py)
 
@@ -95,12 +95,13 @@
  - `getMin()`：查看最後一筆資料第1的位置
  
  #### Note
-  - 判斷list為空：空list本身等同於False
+  - 判斷list為空：空list本身等同於False，所以直接判斷，不可使用`!= None`
   ```Python
    list = []
    
    if list:
-      print(list)
+        
+   if list != None:   #No
   ```
   > None、0、0.0、""、()、{}本身都皆為False
   
