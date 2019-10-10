@@ -49,6 +49,7 @@
 # List
 list(列表)：偏向更簡單的struct
  > struct特性：可以放很多不同類型的型態進去
+ 
     - `list.append(x)`：將x元素增加到list尾端，等同`list[len(list)] = [x]`
     - `list.extend(L)`：將L列表(list)增加到list尾端，等同`list[len(list)] = L`
     > append全部加在最後一筆[-1]，extend從最後面一筆筆加上(拆開)
