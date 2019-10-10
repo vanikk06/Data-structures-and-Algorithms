@@ -25,7 +25,7 @@
  
  在python中的`None`
   - 一種數據類型：表示該值是一個**空對象**，一種特殊的值，不可理解為0，因為0是有意義的，None是特殊的空值
-   - 判斷時為False
+  - 判斷時為False
  
  #### Source
  [Python對象](https://blog.csdn.net/Li_Danny/article/details/49815761)
@@ -38,9 +38,9 @@
 在Python裡，同樣是陣列，但有array和list兩種數據類型
     - array：屬於模組numpy裡的一種數據類型，所包含的**元素類型必須全部相同**
     - list：屬於Python內建的數據類型，可以包含**不同的元素類型**
-        > Why? 保存的資料是*數據存放的位置*
+    > Why? 保存的資料是*數據存放的位置*
     - linked list：改變list中，讀取資料記憶體位置的順序
-        > list在記憶體中的儲存空間是有連續性的，每一個位置都指向下一筆資料
+    > list在記憶體中的儲存空間是有連續性的，每一個位置都指向下一筆資料
 
 #### Source
 [陣列(Array & 串列(Linked list))](https://ithelp.ithome.com.tw/articles/10203422)
