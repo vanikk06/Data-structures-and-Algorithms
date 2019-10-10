@@ -78,7 +78,7 @@
 
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20list.py)
 
- Status：Runtime：76ms, Memory：17.9 MB
+ Status：Runtime 76 ms, Memory 17.9 MB
  
  - 將top的資料，存在list最後一筆
  - 使用tuple的方式存入資料(x, min)
@@ -116,7 +116,7 @@
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20min%20stack.py)
 > following teacher's
 
-Status：Runtime：76ms, Memory：18.6 MB
+Status：Runtime 76 ms, Memory 18.6 MB
 
 
 資料結構：先進後出，取出必須要是`top`的資料
