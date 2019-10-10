@@ -15,9 +15,9 @@
  - 方法：它所具有的行為（其實也是一種屬性，一種區別於數據屬性的可調整屬性）
  
  把具有相同屬性和方法的object歸為一類，即為`class`，一種模型、藍圖，可創鍵多個object實例
- `‵``
-> class是object的抽象化，object是class的實例化。
-> class不代表具體的事物，object表示具體的事物
+ ```
+ - class是object的抽象化，object是class的實例化。
+ - class不代表具體的事物，object表示具體的事物
  ```
  
  
