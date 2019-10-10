@@ -49,11 +49,12 @@
 # List
 list(列表)：偏向更簡單的struct
  > struct特性：可以放很多不同類型的型態進去
- 
+    
+ 相關參數：
     - `list.append(x)`：將x元素增加到list尾端，等同`list[len(list)] = [x]`
     - `list.extend(L)`：將L列表(list)增加到list尾端，等同`list[len(list)] = L`
     > append全部加在最後一筆[-1]，extend從最後面一筆筆加上(拆開)
-    - `list.insert(i, x)`：將x元素插入第i個index位置
+    -`list.insert(i, x)`：將x元素插入第i個index位置
     - `list.remove(x)`：刪除list中第一個x元素(遇到的第一筆)
     - `list.pop(i)`：取出list中第i個元素，並將其刪除
     - `list.pop()`：取出list最尾端的元素，並將其刪除
