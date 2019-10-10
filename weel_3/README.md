@@ -22,6 +22,9 @@
  - class不代表具體的事物，object表示具體的事物
  ```
  
+ 在python中的`None`
+  - 一種數據類型：表示該值是一個**空對象**，一種特殊的值，不可理解為0，因為0是有意義的，None是特殊的空值
+   - 判斷時為False
  
  #### Source
  [淺談Python的屬性](https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-python-%E7%9A%84%E5%B1%AC%E6%80%A7/)
@@ -115,7 +118,7 @@
  - `getMin()`：查看最後一筆資料第1的位置
  
  #### Note
-  - 判斷list為空：空list本身等同於False，所以直接判斷，不可使用`!= None`
+  - 判斷list為空：空list本身等同於False，不可使用`!= None`，只要有object存在(不為空值)，`if list != None`就會為True
   ```Python
    list = []
    
