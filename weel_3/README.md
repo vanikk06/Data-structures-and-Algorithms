@@ -32,14 +32,14 @@
  [淺談Python的屬性](https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-python-%E7%9A%84%E5%B1%AC%E6%80%A7/)
 
 
-# array（陣列） VS. linked list（串列） 
+# array VS. linked list 
 > 資料結構是一種電腦運作的方法
 
 在Python裡，同樣是陣列，但有array和list兩種數據類型
 - array：屬於模組numpy裡的一種數據類型，所包含的**元素類型必須全部相同**
 - list：屬於Python內建的數據類型，可以包含**不同的元素類型**
   > Why? 保存的資料是*數據存放的位置*
-- linked list：改變list中，讀取資料記憶體位置的順序
+- linked list(串列)：改變list中，讀取資料記憶體位置的順序
   > list在記憶體中的儲存空間是有連續性的，每一個位置都指向下一筆資料
 
 #### Source
