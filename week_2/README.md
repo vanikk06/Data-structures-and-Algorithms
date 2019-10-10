@@ -32,6 +32,8 @@
  #### Source
 [Python Class](https://medium.com/@weilihmen/%E9%97%9C%E6%96%BCpython%E7%9A%84%E9%A1%9E%E5%88%A5-class-%E5%9F%BA%E6%9C%AC%E7%AF%87-5468812c58f2)
 
+[Python 私有變量、繼承](http://dangerlover9403.pixnet.net/blog/post/207405243-%5bpython%5d-day10---python-%e7%9a%84%e9%a1%9e%e5%92%8c%e5%b0%8d%e8%b1%a1)
+
 [🚗_](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
 
 
