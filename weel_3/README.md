@@ -32,7 +32,7 @@
  [淺談Python的屬性](https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-python-%E7%9A%84%E5%B1%AC%E6%80%A7/)
 
 
-# array VS. linked list 
+# Array VS. Linked list 
 > 資料結構是一種電腦運作的方法
 
 在Python裡，同樣是陣列，但有array和list兩種數據類型
