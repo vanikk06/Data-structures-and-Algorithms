@@ -6,6 +6,11 @@
         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#code)
     
 
+
+# 對象
+在Python中，所有的操作都是針對對象，一個對象包括兩方面的特徵：
+ - 
+
 # Stack & Queue
  > 儲存資料的方式
   - [Stack](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#stack)
