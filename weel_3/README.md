@@ -31,7 +31,7 @@
  [Python對象](https://blog.csdn.net/Li_Danny/article/details/49815761)
  [淺談Python的屬性](https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-python-%E7%9A%84%E5%B1%AC%E6%80%A7/)
 
-[🐟~](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#content)
+[🐟](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#content)
 
 # Array VS. List VS. Linked list 
 > 資料結構是一種電腦運作的方法
@@ -67,7 +67,7 @@ list(列表)：偏向更簡單的struct
 - `list.copy()`：拷貝list
 - `list.clear()`：清除list內所有資料
 
-[🐡~](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#content)
+[🐡~~](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#content)
 
 #### Source
 [list 參數](https://www.brilliantcode.net/713/python3-6-list-tuple-set-dictionary/)
