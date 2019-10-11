@@ -9,6 +9,7 @@
         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#code)
     
 
+[something](https://www.itread01.com/content/1545554882.html)
 
 # Object
 在Python中，所有的操作都是針對object(對象)，一個object包括兩方面的特徵：
