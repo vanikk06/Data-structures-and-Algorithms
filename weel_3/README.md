@@ -9,7 +9,7 @@
         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#code)
     
 
-[something](https://www.itread01.com/content/1545554882.html)
+
 
 # Object
 在Python中，所有的操作都是針對object(對象)，一個object包括兩方面的特徵：
@@ -181,7 +181,7 @@ list(列表)：偏向更簡單的struct
 
 ## Test Min stack
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20Min%20stack.py)
-> following teacher's
+> Following teacher's
 
 Status：Runtime 76 ms, Memory 18.6 MB
 
@@ -212,12 +212,27 @@ Status：Runtime 76 ms, Memory 18.6 MB
 
 # Try Implement queue using stacks
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20Implement%20queue%20using%20stacks%20By%20linked%20list.py)
-> Using linked list
+
+>> Using linked list
+
+
+#### Source
+[LeetCode-232-Implement Queue using Stacks](https://blog.csdn.net/yongwan5637/article/details/79251514)
 
 [👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20Implement%20queue%20using%20stacks%20By%20list.py)
-> Using list
+
+>> Using list
+
+[🐙~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
 
  # Test Implement queue using stacks
  [👉HERE👈](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20Implement%20queue%20using%20stacks.py)
 
-> following teacher's
+> Following teacher's
+
+[🐙~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
+
+# Try Implement stack using queues
+
+#### Source
+[[LeetCode]225. Implement Stack using Queues](https://www.itread01.com/content/1545554882.html)
