@@ -43,4 +43,4 @@
     - [Test Implement queue using stacks](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#test-implement-queue-using-stacks)
     - [Try Implement stack using queues](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#try-implement-stack-using-queues)
     
-[🧟🏻‍♂️🧟🏻‍♀️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+[🙍🏻‍♀️🙍🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
