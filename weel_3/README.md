@@ -121,7 +121,7 @@ list(列表)：偏向更簡單的struct
 ## Try Min stack
 >> Using linked list
 
-[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20linked%20list.py)
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20Min%20stack%20By%20linked%20list.py)
 
 🚫Status：Time Limit Exceeded
 
@@ -143,7 +143,7 @@ list(列表)：偏向更簡單的struct
    
 >> Using list
 
-[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20list.py)
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20Min%20stack%20By%20list.py)
 
  Status：Runtime 72 ms, Memory 17.8 MB
  
@@ -180,7 +180,7 @@ list(列表)：偏向更簡單的struct
 
 
 ## Test Min stack
-[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20min%20stack.py)
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20Min%20stack.py)
 > following teacher's
 
 Status：Runtime 76 ms, Memory 18.6 MB
