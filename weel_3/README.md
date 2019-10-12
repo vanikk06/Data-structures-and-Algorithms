@@ -214,10 +214,10 @@ Status：Runtime 76 ms, Memory 18.6 MB
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20Implement%20queue%20using%20stacks%20By%20linked%20list.py)
 > Using linked list
 
-[👉🏿HERE👈🏿]()
+[👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20Implement%20queue%20using%20stacks%20By%20list.py)
 > Using list
 
-# Test Implement queue using stacks
-[👉HERE👈]()
+ # Test Implement queue using stacks
+ [👉HERE👈](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20Implement%20queue%20using%20stacks.py)
 
 > following teacher's
