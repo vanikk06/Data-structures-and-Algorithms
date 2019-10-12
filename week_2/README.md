@@ -1,10 +1,11 @@
 # Content
   - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#class)
   - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#return)
-  - [Design Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#design-linked-list)
-    - [Test linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#test-design-linked-list)
+  - [Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#linked-list)
+    - [Test Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#test-design-linked-list)
       - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#code)
       - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#wrong-answer)
+    - [Try Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#try-design-linked-list)
 
 
 # Class
@@ -56,7 +57,7 @@
 
 [🚕__](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
 
-# Design Linked List
+# Linked List
 > Array VS. Linked list
  - Array
     - pros：
@@ -92,7 +93,7 @@
    
 
 
-## Test design linked list
+## Test Design linked list
 > following teacher's
 
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Test%20%20Design%20linked%20list.py)
@@ -159,7 +160,7 @@ Status：Runtime 416 ms, Memory 14.2 MB
   ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/addAtTail.jpg)
   
 
-## Try design linked list  
+## Try Design linked list  
   > by myslef
   
   [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Try%20Design%20linked%20list.py)
