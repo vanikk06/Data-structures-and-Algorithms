@@ -1,11 +1,11 @@
 # Content
 - [Object](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#object)
 - [Stack & Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#stack--queue)
-    - [Try min stack ](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#try-min-stack)
+    - [Try Min stack ](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#try-min-stack)
         - [Code_by linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#code-1)
         - [Code_by list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#code-1)
             - [Note](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#note)
-    - [Test min stack](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#test-min-stack)
+    - [Test Min stack](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#test-min-stack)
         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#code)
     
 
@@ -118,7 +118,7 @@ list(列表)：偏向更簡單的struct
  [Data Structures: Stacks and Queues](https://www.youtube.com/watch?time_continue=9&v=wjI1WNcIntg)
 
 
-## Try min stack
+## Try Min stack
 >> Using linked list
 
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20linked%20list.py)
@@ -141,7 +141,7 @@ list(列表)：偏向更簡單的struct
    > 利用node.next比較各筆資料，不動到topnode的指標
    
    
->> Using array
+>> Using list
 
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20min%20stack%20by%20list.py)
 
@@ -179,7 +179,7 @@ list(列表)：偏向更簡單的struct
 [~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
 
 
-## Test min stack
+## Test Min stack
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20min%20stack.py)
 > following teacher's
 
