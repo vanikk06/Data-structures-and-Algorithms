@@ -95,7 +95,7 @@
 ## Test design linked list
 > following teacher's
 
-[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Test%20%20design%20linked%20list.py)
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Test%20%20Design%20linked%20list.py)
 
 Status：Runtime 416 ms, Memory 14.2 MB
 
@@ -162,6 +162,6 @@ Status：Runtime 416 ms, Memory 14.2 MB
 ## Try design linked list  
   > by myslef
   
-  [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Try%20design%20linked%20list.py)
+  [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Try%20Design%20linked%20list.py)
 
   [🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
