@@ -1,5 +1,7 @@
 # Content
 - [Object](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#object)
+- [Array VS. List VS. Linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#array-vs-list-vs-linked-list)
+- [List](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#list)
 - [Stack & Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#stack--queue)
     - [Try Min stack ](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#try-min-stack)
         - [Code_by linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#code-1)
@@ -7,6 +9,9 @@
             - [Note](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#note)
     - [Test Min stack](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#test-min-stack)
         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#code)
+    -[Try Implement queue using stacks](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#try-implement-queue-using-stacks)
+    - [Test Implement queue using stacks](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#test-implement-queue-using-stacks)
+    - [Try Implement stack using queues](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#try-implement-stack-using-queues)
     
 
 
@@ -237,4 +242,4 @@ Status：Runtime 76 ms, Memory 18.6 MB
 #### Source
 [[LeetCode]225. Implement Stack using Queues](https://www.itread01.com/content/1545554882.html)
 
-[~🦑🐙~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
+[🦑🐙](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
