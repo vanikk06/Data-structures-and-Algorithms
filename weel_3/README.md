@@ -236,3 +236,5 @@ Status：Runtime 76 ms, Memory 18.6 MB
 
 #### Source
 [[LeetCode]225. Implement Stack using Queues](https://www.itread01.com/content/1545554882.html)
+
+[~🦑🐙~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
