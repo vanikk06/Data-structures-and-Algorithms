@@ -38,7 +38,7 @@
  [Python對象](https://blog.csdn.net/Li_Danny/article/details/49815761)
  [淺談Python的屬性](https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-python-%E7%9A%84%E5%B1%AC%E6%80%A7/)
 
-[🐟](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#content)
+[🐟](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
 # Array VS. List VS. Linked list 
 > 資料結構是一種電腦運作的方法
@@ -53,7 +53,7 @@
 #### Source
 [陣列(Array) & 串列(Linked list)](https://ithelp.ithome.com.tw/articles/10203422)
 
-[🐠~](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#content)
+[🐠~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
 # List
 list(列表)：偏向更簡單的struct
@@ -74,15 +74,15 @@ list(列表)：偏向更簡單的struct
 - `list.copy()`：拷貝list
 - `list.clear()`：清除list內所有資料
 
-[🐡~~](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/README.md#content)
+[🐡~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
 #### Source
 [list 參數](https://www.brilliantcode.net/713/python3-6-list-tuple-set-dictionary/)
 
 # Stack & Queue
  > 儲存資料的方式
-  - [Stack](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#stack)
-  - [Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#queue)
+  - [Stack](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#stack)
+  - [Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#queue)
  
  ## Stack
   > 先進後出（LIFO：last in first out）
@@ -99,7 +99,7 @@ list(列表)：偏向更簡單的struct
     - `IsEmpty`：確認stack裡是否有資料
     - `getSize`：回傳stack裡的資料個數
     
-  [~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
+  [~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
  ## Queue
   > 後進先出（FIFO：first in first out）
   
@@ -118,7 +118,7 @@ list(列表)：偏向更簡單的struct
     - `IsEmpty`：確認queue裡是否有資料
     - `getSize`：回傳queue裡的資料個數
    
-  [🐙~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
+  [🐙~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
   
 #### Source
  [Data Structures: Stacks and Queues](https://www.youtube.com/watch?time_continue=9&v=wjI1WNcIntg)
@@ -127,7 +127,7 @@ list(列表)：偏向更簡單的struct
 ## Try Min stack
 >> Using linked list
 
-[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20Min%20stack%20By%20linked%20list.py)
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Min%20stack%20By%20linked%20list.py)
 
 🚫Status：Time Limit Exceeded
 
@@ -149,7 +149,7 @@ list(列表)：偏向更簡單的struct
    
 >> Using list
 
-[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20Min%20stack%20By%20list.py)
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Min%20stack%20By%20list.py)
 
  Status：Runtime 72 ms, Memory 17.8 MB
  
@@ -182,11 +182,11 @@ list(列表)：偏向更簡單的struct
  #### Source
  [Python 判斷list是否為空](https://www.itread01.com/p/435567.html)
  
-[~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
+[~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
 
 ## Test Min stack
-[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20Min%20stack.py)
+[👉🏽HERE👈🏽]https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Min%20stack.py)
 > Following teacher's
 
 Status：Runtime 76 ms, Memory 18.6 MB
@@ -213,11 +213,11 @@ Status：Runtime 76 ms, Memory 18.6 MB
  ##### Source
  [用兩個stack來實作MinStack：O(1)](http://alrightchiu.github.io/SecondRound/stack-neng-gou-zai-o1qu-de-zui-xiao-zhi-de-minstack.html#minstack)
  
-[~~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
+[~~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
 
 # Try Implement queue using stacks
-[👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20Implement%20queue%20using%20stacks%20By%20linked%20list.py)
+[👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Implement%20queue%20using%20stacks%20By%20linked%20list.py)
 
 >> Using linked list
 
@@ -225,25 +225,25 @@ Status：Runtime 76 ms, Memory 18.6 MB
 #### Source
 [LeetCode-232-Implement Queue using Stacks](https://blog.csdn.net/yongwan5637/article/details/79251514)
 
-[👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Try%20Implement%20queue%20using%20stacks%20By%20list.py)
+[👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Implement%20queue%20using%20stacks%20By%20list.py)
 
 >> Using list
 
-[🐙~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
+[🐙~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
  # Test Implement queue using stacks
- [👉HERE👈](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/weel_3/Test%20Implement%20queue%20using%20stacks.py)
+ [👉HERE👈](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Implement%20queue%20using%20stacks.py)
 
 > Following teacher's
 
-[🐙~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
+[🐙~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
 # Try Implement stack using queues
 
 #### Source
 [[LeetCode]225. Implement Stack using Queues](https://www.itread01.com/content/1545554882.html)
 
-[🦑🐙](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/weel_3#content)
+[🦑🐙](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
    
 
