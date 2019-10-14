@@ -14,6 +14,7 @@
 - Program：特定algorithm的具體實現，或可以成為某個algorithm的具體實現
 
 依次檢查每個元素，將其與前一個元素比較，若其小於前一個元素，兩者互換位置
+> 將資料分為以排序、未排序兩部份
 
 #### Source
 [Insertion Sort Algorithm](https://www.junyiacademy.org/science/computer-science/v/insertion-sort-algorithm)
