@@ -16,5 +16,7 @@
 依次檢查每個元素，將其與前一個元素比較，若其小於前一個元素，兩者互換位置
 > 將資料分為以排序、未排序兩部份
 
+![code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571081077314.jpg)[flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571080239085.jpg)
+
 #### Source
 [Insertion Sort Algorithm](https://www.junyiacademy.org/science/computer-science/v/insertion-sort-algorithm)
