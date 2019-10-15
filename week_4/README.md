@@ -36,14 +36,19 @@
 [Insertion Sort Algorithm](https://www.junyiacademy.org/science/computer-science/v/insertion-sort-algorithm)
 
 
-# Test Insertion  Sort List
+# Test Insertion sort list
 > Following teacher's
 
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Insertion%20sort%20list.py)
 
 Status：Runtime 276 ms, Memory 15.4 MB
 
+使用linked list建立insertion sort
+
 #### Code
+ - 首先判斷`head`是否存在，以及`head.next`是否存在
+ - 創立一個`out`指標，指向最小的值
+   創立一個`tail`指標，指向最大的值
 
 #### Wrong Answer
  - `it`指標是有別於`out`跟`tail`的第三個方法，在執行它時要將其他兩種的狀況排除
