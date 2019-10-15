@@ -17,9 +17,11 @@
 > 將資料分為以排序、未排序兩部份
 
 - Code
+
 ![code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571114698076.jpg)
 
  - Flowchart
+ 
 ![flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571081952907.jpg)
 
 
