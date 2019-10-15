@@ -6,6 +6,13 @@
 #### Source
 [Python的return、break、continue區別](https://www.itread01.com/content/1548181641.html)
 
+# not
+>　邏輯運算符（and、or、not）
+- !=：比較運算符（a與b之間關係）
+
+#### Source
+[Python 運算符](https://www.runoob.com/python/python-operators.html)
+
 
 # Insertion Sort Algorithm
 > 直觀的排序方法
