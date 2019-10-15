@@ -13,6 +13,8 @@
 #### Source
 [Python 運算符](https://www.runoob.com/python/python-operators.html)
 
+# Class_Insertion sort & Quick sort
+
 
 # Insertion Sort Algorithm
 > 直觀的排序方法
