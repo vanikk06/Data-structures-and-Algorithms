@@ -37,5 +37,8 @@
 
 
 # Test Insertion  Sort List
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Insertion%20sort%20list.py)
+> Following teacher's
+
 #### Wrong Answer
 - it指標不可與tail搞混
