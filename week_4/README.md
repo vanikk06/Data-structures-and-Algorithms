@@ -37,8 +37,20 @@
 
 
 # Test Insertion  Sort List
-[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Insertion%20sort%20list.py)
 > Following teacher's
 
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Insertion%20sort%20list.py)
+
+Status：Runtime 276 ms, Memory 15.4 MB
+
+#### Code
+
 #### Wrong Answer
-- it指標不可與tail搞混
+ - `it`指標是有別於`out`跟`tail`的第三個方法，在執行它時要將其他兩種的狀況排除
+ ![wrong answer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571141402660.jpg)
+#### Runtime Error
+ > 執行期錯誤，通常是跑到外面
+ -`'NoneType' object has no attribute 'next'`
+![runtime error](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571141648113.jpg)
+
+
