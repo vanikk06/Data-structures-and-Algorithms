@@ -34,3 +34,8 @@
 
 #### Source
 [Insertion Sort Algorithm](https://www.junyiacademy.org/science/computer-science/v/insertion-sort-algorithm)
+
+
+# Test Insertion  Sort List
+## Error
+- it指標不可與tail搞混
