@@ -6,7 +6,7 @@ class ListNode:
 
 class Solution:
     def insertionSortList(self, head: ListNode) -> ListNode:
-        if not head and not head.next:
+        if not head or not head.next:
             return head
         
         out = head          #min
@@ -24,7 +24,7 @@ class Solution:
                 tail = temp
             else:
                 it = out
-                while it.next != tail or it.next.val < temp.val:
+                while it.next != tail and it.next.val < temp.val:
                     it = it.next
                 temp.next = it.next
                 it.next = temp
