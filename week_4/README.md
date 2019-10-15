@@ -64,8 +64,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
                    
               - Yes：往下一個指
               - No：插入
-                    > 注意! `it`指標頂多指到`tail`的前一個
-                    >> `it.next != tail`有無不影響compile
+                 > 注意! `it`指標頂多指到`tail`的前一個
+                 >> `it.next != tail`有無不影響compile
 
 #### Wrong Answer
  - 若用`or`只有在兩者皆為False時才會跳出while迴圈，以此依定在`tail`的前一個插入
