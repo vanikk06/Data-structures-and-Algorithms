@@ -61,8 +61,9 @@ Status：Runtime 276 ms, Memory 15.4 MB
         > 創立一個新指標`it`，一個個往下指
          - `temp.val`是否大於`it.next.val`
           > 因為插入方式為改變next連結，所以拿`it.next.val`來判斷是否往下指
-             - Yes：往下一個指
-             - No：插入
+          
+              - Yes：往下一個指
+              - No：插入
               > 注意! `it`指標頂多指到`tail`的前一個
               >> `it.next != tail`有無不影響compile
 
