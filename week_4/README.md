@@ -55,7 +55,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 ![runtime error](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571141648113.jpg)
 
 
-|OR|T|F|                  |AND|T|F|
-| --- | --- | --- |       | --- | --- | --- |
-|**T**|T|T|               |**T**|T|F|
-|**F**|T|F|               |**F**|F|F|
+|OR|T|F|| |AND|T|F|
+| --- | --- | --- | --- | --- | --- | --- |
+|**T**|T|T|| |**T**|T|F|
+|**F**|T|F|| |**F**|F|F|
