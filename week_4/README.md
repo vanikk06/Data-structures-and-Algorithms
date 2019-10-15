@@ -44,14 +44,30 @@
 Status：Runtime 276 ms, Memory 15.4 MB
 
 使用linked list建立insertion sort
+> 區分"已排序(out)"跟"未排序(head)"
 
 #### Code
  - 首先判斷`head`是否存在，以及`head.next`是否存在
- - 創立一個`out`指標，指向最小的值
-   創立一個`tail`指標，指向最大的值
+ - 將第一個值從head中移除
+      - 創立一個`out`指標，指向最小的值
+      - 創立一個`tail`指標，指向最大的值
+        > `tail.next` = None（最後一個）
+ - 一個個將未排序元素抽出與以排序元素比較
+      - 是否比目前最小值`out`小
+         - 取代為新的`out`
+      - 是否比目前最大值`tail`大
+         - 取代為新的`tail`
+      - 介於`out`與`tail`中間
+        > 創立一個新指標`it`，一個個往下指
+         - `temp.val`是否大於`it.next.val`
+          > 因為插入方式為改變next連結，所以拿`it.next.val`來判斷是否往下指
+             - Yes：往下一個指
+             - No：插入
+              > 注意! `it`指標頂多指到`tail`的前一個
+              >> `it.next != tail`有無不影響compile
 
 #### Wrong Answer
- - `it`指標是有別於`out`跟`tail`的第三個方法，在執行它時要將其他兩種的狀況排除
+ - 若用`or`只有在兩者皆為False時才會跳出while迴圈，以此依定在`tail`的前一個插入
  ![wrong answer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571141402660.jpg)
 #### Runtime Error
  > 執行期錯誤，通常是跑到外面
@@ -64,3 +80,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 | --- | --- | --- | --- | --- | --- | --- |
 |**T**|T|T| |**T**|T|F|
 |**F**|T|F| |**F**|F|F|
+
+# Try Insertion sort list
+> By myself
+
+- 插入方式：利用`.next`重新建立連結
