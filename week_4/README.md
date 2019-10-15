@@ -1,3 +1,14 @@
+# Time complexity
+> 時間複雜度：將事情拆解，計算出時間
+
+ - 計算：評估是否有價值投入挑戰、鑑賞力
+  - O(N)：逐筆走完每筆資料
+  
+#### Source
+[初學者學演算法｜談什麼是演算法和時間複雜度](https://medium.com/appworks-school/%E5%88%9D%E5%AD%B8%E8%80%85%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95-%E8%AB%87%E4%BB%80%E9%BA%BC%E6%98%AF%E6%BC%94%E7%AE%97%E6%B3%95%E5%92%8C%E6%99%82%E9%96%93%E8%A4%87%E9%9B%9C%E5%BA%A6-b1f6908e4b80)
+[維基百科_大O符號](https://zh.wikipedia.org/zh-hk/%E5%A4%A7O%E7%AC%A6%E5%8F%B7)
+[A coffee-break introduction to time complexity of algorithms](https://dev.to/victoria/a-coffee-break-introduction-to-time-complexity-of-algorithms-160m)
+
 # return VS. break VS. continue
 - `return`：直接**返回函式**，所有該函式內的程式碼都不會再執行
 - `break`：跳出**當前所在的整個迴圈**，到外層程式碼繼續執行（跳出整個while或for）
@@ -6,6 +17,7 @@
 #### Source
 [Python的return、break、continue區別](https://www.itread01.com/content/1548181641.html)
 
+
 # not
 >　邏輯運算符（and、or、not）
 - !=：比較運算符（a與b之間關係）
@@ -13,7 +25,18 @@
 #### Source
 [Python 運算符](https://www.runoob.com/python/python-operators.html)
 
-# Class_Insertion sort & Quick sort
+
+# Class notes
+ 
+ - Why debug?：不知道有多少邏輯跟測資必須被歸納
+   > Demo(步驟)、Flowchart(流程圖)
+ - 程式
+    1. 可以compile
+    2. 可以答對
+    3. 時間最少，並且可以證明
+ - Quick sort
+     - 找到一個**基準點**，取法一致
+     - 以基準點為主分成兩堆，小的丟左邊，大的丟右邊，丟時不須排順序
 
 
 # Insertion Sort Algorithm
@@ -45,7 +68,7 @@
 
 Status：Runtime 276 ms, Memory 15.4 MB
 
-使用linked list建立insertion sort
+使用linked list建立insertion sort，不需佔用太多記憶體空間（改變`next`連結就好）
 > 區分"已排序(out)"跟"未排序(head)"
 
 #### Code
