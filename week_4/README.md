@@ -51,7 +51,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 #### Runtime Error
  > 執行期錯誤，通常是跑到外面
  
- -`'NoneType' object has no attribute 'next'`
+ `'NoneType' object has no attribute 'next'`
  
 ![runtime error](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571141648113.jpg)
 
