@@ -1,3 +1,10 @@
+# H.W._Quick Sort
+[🤜HERE🤛](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.)
+    - [Jupyter notebook](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./H.W._Quick%20Sort%20(1).ipynb)
+    - [Jupyter nbviewer](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./H.W._Quick%20Sort%20%281%29.ipynb)
+    - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./quick_sort_demo.jpg)
+    - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./quick_sort_flowchart.jpg)
+
 # Content
 - [Time complexity](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#time-complexity)
 - [return VS. break VS. continue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#return-vs-break-vs-continue)
@@ -141,4 +148,5 @@ Status：Runtime 276 ms, Memory 15.4 MB
 > By myself
 
 - 插入方式：利用`.next`重新建立連結
+
 [🥒🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
