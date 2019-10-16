@@ -1,6 +1,14 @@
 # Data-structures-and-Algorithms
  Weekly Learning Note
 
+# H.W._Quick Sort
+[🤜HERE🤛](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.)
+
+  - [Jupyter notebook](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./H.W._Quick%20Sort%20(1).ipynb)
+  - [Jupyter nbviewer](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./H.W._Quick%20Sort%20%281%29.ipynb)
+  - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./quick_sort_demo.jpg)
+  - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./quick_sort_flowchart.jpg)
+
 # Content
  - [week_2](https://github.com/vanikk06/Data-structures-and-Algorithms#week_2)
  - [week_3](https://github.com/vanikk06/Data-structures-and-Algorithms#week_3)
@@ -48,3 +56,18 @@
 [🙍🏻‍♀️🙍🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 # week_4
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4)
+- [Time complexity](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#time-complexity)
+- [return VS. break VS. continue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#return-vs-break-vs-continue)
+- [not](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#not)
+- [Ipynb change](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#ipynb-change)
+- [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#class-notes)
+- [Insertion Sort Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#insertion-sort-algorithm)
+- [Test Insertion sort list.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Insertion%20sort%20list.py)
+- [Test Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#test-insertion-sort-list)
+    - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#code)
+    - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#wrong-answer)
+    - [Runtime Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#runtime-error)
+ - [Try Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#try-insertion-sort-list)
+
+[💁🏻‍♀️💁🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
