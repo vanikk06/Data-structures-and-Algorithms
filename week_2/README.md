@@ -40,15 +40,15 @@
 
 
 # return
-> keyword用在函數或方法中**回傳值(return value)**
+> keyword用在`def`中**回傳值(return value)**
 
-> 若在函數或方法中沒有用到return，**預設回傳None**
+> 若在`def`中沒有用到return，**預設回傳None**
 
-> 若在函數或方法中放入`return`加**空值**，會跳出函數或方法
+> 若在`def`中放入`return`加**空值**，會跳出函數或方法
   - 基本上，只會回傳一個數值，若逗號區隔多個數值，則回傳一個序對(tuple)
-  - 在Class內編輯函數或方法時，若無return(讓函數或方法跳出)，小心計算超時
-  - 若出現在函數或方法外，會錯誤
-    > P.S. 函式或方法中回傳較不適用`print()`，print是打印(裡面不能放運算式)，放到def中，執行到會打印出設定的結果，但此並非def的回傳值，所以仍會回傳預設的return(None)
+  - 在Class內編輯`def`時，若無return(讓函數或方法跳出)，小心計算超時
+  - 若出現在`def`外，會錯誤('return' outside function)
+    > P.S. `def`回傳較不適用`print()`，print是打印(裡面不能放運算式)，放到def中，執行到會打印出設定的結果，但此並非def的回傳值，所以仍會回傳預設的return(None)
     
  ![image](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/1570208923463.jpg)
     
