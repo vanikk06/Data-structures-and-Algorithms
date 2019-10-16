@@ -27,6 +27,8 @@
 #### Source
 [Python 運算符](https://www.runoob.com/python/python-operators.html)
 
+# Ipynb change
+[jupyter nbviewer](https://nbviewer.jupyter.org/)
 
 # Class notes
  
