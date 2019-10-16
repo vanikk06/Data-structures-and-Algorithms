@@ -1,3 +1,16 @@
+# Content
+- [Time complexity](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#time-complexity)
+- [return VS. break VS. continue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#return-vs-break-vs-continue)
+- [not](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#not)
+- [Ipynb change](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#ipynb-change)
+- [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#class-notes)
+- [Insertion Sort Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#insertion-sort-algorithm)
+- [Test Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#test-insertion-sort-list)
+    - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#code)
+    - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#wrong-answer)
+    - [Runtime Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#runtime-error)
+ - [Try Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#try-insertion-sort-list)
+
 # Time complexity
 > 時間複雜度：將事情拆解，計算出時間
 
@@ -28,8 +41,8 @@
 [Python 運算符](https://www.runoob.com/python/python-operators.html)
 
 # Ipynb change
-[jupyter nbviewer](https://nbviewer.jupyter.org/)
-
+> github上jupyter notebook加載很慢，有時候加載不出來
+[jupyter nbviewer](https://nbviewer.jupyter.org/)  ← 把github上對應文件的url輸進去
 # Class notes
  
  - Why debug?：不知道有多少邏輯跟測資必須被歸納
