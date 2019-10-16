@@ -24,6 +24,8 @@
 
 [A coffee-break introduction to time complexity of algorithms](https://dev.to/victoria/a-coffee-break-introduction-to-time-complexity-of-algorithms-160m)
 
+[🍅](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+
 # return VS. break VS. continue
 - `return`：直接**返回函式**，所有該函式內的程式碼都不會再執行
 - `break`：跳出**當前所在的整個迴圈**，到外層程式碼繼續執行（跳出整個while或for）
@@ -32,6 +34,7 @@
 #### Source
 [Python的return、break、continue區別](https://www.itread01.com/content/1548181641.html)
 
+[🍆](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 # not
 >　邏輯運算符（and、or、not）
@@ -40,9 +43,15 @@
 #### Source
 [Python 運算符](https://www.runoob.com/python/python-operators.html)
 
+[🌽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+
 # Ipynb change
 > github上jupyter notebook加載很慢，有時候加載不出來
+
 [jupyter nbviewer](https://nbviewer.jupyter.org/)  ← 把github上對應文件的url輸進去
+
+[🌶](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+
 # Class notes
  
  - Why debug?：不知道有多少邏輯跟測資必須被歸納
@@ -55,6 +64,7 @@
      - 找到一個**基準點**，取法一致
      - 以基準點為主分成兩堆，小的丟左邊，大的丟右邊，丟時不須排順序
 
+[🍄](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 # Insertion Sort Algorithm
 > 直觀的排序方法
@@ -77,6 +87,7 @@
 #### Source
 [Insertion Sort Algorithm](https://www.junyiacademy.org/science/computer-science/v/insertion-sort-algorithm)
 
+[🥑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 # Test Insertion sort list
 > Following teacher's
@@ -124,7 +135,10 @@ Status：Runtime 276 ms, Memory 15.4 MB
 |**T**|T|T| |**T**|T|F|
 |**F**|T|F| |**F**|F|F|
 
+[🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+
 # Try Insertion sort list
 > By myself
 
 - 插入方式：利用`.next`重新建立連結
+[🥒🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
