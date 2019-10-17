@@ -156,5 +156,18 @@ Status：Runtime 276 ms, Memory 15.4 MB
 # Quick Sort
 > 利用Divide and conquer(分治法)，先找一個基準點，根據基準點分為兩堆
 
-## Divide and conquer
-> 
+## Divide and Conquer
+> 分而治之，**遞迴**的典型應用
+
+- 分為三個階段：
+    - Divide（分割）：將大問題不斷切割成兩個或多個小問題
+    - Conquer（克服）：透過小問題的解決，一步步向上**堆疊**，最後解決原本的大問題
+- 優點
+    a. 將困難的問題簡化為容易實作的方式
+    b. 能夠平行處理，提升程式效率
+    
+#### Source
+[分治演算法（divide and conquer）](https://www.itread01.com/content/1547872030.html)
+[Divide and conquer_範例](https://emn178.pixnet.net/blog/post/87739443-divide-and-conquer)
+
+[🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
