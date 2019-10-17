@@ -76,7 +76,7 @@
 [🍄](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 # Insertion Sort
-> 直觀的排序方法
+> 直觀的排序方法，一個個比較，小的就往前面插入
 
 - Algorithm：一種手段、過程或是一種方法
 - Program：特定algorithm的具體實現，或可以成為某個algorithm的具體實現
@@ -152,3 +152,9 @@ Status：Runtime 276 ms, Memory 15.4 MB
 - 插入方式：利用`.next`重新建立連結
 
 [🥒🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+
+# Quick Sort
+> 利用Divide and conquer(分治法)，先找一個基準點，根據基準點分為兩堆
+
+## Divide and conquer
+> 
