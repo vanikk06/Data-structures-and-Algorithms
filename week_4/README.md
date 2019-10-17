@@ -69,10 +69,7 @@
     1. 可以compile
     2. 可以答對
     3. 時間最少，並且可以證明
- - Quick sort
-     - 找到一個**基準點**，取法一致
-     - 以基準點為主分成兩堆，小的丟左邊，大的丟右邊，丟時不須排順序
-
+ 
 [🍄](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 # Insertion Sort
@@ -156,7 +153,12 @@ Status：Runtime 276 ms, Memory 15.4 MB
 # Quick Sort
 > 利用Divide and conquer(分治法)，先找一個基準點，根據基準點分為兩堆
 
-## Divide and Conquer
+#### Extra-place
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_Extra%20place.py)
+  - Code
+  
+
+### Divide and Conquer
 > 分而治之，**遞迴**的典型應用
 
 - 分為三個階段：
