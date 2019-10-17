@@ -13,7 +13,7 @@
 - [not](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#not)
 - [Ipynb change](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#ipynb-change)
 - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#class-notes)
-- [Insertion Sort Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#insertion-sort-algorithm)
+- [Insertion Sort ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#insertion-sort)
 - [Test Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#test-insertion-sort-list)
     - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#code)
     - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#wrong-answer)
@@ -75,7 +75,7 @@
 
 [🍄](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
-# Insertion Sort Algorithm
+# Insertion Sort
 > 直觀的排序方法
 
 - Algorithm：一種手段、過程或是一種方法
