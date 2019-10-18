@@ -103,6 +103,7 @@
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Test%20%20Design%20linked%20list.py)
 
 Status：Runtime 416 ms, Memory 14.2 MB
+![linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/linked%20list.jpg)
 
 由`node`跟`pointer`組成一連串的linked list
   - `node`：創造儲存值的空間
@@ -163,10 +164,15 @@ Status：Runtime 416 ms, Memory 14.2 MB
   2. p = self，`p = p.next`才是建立node的連結
   ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/addAtTail.jpg)
   
+#### Source
+[What’s a Linked List, Anyway? [Part 1]](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d)
 
 ## Try Design linked list  
   > By myslef
   
   [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Try%20Design%20linked%20list.py)
+  
+
+
 
   [🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
