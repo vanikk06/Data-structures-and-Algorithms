@@ -121,9 +121,7 @@ list(列表)：偏向更簡單的struct
   [🐙~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
   
 #### Source
- [Data Structures: Stacks and Queues](https://www.youtube.com/watch?time_continue=9&v=wjI1WNcIntg)
-
-[](https://www.youtube.com/watch?v=wjI1WNcIntg)
+ [Data Structures: Stacks and Queues](https://www.youtube.com/watch?v=wjI1WNcIntg)
 
 ## Try Min stack
 >> Using linked list
