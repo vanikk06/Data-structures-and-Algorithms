@@ -103,6 +103,8 @@ list(列表)：偏向更簡單的struct
  ## Queue
   > 後進先出（FIFO：first in first out）
   
+  ![queue](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/image/1571424208826.jpg)
+  
   排隊：按進入順序處理發生的事，不可從中插隊
   - 使用地方：
     - 安排多個程式的執行順序  e.g.作業系統（多個程式共享的資源，一次只能執行一個需求）
@@ -185,7 +187,7 @@ list(列表)：偏向更簡單的struct
 
 
 ## Test Min stack
-[👉🏽HERE👈🏽]https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Min%20stack.py)
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Min%20stack.py)
 > Following teacher's
 
 Status：Runtime 76 ms, Memory 18.6 MB
