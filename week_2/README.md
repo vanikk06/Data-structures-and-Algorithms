@@ -103,6 +103,7 @@
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Test%20%20Design%20linked%20list.py)
 
 Status：Runtime 416 ms, Memory 14.2 MB
+
 ![linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/linked%20list.jpg)
 
 由`node`跟`pointer`組成一連串的linked list
