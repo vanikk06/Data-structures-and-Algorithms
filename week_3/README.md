@@ -239,6 +239,8 @@ Status：Runtime 76 ms, Memory 18.6 MB
 
 > Following teacher's
 
+[this](https://github.com/pecu/DSA/tree/master/02_Stack%26Queue)
+
 [🐙~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
 # Try Implement stack using queues
