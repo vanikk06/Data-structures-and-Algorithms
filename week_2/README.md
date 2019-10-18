@@ -1,4 +1,5 @@
 # Content
+[💪🏻PPT🤳🏻](https://docs.google.com/presentation/d/e/2PACX-1vTB218-EdUZ5jpNz6Uv4TOZQc37Y281v128_aRcWC6EhkTQs5bS8fh7yysmcuzb9R2QPN6_PDshFWL_/pub?start=false&loop=false&delayms=3000&slide=id.p)
   - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#class)
   - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#return)
   - [Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#linked-list)
