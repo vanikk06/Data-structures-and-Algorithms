@@ -87,6 +87,8 @@ list(列表)：偏向更簡單的struct
  ## Stack
   > 先進後出（LIFO：last in first out）
   
+  ![stack](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/image/1571423793515.jpg)
+  
   疊盤子：優先處理最後發生的事
   - 使用地方：
     - 編輯器的undo（暫存上一步），關掉會清除暫存
