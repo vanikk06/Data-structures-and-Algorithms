@@ -1,5 +1,4 @@
 # Content
-[🤴🏻PPT](https://docs.google.com/presentation/d/e/2PACX-1vTB218-EdUZ5jpNz6Uv4TOZQc37Y281v128_aRcWC6EhkTQs5bS8fh7yysmcuzb9R2QPN6_PDshFWL_/pub?start=false&loop=false&delayms=3000&slide=id.p)
   - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#class)
   - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#return)
   - [Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#linked-list)
@@ -73,6 +72,9 @@
       - cons：
         1. 資料不連續，要建立空間的連結(走訪必須一個個走訪)
         2. 使用額外的記憶體空間紀錄node指標
+  
+  - Memory Allocation
+  ![Memory Allocation](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/Memory%20Allocation.jpg)
       
  #### Blockchain 區塊鏈
  > 分散式架構的資料運算與儲存平台，同時具備特殊的P2P(點對點)特性
@@ -87,8 +89,9 @@
 #### Source
 [區塊鏈是什麼?](https://medium.com/cobinhood-%E4%B8%AD%E6%96%87%E5%A0%B1/what-is-blockchain-53a7ee374e6c#8f35)
 
-
 [白話的Hash Table](https://blog.techbridge.cc/2017/01/21/simple-hash-table-intro/)
+
+[What’s a Linked List, Anyway? [Part 1]](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d)
 
 [🚙___](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
    
