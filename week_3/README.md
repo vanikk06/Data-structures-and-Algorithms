@@ -123,6 +123,7 @@ list(列表)：偏向更簡單的struct
 #### Source
  [Data Structures: Stacks and Queues](https://www.youtube.com/watch?time_continue=9&v=wjI1WNcIntg)
 
+[](https://www.youtube.com/watch?v=wjI1WNcIntg)
 
 ## Try Min stack
 >> Using linked list
