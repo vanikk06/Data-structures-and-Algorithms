@@ -74,6 +74,7 @@
         2. 使用額外的記憶體空間紀錄node指標
   
   - Memory Allocation
+  
   ![Memory Allocation](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/Memory%20Allocation.jpg)
       
  #### Blockchain 區塊鏈
