@@ -153,7 +153,10 @@ Status：Runtime 276 ms, Memory 15.4 MB
 # Quick Sort
 > 利用Divide and conquer(分治法)，先找一個基準點，根據基準點分為兩堆
 
-#### Extra-place
+#### Source
+[QuickSort](https://github.com/Alex-CHUN-YU/SortingAlogorithm/wiki/QuickSort)
+
+## Extra-place
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_Extra%20place.py)
   - [TypeError](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#typeerror)
   - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#quick-sort-demo)
@@ -172,6 +175,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
     
 #### Source
 [分治演算法（divide and conquer）](https://www.itread01.com/content/1547872030.html)
+
 [Divide and conquer_範例](https://emn178.pixnet.net/blog/post/87739443-divide-and-conquer)
 
 [🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
