@@ -14,11 +14,11 @@
 - [Ipynb change](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#ipynb-change)
 - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#class-notes)
 - [Insertion Sort ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#insertion-sort)
-- [Test Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#test-insertion-sort-list)
-    - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#code)
-    - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#wrong-answer)
-    - [Runtime Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#runtime-error)
- - [Try Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#try-insertion-sort-list)
+    - [Test Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#test-insertion-sort-list)
+        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#code)
+        - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#wrong-answer)
+        - [Runtime Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#runtime-error)
+    - [Try Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#try-insertion-sort-list)
 
 # Sorting algorithms
 
@@ -106,7 +106,7 @@
 
 [🥑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
-# Test Insertion sort list
+## Test Insertion sort list
 > Following teacher's
 
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Insertion%20sort%20list.py)
@@ -154,7 +154,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
-# Try Insertion sort list
+## Try Insertion sort list
 > By myself
 
 - 插入方式：利用`.next`重新建立連結
