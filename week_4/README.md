@@ -20,6 +20,11 @@
     - [Runtime Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#runtime-error)
  - [Try Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#try-insertion-sort-list)
 
+# Sorting algorithms
+
+#### Source
+[Sorting algorithms](https://www.c-programming-simple-steps.com/sorting-algorithms.html)
+
 # Time complexity
 > 時間複雜度：將事情拆解，計算出時間
 
