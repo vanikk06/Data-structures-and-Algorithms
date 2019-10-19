@@ -1,5 +1,6 @@
 # Content
   - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#class)
+  - [function VS. method](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#function-vs-method)
   - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#return)
   - [Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#linked-list)
     - [Test Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#test-design-linked-list)
