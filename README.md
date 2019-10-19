@@ -19,6 +19,7 @@
 # week_2
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2)
    - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#class)
+   - [function VS. method](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#function-vs-method)
   - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#return)
   - [Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#linked-list)
     - [Test Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Test%20%20Design%20linked%20list.py)
