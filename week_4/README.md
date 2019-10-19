@@ -20,8 +20,8 @@
         - [Runtime Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#runtime-error)
     - [Try Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#try-insertion-sort-list)
 - [Quick Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#quick-sort)
-        - [Extra-place](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#extra-place)
-        - [Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#divide-and-conquer)
+     - [Extra-place](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#extra-place)
+     - [Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#divide-and-conquer)
 # Sorting algorithms
 
 #### Source
