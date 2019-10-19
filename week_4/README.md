@@ -19,7 +19,9 @@
         - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#wrong-answer)
         - [Runtime Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#runtime-error)
     - [Try Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#try-insertion-sort-list)
-
+- [Quick Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#quick-sort)
+        - [Extra-place](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#extra-place)
+        - [Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#divide-and-conquer)
 # Sorting algorithms
 
 #### Source
@@ -178,7 +180,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_Extra%20place.py)
 
 以第一個數為`key`，將其作為基準點與list內的每個元素比較，以此分為三堆`> key`、`= key`、`< key`，再以`< key` + `= key` + `> key`合併，不斷地對`< key`與`> key`重複此行為，直到無法執行將結果輸出
-  - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_Extra%20place.py)
+  
   - [TypeError](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#typeerror)
   - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#quick-sort-demo)
   - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#quick-sort-flowchart)
@@ -188,6 +190,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
+## In-place
 
 ## Divide and Conquer
 > 分而治之，**遞迴**的典型應用
@@ -204,4 +207,4 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [Divide and conquer_範例](https://emn178.pixnet.net/blog/post/87739443-divide-and-conquer)
 
-[🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🥦🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
