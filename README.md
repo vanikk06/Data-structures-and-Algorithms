@@ -2,6 +2,8 @@
  Weekly Learning Note
  
  [CS50](http://cs50.tv/2013/fall/#about,seminars)
+ 
+ [Pecu Tsai](https://medium.com/@pecutsai)
 # H.W._Quick Sort
 [🤜HERE🤛](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.)
 
