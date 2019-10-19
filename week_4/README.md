@@ -93,6 +93,10 @@
 #### Source
 [Insertion Sort Algorithm](https://www.junyiacademy.org/science/computer-science/v/insertion-sort-algorithm)
 
+[[演算法] 插入排序法(Insertion Sort)_Demo](http://notepad.yehyeh.net/Content/Algorithm/Sort/Insertion/1.php)
+
+[Insertion sort_](https://www.c-programming-simple-steps.com/insertion-sort.html)
+
 [🥑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 # Test Insertion sort list
@@ -161,9 +165,12 @@ Status：Runtime 276 ms, Memory 15.4 MB
   - [TypeError](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#typeerror)
   - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#quick-sort-demo)
   - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#quick-sort-flowchart)
-  
+ 
+ #### Source
+ [[ 資料結構 ] 快速排序法（Quick sort）in Python](http://jialin128.pixnet.net/blog/post/142927691-%5B-%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B-%5D-%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E6%B3%95%EF%BC%88quick-sort%EF%BC%89in-python)
+ >Demo for In-place
 
-### Divide and Conquer
+## Divide and Conquer
 > 分而治之，**遞迴**的典型應用
 
 - 分為三個階段：
