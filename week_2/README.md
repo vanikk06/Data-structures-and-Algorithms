@@ -106,8 +106,7 @@
 [白話的Hash Table](https://blog.techbridge.cc/2017/01/21/simple-hash-table-intro/)
 
 [Youtube_Introduction to Linked Lists (Data Structures & Algorithms #5)](https://www.youtube.com/watch?time_continue=3&v=WwfhLC16bis)
-
-[Sample Code☝🏻](https://www.csdojo.io/linked)
+[← Sample Code](https://www.csdojo.io/linked)
 
 [What’s a Linked List, Anyway? [Part 1]](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d)
 
