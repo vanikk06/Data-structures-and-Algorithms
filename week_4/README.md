@@ -160,6 +160,9 @@ Status：Runtime 276 ms, Memory 15.4 MB
 #### Source
 [QuickSort](https://github.com/Alex-CHUN-YU/SortingAlogorithm/wiki/QuickSort)
 
+[🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+
+
 ## Extra-place
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_Extra%20place.py)
   - [TypeError](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#typeerror)
@@ -168,7 +171,9 @@ Status：Runtime 276 ms, Memory 15.4 MB
  
  #### Source
  [[ 資料結構 ] 快速排序法（Quick sort）in Python](http://jialin128.pixnet.net/blog/post/142927691-%5B-%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B-%5D-%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E6%B3%95%EF%BC%88quick-sort%EF%BC%89in-python)
- >Demo for In-place
+
+[🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+
 
 ## Divide and Conquer
 > 分而治之，**遞迴**的典型應用
@@ -185,4 +190,4 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [Divide and conquer_範例](https://emn178.pixnet.net/blog/post/87739443-divide-and-conquer)
 
-[🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
