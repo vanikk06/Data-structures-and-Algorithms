@@ -40,6 +40,16 @@
 [🚗_](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
 
 
+# function VS. method
+
+- `function`：一般意義上的函數，即對一段代碼的封裝，並由一個函數名來調用
+- `method`：面向對象的概念，是與`class`或`class的對象`相關的函數
+
+兩者就概念上來說皆為函數，但在實際上是兩種不同的資料類型
+#### Source
+[Python中function和method](https://blog.csdn.net/u013553529/article/details/79244083)
+
+[🚕__](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
 
 # return
 > keyword用在`def`中**回傳值(return value)**
@@ -57,7 +67,7 @@
 #### Source
 [Python 簡單陳述return](https://kaiching.org/pydoing/py/python-return.html)
 
-[🚕__](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚙___](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
 
 # Linked List
 > Array VS. Linked list
@@ -101,7 +111,7 @@
 [What’s a Linked List, Anyway? [Part 1]](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d)
 
 
-[🚙___](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
    
 
 ## Test Design linked list
@@ -175,6 +185,9 @@ Status：Runtime 416 ms, Memory 14.2 MB
 #### Source
 [What’s a Linked List, Anyway? [Part 1]](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d)
 
+ [🚐_____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+
+
 ## Try Design linked list  
   > By myslef
   
@@ -183,4 +196,4 @@ Status：Runtime 416 ms, Memory 14.2 MB
 
 
 
-  [🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+  [🚎______](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
