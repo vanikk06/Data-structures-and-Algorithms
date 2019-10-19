@@ -155,7 +155,9 @@ Status：Runtime 276 ms, Memory 15.4 MB
 [🥒🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 # Quick Sort
-> 利用Divide and conquer(分治法)，先找一個基準點，根據基準點分為兩堆
+> 利用Divide and conquer(分治法)，找一個基準點，根據基準點去作區分
+
+以**固定的方式**尋找基準點，依據基準點將元素分為三堆（extra-place）或兩半(in-place)，遞迴式重複此動作，直到無法執行，再將結果合併輸出
 
 #### Source
 [QuickSort](https://github.com/Alex-CHUN-YU/SortingAlogorithm/wiki/QuickSort)
@@ -165,6 +167,9 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 ## Extra-place
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_Extra%20place.py)
+
+以第一個數為`key`，將其作為基準點與list內的每個元素比較，以此分為三堆`> key`、`= key`、`< key`，再以`< key` + `= key` + `> key`合併，不斷地對`< key`與`> key`重複此行為，直到無法執行將結果輸出
+  - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_Extra%20place.py)
   - [TypeError](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#typeerror)
   - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#quick-sort-demo)
   - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#quick-sort-flowchart)
