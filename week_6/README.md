@@ -1,8 +1,5 @@
-# Debug Mode
-> Spyder
 
-帶測值進去跑，看它如何運作
-- check point：設在細節不理解之處
+
 
 #  Heap Sort
 > tree's special case
@@ -28,6 +25,11 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
   > e.g.資料庫：資料存取模式
 
 
+#### Debug Mode
+> Spyder
+
+帶測值進去跑，看它如何運作
+- check point：設在細節不理解之處
 
 #### Source
 [Heap Data Structure](https://www.geeksforgeeks.org/heap-data-structure/)
