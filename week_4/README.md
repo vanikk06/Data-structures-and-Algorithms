@@ -64,6 +64,7 @@ The time complexity of an algorithm is an **approximation** of how long that alg
   ![O(n)](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571648550712.jpg)
 - O(log n)：`log`降低input每個步驟執行的時間
   
+  > 執行步驟逐漸減半
   ![O(log n)](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571648965575.jpg)
 - O(nlog n)：**divide-and-conquer**，描述資料結構每次運行要花費O(log n)時間
 
