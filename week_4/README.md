@@ -119,13 +119,17 @@ Class's PPT
    > Demo(步驟)、Flowchart(流程圖)
  - 程式
     1. 可以compile
-    2. 可以答對
+    2. 可以答對 
     3. 時間最少，並且可以證明
  
 [🍄](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 # Insertion Sort
 > 直觀的排序方法，一個個比較，小的就往前面插入
+
+|| Average Time | Best Time | Worst Time | Extra Space | Stability |
+| --- | --- | --- | --- | --- | --- |
+|**Insertion Sort**| O(n²) | O(n) | O(n²) | O(1) | Stable| 
 
 - Algorithm：一種手段、過程或是一種方法
 - Program：特定algorithm的具體實現，或可以成為某個algorithm的具體實現
@@ -210,6 +214,10 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 # Quick Sort
 > 利用Divide and conquer(分治法)，找一個基準點，根據基準點去作區分
+
+|| Average Time | Best Time | Worst Time | Extra Space | Stability |
+| --- | --- | --- | --- | --- | --- |
+|**Quick Sort**| O(n log n) | O(n log n) | O(n²) | O(n) | Unstable| 
 
 以**固定的方式**尋找基準點，依據基準點將元素分為三堆（extra-place）或兩半(in-place)，遞迴式重複此動作，直到無法執行，再將結果合併輸出
 
