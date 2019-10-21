@@ -60,19 +60,19 @@ The time complexity of an algorithm is an **approximation** of how long that alg
 - O(1)：**constant time**，無論input大小為何，運行所花費的時間都相同
 - O(n)：隨著input個數(n)的增加，時間隨著n倍數成長
 
-        > 逐筆跑完每筆資料
+  > 逐筆跑完每筆資料
   ![O(n)](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571648550712.jpg)
 - O(log n)：`log`降低input每個步驟執行的時間
 - O(nlog n)：**divide-and-conquer**，描述資料結構每次運行要花費O(log n)時間
 
-> Why是"步驟數"而不是"執行時間"
+## Why是"步驟數"而不是"執行時間"
 
 `演算法有多快不是以秒衡量，而是以步驟次數衡量`
 
 因為電腦效能和語言特性都會對程式運行速度造成影響，因此使用"執行時間"來衡量演算法的快慢並不是個穩定的指標
 
 #### Source
-class's PPT
+Class's PPT
 
 [初學者學演算法｜談什麼是演算法和時間複雜度](https://medium.com/appworks-school/%E5%88%9D%E5%AD%B8%E8%80%85%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95-%E8%AB%87%E4%BB%80%E9%BA%BC%E6%98%AF%E6%BC%94%E7%AE%97%E6%B3%95%E5%92%8C%E6%99%82%E9%96%93%E8%A4%87%E9%9B%9C%E5%BA%A6-b1f6908e4b80)
 
