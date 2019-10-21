@@ -63,6 +63,7 @@
 
 # week_4
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4)
+- [Sorting algorithms](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#sorting-algorithms)
 - [Time complexity](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#time-complexity)
 - [return VS. break VS. continue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#return-vs-break-vs-continue)
 - [not](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#not)
