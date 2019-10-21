@@ -52,7 +52,7 @@ The time complexity of an algorithm is an **approximation** of how long that alg
 
 通常希望演算法至少能比 O(n²)
 ![O](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571638832242.jpg)
-隨者n增大，O(n²) 會大過O(2<sup>n<sup>)
+隨者n增大，O(n²) 會大過O(2<sup>n)
 
  - O(N)：隨著input(n)的增加，時間隨n倍數成長
   > 逐筆跑完每筆資料
