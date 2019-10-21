@@ -54,7 +54,7 @@ The time complexity of an algorithm is an **approximation** of how long that alg
 
 通常希望演算法至少能比 O(n²) 快，如果能達到 O(n)、O(1) 甚至是 O(log n) 的話是最理想的情況
 
-> 隨者n增大，O(n²) 會大過O(2<sup>n</sup>)
+> ↓ 隨者n增大，O(n²) 會大過O(2<sup>n</sup>)
 
 ![O](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571638832242.jpg)
 
