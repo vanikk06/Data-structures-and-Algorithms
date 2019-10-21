@@ -218,6 +218,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [快速排序法(Quick Sort)](https://emn178.pixnet.net/blog/post/88613503-%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E6%B3%95(quick-sort))
 
+[3分鐘搞懂, 泡沫排序法vs快速排序法! | Bubble Sort vs Quick Sort](https://youtu.be/G4dwRF_Rzd0)
+
 [🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 
