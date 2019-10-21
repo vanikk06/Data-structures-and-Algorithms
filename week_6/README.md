@@ -38,10 +38,18 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [Heaps and Heap Sort](https://www.youtube.com/watch?v=H5kAcmGOn4Q)
 
+#### Others
+[我以為的軟體工程師九層分級架構](https://ascii-iicsa.blogspot.com/2010/11/blog-post.html)
 
-# Design Heap Sort
+
+# Design heap sort
 
 - index
   - i = n         (母)
   - l = 2 x i + 1 (子)
   - r = 2 x i + 2 (子)
+
+#### Source
+[heapq --- 堆積佇列 (heap queue) 演算法](https://docs.python.org/zh-tw/3/library/heapq.html)
+
+[Heap Sort: how to sort?](https://stackoverflow.com/questions/13979714/heap-sort-how-to-sort)
