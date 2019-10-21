@@ -1,3 +1,6 @@
+# List
+[]Try design list
+
 # Content
 - [Object](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#object)
 - [Array VS. List VS. Linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#array-vs-list-vs-linked-list)
