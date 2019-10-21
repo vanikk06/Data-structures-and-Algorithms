@@ -8,6 +8,7 @@
   - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./quick_sort_flowchart_.jpg)
 
 # Content
+- []()
 - [Time complexity](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#time-complexity)
 - [return VS. break VS. continue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#return-vs-break-vs-continue)
 - [not](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#not)
@@ -73,7 +74,7 @@ The time complexity of an algorithm is an **approximation** of how long that alg
 
 [維基百科_大O符號](https://zh.wikipedia.org/zh-hk/%E5%A4%A7O%E7%AC%A6%E5%8F%B7#%E5%B8%B8%E7%94%A8%E7%9A%84%E5%87%BD%E6%95%B0%E9%98%B6)
 
-[★A coffee-break introduction to time complexity of algorithms](https://dev.to/victoria/a-coffee-break-introduction-to-time-complexity-of-algorithms-160m)
+[★ A coffee-break introduction to time complexity of algorithms ★](https://dev.to/victoria/a-coffee-break-introduction-to-time-complexity-of-algorithms-160m)
 
 [🍅](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
