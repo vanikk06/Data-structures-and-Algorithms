@@ -25,6 +25,7 @@
      - [Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#divide-and-conquer)
 # Sorting algorithms
 
+
 #### Source
 [Sorting algorithms](https://www.c-programming-simple-steps.com/sorting-algorithms.html)
 
@@ -32,7 +33,10 @@
 
 [Comparison Sort系列文章](http://alrightchiu.github.io/SecondRound/comparison-sort-quick-sortkuai-su-pai-xu-fa.html#series)
 
+[Algorithm time complexity演算法時間複雜度整理](https://tingtseng.pixnet.net/blog/post/39924871-algorithm-time-complexity-%E6%BC%94%E7%AE%97%E6%B3%95%E6%99%82%E9%96%93%E8%A4%87%E9%9B%9C%E5%BA%A6%E6%95%B4%E7%90%86)
+
 [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg)
+
 
 [🥜](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
