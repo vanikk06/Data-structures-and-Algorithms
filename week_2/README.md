@@ -116,6 +116,7 @@
 
 ## Test Design linked list
 > Following teacher's
+> LeetCode：707. Design Linked List
 
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Test%20%20Design%20linked%20list.py)
 
