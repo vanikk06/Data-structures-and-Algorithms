@@ -53,9 +53,11 @@ The time complexity of an algorithm is an **approximation** of how long that alg
 >> 只要顯示佔據**領導**地位者(最高次方)，其他項即係數皆可省略
 
 通常希望演算法至少能比 O(n²) 快，如果能達到 O(n)、O(1) 甚至是 O(log n) 的話是最理想的情況
+
+> 隨者n增大，O(n²) 會大過O(2<sup>n</sup>)
+
 ![O](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571638832242.jpg)
 
-↑ 隨者n增大，O(n²) 會大過O(2<sup>n</sup>)
 
 - O(1)：**constant time**，無論input大小為何，運行所花費的時間都相同
 - O(n)：隨著input個數(n)的增加，時間隨著n倍數成長
