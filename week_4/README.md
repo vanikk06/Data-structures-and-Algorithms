@@ -50,7 +50,9 @@ The time complexity of an algorithm is an **approximation** of how long that alg
 > 用來描述一個演算法在輸入n個東西時，總執行時間與n的關係
 >> 只要顯示佔據**領導**地位者(最高次方)，其他項即係數皆可省略
 
+通常希望演算法至少能比 O(n²)
 ![O](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571638832242.jpg)
+隨者n增大，O(n²) 會大過
 
  - O(N)：隨著input(n)的增加，時間隨n倍數成長
   > 逐筆跑完每筆資料
