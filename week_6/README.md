@@ -8,3 +8,6 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 i = o (index)
 l = 2*i+1
 r = 2*i+2
+
+#### Source
+[Heap Data Structure](https://www.geeksforgeeks.org/heap-data-structure/)
