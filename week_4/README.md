@@ -60,6 +60,7 @@ The time complexity of an algorithm is an **approximation** of how long that alg
 - O(1)：**constant time**，無論input大小為何，運行所花費的時間都相同
 - O(n)：隨著input個數(n)的增加，時間隨著n倍數成長
         > 逐筆跑完每筆資料
+  ![O(n)](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571648550712.jpg)
 - O(log n)：`log`降低input每個步驟執行的時間
 - O(nlog n)：**divide-and-conquer**，描述資料結構每次運行要花費O(log n)時間
 
