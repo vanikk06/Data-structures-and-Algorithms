@@ -1,6 +1,9 @@
 # Debug Mode
 > Spyder
 
+帶測值進去跑，看它如何運作
+- check point：設在細節不理解之處
+
 #  Heap Sort
 > tree's special case
 
@@ -24,12 +27,17 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 - tree資料結構：快速排序、快速搜尋
   > e.g.資料庫：資料存取模式
 
-- index
-  - i = n         (母)
-  - l = 2 x i + 1 (子)
-  - r = 2 x i + 2 (子)
+
 
 #### Source
 [Heap Data Structure](https://www.geeksforgeeks.org/heap-data-structure/)
 
 [[演算法] 堆積排序法(Heap Sort)](http://notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)
+
+[Heaps and Heap Sort](https://www.youtube.com/watch?v=H5kAcmGOn4Q)
+# 
+
+- index
+  - i = n         (母)
+  - l = 2 x i + 1 (子)
+  - r = 2 x i + 2 (子)
