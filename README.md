@@ -78,3 +78,6 @@
  - [Try Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#try-insertion-sort-list)
 
 [💁🏻‍♀️💁🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+
+# week_6
+[👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6)
