@@ -191,6 +191,7 @@ list(列表)：偏向更簡單的struct
 ## Test Min stack
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Min%20stack.py)
 > Following teacher's
+> LeetCode：155. Min Stack
 
 Status：Runtime 76 ms, Memory 18.6 MB
 
@@ -238,12 +239,14 @@ Status：Runtime 76 ms, Memory 18.6 MB
  [👉HERE👈](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Implement%20queue%20using%20stacks.py)
 
 > Following teacher's
+> LeetCode：232. Implement Queue using Stacks
 
 [this](https://github.com/pecu/DSA/tree/master/02_Stack%26Queue)
 
 [🐙~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
 # Try Implement stack using queues
+> LeetCode：225. Implement Stack using Queues
 
 #### Source
 [[LeetCode]225. Implement Stack using Queues](https://www.itread01.com/content/1545554882.html)
