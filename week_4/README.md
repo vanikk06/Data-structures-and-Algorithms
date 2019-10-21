@@ -29,7 +29,13 @@
 
 [Time Complexities of all Sorting Algorithms](https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/)
 
+[15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg)
+
+[🥜](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+
 # Time complexity
+The time complexity of an algorithm is an **approximation** of how long that algorithm will take to process some input.
+
 > 時間複雜度：將事情拆解，計算出時間
 
 - 演算法：將執行步驟具體寫成程式，用來達到特定目的的過程
@@ -40,14 +46,17 @@
   - 時間：速度有多快 → 時間複雜度
   - 空間：需要用到多少的記憶體
 
+大O符號（Big O notation）
+> 用來描述一個演算法在輸入n個東西時，總執行時間與n的關係
+>> 只要顯示佔據**領導**地位者(最高次方)，其他項即係數皆可省略
 
 
- - O(N)：逐筆走完每筆資料
-  
+ - O(N)：隨著input(n)的增加，時間隨n倍數成長
+  > 逐筆跑完每筆資料
 #### Source
 [初學者學演算法｜談什麼是演算法和時間複雜度](https://medium.com/appworks-school/%E5%88%9D%E5%AD%B8%E8%80%85%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95-%E8%AB%87%E4%BB%80%E9%BA%BC%E6%98%AF%E6%BC%94%E7%AE%97%E6%B3%95%E5%92%8C%E6%99%82%E9%96%93%E8%A4%87%E9%9B%9C%E5%BA%A6-b1f6908e4b80)
 
-[維基百科_大O符號](https://zh.wikipedia.org/zh-hk/%E5%A4%A7O%E7%AC%A6%E5%8F%B7)
+[維基百科_大O符號](https://zh.wikipedia.org/zh-hk/%E5%A4%A7O%E7%AC%A6%E5%8F%B7#%E5%B8%B8%E7%94%A8%E7%9A%84%E5%87%BD%E6%95%B0%E9%98%B6)
 
 [A coffee-break introduction to time complexity of algorithms](https://dev.to/victoria/a-coffee-break-introduction-to-time-complexity-of-algorithms-160m)
 
