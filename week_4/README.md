@@ -39,6 +39,7 @@ The time complexity of an algorithm is an **approximation** of how long that alg
 > 時間複雜度：將事情拆解，計算出時間
 
 - 演算法：將執行步驟具體寫成程式，用來達到特定目的的過程
+
   ` 輸入 + 演算法 = 輸出 `
 
 評判演算法的好壞
@@ -52,7 +53,8 @@ The time complexity of an algorithm is an **approximation** of how long that alg
 
 通常希望演算法至少能比 O(n²) 快，如果能達到 O(n)、O(1) 甚至是 O(log n) 的話是最理想的情況
 ![O](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571638832242.jpg)
-隨者n增大，O(n²) 會大過O(2<sup>n</sup>)
+
+↑ 隨者n增大，O(n²) 會大過O(2<sup>n</sup>)
 
 - O(1)：**constant time**，無論input大小為何，運行所花費的時間都相同
 - O(n)：隨著input個數(n)的增加，時間隨著n倍數成長
@@ -61,6 +63,7 @@ The time complexity of an algorithm is an **approximation** of how long that alg
 - O(nlog n)：a **divide-and-conquer**，描述資料結構每次運行要花費O(log n)時間
 
 > Why是"步驟數"而不是"執行時間"
+
 `演算法有多快不是以秒衡量，而是以步驟次數衡量`
 因為電腦效能和語言特性都會對程式運行速度造成影響，因此使用"執行時間"來衡量演算法的快慢並不是個穩定的指標
 
