@@ -25,6 +25,18 @@
      - [Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#divide-and-conquer)
 # Sorting algorithms
 
+- Insertion Sort：
+- Quick Sort：快速排序法
+- Heap Sort：堆積排序法
+- Merge Sort：合併排序法 / 歸併排序法
+
+
+| Sorting Algorithm | Average Time | Best Time | Worst Time | Extra Space | Stability |
+| --- | --- | --- | --- | --- | --- |
+| **Insertion Sort** | O(n²) | O(n) | O(n²) | O(1) | Stable |
+| **Quick Sort** | O(n log n) | O(n log n) | O(n²) | O(n) | Unstable |
+| **Heap Sort** | O(n log n) | O(n log n) | O(n log n) | O(1) | Unstable |
+| **Merge Sort** | O(n log n) | O(n log n) | O(n log n) | O(n) | Stable |
 
 #### Source
 [Sorting algorithms](https://www.c-programming-simple-steps.com/sorting-algorithms.html)
