@@ -31,3 +31,5 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 #### Source
 [Heap Data Structure](https://www.geeksforgeeks.org/heap-data-structure/)
+
+[[演算法] 堆積排序法(Heap Sort)](http://notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)
