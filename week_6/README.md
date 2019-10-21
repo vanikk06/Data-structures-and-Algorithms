@@ -37,7 +37,9 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 [[演算法] 堆積排序法(Heap Sort)](http://notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)
 
 [Heaps and Heap Sort](https://www.youtube.com/watch?v=H5kAcmGOn4Q)
-# 
+
+
+# Design Heap Sort
 
 - index
   - i = n         (母)
