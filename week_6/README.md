@@ -1,3 +1,6 @@
+# Debug Mode
+> Spyder
+
 #  Heap Sort
 > tree's special case
 
@@ -14,12 +17,17 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 - time complexity：穩定的 O(n log n)
    > 有n個值，每個值都要rebalance出一棵樹(O(log n))
- 
+|| Average Time | Best Time | Worst Time | Extra Space | Stability |
+| --- | --- | --- | --- | --- | --- |
+|**Heap Sort**| O(n log n) | O(n log n) | O(n log n) | O(1) | Unstable|
 
+- tree資料結構：快速排序、快速搜尋
+  > e.g.資料庫：資料存取模式
 
-i = o (index)
-l = 2*i+1
-r = 2*i+2
+- index
+  - i = n         (母)
+  - l = 2 x i + 1 (子)
+  - r = 2 x i + 2 (子)
 
 #### Source
 [Heap Data Structure](https://www.geeksforgeeks.org/heap-data-structure/)
