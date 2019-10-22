@@ -294,16 +294,17 @@ Status：Runtime 276 ms, Memory 15.4 MB
   - 先判輸入的index是否有誤
     > left：頭 ; right：尾
   - 將第一個值設為key，並將頭尾的index存到另一個變數(left_point、right_point)中，方便等下走訪
-  - 在滿足左邊index小於右邊index的情況下，開始進行走訪
+  - 在滿足左邊index < index的情況下，開始進行走訪
       1. 先從右邊往左邊走
-        > 是否 左邊index小於右邊index 且 值 >= key
+        > 是否 左邊index < 右邊index 且 值 >= key
           - Yes：繼續往下一個走
           - No：將right_point指在那個位置
       2. 再從左邊往右邊走
-        > 是否 左邊index小於右邊index 且 值小 <= key
+        > 是否 左邊index < 右邊index 且 值小 <= key
           - Yes：繼續往下一個走
           - No：將left_point指在那個位置
-      3. 確定是否right_point > left_point
+      3. 確保是否right_point > left_point
+        > Why確保？ 前兩者跳出迴圈有可能是左邊index = 右邊index
           - Yes：將兩個值互換位置
           - No：不執行
   
