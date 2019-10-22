@@ -267,6 +267,18 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 以第一個數為`key`，將其作為基準點與list內的每個元素比較，以此分為三堆`> key`、`= key`、`< key`，再以`< key` + `= key` + `> key`合併，不斷地對`< key`與`> key`重複此行為，直到無法執行將結果輸出
   
+  - Code
+  創造三個放置分堆元素的空間small_list（< key）、key_list（= key）、big_list（> key）
+      - 先判斷list是否有大於一個元素
+      - 將第一個數設為key
+      - 依序將每個元素與key作比較
+         - > key：放入big_list
+         - < key：放入small_list
+         - 剩下的(= key)：放入key_list
+      - 遞迴式的重複對small_list、big_list重複執行此動作
+      - 最後，將結果合併以small_list + key_list + big_list回傳
+  
+  
   - [TypeError](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#typeerror)
   - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#quick-sort-demo)
   - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#quick-sort-flowchart)
