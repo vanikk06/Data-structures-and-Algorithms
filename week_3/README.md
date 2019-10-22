@@ -128,9 +128,8 @@ list(列表)：偏向更簡單的struct
  [Data Structures: Stacks and Queues](https://www.youtube.com/watch?v=wjI1WNcIntg)
 
 ## Try Min stack
-> By myslef
->> LeetCode：155. Min Stack
->> Using linked list
+> By myslef：LeetCode：155. Min Stack
+>>  Using linked list
 
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Min%20stack%20By%20linked%20list.py)
 
@@ -151,8 +150,7 @@ list(列表)：偏向更簡單的struct
  - `getMin()`：一筆筆比較stack中的值，找出最小值     🤺🤺🤺
    > 利用node.next比較各筆資料，不動到topnode的指標
    
-> By myslef
->> LeetCode：155. Min Stack
+> By myslef：LeetCode：155. Min Stack
 >> Using list
 
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Min%20stack%20By%20list.py)
@@ -192,8 +190,8 @@ list(列表)：偏向更簡單的struct
 
 
 ## Test Min stack
-> Following teacher's
->> LeetCode：155. Min Stack
+> Following teacher's：LeetCode：155. Min Stack
+>> Using linked list
 
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Min%20stack.py)
 
@@ -225,8 +223,7 @@ Status：Runtime 76 ms, Memory 18.6 MB
 
 
 # Try Implement queue using stacks
-> By myslef
->> LeetCode：232. Implement Queue using Stacks
+> By myslef：LeetCode：232. Implement Queue using Stacks
 >> Using linked list
 
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Implement%20queue%20using%20stacks%20By%20linked%20list.py)
@@ -240,8 +237,7 @@ Status：Runtime 76 ms, Memory 18.6 MB
 
 
 
-> By myslef
->> LeetCode：232. Implement Queue using Stacks
+> By myslef：LeetCode：232. Implement Queue using Stacks
 >> Using list
 
 [👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Implement%20queue%20using%20stacks%20By%20list.py)
@@ -250,8 +246,8 @@ Status：Runtime 76 ms, Memory 18.6 MB
 [🐙~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
  # Test Implement queue using stacks
- > Following teacher's
- >> LeetCode：232. Implement Queue using Stacks
+ > Following teacher's：LeetCode：232. Implement Queue using Stacks
+ >> Using array
  
  [👉HERE👈](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Implement%20queue%20using%20stacks.py)
 
@@ -262,8 +258,7 @@ Status：Runtime 76 ms, Memory 18.6 MB
 [🐙~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
 # Try Implement stack using queues
-> By myslef
->> LeetCode：225. Implement Stack using Queues
+> By myslef：LeetCode：225. Implement Stack using Queues
 
 #### Source
 [[LeetCode]225. Implement Stack using Queues](https://www.itread01.com/content/1545554882.html)
