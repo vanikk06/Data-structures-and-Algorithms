@@ -275,6 +275,13 @@ Status：Runtime 276 ms, Memory 15.4 MB
   
 #### Code
 
+#### Q&A
+      1. 找出兩邊不符合的部分，再將兩者交換。若一邊無不符合部分，一邊有時，怎麼辦？
+      
+
+#### Demo
+      > 與Extra-place相同例子
+
 
 [🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
