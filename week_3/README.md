@@ -189,9 +189,11 @@ list(列表)：偏向更簡單的struct
 
 
 ## Test Min stack
-[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Min%20stack.py)
 > Following teacher's
+
 > LeetCode：155. Min Stack
+
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Min%20stack.py)
 
 Status：Runtime 76 ms, Memory 18.6 MB
 
