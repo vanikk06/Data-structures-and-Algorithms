@@ -269,7 +269,12 @@ Status：Runtime 276 ms, Memory 15.4 MB
 不使用額外空間的Quick sort的邏輯，像是從目標結果回推
 - 目標：`小於_基準點` + `基準點` + `大於_基準點`
 
-為達上述的元素排列，從兩邊（頭、尾）向中間走，
+為達上述的元素排列，從兩邊（左邊(頭)、右邊(尾)）向中間走，在兩者相遇之前，找出不符合的(下述)，將兩者交換
+  - 左邊(頭)：大於_基準點
+  - 右邊(尾)：小於_基準點
+  
+#### Code
+
 
 [🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
