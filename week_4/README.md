@@ -269,6 +269,10 @@ Status：Runtime 276 ms, Memory 15.4 MB
 不使用額外空間的Quick sort的邏輯，像是從目標結果回推
 - 目標：`小於_基準點` + `基準點` + `大於_基準點`
 
+為達上述的元素排列，從兩邊（頭、尾）向中間走，
+
+[🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+
 ## Divide and Conquer
 > 分而治之，**遞迴**的典型應用
 
