@@ -1,4 +1,7 @@
+# Sorting Algorithm Stability
 
+#### Source
+[判斷各種排序演算法的穩定性](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/548443/)
 
 
 #  Heap Sort
@@ -21,6 +24,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 | | Average Time | Best Time | Worst Time | Extra Space | Stability |
 | --- | --- | --- | --- | --- | --- |
 |**Heap Sort**| O(n log n) | O(n log n) | O(n log n) | O(1) | Unstable |
+> Why heap sort is unstable
 
 - tree資料結構：快速排序、快速搜尋
   > e.g.資料庫：資料存取模式
