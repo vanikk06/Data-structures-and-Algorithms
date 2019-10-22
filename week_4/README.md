@@ -264,6 +264,10 @@ Status：Runtime 276 ms, Memory 15.4 MB
 [🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 ## In-place
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_In%20place.py)
+
+不使用額外空間的Quick sort的邏輯，像是從目標結果回推
+- 目標：`小於_基準點` + `基準點` + `大於_基準點`
 
 ## Divide and Conquer
 > 分而治之，**遞迴**的典型應用
