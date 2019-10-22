@@ -247,6 +247,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [3分鐘搞懂, 泡沫排序法vs快速排序法! | Bubble Sort vs Quick Sort](https://youtu.be/G4dwRF_Rzd0)
 
+[Comparison Sort: Quick Sort(快速排序法)](http://alrightchiu.github.io/SecondRound/comparison-sort-quick-sortkuai-su-pai-xu-fa.html)
+
 #### Others
 [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/?fbclid=IwAR1olxlNcAQhKZVNw6-JBCituCKsqfk3YL67xOMfQA-_fyqbHyrFJRm15T4)
 
