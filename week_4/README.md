@@ -25,7 +25,7 @@
      - [Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#divide-and-conquer)
 # Sorting algorithms
 
-- Insertion Sort：
+- Insertion Sort：插入排序法
 - Quick Sort：快速排序法
 - Heap Sort：堆積排序法
 - Merge Sort：合併排序法 / 歸併排序法
