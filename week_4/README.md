@@ -291,6 +291,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
   > 由於input為list，所以從左邊、右邊進行走訪會需要index值（長度）
   
   使用兩層`def`，先將Quick sort的執行運作寫出，再利用另一個函式呼叫並帶入input的index值
+  
   - 先判輸入的index是否有誤
     > left：頭 ; right：尾
   - 將第一個值設為key，並將頭尾的index存到另一個變數(left_point、right_point)中，方便等下走訪
@@ -303,15 +304,18 @@ Status：Runtime 276 ms, Memory 15.4 MB
           > 是否 左邊index < 右邊index 且 值小 <= key
           - Yes：繼續往下一個走
           - No：將left_point指在那個位置
-      3. 確保是否right_point > left_point
+      3. 確保是否left_point < right_point
            > Why確保？ 前兩者跳出迴圈有可能是左邊index = 右邊index
           - Yes：將兩個值互換位置
           - No：不執行
-  
+   - 在兩邊index相遇時（left_point = right_point），將其值與key值交換
+      > 交換left_point或是right_point皆相同，因為走訪順序是right_point先進行再換left_point
+   - 改變input的index，遞迴式的對`小於_基準點`與`大於_基準點`重複執行
+    
 
 #### Q&A
   1. 找出兩邊不符合的部分，再將兩者交換。若一邊無不符合部分，一邊有時，怎麼辦？
-  2. 在兩邊交會時，該由誰與key交換？
+  2. 在兩邊交會時，為什麼誰與key作交換都沒差？
       
 
 #### Demo
