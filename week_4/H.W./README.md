@@ -3,6 +3,16 @@
 
 - [The Other：In-place](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#in-place)
 
+# Code
+      創造三個放置分堆元素的空間small_list（< key）、key_list（= key）、big_list（> key）
+      - 先判斷list是否有大於一個元素
+      - 將第一個數設為key
+      - 依序將每個元素與key作比較
+         - > key：放入big_list
+         - < key：放入small_list
+         - 剩下的(= key)：放入key_list
+      - 遞迴式的重複對small_list、big_list重複執行此動作
+      - 最後，將結果合併以small_list + key_list + big_list回傳
 
 # TypeError
 > 誤用了變數料型態
