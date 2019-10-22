@@ -174,9 +174,8 @@ Class's PPT
 [🥑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 ## Test Insertion sort list
-> Following teacher's
-
-> LeetCode：147. Insertion Sort List
+> Following teacher's → LeetCode：147. Insertion Sort List
+>> U
 
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Insertion%20sort%20list.py)
 
@@ -224,11 +223,13 @@ Status：Runtime 276 ms, Memory 15.4 MB
 [🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 ## Try Insertion sort list
-> By myself
+> By myself → LeetCode：147. Insertion Sort List
+>> Using linked list
 
 - 插入方式：利用`.next`重新建立連結
 
 [🥒🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+
 
 # Quick Sort
 > 利用Divide and conquer(分治法)，找一個基準點，根據基準點去作區分
@@ -250,6 +251,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 
 ## Extra-place
+> Using list
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_Extra%20place.py)
 
 以第一個數為`key`，將其作為基準點與list內的每個元素比較，以此分為三堆`> key`、`= key`、`< key`，再以`< key` + `= key` + `> key`合併，不斷地對`< key`與`> key`重複此行為，直到無法執行將結果輸出
@@ -264,6 +266,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 [🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 ## In-place
+> Using list
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_In%20place.py)
 
 不使用額外空間的Quick sort的邏輯，像是從目標結果回推
