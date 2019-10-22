@@ -42,6 +42,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 #### Others
 [我以為的軟體工程師九層分級架構](https://ascii-iicsa.blogspot.com/2010/11/blog-post.html)
 
+[推薦書](https://www.books.com.tw/products/0010771263)
 
 # Design heap sort
 
@@ -54,3 +55,5 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 [heapq --- 堆積佇列 (heap queue) 演算法](https://docs.python.org/zh-tw/3/library/heapq.html)
 
 [Heap Sort: how to sort?](https://stackoverflow.com/questions/13979714/heap-sort-how-to-sort)
+
+[Heap Sort | GeeksforGeeks](https://www.youtube.com/watch?v=MtQL_ll5KhQ)
