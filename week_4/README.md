@@ -256,7 +256,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 
 ## Extra-place
-> Using list
+>  Following blog
+>> Using list
 
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_Extra%20place.py)
 
@@ -272,7 +273,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 [🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 ## In-place
-> Using list
+>  Following blog
+>> Using list
 
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_In%20place.py)
 
@@ -286,12 +288,16 @@ Status：Runtime 276 ms, Memory 15.4 MB
 #### Code
 
 #### Q&A
-      1. 找出兩邊不符合的部分，再將兩者交換。若一邊無不符合部分，一邊有時，怎麼辦？
+  1. 找出兩邊不符合的部分，再將兩者交換。若一邊無不符合部分，一邊有時，怎麼辦？
+  2. 在兩邊交會時，該由誰與key交換？
       
 
 #### Demo
-      > 與Extra-place相同例子
+  > 與Extra-place相同例子
 
+
+#### Source
+ [[ 資料結構 ] 快速排序法（Quick sort）in Python](http://jialin128.pixnet.net/blog/post/142927691-%5B-%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B-%5D-%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E6%B3%95%EF%BC%88quick-sort%EF%BC%89in-python)
 
 [🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
