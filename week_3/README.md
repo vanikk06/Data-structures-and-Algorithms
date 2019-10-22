@@ -130,7 +130,6 @@ list(列表)：偏向更簡單的struct
 ## Try Min stack
 > By myslef
 >> LeetCode：155. Min Stack
-
 >> Using linked list
 
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Min%20stack%20By%20linked%20list.py)
@@ -154,7 +153,6 @@ list(列表)：偏向更簡單的struct
    
 > By myslef
 >> LeetCode：155. Min Stack
-
 >> Using list
 
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Min%20stack%20By%20list.py)
@@ -229,7 +227,6 @@ Status：Runtime 76 ms, Memory 18.6 MB
 # Try Implement queue using stacks
 > By myslef
 >> LeetCode：232. Implement Queue using Stacks
-
 >> Using linked list
 
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Implement%20queue%20using%20stacks%20By%20linked%20list.py)
@@ -245,7 +242,6 @@ Status：Runtime 76 ms, Memory 18.6 MB
 
 > By myslef
 >> LeetCode：232. Implement Queue using Stacks
-
 >> Using list
 
 [👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Implement%20queue%20using%20stacks%20By%20list.py)
