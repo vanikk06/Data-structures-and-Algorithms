@@ -298,7 +298,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_In%20place.py)
 
 不使用額外空間的Quick sort的邏輯，像是從目標結果回推
-- 目標：`小於_基準點` + `基準點` + `大於_基準點`
+- 目標：`小於_基準點` + 基準點 + `大於_基準點`
 
 為達上述的元素排列，從兩邊（左邊(頭)、右邊(尾)）向中間走，在兩者相遇之前，找出不符合的(下述)，將兩者交換
   - 左邊(頭)：大於_基準點
@@ -333,6 +333,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
     
 
 #### Q&A
+  > 雖目標是`小於_基準點` + 基準點 + `大於_基準點`，但程式在執行時
   1. 找出兩邊不符合的部分，再將兩者交換。若一邊無不符合部分，一邊有時，怎麼辦？
   2. 在兩邊交會時，為什麼誰與key作交換都沒差？
       
