@@ -62,6 +62,8 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [Heap Sort | GeeksforGeeks](https://www.youtube.com/watch?v=MtQL_ll5KhQ)
 
+[Heap - 堆](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
+
 
 # Test Univalued Binary Tree
 > LeetCode：965. Univalued Binary Tree
