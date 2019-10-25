@@ -261,7 +261,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 [🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 
-## Extra-place
+## Test Quick sort By extra-place
 >  Following blog
 >> Using list
 
@@ -289,12 +289,12 @@ Status：Runtime 276 ms, Memory 15.4 MB
    未指定回傳值return預設回傳`None`，`None`與`list`為不同型態的資料類型
    ![typeerror](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./typeerror.jpg)
    
-#### Quick sort Demo
+#### Demo
 
 ![Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./quick_sort_demo.jpg)
 
 
-#### Quick sort Flowchart
+#### Flowchart
 
 ![Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./quick_sort_flowchart_.jpg)
 
@@ -306,7 +306,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
-## In-place
+## Test Quick sort By in-place
 >  Following blog
 >> Using list
 
