@@ -273,7 +273,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
   
 #### Code
   
-      創造三個放置分堆元素的空間small_list（< key）、key_list（= key）、big_list（> key）
+  創造三個放置分堆元素的空間small_list（< key）、key_list（= key）、big_list（> key）
       - 先判斷list是否有大於一個元素
       - 將第一個數設為key
       - 依序將每個元素與key作比較
