@@ -267,9 +267,11 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_Extra%20place.py)
 
+
+
 以第一個數為`key`，將其作為基準點與list內的每個元素比較，以此分為三堆`> key`、`= key`、`< key`，再以`< key` + `= key` + `> key`合併，不斷地對`< key`與`> key`重複此行為，直到無法執行將結果輸出
   
-  - Code
+#### Code
   
       創造三個放置分堆元素的空間small_list（< key）、key_list（= key）、big_list（> key）
       - 先判斷list是否有大於一個元素
@@ -281,13 +283,26 @@ Status：Runtime 276 ms, Memory 15.4 MB
       - 遞迴式的重複對small_list、big_list重複執行此動作
       - 最後，將結果合併以small_list + key_list + big_list回傳
   
+#### TypeError
+   > 誤用了變數料型態
   
-  - [TypeError](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#typeerror)
-  - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#quick-sort-demo)
-  - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W.#quick-sort-flowchart)
+   未指定回傳值return預設回傳`None`，`None`與`list`為不同型態的資料類型
+   ![typeerror](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./typeerror.jpg)
+   
+#### Quick sort Demo
+
+![Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./quick_sort_demo.jpg)
+
+
+#### Quick sort Flowchart
+
+![Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./quick_sort_flowchart_.jpg)
+
  
  #### Source
  [[ 資料結構 ] 快速排序法（Quick sort）in Python](http://jialin128.pixnet.net/blog/post/142927691-%5B-%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B-%5D-%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E6%B3%95%EF%BC%88quick-sort%EF%BC%89in-python)
+ 
+[Python 初學第十一講—錯誤與例外處理](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-edd15e2b5d1e#42dc)
 
 [🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
