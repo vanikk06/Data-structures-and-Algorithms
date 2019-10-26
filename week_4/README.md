@@ -336,10 +336,12 @@ Status：Runtime 276 ms, Memory 15.4 MB
   - 在滿足左邊index < index的情況下，開始進行走訪
       1. 先從右邊往左邊走
           > 是否 左邊index < 右邊index 且 值 >= key
+          > 此時right_point是移動的，因此每移動一次都要確保不會碰到left_point
           - Yes：繼續往下一個走
           - No：將right_point指在那個位置
       2. 再從左邊往右邊走
           > 是否 左邊index < 右邊index 且 值小 <= key
+          > 此時left _point是移動的，因此每移動一次都要確保不會碰到right_point
           - Yes：繼續往下一個走
           - No：將left_point指在那個位置
       3. 確保是否left_point < right_point
@@ -356,7 +358,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 1. 找出兩邊不符合的部分，再將兩者交換。若一邊無不符合部分，一邊有時，怎麼辦？
     > 右邊index確定之後，才會跑左邊index
   
-    當right_point找到不合適後，left_point沒有找到不合適者會持續往前走，在與right_point相遇時一定會停下。兩者也不會進行交換，因一方皆無不合適者交換也無意義
+    當right_point找到不合適後，left_point沒有找到不合適者會持續往前走，在與right_point相遇時一定會停下。
+    兩者也不會進行交換，因兩者已經相遇，該考慮的是與key的交換，兩者各自交換無意義
 
 2. 在兩邊交會時，為什麼誰與key作交換都沒差？
       
