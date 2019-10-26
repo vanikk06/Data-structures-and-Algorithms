@@ -366,7 +366,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
     
       在跳出while迴圈的時候，right_point與left_point必定指在相同的位置，所以誰與key交換都沒差。
       
-      
+      ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1572116689636.jpg)
 
 #### Demo
   > 與Extra-place相同例子
