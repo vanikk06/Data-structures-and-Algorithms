@@ -269,7 +269,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 >  Following blog
 >> Using list
 
-[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_Extra%20place.py)
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Quick%20sort_Extra%20place.py)
 
 [Jupyter nbviewer](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Quick%20Sort_Extra%20place.ipynb)
 
@@ -314,7 +314,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 >  Following blog
 >> Using list
 
-[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Quick%20sort_In%20place.py)
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Quick%20sort_In%20place.py)
 
 不使用額外空間的Quick sort的邏輯，像是從目標結果回推
 - 目標：`小於_基準點` + 基準點 + `大於_基準點`
