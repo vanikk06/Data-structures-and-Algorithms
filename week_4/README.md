@@ -363,7 +363,10 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 2. 在兩邊交會時，為什麼誰與key作交換都沒差？
     > 移動時，是right_point先移動再換left_point，在兩者相遇時一定是指在相同的位置，不可能超過
+    
       在跳出while迴圈的時候，right_point與left_point必定指在相同的位置，所以誰與key交換都沒差。
+      
+      
 
 #### Demo
   > 與Extra-place相同例子
