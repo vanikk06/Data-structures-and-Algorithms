@@ -291,16 +291,16 @@ Status：Runtime 276 ms, Memory 15.4 MB
    > 誤用了變數料型態
   
    未指定回傳值return預設回傳`None`，`None`與`list`為不同型態的資料類型
-   ![typeerror](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./typeerror.jpg)
+   ![typeerror](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/typeerror.jpg)
    
 #### Demo
 
-![Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./quick_sort_demo.jpg)
+![Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/quick_sort_demo.jpg)
 
 
 #### Flowchart
 
-![Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W./quick_sort_flowchart_.jpg)
+![Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/quick_sort_flowchart_.jpg)
 
  
  #### Source
