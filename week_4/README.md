@@ -370,6 +370,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 #### Demo
   > 與Extra-place相同例子
+  
+  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1.png)
 
 
 #### Source
