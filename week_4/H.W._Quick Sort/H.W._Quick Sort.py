@@ -6,7 +6,7 @@ def quick_sort(list):
     
     key = list[-1]                       #將最後一個值設為key
     i = 0
-    while i < len(list):                 #一個個與key比較
+    while i < len(list):                 #將key與其他值比較
         if list[i] <= key:               #<=key就放著不動，往下一個繼續比
             i += 1
         else:                            #>key就抓出來放到剛剛建立的空間，並把它在原本的list上刪除
