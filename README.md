@@ -57,6 +57,7 @@
     - [Try Implement queue using stacks](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#try-implement-queue-using-stacks)
     - [Test Implement queue using stacks.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Implement%20queue%20using%20stacks.py)
     - [Test Implement queue using stacks](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#test-implement-queue-using-stacks)
+        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#code-5)
     - [Try Implement stack using queues](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#try-implement-stack-using-queues)
 
     
