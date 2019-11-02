@@ -251,6 +251,10 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 以**固定的方式**尋找基準點，依據基準點將元素分為三堆（extra-place）或兩半(in-place)，遞迴式重複此動作，直到無法執行，再將結果合併輸出
 
+#### Teacher's Code
+
+[this](https://github.com/pecu/DSA/blob/master/05_QuickSort/QuickSort_Array_Recursive.ipynb)
+
 #### Source
 [QuickSort](https://github.com/Alex-CHUN-YU/SortingAlogorithm/wiki/QuickSort)
 
