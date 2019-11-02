@@ -1,4 +1,4 @@
-# H.W._Quick Sort
+# H.W.1_Quick Sort
 [🤜HERE🤛](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W._Quick%20Sort)
 
   - [Jupyter notebook](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W._Quick%20Sort/H.W._Quick%20Sort.ipynb) 
