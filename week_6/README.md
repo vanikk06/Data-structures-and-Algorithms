@@ -92,4 +92,6 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 > Queue資料結構
 
 #### Source
-[【LeetCode】965. Univalued Binary Tree 解題報告（Python & C++）](https://blog.csdn.net/fuxuemingzhu/article/details/85385974)
+[【Leetcode_總結】965. 單值二叉樹- python](https://blog.csdn.net/maka_uir/article/details/86021792)
+
+[Leetcode 965：單值二叉樹（最詳細的解法！！！）](https://blog.csdn.net/qq_17550379/article/details/85539683)
