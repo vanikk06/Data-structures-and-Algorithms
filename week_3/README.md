@@ -292,4 +292,11 @@ Status：Runtime 40 ms, Memory 13.7 MB
 [🦑🐙](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
    
+# Test Set mismatch
+ > Following teacher's：LeetCode：645. Set Mismatch
+ 
+ 
+[this](https://github.com/pecu/DSA/tree/master/03_Set)
 
+
+[🐋](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
