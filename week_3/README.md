@@ -10,9 +10,10 @@
     - [Test Min stack](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#test-min-stack)
         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#code-2)
     - [Try Implement queue using stacks](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#try-implement-queue-using-stacks)
-        
+        - [Code_by linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#code-3)
+        - [Code_by list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#code-4)
     - [Test Implement queue using stacks](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#test-implement-queue-using-stacks)
-        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#code-3)
+        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#code-5)
     - [Try Implement stack using queues](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#try-implement-stack-using-queues)
     
 
