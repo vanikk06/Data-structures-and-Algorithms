@@ -254,11 +254,11 @@ Status：Runtime 76 ms, Memory 18.6 MB
 Status：Runtime 40 ms, Memory 13.7 MB
 
 資料結構：
-    - queue：先進先出
-    - stack：先進後出
+  - queue：先進先出
+  - stack：先進後出
     
 利用stack的方式建構queue，為了配合stack的結構，在取出資料或是查看資料時，不能直接取出要做些調整
-    - 利用兩個stack的操作來調整
+  - 利用兩個stack的操作來調整
     
 #### Code
 
