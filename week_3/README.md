@@ -258,12 +258,24 @@ Status：Runtime 40 ms, Memory 13.7 MB
   - stack：先進後出
     
 利用stack的方式建構queue，為了配合stack的結構，在取出資料或是查看資料時，不能直接取出要做些調整
-  - 利用兩個stack的操作來調整
     
 #### Code
+- `_init_`：利用**兩個stack**來進行調整
+    - .stack_stack：直接使用stack結構，先進後出
+    - .stack_queue：重新放入stack_stack，以此將其原本的結構方式改為queue
+- `push`：放入資料，按照stack結構
+- `pop`：取出資料並刪除，按照queue結構
+    - 若stack_queue內有東西，直接取出並刪除
+        > 在stack_queue內的資料放置方式，已符合queue的資料結構，所以直接執行即可
+    - 若stack_queue內無東西，將stack_stack以stack方式取出，重新放到stack_queue內，再從stack_queue內將資料取出並刪除
+- `peek`：查看第一筆資料，按照queue結構
+    - 若stack_queue內有東西，直接回傳
+        > 在stack_queue內的資料放置方式，已符合queue的資料結構，所以直接執行即可
+    - 若stack_queue內無東西，將stack_stack以stack方式取出，重新放到stack_queue內，再從stack_queue回傳
+- `empty`：裡面是否有資料
+    - 若stack_stack與stack_queue內皆空的，回傳True
 
 
-[this](https://github.com/pecu/DSA/tree/master/02_Stack%26Queue)
 
 [🐙~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
 
