@@ -65,6 +65,15 @@
 
 # week_4
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4)
+### H.W.1_Quick Sort
+[🤜HERE🤛](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4/H.W._Quick%20Sort)
+
+  - [Jupyter notebook](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W._Quick%20Sort/H.W._Quick%20Sort.ipynb) 
+  - [Jupyter nbviewer](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W._Quick%20Sort/H.W._Quick%20Sort.ipynb)
+    -  [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W._Quick%20Sort/H.W._Quick%20Sort.py)
+    - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W._Quick%20Sort/quick_sort__demo.jpg)
+  - [flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/H.W._Quick%20Sort/quick_sort_flowchart.jpg)
+
 - [Sorting algorithms](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#sorting-algorithms)
 - [Time complexity](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#time-complexity)
 - [return VS. break VS. continue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#return-vs-break-vs-continue)
