@@ -87,11 +87,20 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 
 # Test Univalued Binary Tree
-> LeetCode：965. Univalued Binary Tree
+> Following blog
+>> LeetCode：965. Univalued Binary Tree
 
-> Queue資料結構
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Univalued%20binary%20tree.py)
+
+針對一個root做判斷，其值是否與左邊值相同，其值是否與右邊值相同，再利用遞迴的方式走訪每個root
 
 #### Source
 [【Leetcode_總結】965. 單值二叉樹- python](https://blog.csdn.net/maka_uir/article/details/86021792)
 
 [Leetcode 965：單值二叉樹（最詳細的解法！！！）](https://blog.csdn.net/qq_17550379/article/details/85539683)
+
+
+# Try Univalued Binary Tree
+> By myself
+>> LeetCode：965. Univalued Binary Tree
+
