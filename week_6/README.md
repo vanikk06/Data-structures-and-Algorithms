@@ -103,11 +103,11 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 > Following Teacher's
 >> Using array
 
-
-- index
-  - i = n         (母)
-  - l = 2 x i + 1 (子)
-  - r = 2 x i + 2 (子)
+- 用array想像為tree的結構：利用index來推估孩子的位置
+     - index
+        - i (母)
+        - left = 2 x i + 1 (子)
+        - right = 2 x i + 2 (子)
 
 #### Source
 [heapq --- 堆積佇列 (heap queue) 演算法](https://docs.python.org/zh-tw/3/library/heapq.html)
