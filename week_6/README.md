@@ -1,5 +1,6 @@
 # Content
  - [Sorting algorithm stability](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#sorting-algorithm-stability)
+ - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range)
  - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#heap-sort)
     - [Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#design-heap-sort)
  - [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-univalued-binary-tree)
@@ -33,6 +34,23 @@
 [維基百科](https://zh.wikipedia.org/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95#%E7%A9%A9%E5%AE%9A%E6%80%A7)
 
 [🍕](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+
+# range
+```python
+range(start, stop, step)
+```
+
+ - start：開始，計數從start開始
+      > 默認是從0開始 e.g.range(5) == range(0, 5)
+      >> range(5)：從0開始到5
+ - stop：結束，計數到stop結束，但是**不包括stop**
+      > e.g.range(0, 5)：[0,1,2,3,4]，沒有5
+ - step：間隔，默認值為1
+
+#### Source
+[python 3 range用法](https://www.itread01.com/content/1525936808.html)
+
+[🥞](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
 
 #  Heap Sort
 > tree's special case
