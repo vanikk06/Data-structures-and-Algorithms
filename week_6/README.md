@@ -43,7 +43,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
   
   ![heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1571665085656.jpg)
 
-- Heap Sort：將數列使用Heap結構存入後取出的結果
+- Heap Sort：將數列使用Heap結構存入後依序取出的結果
     > 必定為有排序的
      - 由小到大：Min heap
     - 由大到小：Max heap
