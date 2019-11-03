@@ -90,7 +90,13 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [[演算法] 堆積排序法(Heap Sort)](http://notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)
 
+[heapq --- 堆積佇列 (heap queue) 演算法](https://docs.python.org/zh-tw/3/library/heapq.html)
+
+[Heap Sort: how to sort?](https://stackoverflow.com/questions/13979714/heap-sort-how-to-sort)
+
 [Heaps and Heap Sort](https://www.youtube.com/watch?v=H5kAcmGOn4Q)
+
+[Heap - 堆](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
 
 #### Others
 [我以為的軟體工程師九層分級架構](https://ascii-iicsa.blogspot.com/2010/11/blog-post.html)
@@ -108,15 +114,15 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
         - i (母)
         - left = 2 x i + 1 (子)
         - right = 2 x i + 2 (子)
+        
+Undone：執行流程不夠清楚
 
 #### Source
-[heapq --- 堆積佇列 (heap queue) 演算法](https://docs.python.org/zh-tw/3/library/heapq.html)
-
-[Heap Sort: how to sort?](https://stackoverflow.com/questions/13979714/heap-sort-how-to-sort)
+[Heaps and Heap Sort](https://www.youtube.com/watch?v=H5kAcmGOn4Q)
 
 [Heap Sort | GeeksforGeeks](https://www.youtube.com/watch?v=MtQL_ll5KhQ)
 
-[Heap - 堆](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
+[Class](https://www.youtube.com/watch?v=FS3t3HM5pu8&feature=youtu.be)
 
 [this](https://github.com/pecu/DSA/blob/master/06_HeapSort/heapSort.py)
 
