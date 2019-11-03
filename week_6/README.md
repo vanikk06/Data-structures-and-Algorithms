@@ -98,6 +98,8 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [Heap - 堆](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
 
+[this](https://github.com/pecu/DSA/blob/master/06_HeapSort/heapSort.py)
+
 [🍟](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
 
 # Test Univalued Binary Tree
