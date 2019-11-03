@@ -1,3 +1,10 @@
+# Content
+ - [Sorting algorithm stability](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#sorting-algorithm-stability)
+ - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#heap-sort)
+    - [Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#design-heap-sort)
+ - [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-univalued-binary-tree)
+ - [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#try-univalued-binary-tree)
+
 # Sorting algorithm stability
 如果在一個待排序的序列中，存在2個相等的數，在排序後這2個數的相對位置保持不變，那麼該排序演算法是穩定的；否則是不穩定的。
 
@@ -70,6 +77,8 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 [推薦書](https://www.books.com.tw/products/0010771263)
 
 # Design heap sort
+> Following Teacher's
+
 
 - index
   - i = n         (母)
