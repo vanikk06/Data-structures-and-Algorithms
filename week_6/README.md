@@ -32,6 +32,8 @@
 
 [維基百科](https://zh.wikipedia.org/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95#%E7%A9%A9%E5%AE%9A%E6%80%A7)
 
+[🍕](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+
 #  Heap Sort
 > tree's special case
 
@@ -76,6 +78,8 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [推薦書](https://www.books.com.tw/products/0010771263)
 
+[🍔](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+
 # Design heap sort
 > Following Teacher's
 
@@ -94,6 +98,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [Heap - 堆](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
 
+[🍟](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
 
 # Test Univalued Binary Tree
 > Following blog
@@ -108,8 +113,11 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [Leetcode 965：單值二叉樹（最詳細的解法！！！）](https://blog.csdn.net/qq_17550379/article/details/85539683)
 
+[🌭](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
 
 # Try Univalued Binary Tree
 > By myself
 >> LeetCode：965. Univalued Binary Tree
 
+
+[🍿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
