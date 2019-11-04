@@ -112,7 +112,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Design%20heap%20sort.py)
 
 🐛Status：has bug
-   > 若最大值存在root的sub-subnode內，因無重複check，會出現bug
+   > 若最大值存在root的sub-subnode內，因無回頭check，會出現bug
    >> e.g.[4, 3, 5, 10, 1] → [1, 3, 4, 10, 5]
 
 #### Code
