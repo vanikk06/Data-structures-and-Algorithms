@@ -147,7 +147,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 [🍟](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
 
 # Try Design heap sort
-> H.W.2
+> H.W.2_Heap sort
 
 # Test Univalued Binary Tree
 > Following blog
