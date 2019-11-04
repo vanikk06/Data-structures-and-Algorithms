@@ -118,7 +118,15 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
         - right = 2 x i + 2 (子)
         
 #### Code
-
+建構一個heap的樹狀結構（Maxheap），再一個個將值抽出，並重新平衡
+- `heapify(arr, n, i)`：函式，將array架構為樹狀結構
+    - arr：array
+    - n：size of heap，再抽出值後要作調整
+    - i ：index，
+    
+    
+    
+    
 
 #### Source
 [Heaps and Heap Sort](https://www.youtube.com/watch?v=H5kAcmGOn4Q)
