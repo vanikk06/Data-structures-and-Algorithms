@@ -2,7 +2,7 @@
  - [Sorting algorithm stability](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#sorting-algorithm-stability)
  - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range)
  - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#heap-sort)
-    - [Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#design-heap-sort)
+    - [Test Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-design-heap-sort)
  - [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-univalued-binary-tree)
  - [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#try-univalued-binary-tree)
 
@@ -110,7 +110,8 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 >> Using array
 
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Design%20heap%20sort_bug.py) ← has bug
-[👉🏼HERE👈🏼]()
+
+[👉🏼HERE👈🏼]() ← debug
 
 🐛Status：has bug
    > 若最大值存在root的sub-subnode內，因無回頭check，會出現bug
