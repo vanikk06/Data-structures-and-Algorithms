@@ -131,11 +131,10 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
   e. 繼續往下，以new_largest往下看
 
 - `heap_sort(arr)`：用heapifty進行sort
-
-a. 建立maxheap，讓其達到balance
-b. 一個個抽出
-   - 最大值存在index[0]，將其與最後一個值交換，破壞balanece
-   - 改變size of heap，讓re-balance不包含前一個balance的最大值
+ 1. 建立maxheap，讓其達到balance
+ 2. 一個個抽出
+     - 最大值存在index[0]，將其與最後一個值交換，破壞balanece
+     - 改變size of heap，讓re-balance不包含前一個balance的最大值
    
     
 
