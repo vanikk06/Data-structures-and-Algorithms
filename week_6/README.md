@@ -119,7 +119,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 建構一個heap的樹狀結構（Maxheap），再一個個將值抽出，並重新平衡
 - `heapify(arr, n, i)`：函式，將array架構為樹狀結構
     - arr：array
-    - n：size of heap，再抽出值後要作調整
+    - n：size of heap，代表node個數，再抽出值後要作調整
     - i ：index，最初的largest，一個個看array內的值
 1. 用array想像為tree的結構：利用index來推估孩子的位置
     - index：i (母)
