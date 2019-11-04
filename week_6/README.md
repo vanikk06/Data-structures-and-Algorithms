@@ -94,8 +94,6 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [Heap Sort: how to sort?](https://stackoverflow.com/questions/13979714/heap-sort-how-to-sort)
 
-[Heaps and Heap Sort](https://www.youtube.com/watch?v=H5kAcmGOn4Q)
-
 [Heap - 堆](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
 
 #### Others
