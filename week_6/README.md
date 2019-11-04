@@ -73,11 +73,13 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 | --- | --- | --- | --- | --- | --- |
 |**Heap Sort**| O(n log n) | O(n log n) | O(n log n) | O(1) | Unstable |
 > Why heap sort is unstable
->> 因為把資料重新放入一個Binay tree(二叉樹)的結構
+>> 因為把資料重新放入一個Binary tree(二叉樹)的結構
 
 - tree資料結構：快速排序、快速搜尋
   > e.g.資料庫：資料存取模式
 
+#### Binary tree
+生成node：由上往下、由左往右
 
 #### Debug Mode
 > Spyder
