@@ -3,6 +3,7 @@
  - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range)
  - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#heap-sort)
     - [Test Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-design-heap-sort)
+       - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#code)
  - [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-univalued-binary-tree)
  - [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#try-univalued-binary-tree)
 
@@ -90,13 +91,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 #### Source
 [Heap Data Structure](https://www.geeksforgeeks.org/heap-data-structure/)
 
-[[演算法] 堆積排序法(Heap Sort)](http://notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)
-
-[heapq --- 堆積佇列 (heap queue) 演算法](https://docs.python.org/zh-tw/3/library/heapq.html)
-
 [Heap Sort: how to sort?](https://stackoverflow.com/questions/13979714/heap-sort-how-to-sort)
-
-[Heap - 堆](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
 
 #### Others
 [我以為的軟體工程師九層分級架構](https://ascii-iicsa.blogspot.com/2010/11/blog-post.html)
@@ -111,7 +106,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Design%20heap%20sort_bug.py) ← has bug
 
-[👉🏼HERE👈🏼]() ← debug
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Design%20heap%20sort_debug.py) ← debug
 
 🐛Status：has bug
    > 若最大值存在root的sub-subnode內，因無回頭check，會出現bug
@@ -149,6 +144,19 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 # Try Design heap sort
 > H.W.2_Heap Sort
+
+
+#### Source
+[堆排序(Heapsort)](https://www.youtube.com/watch?v=j-DqQcNPGbE)
+
+[heapq --- 堆積佇列 (heap queue) 演算法](https://docs.python.org/zh-tw/3/library/heapq.html)
+
+[[演算法] 堆積排序法(Heap Sort)](http://notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)
+
+[Heap - 堆](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
+
+
+[🥯](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
 
 # Test Univalued Binary Tree
 > Following blog
