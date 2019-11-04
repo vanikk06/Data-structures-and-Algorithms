@@ -105,11 +105,12 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [🍔](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
 
-# Design heap sort
+# Test Design heap sort
 > Following Teacher's
 >> Using array
 
-[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Design%20heap%20sort.py)
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Design%20heap%20sort_bug.py) ← has bug
+[👉🏼HERE👈🏼]()
 
 🐛Status：has bug
    > 若最大值存在root的sub-subnode內，因無回頭check，會出現bug
@@ -144,6 +145,9 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 [Heap Sort | GeeksforGeeks](https://www.youtube.com/watch?v=MtQL_ll5KhQ)
 
 [🍟](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+
+# Try Design heap sort
+> H.W.2
 
 # Test Univalued Binary Tree
 > Following blog
