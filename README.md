@@ -110,3 +110,18 @@
 
 # week_6
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6)
+
+[💆🏻‍♀️💆🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+
+
+# week_7
+[👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7)
+
+[🙆🏻‍♀️🙆🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+
+
+# week_8
+[👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_8)
+
+[🙇🏻‍♀️🙇🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+
