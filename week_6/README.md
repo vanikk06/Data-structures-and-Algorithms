@@ -121,14 +121,14 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
     - arr：array
     - n：size of heap，再抽出值後要作調整
     - i ：index，最初的largest，一個個看array內的值
-  1. 用array想像為tree的結構：利用index來推估孩子的位置
-      - index：i (母)
-      - left：2 x i + 1 (子)
-      - right：2 x i + 2 (子)
-  2. 先看左邊，若left存在且left值 > largest，則left變成largest
-  3. 再看右邊，若right存在且right值 > largest，則right變成largest
-  4. 若largest出現改變，則把old_largest與new_largest的值交換
-  5. 繼續往下，以new_largest往下看
+1. 用array想像為tree的結構：利用index來推估孩子的位置
+    - index：i (母)
+    - left：2 x i + 1 (子)
+    - right：2 x i + 2 (子)
+2. 先看左邊，若left存在且left值 > largest，則left變成largest
+3. 再看右邊，若right存在且right值 > largest，則right變成largest
+4. 若largest出現改變，則把old_largest與new_largest的值交換
+5. 繼續往下，以new_largest往下看
 
 - `heap_sort(arr)`：用heapifty進行sort
  1. 建立maxheap，讓其達到balance
