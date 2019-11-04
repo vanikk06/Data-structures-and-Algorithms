@@ -32,5 +32,5 @@ def heap_sort(arr):
         
     # One by one extract elements
     for i in range(n-1, 0, -1):
-        arr[0], arr[i] = arr[i], arr[0] #交換
-        heapify(arr, i, 0)              #改變size of heap
+        arr[0], arr[i] = arr[i], arr[0] #抽出最大的
+        heapify(arr, i, 0)              #re-balance改變size of heap
