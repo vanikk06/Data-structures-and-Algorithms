@@ -111,20 +111,25 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Design%20heap%20sort.py)
 
-- 用array想像為tree的結構：利用index來推估孩子的位置
-     - index
-        - i (母)
-        - left = 2 x i + 1 (子)
-        - right = 2 x i + 2 (子)
-        
+🐛Status：has bug
+   > 若最大值存在root的sub-subnode內，因無重複check，會出現bug
+   >> e.g.[4, 3, 5, 10, 1] → [1, 3, 4, 10, 5]
+
 #### Code
 建構一個heap的樹狀結構（Maxheap），再一個個將值抽出，並重新平衡
 - `heapify(arr, n, i)`：函式，將array架構為樹狀結構
     - arr：array
     - n：size of heap，再抽出值後要作調整
-    - i ：index，
+    - i ：index，最初的largest，一個個看array內的值
     
-    
+    1. 用array想像為tree的結構：利用index來推估孩子的位置
+         - index：i (母)
+         - left：2 x i + 1 (子)
+         - right：2 x i + 2 (子)
+    2. 先看左邊，若left存在且left值 > largest，則left變成largest
+    3. 再看右邊，若right存在且right值 > largest，則right變成largest
+    4. 若largest出現改變，則把old_largest與new_largest的值交換
+    5. 繼續往下，以new_largest往下看
     
     
 
@@ -144,6 +149,8 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 >> LeetCode：965. Univalued Binary Tree
 
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Univalued%20binary%20tree.py)
+
+Status：Runtime 36 ms, Memory 13.7 MB
 
 針對一個root做判斷，其值是否與左邊值相同，其值是否與右邊值相同，再利用遞迴的方式走訪每個root
 
