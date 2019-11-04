@@ -143,10 +143,6 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [Heap Sort | GeeksforGeeks](https://www.youtube.com/watch?v=MtQL_ll5KhQ)
 
-[Class](https://www.youtube.com/watch?v=FS3t3HM5pu8&feature=youtu.be)
-
-[this](https://github.com/pecu/DSA/blob/master/06_HeapSort/heapSort.py)
-
 [🍟](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
 
 # Test Univalued Binary Tree
