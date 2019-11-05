@@ -17,3 +17,6 @@
 - 異：合併方式不同
 
 #### Source
+
+#### Others
+[【硬塞大學生】哈佛校長告訴新生：教育的目標是確保學生能辨別有人在胡說八道](https://www.inside.com.tw/article/10573-harvard-freshman-convocation-address-to-class-2021)
