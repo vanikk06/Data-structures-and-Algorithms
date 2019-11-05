@@ -145,6 +145,16 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 # Try Design heap sort
 > H.W.2_Heap Sort
 
+- 符合兩個特性：
+    1. 完全二元樹（Complete Binary Tree）
+       > 披著二元樹羊皮的陣列
+    2. parent > children
+
+- index（從0開始）：
+   - left_child：2*i+1
+   - right_child：2*i+2
+   - parent：(i-1)/2
+      > 取整數
 
 #### Source
 [堆排序(Heapsort)](https://www.youtube.com/watch?v=j-DqQcNPGbE)
