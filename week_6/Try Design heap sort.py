@@ -19,7 +19,7 @@ class Solution(object):
         if right < n and list[Min] > list[right]:     #parents與右邊child比較
             Min = right                               #若right在list長度內，且其值小於Min，則取代Min
         
-        if Min != i:                                  #若Min發生改變
+        if Min == left or Min == right:               #若Min發生改變
             list[i], list[Min] = list[Min], list[i]   #則將i(parents)的值與Min的值交換
         
             self._heapity(list, n, Min)                     #以新的parents繼續往下檢查
