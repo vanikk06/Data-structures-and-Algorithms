@@ -1,6 +1,7 @@
 # Content
  - [Sorting algorithm stability](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#sorting-algorithm-stability)
  - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range)
+ - [Division differences](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#division-differences)
  - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#heap-sort)
     - [Test Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-design-heap-sort)
        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#code)
@@ -66,6 +67,9 @@ range(start, stop, step)
 - int()：取整數，小數點後的數**全部捨去**
 
  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1572944683672.jpg)
+ 
+[🧀](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+
 
 #  Heap Sort
 > tree's special case
