@@ -40,13 +40,18 @@
 - Merge Sort：合併排序法 / 歸併排序法
 
 
-| Sorting Algorithm | Average Time | Best Time | Worst Time | Extra Space | Stability |
+| Sorting Algorithm | Design approach | Average Time | Best Time | Worst Time | Extra Space | Stability |
 | --- | --- | --- | --- | --- | --- |
-| **Insertion Sort** | O(n²) | O(n) | O(n²) | O(1) | Stable |
-| **Quick Sort** | O(n log n) | O(n log n) | O(n²) | O(n) | Unstable |
-| **Heap Sort** | O(n log n) | O(n log n) | O(n log n) | O(1) | Unstable |
-| **Merge Sort** | O(n log n) | O(n log n) | O(n log n) | O(n) | Stable |
+| **Insertion Sort** | Incremental | O(n²) | O(n) | O(n²) | O(1) | Stable |
+| **Quick Sort** | Divide and Conquer | O(n log n) | O(n log n) | O(n²) | O(n) | Unstable |
+| **Heap Sort** | Binary Tree | O(n log n) | O(n log n) | O(n log n) | O(1) | Unstable |
+| **Merge Sort** | Divide and Conquer | O(n log n) | O(n log n) | O(n log n) | O(n) | Stable |
 > O(1)：in-space
+
+> Design approach(設計方法)：
+    - Incremental：增加的
+    - Divide and Conquer：遞迴
+    - Binary Tree：二元樹
 
 #### Source
 [Sorting algorithms](https://www.c-programming-simple-steps.com/sorting-algorithms.html)
@@ -386,7 +391,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 [🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 ## Divide and Conquer
-> 分而治之，**遞迴**的典型應用
+> 分而治之，**遞迴(Recursive)**的典型應用
 
 - 分為三個階段：
     - Divide（分割）：將大問題不斷切割成兩個或多個小問題
