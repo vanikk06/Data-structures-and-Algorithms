@@ -12,9 +12,9 @@
 - 合併：將分堆結果比較合併
    > 走訪比較、合併
 
-| | Average Time | Best Time | Worst Time | Extra Space | Stability |
-| --- | --- | --- | --- | --- | --- |
-|**Merge Sort**| O(n log n) | O(n log n) | O(n log n) | O(n) | Stable |
+| | Design approach | Average Time | Best Time | Worst Time | Extra Space | Stability |
+| --- | --- | --- | --- | --- | --- | --- |
+|**Merge Sort**| Divide and Conquer | O(n log n) | O(n log n) | O(n log n) | O(n) | Stable |
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1572951110717.jpg)
 
