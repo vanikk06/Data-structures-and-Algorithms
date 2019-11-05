@@ -13,7 +13,7 @@
 |**Merge Sort**| O(n log n) | O(n log n) | O(n log n) | O(n) | Stable |
 
 #### Merge Sort VS. Quick Sort
-- 同：皆分堆
-- 異：
+- 同：遞迴的分割再合併
+- 異：合併方式不同
 
 #### Source
