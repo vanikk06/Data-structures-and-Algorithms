@@ -55,6 +55,14 @@ range(start, stop, step)
 
 [🥞](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
 
+# Division differences
+> 除法差異
+
+- //：取商數，運算之後取**最小整數**
+  > 當商數為負數時，會error
+  
+- int()：取整數，小數點後的數**全部捨去**
+
 #  Heap Sort
 > tree's special case
 
