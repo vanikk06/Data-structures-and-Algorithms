@@ -3,4 +3,17 @@
   > 程式：表現的載體
 
 # Merge Sort
-> 分割再整合
+> 從分割中再整合
+- 分堆： 分兩堆兩堆，要分log n次才會分完
+  > 時間複雜度：O(n log n)
+  >> 每個分出的堆都要重新比較，共分出n堆
+
+| | Average Time | Best Time | Worst Time | Extra Space | Stability |
+| --- | --- | --- | --- | --- | --- |
+|**Merge Sort**| O(n log n) | O(n log n) | O(n log n) | O(n) | Stable |
+
+#### Merge Sort VS. Quick Sort
+- 同：皆分堆
+- 異：
+
+#### Source
