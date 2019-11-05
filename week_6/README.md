@@ -60,9 +60,12 @@ range(start, stop, step)
 
 - //：取商數，運算之後取**最小整數**
   > 當商數為負數時，會error
+ 
  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1572943931909.jpg)
   
 - int()：取整數，小數點後的數**全部捨去**
+
+ ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1572944683672.jpg)
 
 #  Heap Sort
 > tree's special case
