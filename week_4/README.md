@@ -66,6 +66,8 @@
 
 [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg)
 
+[Merge sort and quick sort](https://www.slideshare.net/MJabin/merge-sort-and-quick-sort)
+
 
 [🥜](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
