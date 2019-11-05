@@ -11,6 +11,7 @@
  - [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#try-univalued-binary-tree)
 
 # Sorting algorithm stability
+> 是否穩定並非固定，主要還是要看程式如何執行（相同值是否會打散）
 如果在一個待排序的序列中，存在2個相等的數，在排序後這2個數的相對位置保持不變，那麼該排序演算法是穩定的；否則是不穩定的。
 
 > 穩定性的意義
