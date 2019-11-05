@@ -5,6 +5,8 @@
  
  [Pecu Tsai](https://medium.com/@pecutsai)
  
+ [Teacher's github](https://github.com/pecu/DSA)
+ 
  #### Source
  [LeetCode](https://github.com/luliyucoordinate/Leetcode)
  
