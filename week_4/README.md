@@ -41,7 +41,7 @@
 
 
 | Sorting Algorithm | Design approach | Average Time | Best Time | Worst Time | Extra Space | Stability |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | **Insertion Sort** | Incremental | O(n²) | O(n) | O(n²) | O(1) | Stable |
 | **Quick Sort** | Divide and Conquer | O(n log n) | O(n log n) | O(n²) | O(n) | Unstable |
 | **Heap Sort** | Binary Tree | O(n log n) | O(n log n) | O(n log n) | O(1) | Unstable |
@@ -49,9 +49,9 @@
 > O(1)：in-space
 
 > Design approach(設計方法)：
-    - Incremental：增加的
-    - Divide and Conquer：遞迴
-    - Binary Tree：二元樹
+>   - Incremental：增加的
+>   - Divide and Conquer：遞迴
+>   - Binary Tree：二元樹
 
 #### Source
 [Sorting algorithms](https://www.c-programming-simple-steps.com/sorting-algorithms.html)
