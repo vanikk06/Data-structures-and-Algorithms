@@ -1,3 +1,10 @@
+# Recursion
+  > 遞迴
+  
+
+#### Source
+[Python 初學第八講 — 遞迴](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-11ed5d300d3d)
+
 # Class notes
 - 寫程式：訓練「建立問題觀察的拆解能力」
   > 程式：表現的載體
