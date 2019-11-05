@@ -12,7 +12,7 @@
 | --- | --- | --- | --- | --- | --- |
 |**Merge Sort**| O(n log n) | O(n log n) | O(n log n) | O(n) | Stable |
 
-![]()
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1572951110717.jpg)
 
 #### Merge Sort VS. Quick Sort
 - 同：遞迴的分割再合併，皆需要額外空間
@@ -20,6 +20,12 @@
 
 #### Source
 [Merge sort](https://www.c-programming-simple-steps.com/merge-sort.html)
+
+[Merge Sort 3 – Towards an Implementation (Merge Two Lists)](https://www.youtube.com/watch?v=s8kQm8yhZ8U)
+
+[Merge Sort vs Quick Sort](https://www.youtube.com/watch?v=es2T6KY45cA)
+
+[Merge sort and quick sort](https://www.slideshare.net/MJabin/merge-sort-and-quick-sort)
 
 #### Others
 [【硬塞大學生】哈佛校長告訴新生：教育的目標是確保學生能辨別有人在胡說八道](https://www.inside.com.tw/article/10573-harvard-freshman-convocation-address-to-class-2021)
