@@ -408,4 +408,6 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [Divide and conquer_範例](https://emn178.pixnet.net/blog/post/87739443-divide-and-conquer)
 
+[Merge sort and quick sort](https://www.slideshare.net/MJabin/merge-sort-and-quick-sort)
+
 [🥦🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
