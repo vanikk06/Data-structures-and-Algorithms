@@ -46,7 +46,7 @@
 | **Quick Sort** | O(n log n) | O(n log n) | O(n²) | O(n) | Unstable |
 | **Heap Sort** | O(n log n) | O(n log n) | O(n log n) | O(1) | Unstable |
 | **Merge Sort** | O(n log n) | O(n log n) | O(n log n) | O(n) | Stable |
-> O(1)：
+> O(1)：in-space
 
 #### Source
 [Sorting algorithms](https://www.c-programming-simple-steps.com/sorting-algorithms.html)
