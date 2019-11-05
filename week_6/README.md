@@ -102,7 +102,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 # Test Design heap sort
 > Following Teacher's
->> Using array
+>> Using array：Max heap
 
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Design%20heap%20sort_bug.py) ← has bug
 
@@ -144,7 +144,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 # Try Design heap sort
 > H.W.2_Heap Sort
->> Using
+>> Using list：
 
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Try%20Design%20heap%20sort.py)
 
