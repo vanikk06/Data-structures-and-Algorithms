@@ -113,7 +113,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
    >> e.g.[4, 3, 5, 10, 1] → [1, 3, 4, 10, 5]
 
 #### Code
-建構一個heap的樹狀結構（Maxheap），再一個個將值抽出，並重新平衡
+建構一個heap的樹狀結構（Maxheap），再一個個將值從頭抽出，並重新平衡
 - `heapify(arr, n, i)`：函式，將array架構為樹狀結構
     - arr：array
     - n：size of heap，代表node個數，再抽出值後要作調整
