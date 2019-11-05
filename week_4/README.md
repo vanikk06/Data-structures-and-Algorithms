@@ -164,9 +164,9 @@ Class's PPT
 # Insertion Sort
 > 直觀的排序方法，一個個比較，小的就往前面插入
 
-|| Average Time | Best Time | Worst Time | Extra Space | Stability |
-| --- | --- | --- | --- | --- | --- |
-|**Insertion Sort**| O(n²) | O(n) | O(n²) | O(1) | Stable| 
+|  | Design approach | Average Time | Best Time | Worst Time | Extra Space | Stability |
+| --- | --- | --- | --- | --- | --- | --- |
+|**Insertion Sort**| Incremental | O(n²) | O(n) | O(n²) | O(1) | Stable| 
 
 - Algorithm：一種手段、過程或是一種方法
 - Program：特定algorithm的具體實現，或可以成為某個algorithm的具體實現
@@ -253,9 +253,9 @@ Status：Runtime 276 ms, Memory 15.4 MB
 # Quick Sort
 > 利用Divide and conquer(分治法)，找一個基準點，根據基準點去作區分
 
-|| Average Time | Best Time | Worst Time | Extra Space | Stability |
-| --- | --- | --- | --- | --- | --- |
-|**Quick Sort**| O(n log n) | O(n log n) | O(n²) | O(n) | Unstable| 
+|  | Design approach | Average Time | Best Time | Worst Time | Extra Space | Stability |
+| --- | --- | --- | --- | --- | --- | --- |
+|**Quick Sort**| Divide and Conquer | O(n log n) | O(n log n) | O(n²) | O(n) | Unstable| 
 
 以**固定的方式**尋找基準點，依據基準點將元素分為三堆（extra-place）或兩半(in-place)，遞迴式重複此動作，直到無法執行，再將結果合併輸出
 
