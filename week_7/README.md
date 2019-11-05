@@ -10,7 +10,7 @@
   > 時間複雜度：O(n log n)
   >> 每個分出的堆都要重新比較，共分出n堆
 - 合併：將分堆結果比較合併
-   > 走訪比較
+   > 走訪比較、合併
 
 | | Average Time | Best Time | Worst Time | Extra Space | Stability |
 | --- | --- | --- | --- | --- | --- |
