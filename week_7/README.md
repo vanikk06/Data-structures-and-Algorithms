@@ -5,10 +5,12 @@
 - pseudocode：偽碼，看似程式碼但無法編譯執行，僅存在邏輯
 
 # Merge Sort
-> 從分割中再整合
+> 從分割中再合併(整合)
 - 分堆： 分兩堆兩堆，要分log n次才會分完
   > 時間複雜度：O(n log n)
   >> 每個分出的堆都要重新比較，共分出n堆
+- 合併：將分堆結果比較合併
+   > 走訪比較
 
 | | Average Time | Best Time | Worst Time | Extra Space | Stability |
 | --- | --- | --- | --- | --- | --- |
