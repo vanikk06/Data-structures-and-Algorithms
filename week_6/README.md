@@ -90,9 +90,9 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 - time complexity：穩定的 O(n log n)
    > 有n個值，每個值都要rebalance出一棵樹(O(log n))
    
-| | Average Time | Best Time | Worst Time | Extra Space | Stability |
-| --- | --- | --- | --- | --- | --- |
-|**Heap Sort**| O(n log n) | O(n log n) | O(n log n) | O(1) | Unstable |
+| | Design approach | Average Time | Best Time | Worst Time | Extra Space | Stability |
+| --- | --- | --- | --- | --- | --- | --- |
+|**Heap Sort**| Binary Tree | O(n log n) | O(n log n) | O(n log n) | O(1) | Unstable |
 > Why heap sort is unstable
 >> 因為把資料重新放入一個Binary tree(二叉樹)的結構
 
