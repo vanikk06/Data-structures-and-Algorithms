@@ -154,7 +154,8 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
      - 最大值存在index[0]，將其與最後一個值交換，破壞balanece
      - 改變size of heap，讓re-balance不包含前一個balance的最大值
    
-    
+#### Bug
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1573072629501.jpg)
 
 #### Source
 [Heaps and Heap Sort](https://www.youtube.com/watch?v=H5kAcmGOn4Q)
