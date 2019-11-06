@@ -182,6 +182,9 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
       
 #### Code
 
+#### Demo
+
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/150260.jpg)
 
 #### Source
 [堆排序(Heapsort)](https://www.youtube.com/watch?v=j-DqQcNPGbE)
