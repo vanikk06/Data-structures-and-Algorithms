@@ -43,6 +43,8 @@
 
 # Design merge sort
 
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/Design%20merge%20sort.py)
+
 #### Source
 [[演算法] 合併排序法(Merge Sort)](http://notepad.yehyeh.net/Content/Algorithm/Sort/Merge/Merge.php)
 
