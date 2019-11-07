@@ -187,7 +187,14 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 #### Code
 
 #### Flowchart
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1573153309780.jpg)
+ - heap_sort
+![heap_sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1573153309780.jpg)
+ 
+ -ˍbuildˍminheap
+ ![ˍbuildˍminheap](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1573153821618.jpg)
+ 
+ - ˍheapity
+ ![ˍheapity](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1573153794189.jpg)
 
 #### Demo
 
