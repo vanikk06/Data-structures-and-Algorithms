@@ -185,6 +185,9 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
       
 #### Code
 
+#### Flowchart
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1573153309780.jpg)
+
 #### Demo
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/150260.jpg)
