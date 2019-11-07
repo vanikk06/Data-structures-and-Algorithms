@@ -8,6 +8,7 @@
        - [Bug](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#bug)
     - [Try Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#try-design-heap-sort)
        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#code-1)
+       - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#flowchart)
        - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#demo)
  - [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-univalued-binary-tree)
  - [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#try-univalued-binary-tree)
