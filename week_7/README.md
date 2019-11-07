@@ -45,6 +45,11 @@
 
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/Design%20merge%20sort.py)
 
+#### Code
+
+#### Demo
+ ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1573137796982.jpg)
+
 #### Source
 [[演算法] 合併排序法(Merge Sort)](http://notepad.yehyeh.net/Content/Algorithm/Sort/Merge/Merge.php)
 
