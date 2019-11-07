@@ -15,6 +15,7 @@
  - [week_2](https://github.com/vanikk06/Data-structures-and-Algorithms#week_2)
  - [week_3](https://github.com/vanikk06/Data-structures-and-Algorithms#week_3)
  - [week_4](https://github.com/vanikk06/Data-structures-and-Algorithms#week_4)
+    - [H.W.1_Quick Sort]()
  - [week_6](https://github.com/vanikk06/Data-structures-and-Algorithms#week_6)
  - [week_7](https://github.com/vanikk06/Data-structures-and-Algorithms#week_7)
  - [week_8](https://github.com/vanikk06/Data-structures-and-Algorithms#week_8)
