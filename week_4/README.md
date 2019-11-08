@@ -395,6 +395,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 ## Divide and Conquer
 > 分而治之，**遞迴(Recursive)**的典型應用
 
+> 蘊含前提：小問題的最佳解是大問題的解
+
 - 分為三個階段：
     - Divide（分割）：將大問題不斷切割成兩個或多個類似的小問題
     - Conquer（克服）：用遞迴的方式直接解決所有類似的小問題
