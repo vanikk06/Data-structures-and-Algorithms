@@ -19,9 +19,9 @@
 ```
 
 - Method 2
- > code
+  > code
  
- > 若不指定長寬，則為原圖大小
+  > 若不指定長寬，則為原圖大小
  
  ```python
  from IPython.display import Image
@@ -29,7 +29,7 @@
  ```
  
  - Method 3
-  > markdown：圖片可以居中
+   > markdown：圖片可以居中
       
   ```python
   %%html
@@ -37,19 +37,19 @@
   ```
   
   - Method 4
-   > code：圖片不居中
+    > code：圖片不居中
    
-   > %%html：將cell渲染成HTML區塊
+    > %%html：將cell渲染成HTML區塊
    
     ```python
     %%html
     <img src="image.jpg", width=200. height=200>
     ```
     
-   >>調整百分比方法：
-   ```python
-   <img src="image.jpg", width="40%">
-   ```
+    >>調整百分比方法：
+     ```python
+     <img src="image.jpg", width="40%">
+     ```
     
 #### Source
 [Jupyter Notebook：快捷鍵+插入圖片的4種方法](https://www.itread01.com/content/1546717712.html)
