@@ -6,9 +6,53 @@
 
 
 
-# Undone
+# Including image or picture in jupyter notebook
 
-[To](https://www.itread01.com/content/1546717712.html)
+- Method 1
+  > markdown
+
+  > local圖片；圖檔要在同目錄，若無要標示路徑"/"
+
+```python
+![title](image.jpg)  #local圖片
+![title](https://example.dot.com/image/picture.jpg)  #網路圖片
+```
+
+- Method 2
+ > code
+ 
+ > 若不指定長寬，則為原圖大小
+ 
+ ```python
+ from IPython.display import Image
+ Image(filename="image.jpg", width=400, height=400)
+ ```
+ 
+ - Method 3
+  > markdown：圖片可以居中
+      
+  ```python
+  %%html
+  <img src="image.jpg", width=200. height=200>
+  ```
+  
+  - Method 4
+   > code：圖片不居中
+   
+   > %%html：將cell渲染成HTML區塊
+   
+    ```python
+    %%html
+    <img src="image.jpg", width=200. height=200>
+    ```
+    
+   >>調整百分比方法：
+   ```python
+   <img src="image.jpg", width="40%">
+   ```
+    
+#### Source
+[Jupyter Notebook：快捷鍵+插入圖片的4種方法](https://www.itread01.com/content/1546717712.html)
 
 # Recursion
   > 遞迴
