@@ -28,18 +28,18 @@
  Image(filename="image.jpg", width=400, height=400)
  ```
  
- - Method 3
-   > markdown：圖片可以居中
+- Method 3
+  > markdown：圖片可以居中
       
   ```python
   %%html
   <img src="image.jpg", width=200. height=200>
   ```
   
-  - Method 4
-    > code：圖片不居中
+ - Method 4
+   > code：圖片不居中
    
-    > %%html：將cell渲染成HTML區塊
+   > %%html：將cell渲染成HTML區塊
    
     ```python
     %%html
