@@ -15,3 +15,6 @@
   - [Jupyter nbviewer_The process of learning merge sort](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort/The%20process%20of%20learning%20merge%20sort.ipynb)
  
  
+## Merge Sort vs. Heap Sort
+ - [Jupyter notebook_Merge Sort vs. Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort/Merge%20Sort%20vs.%20Heap%20Sort.ipynb)
+ - [Jupyter nbviewer_Merge Sort vs. Heap Sort](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort/Merge%20Sort%20vs.%20Heap%20Sort.ipynb)
