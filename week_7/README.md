@@ -51,6 +51,17 @@
 
 #### Code
 
+#### Flowchart
+- merge_sort
+ ![merge_sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1573233221550.jpg)
+
+- ˍmerge
+ ![ˍmerge](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1573233455026.jpg)
+
+- ˍdivide
+ ![ˍdivide](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1573233373496.jpg)
+ 
+ 
 #### Demo
  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1573137796982.jpg)
 
