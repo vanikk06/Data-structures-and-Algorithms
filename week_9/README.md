@@ -22,4 +22,5 @@ binary tree：最多兩個child
 binary search tree：左右無法自己決定，全看與parent比較
 >資料越亂愈越好，if整理後資料就是linked list
 1. 第一個值無條件是root
+> 缺點：如果第一個是極端值，會變只有單邊
 2.小於root放左邊，大於放右邊
