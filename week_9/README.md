@@ -14,3 +14,12 @@ delete
 
 # input：ID(唯一值)
 資料庫：儲存值會同時紀錄ID，刪除時不會有重複值問題
+
+
+binary tree：最多兩個child
+> tree不可以有loop
+
+binary search tree：左右無法自己決定，全看與parent比較
+>資料越亂愈越好，if整理後資料就是linked list
+1. 第一個值無條件是root
+2.小於root放左邊，大於放右邊
