@@ -193,6 +193,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
          先將最初放入的index暫時設為min，再建立其小孩之間的關係，接著一個個比較
           - 若left_child < min：min變為left_child
           - 若right_child < min：right_child再取代為新的min
+          
          如果min發生改變(與最初不同)，則將list[i]與list[min]交換
          
          因發生交換要確保交換後仍符合 parent<child 特性，所以再已交換後的child為parent繼續檢查
@@ -207,6 +208,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
       - `heap_sort`：開始進行排序
          - 先將list建立為二元樹狀結構並符合_heapity
          - 將min的root抽出，放到list的最後一個
+         
          以減少root的list，重複進行上述行為
          
 #### Flowchart
