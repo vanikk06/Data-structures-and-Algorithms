@@ -150,7 +150,7 @@
 [🙇🏻‍♀️🙇🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 # week_9
-[]()
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_9)
 
 [🤦🏻‍♀️🤦🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
