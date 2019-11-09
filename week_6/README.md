@@ -87,8 +87,8 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 - Heap Sort：將數列使用Heap結構存入後依序取出的結果
     > 必定為有排序的
-     - 由小到大：Min heap
-    - 由大到小：Max heap
+     - Min heap：root一定是min
+     - Max heap：root一定是Max
 
 - time complexity：穩定的 O(n log n)
    > 有n個值，每個值都要rebalance出一棵樹(O(log n))
