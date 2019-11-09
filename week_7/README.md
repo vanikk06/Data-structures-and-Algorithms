@@ -63,6 +63,8 @@
 #### Source
 [Jupyter Notebook：快捷鍵+插入圖片的4種方法](https://www.itread01.com/content/1546717712.html)
 
+[🔨](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#content)
+
 # Recursion
   > 遞迴
    1. 將一個大問題拆解為重複的眾多小問題
@@ -100,11 +102,15 @@ sys.getrecursionlimit()   #3000
 #### Source
 [Python 初學第八講 — 遞迴](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-11ed5d300d3d)
 
+[⛏](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#content)
+
 # Class notes
 - 寫程式：訓練「建立問題觀察的拆解能力」
   > 程式：表現的載體
   
 - pseudocode：偽碼，看似程式碼但無法編譯執行，僅存在邏輯
+
+[🔧](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#content)
 
 # Merge Sort
 > 從分割中再合併(整合)
@@ -135,6 +141,8 @@ sys.getrecursionlimit()   #3000
 
 #### Others
 [【硬塞大學生】哈佛校長告訴新生：教育的目標是確保學生能辨別有人在胡說八道](https://www.inside.com.tw/article/10573-harvard-freshman-convocation-address-to-class-2021)
+
+[🔩](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#content)
 
 # Design merge sort
 
@@ -169,3 +177,5 @@ sys.getrecursionlimit()   #3000
 [Merge Sort | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw)
 
 [【TBS Learning】演算法-六種排序法之四:合併排序法(merge sort)](https://www.youtube.com/watch?v=KZQbBik3Mew)
+
+[🛠](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#content)
