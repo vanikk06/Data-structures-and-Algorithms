@@ -65,8 +65,29 @@
  - 解決問題時操作相同但參數不同，需要寫重複程式
    
 #### 基本概念
-解決問題的方法是[Divide and Conquer]()
+解決問題的方法是[Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#divide-and-conquer)
+
+- 性質：函數在執行當中，會不斷**呼叫自己（self-calling）**
+  > 要有明確的**終止條件**：避免無止盡自我呼叫
   
+  必要條件：
+   1. 自我呼叫
+   2. 終止條件
+   
+#### 遞迴限制＆複雜度
+缺點
+ - 增加時間複雜度：每次input都會遞迴執行，當input增加時，會成**指數**成長
+ - 增加空間複雜度：需要很多額外記憶體來儲存待執行步驟與每層執行結果
+ 
+Python對遞迴次數（深度）有所限制，杜絕遞迴無限執行的可能性
+> 以此查看python遞迴限制
+
+```python
+import sys
+sys.getrecursionlimit()   #3000
+```
+若超過限制，會出現`RecursionError: maximum recursion depth exceeded`
+
 
 #### Source
 [Python 初學第八講 — 遞迴](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-11ed5d300d3d)
