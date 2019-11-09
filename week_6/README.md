@@ -190,22 +190,24 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
       - `_heapity`：是minheap讓 parent < child
          > **遞迴**進型，要讓每組 parent&child 都符合此特性
       
-          先將最初放入的index暫時設為min，再建立其小孩之間的關係，接著一個個比較
-           - 若left_child < min：min變為left_child
-           - 若right_child < min：right_child再取代為新的min
-          如果min發生改變(與最初不同)，則將list[i]與list[min]交換
+         先將最初放入的index暫時設為min，再建立其小孩之間的關係，接著一個個比較
+          - 若left_child < min：min變為left_child
+          - 若right_child < min：right_child再取代為新的min
+         如果min發生改變(與最初不同)，則將list[i]與list[min]交換
          
-          因發生交換要確保交換後仍符合 parent<child 特性，所以再已交換後的child為parent繼續檢查
+         因發生交換要確保交換後仍符合 parent<child 特性，所以再已交換後的child為parent繼續檢查
          
       - `_build_minheap`：index進行_heapity的順序
+          > 從**最後一個值的parent**開始
+          
           若從index=0往下建立，再經過一序列的交換之後，會發生交換後的 parent 與不一定與前一組的 parent 符合_heapity特性，因為沒有回頭去檢查
          
           因此進行_heapity順序由下往上較優，然而對最後一個值進行_heapity沒有意義，因為他必定是child，只是讓_heapity空轉而以，所以改為從**最後一個值的parent**下手較優
        
       - `heap_sort`：開始進行排序
-           - 先將list建立為二元樹狀結構並符合_heapity
-           - 將min的root抽出，放到list的最後一個
-           以減少root的list，重複進行上述行為
+         - 先將list建立為二元樹狀結構並符合_heapity
+         - 將min的root抽出，放到list的最後一個
+         以減少root的list，重複進行上述行為
          
 #### Flowchart
  - heap_sort
