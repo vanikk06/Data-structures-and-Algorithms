@@ -18,7 +18,9 @@
     - [H.W.1_Quick Sort](https://github.com/vanikk06/Data-structures-and-Algorithms#hw1_quick-sort)
  - [week_6](https://github.com/vanikk06/Data-structures-and-Algorithms#week_6)
  - [week_7](https://github.com/vanikk06/Data-structures-and-Algorithms#week_7)
+     - [H.W.2_Heap Sort & Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms#hw2_heap-sort--merge-sort)
  - [week_8](https://github.com/vanikk06/Data-structures-and-Algorithms#week_8)
+ - [week_9](https://github.com/vanikk06/Data-structures-and-Algorithms#week_9)
  
 # week_2
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2)
