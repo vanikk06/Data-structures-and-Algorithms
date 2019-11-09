@@ -108,6 +108,26 @@
 # week_6
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6)
 
+- [Sorting algorithm stability](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#sorting-algorithm-stability)
+ - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range)
+ - [Division differences](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#division-differences)
+ - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#heap-sort)
+    - [Test Design heap sort_bug.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Design%20heap%20sort_bug.py)
+    - [Test Design heap sort_debug.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Design%20heap%20sort_debug.py)
+    - [Test Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-design-heap-sort)
+       - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#code)
+       - [Bug](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#bug)
+    - [Try Design heap sort.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Try%20Design%20heap%20sort.py)
+    - [Try Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#try-design-heap-sort)
+       - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#code-1)
+       - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#flowchart)
+       - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#demo)
+- [Test Univalued binary tree.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Univalued%20binary%20tree.py)
+- [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-univalued-binary-tree)
+- [Try Univalued binary tree.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Try%20Univalued%20binary%20tree.py)
+- [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#try-univalued-binary-tree)
+
+
 [💆🏻‍♀️💆🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 
