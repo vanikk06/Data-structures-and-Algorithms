@@ -261,5 +261,6 @@ Status：Runtime 36 ms, Memory 13.7 MB
 > By myself
 >> LeetCode：965. Univalued Binary Tree
 
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Try%20Univalued%20binary%20tree.py)
 
 [🍿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
