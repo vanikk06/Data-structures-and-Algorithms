@@ -1,4 +1,5 @@
 # H.W.2_Heap Sort & Merge Sort
+[🤜🏿HERE🤛🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort)
  - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort#heap-sort)
  - [Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort#merge-sort)
  - [Merge Sort vs. Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort#merge-sort-vs-heap-sort)
