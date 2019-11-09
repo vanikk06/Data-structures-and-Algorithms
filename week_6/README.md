@@ -175,8 +175,8 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 - 符合兩個特性：
     1. 完全二元樹（Complete Binary Tree）
        > 披著二元樹羊皮的陣列，用陣列執行較便利
-    2. parent > children
-       > 僅確保top是整個樹的min或Max，不管兄弟之間是否符合大小排列
+    2. parent < children
+       > 僅確保root是整個樹的min或Max，不管兄弟之間是否符合大小排列
 
 - index（從0開始）：
    - left_child：2*i+1
@@ -185,6 +185,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
       > 取整數
       
 #### Code
+ - 先讓list符合二元樹方式(透過index指定建立關係)，並讓其符合heapity
 
 #### Flowchart
  - heap_sort
