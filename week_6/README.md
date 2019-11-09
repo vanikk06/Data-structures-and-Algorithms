@@ -185,8 +185,18 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
       > 取整數
       
 #### Code
- - 先讓list符合二元樹方式(透過index指定建立關係)，並讓其符合heapity
-
+ - 先讓list符合二元樹方式(透過index指定建立關係)，並讓其符合heapity(特性2)
+ - 再將root(index = 0)，放到list的最後一個
+      - `_heapity`：是minheap讓 parent < child
+         > **遞迴**進型，要讓每組 parent&child 都符合此特性
+      
+         先將最初放入的index暫時設為min，再建立其小孩之間的關係，接著一個個比較
+         - 若left_child < min：min變為left_child
+         - 若right_child < min：right_child再取代為新的min
+         如果min發生改變(與最初不同)，則將list[i]與list[min]交換
+         
+         因發生交換要確保交換後仍符合 parent<child 特性，所以再已交換後的child為parent繼續檢查
+         
 #### Flowchart
  - heap_sort
  
