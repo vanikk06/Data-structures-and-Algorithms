@@ -114,6 +114,8 @@ sys.getrecursionlimit()   #3000
 
 # Merge Sort
 > 從分割中再合併(整合)
+![](https://miro.medium.com/max/450/1*opwN0BhtH4zvPF697fPlow.gif)
+
 - 分堆： 分兩堆兩堆，要分log n次才會分完
   > 時間複雜度：O(n log n)
   >> 每個分出的堆都要重新比較，共分出n堆
