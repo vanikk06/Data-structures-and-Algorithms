@@ -269,11 +269,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
      > O(n²):數列由小到大或由大到小排列
    
 - 合併：隨分堆大小不同而不同，頂多合併n次
-  
-
-## Teacher's Code
-
-[this](https://github.com/pecu/DSA/tree/master/05_QuickSort)
+ 
 
 #### Source
 [QuickSort](https://github.com/Alex-CHUN-YU/SortingAlogorithm/wiki/QuickSort)
@@ -292,7 +288,11 @@ Status：Runtime 276 ms, Memory 15.4 MB
 [🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 # Test Quick Sort
-> Following blog
+> Following teacher's
+
+[this](https://github.com/pecu/DSA/tree/master/05_QuickSort)
+
+[🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 # Test Quick sort By extra-place
 >  Following blog
@@ -337,7 +337,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
  
 [Python 初學第十一講—錯誤與例外處理](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-edd15e2b5d1e#42dc)
 
-[🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 # Test Quick sort By in-place
 >  Following blog
@@ -406,7 +406,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 #### Source
  [[ 資料結構 ] 快速排序法（Quick sort）in Python](http://jialin128.pixnet.net/blog/post/142927691-%5B-%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B-%5D-%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E6%B3%95%EF%BC%88quick-sort%EF%BC%89in-python)
 
-[🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🥦🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 # Divide and Conquer
 > 分而治之，**遞迴(Recursive)**的典型應用
@@ -428,4 +428,4 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [Merge sort and quick sort](https://www.slideshare.net/MJabin/merge-sort-and-quick-sort)
 
-[🥦🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🍐](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
