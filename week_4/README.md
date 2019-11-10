@@ -192,7 +192,7 @@ Class's PPT
 
 [🥑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
-## Test Insertion sort list
+# Test Insertion sort list
 > Following teacher's → LeetCode：147. Insertion Sort List
 >> Using linked list
 
@@ -251,13 +251,25 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 
 # Quick Sort
-> 利用Divide and conquer(分治法)，找一個基準點，根據基準點去作區分
+> 利用Divide and conquer(分治法)，找一個基準點(pivot)，
+
+> list需要一定的混亂程度
 
 |  | Design approach | Average Time | Best Time | Worst Time | Extra Space | Stability |
 | --- | --- | --- | --- | --- | --- | --- |
 |**Quick Sort**| Divide and Conquer | O(n log n) | O(n log n) | O(n²) | O(n) | Unstable| 
 
 以**固定的方式**尋找基準點，依據基準點將元素分為三堆（extra-place）或兩半(in-place)，遞迴式重複此動作，直到無法執行，再將結果合併輸出
+
+#### 時間複雜度
+- 分堆：次數不一定，要將所有元素與pivot比較一遍，遍歷所有元素
+   - Best：分堆為剛好大小的list
+     > O(log n)
+   - Worst：每次分堆僅將list分成 0 & n-1(扣除pivot)，也就是說剛好pivot都取到Max或min
+     > O(n²):數列由小到大或由大到小排列
+   
+- 合併：隨分堆大小不同而不同，頂多合併n次
+  
 
 ## Teacher's Code
 
@@ -272,13 +284,17 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [Comparison Sort: Quick Sort(快速排序法)](http://alrightchiu.github.io/SecondRound/comparison-sort-quick-sortkuai-su-pai-xu-fa.html)
 
+[〔Sort〕 淺談 quick sort](https://blog.kuoe0.tw/posts/2013/03/15/sort-about-quick-sort/)
+
 #### Others
 [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/?fbclid=IwAR1olxlNcAQhKZVNw6-JBCituCKsqfk3YL67xOMfQA-_fyqbHyrFJRm15T4)
 
 [🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
+# Test Quick Sort
+> Following blog
 
-## Test Quick sort By extra-place
+# Test Quick sort By extra-place
 >  Following blog
 >> Using list
 
@@ -323,7 +339,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
-## Test Quick sort By in-place
+# Test Quick sort By in-place
 >  Following blog
 >> Using list
 
@@ -392,7 +408,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
-## Divide and Conquer
+# Divide and Conquer
 > 分而治之，**遞迴(Recursive)**的典型應用
 
 > 蘊含前提：小問題的最佳解是大問題的解
