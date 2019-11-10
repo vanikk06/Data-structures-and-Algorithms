@@ -119,15 +119,23 @@ sys.getrecursionlimit()   #3000
 
 ![](https://miro.medium.com/max/450/1*opwN0BhtH4zvPF697fPlow.gif)
 
-- 分堆： 分兩堆兩堆，要分log n次才會分完
-  > 時間複雜度：O(n log n)
-  >> 每個分出的堆都要重新比較，共分出n堆
-- 合併：將分堆結果比較合併
-   > 走訪比較、合併
-
 | | Design approach | Average Time | Best Time | Worst Time | Extra Space | Stability |
 | --- | --- | --- | --- | --- | --- | --- |
 |**Merge Sort**| Divide and Conquer | O(n log n) | O(n log n) | O(n log n) | O(n) | Stable |
+
+#### 執行步驟
+  > 時間複雜度：O(n log n)
+  
+- 分割： 將大list切一半變成兩個小list，直到
+
+  
+  >> 每個分出的堆都要重新比較，共分出n堆
+
+
+- 合併：將分堆結果比較合併
+   > 走訪比較、合併
+
+
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1572951110717.jpg)
 
