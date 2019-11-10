@@ -126,23 +126,31 @@ sys.getrecursionlimit()   #3000
 #### 執行步驟
   > 時間複雜度：O(n log n)
   
-- 分割： 將大list切一半變成兩個小list，直到
+- 分割： 將大_list切一半變成兩個小_list，直到不能再分為止（僅剩一個值）
+    > 總共切n-1刀，分成n堆
 
-  
-  >> 每個分出的堆都要重新比較，共分出n堆
-
-
-- 合併：將分堆結果比較合併
-   > 走訪比較、合併
-
-
+- 合併：將兩個已排序list合併成一個符合排序的大_list
+   > 走訪比較、排序
+    - 合併兩個已排序list：一一比較每個值，合併n個值就需要n個步驟
+    - 合併幾次（幾回合）：每次合併會倆倆合併，每回合減少一半，共要執行log n次
+    
+ - 時間複雜度：
+    - 分割：O(n-1)
+    - 合併：O(n log n)
+     > n-1 + n log n
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1572951110717.jpg)
 
 #### Merge Sort VS. Quick Sort
-- 同：遞迴的分割再合併，皆需要額外空間
-- 異：合併方式不同
+| | Design approach | Average Time | Best Time | Worst Time | Extra Space | Stability |
+| --- | --- | --- | --- | --- | --- | --- |
+|**Merge Sort**| Divide and Conquer | O(n log n) | O(n log n) | O(n log n) | O(n) | Stable |
+|**Quick Sort**| Divide and Conquer | O(n log n) | O(n log n) | O(n²) | O(n) | UnStable |
 
+- 同：Divide and Conquer，都採用**遞迴**的分割(分堆)再合併，皆需要額外空間
+- 異：合併方式不同，所以時間穩定跟穩定度不同
+   - Merge Sort：對兩個已排序list合併成一個符合排序的大_list，排序方法是
+   - 
 #### Source
 [Merge sort](https://www.c-programming-simple-steps.com/merge-sort.html)
 
