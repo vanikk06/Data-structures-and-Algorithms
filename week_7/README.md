@@ -137,7 +137,7 @@ sys.getrecursionlimit()   #3000
  - 時間複雜度：
     - 分割：O(n-1)
     - 合併：O(n log n)
-     > n-1 + n log n
+       > n-1 + n log n
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1572951110717.jpg)
 
@@ -149,8 +149,7 @@ sys.getrecursionlimit()   #3000
 
 - 同：Divide and Conquer，都採用**遞迴**的分割(分堆)再合併，皆需要額外空間
 - 異：合併方式不同，所以時間穩定跟穩定度不同
-   - Merge Sort：對兩個已排序list合併成一個符合排序的大_list，排序方法是
-   - 
+   
 #### Source
 [Merge sort](https://www.c-programming-simple-steps.com/merge-sort.html)
 
