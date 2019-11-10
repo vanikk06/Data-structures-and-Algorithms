@@ -193,7 +193,7 @@ Class's PPT
 
 [🥑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
-# Test Insertion sort list
+## Test Insertion sort list
 > Following teacher's → LeetCode：147. Insertion Sort List
 >> Using linked list
 
@@ -248,6 +248,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 - 插入方式：利用`.next`重新建立連結
 
+#### Code
+
 [🥒🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 
@@ -288,7 +290,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
-# Test Quick Sort
+## Test Quick Sort
 > Following teacher's
 
 #### Code
@@ -297,7 +299,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
-# Test Quick sort By extra-place
+## Test Quick sort By extra-place
 >  Following blog
 >> Using list
 
@@ -342,7 +344,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
-# Test Quick sort By in-place
+## Test Quick sort By in-place
 >  Following blog
 >> Using list
 
