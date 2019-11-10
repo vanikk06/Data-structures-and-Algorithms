@@ -149,6 +149,7 @@ sys.getrecursionlimit()   #3000
 
 - 同：Divide and Conquer，都採用**遞迴**的分割(分堆)再合併，皆需要額外空間
 - 異：合併方式不同，所以時間穩定跟穩定度不同
+   > Merge Sort 必定是 stable，因為其**不存在交換**
    
 #### Source
 [Merge sort](https://www.c-programming-simple-steps.com/merge-sort.html)
@@ -168,7 +169,16 @@ sys.getrecursionlimit()   #3000
 
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/Design%20merge%20sort.py)
 
+- 執行步驟
+   - 分割：切成兩半，切到不能再切為止(僅剩一個值)
+   - 合併：將兩個已排序數列合併
+      > 一個元素：只有一個，所以是排序好的
+
 #### Code
+分別設計分堆與合併函式，再將兩者放在一起
+
+- `_divide`：分堆，將list切成一半
+   > 考慮長度有基數、偶數兩種情況
 
 #### Flowchart
 
