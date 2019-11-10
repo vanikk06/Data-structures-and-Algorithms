@@ -190,7 +190,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
  - 建立架構：先讓list符合二元樹方式(透過index指定建立關係)，並讓其符合heapity(特性2)
  - 排序：再將root(index = 0)，放到list的最後一個
       - `_heapity`：是minheap讓 parent < child
-         > **遞迴**進型，要讓每組 parent&child 都符合此特性
+         > **遞迴**進行，要讓每組 parent&child 都符合此特性
       
          先將最初放入的index暫時設為min，再建立其小孩之間的關係，接著一個個比較
           - 若left_child < min：min變為left_child
