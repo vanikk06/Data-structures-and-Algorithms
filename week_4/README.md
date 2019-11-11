@@ -266,6 +266,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 以**固定的方式**尋找基準點，依據基準點將元素分為三堆（extra-place）或兩半(in-place)，遞迴式重複此動作，直到無法執行，再將結果合併輸出
 
+![](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
+
 #### 時間複雜度
 - 分堆：次數不一定，要將所有元素與pivot比較一遍，遍歷所有元素
    - Best：分堆為剛好大小的list
