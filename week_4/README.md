@@ -171,6 +171,8 @@ Class's PPT
 | --- | --- | --- | --- | --- | --- | --- |
 |**Insertion Sort**| Incremental | O(n²) | O(n) | O(n²) | O(1) | Stable| 
 
+![](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+
 - Algorithm：一種手段、過程或是一種方法
 - Program：特定algorithm的具體實現，或可以成為某個algorithm的具體實現
 
