@@ -352,6 +352,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Quick%20sort_In%20place.py)
 
+![](https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif)
+
 不使用額外空間的Quick sort的邏輯，像是從目標結果回推
 - 目標：`小於_基準點` + 基準點 + `大於_基準點`
 
