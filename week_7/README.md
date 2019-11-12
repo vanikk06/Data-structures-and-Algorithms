@@ -160,6 +160,8 @@ sys.getrecursionlimit()   #3000
 
 [Merge sort and quick sort](https://www.slideshare.net/MJabin/merge-sort-and-quick-sort)
 
+[圖片來源](https://commons.wikimedia.org/wiki/File:Merge-sort-example-300px.gif)
+
 #### Others
 [【硬塞大學生】哈佛校長告訴新生：教育的目標是確保學生能辨別有人在胡說八道](https://www.inside.com.tw/article/10573-harvard-freshman-convocation-address-to-class-2021)
 
