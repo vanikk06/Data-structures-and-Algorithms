@@ -195,6 +195,8 @@ Class's PPT
 
 [Insertion sort_](https://www.c-programming-simple-steps.com/insertion-sort.html)
 
+[圖片來源](https://commons.wikimedia.org/wiki/File:Insertion-sort-example-300px.gif)
+
 [🥑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
 ## Test Insertion sort list
@@ -291,6 +293,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [〔Sort〕 淺談 quick sort](https://blog.kuoe0.tw/posts/2013/03/15/sort-about-quick-sort/)
 
+[圖片來源](https://commons.wikimedia.org/wiki/File:Sorting_quicksort_anim.gif)
+
 #### Others
 [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/?fbclid=IwAR1olxlNcAQhKZVNw6-JBCituCKsqfk3YL67xOMfQA-_fyqbHyrFJRm15T4)
 
@@ -353,6 +357,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 ## Test Quick sort By in-place
 >  Following blog
 >> Using list
+
+> 優化Quick sort
 
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Quick%20sort_In%20place.py)
 
@@ -418,6 +424,8 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 #### Source
  [[ 資料結構 ] 快速排序法（Quick sort）in Python](http://jialin128.pixnet.net/blog/post/142927691-%5B-%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B-%5D-%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E6%B3%95%EF%BC%88quick-sort%EF%BC%89in-python)
+ 
+ [圖片來源](https://commons.wikimedia.org/wiki/File:Quicksort-example.gif)
 
 [🥦🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
 
