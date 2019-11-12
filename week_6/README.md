@@ -118,6 +118,8 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [Heap Sort: how to sort?](https://stackoverflow.com/questions/13979714/heap-sort-how-to-sort)
 
+[圖片來源](https://commons.wikimedia.org/wiki/File:Heapsort-example.gif)
+
 #### Others
 [我以為的軟體工程師九層分級架構](https://ascii-iicsa.blogspot.com/2010/11/blog-post.html)
 
