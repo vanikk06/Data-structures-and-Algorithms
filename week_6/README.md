@@ -44,22 +44,46 @@
 
 [🍕](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
 
-# range
+# range vs. np.arange
+ - []()
+ - []()
+ 
+ 
+## range 
+ > 整數
+ 
 ```python
 range(start, stop, step)
 ```
 
 ![](https://pynative.com/wp-content/uploads/2018/10/python_range.png)
 
- - start：開始，計數從start開始
+ - start：開始，計數從start開始（正整數/負整數）
       > 默認是從0開始 e.g.range(5) == range(0, 5)
       >> range(5)：從0開始到5
- - stop：結束，計數到stop結束，但是**不包括stop**
+ - stop：結束，計數到stop結束，但是**不包括stop**（正整數/負整數）
       > e.g.range(0, 5)：[0,1,2,3,4]，沒有5
- - step：間隔，默認值為1
+ - step：間隔，默認值為1（正整數/負整數）
+      > 僅可為**整數**
 
 #### Source
 [python 3 range用法](https://www.itread01.com/content/1525936808.html)
+
+[圖片來源](https://pynative.com/python-range-function/)
+
+## np.arange
+ > 可小數  
+ 
+```python
+np.arange(start, stop, step)
+```
+
+- start：開始，計數從start開始（正數/負數，可小數）
+     > 默認是從0開始
+- stop：結束，計數到stop結束，但是**不包括stop**（正整數/負整數）
+      > e.g.range(0, 5)：[0,1,2,3,4]，沒有5
+ - step：間隔，默認值為1（正整數/負整數）
+      > 僅可為**整數**
 
 [🥞](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
 
