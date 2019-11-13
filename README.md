@@ -111,7 +111,9 @@
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6)
 
 - [Sorting algorithm stability](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#sorting-algorithm-stability)
- - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range)
+ - [range vs. np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range-vs-nparange)
+    - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range)
+    - [np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#nparange)
  - [Division differences](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#division-differences)
  - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#heap-sort)
     - [Test Design heap sort_bug.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Design%20heap%20sort_bug.py)
