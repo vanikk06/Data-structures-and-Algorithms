@@ -58,13 +58,15 @@
  - numpy.ndarray可被當作**向量**使用
    > numpy：一系列**同類型**data的集合，index從0開始
      - 多維數組
-     - 類似linked liist
+     - 一種資料結構
    
  
 #### Source
 [Python 基礎——range() 與 np.arange()](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/561623/)
 
 [NumPy Ndarray 對象](https://www.runoob.com/numpy/numpy-ndarray-object.html)
+
+[〔第 13 天〕 常用屬性或方法（2）ndarray](https://ithelp.ithome.com.tw/articles/10185819)
 
 ## range 
  > 整數
