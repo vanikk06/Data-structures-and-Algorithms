@@ -90,8 +90,9 @@ np.arange(start, stop, step, dtype=None)
      > 默認是從0開始
 - stop：結束，計數到stop結束，但是**不包括stop**（正數/負數）
 - step：間隔，默認值為1（正數/負數）
-      > 可為**小數**
-      > 不可為0，否則會出現`ZeroDivisionError`
+     > 可為**小數**
+     
+     > 不可為0，否則會出現`ZeroDivisionError`
 - dtype：預設為None，輸出數組array其元素的type
       
 #### Source
