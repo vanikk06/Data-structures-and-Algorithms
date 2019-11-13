@@ -51,12 +51,19 @@
  || range | np.arange |
  | --- | --- | --- |
  | **return** | range object | numpy.ndarray |
+ |**數值**| 整數 | 可小數 |
  
- > numpy.ndarray是一個
+ - numpy.ndarray可被當作**向量**使用
+   > numpy：一系列**同類型**data的集合，index從0開始
+     - 多維數組
+     - 類似linked liist
+   
  
 #### Source
 [Python 基礎——range() 與 np.arange()](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/561623/)
- 
+
+[NumPy Ndarray 對象](https://www.runoob.com/numpy/numpy-ndarray-object.html)
+
 ## range 
  > 整數
  
@@ -93,10 +100,14 @@ np.arange(start, stop, step, dtype=None)
      > 可為**小數**
      
      > 不可為0，否則會出現`ZeroDivisionError`
-- dtype：預設為None，輸出數組array其元素的type
+- dtype：預設為None，輸出數組array的type
       
 #### Source
 [Python——range()、xrange()和np.arange()應用說明](https://blog.csdn.net/zenghaitao0128/article/details/78562489)
+
+[NumPy arange(): How to Use np.arange()](https://realpython.com/how-to-use-numpy-arange/)
+
+[numpy.arange](https://docs.scipy.org/doc/numpy/reference/generated/numpy.arange.html)
 
 
 [🥞](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
