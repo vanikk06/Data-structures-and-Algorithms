@@ -49,6 +49,8 @@
 range(start, stop, step)
 ```
 
+![](https://pynative.com/wp-content/uploads/2018/10/python_range.png)
+
  - start：開始，計數從start開始
       > 默認是從0開始 e.g.range(5) == range(0, 5)
       >> range(5)：從0開始到5
