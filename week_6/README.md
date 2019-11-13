@@ -48,6 +48,14 @@
  - []()
  - []()
  
+ || range | np.arange |
+ | --- | --- | --- |
+ | **return** | range object | numpy.ndarray |
+ 
+ > numpy.ndarray是一個
+ 
+#### Source
+[Python 基礎——range() 與 np.arange()](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/561623/)
  
 ## range 
  > 整數
@@ -75,15 +83,20 @@ range(start, stop, step)
  > 可小數  
  
 ```python
-np.arange(start, stop, step)
+np.arange(start, stop, step, dtype=None)
 ```
 
-- start：開始，計數從start開始（正數/負數，可小數）
+- start：開始，計數從start開始（正數/負數）
      > 默認是從0開始
-- stop：結束，計數到stop結束，但是**不包括stop**（正整數/負整數）
-      > e.g.range(0, 5)：[0,1,2,3,4]，沒有5
- - step：間隔，默認值為1（正整數/負整數）
-      > 僅可為**整數**
+- stop：結束，計數到stop結束，但是**不包括stop**（正數/負數）
+- step：間隔，默認值為1（正數/負數）
+      > 可為**小數**
+      > 不可為0，否則會出現`ZeroDivisionError`
+- dtype：預設為None，輸出數組array其元素的type
+      
+#### Source
+[Python——range()、xrange()和np.arange()應用說明](https://blog.csdn.net/zenghaitao0128/article/details/78562489)
+
 
 [🥞](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
 
