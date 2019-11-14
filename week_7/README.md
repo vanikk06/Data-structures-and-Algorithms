@@ -197,12 +197,14 @@ sys.getrecursionlimit()   #3000
      - j：right的index
       
      在left與right的長度內，從第一個值開始一個個比較
-      - left < right：將left的值放到temp，繼續比較left的下一個
-      - left > right：將right的值放到temp，繼續比較right的下一個
+     
+     - left < right：將left的值放到temp，繼續比較left的下一個
+     - left > right：將right的值放到temp，繼續比較right的下一個
       
      當其中一邊被比完後，不再比較，將剩下的部份一個個放入temp中
-      - left被比完：將right剩下的部分一個個放入temp中
-      - right被比完：將left剩下的部分一個個放入temp中
+     
+     - left被比完：將right剩下的部分一個個放入temp中
+     - right被比完：將left剩下的部分一個個放入temp中
       
      回傳最後合併的結果
      
