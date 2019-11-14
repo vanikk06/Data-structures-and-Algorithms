@@ -138,6 +138,17 @@
 # week_7
 [👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7)
 
+- [Including image or picture in jupyter notebook](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#including-image-or-picture-in-jupyter-notebook)
+- [Recursion](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#recursion)
+- [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#class-notes)
+- [Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#merge-sort)
+- [Design merge sort.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/Design%20merge%20sort.py)
+- [Design merge sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#design-merge-sort)
+   - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#code)
+   - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#flowchart)
+   - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#demo)
+
+
 
 ## H.W.2_Heap Sort & Merge Sort
 [🤜🏿HERE🤛🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort)
