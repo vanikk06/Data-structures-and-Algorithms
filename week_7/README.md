@@ -179,9 +179,34 @@ sys.getrecursionlimit()   #3000
 #### Code
 分別設計分堆與合併函式，再將兩者放在一起
 
-- `_divide`：分堆，將list切成一半
+- `_divide`：分割，不斷將list切成一半，直到剩下一個值為止
    > 考慮長度有基數、偶數兩種情況
-
+      - left：前半部，長度/2的整數
+      - right：後半部，剩下的部分
+      
+     遞迴式，對left、right持續分割，直到剩下一個值，再將它們用_merge函式的方式合併返回
+     
+- `_merge`：合併且排序
+   > 不涉及交換，將兩個已排序list，按小到大順序合併在第三個list
+      - temp：用來合併的第三個list
+      - n1：left長度
+      - n2：right長度
+      - i：left的index
+      - j：right的index
+      
+     在left與right的長度內，從第一個值開始一個個比較
+      - left < right：將left的值放到temp，繼續比較left的下一個
+      - left > right：將right的值放到temp，繼續比較right的下一個
+      
+     當其中一邊被比完後，不再比較，將剩下的部份一個個放入temp中
+      - left被比完：將right剩下的部分一個個放入temp中
+      - right被比完：將left剩下的部分一個個放入temp中
+      
+     回傳最後合併的結果
+     
+- `merge_sort`：利用_divide與_merge來進行merge sort
+      
+      
 #### Flowchart
 
 - merge_sort
