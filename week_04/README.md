@@ -38,9 +38,13 @@
 # Sorting algorithms
 
 - Insertion Sort：插入排序法
+   > 直觀，從距離近的開始比
 - Quick Sort：快速排序法
+   > 規律地找出基準點
 - Heap Sort：堆積排序法
+   > 工具，堆疊化
 - Merge Sort：合併排序法 / 歸併排序法
+   > 分到最簡單，再開始比較
 
 
 | Sorting Algorithm | Design approach | Average Time | Best Time | Worst Time | Extra Space | Stability |
