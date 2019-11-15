@@ -1,19 +1,19 @@
 # H.W.2_Heap Sort & Merge Sort
-[🤜🏿HERE🤛🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort)
- - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort#heap-sort)
- - [Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort#merge-sort)
- - [Merge Sort vs. Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort#merge-sort-vs-heap-sort)
+[🤜🏿HERE🤛🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07/H.W.2_Heap%20Sort%20%26%20Merge%20Sort)
+ - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07/H.W.2_Heap%20Sort%20%26%20Merge%20Sort#heap-sort)
+ - [Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07/H.W.2_Heap%20Sort%20%26%20Merge%20Sort#merge-sort)
+ - [Merge Sort vs. Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07/H.W.2_Heap%20Sort%20%26%20Merge%20Sort#merge-sort-vs-heap-sort)
 
 
 # Content
-- [Including image or picture in jupyter notebook](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#including-image-or-picture-in-jupyter-notebook)
-- [Recursion](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#recursion)
-- [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#class-notes)
-- [Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#merge-sort)
-- [Design merge sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#design-merge-sort)
-   - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#code)
-   - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#flowchart)
-   - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#demo)
+- [Including image or picture in jupyter notebook](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#including-image-or-picture-in-jupyter-notebook)
+- [Recursion](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#recursion)
+- [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#class-notes)
+- [Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#merge-sort)
+- [Design merge sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#design-merge-sort)
+   - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#code)
+   - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#flowchart)
+   - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#demo)
 
 # Including image or picture in jupyter notebook
 
@@ -63,7 +63,7 @@
 #### Source
 [Jupyter Notebook：快捷鍵+插入圖片的4種方法](https://www.itread01.com/content/1546717712.html)
 
-[🔨](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#content)
+[🔨](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#content)
 
 # Recursion
   > 遞迴
@@ -75,7 +75,7 @@
  - 解決問題時操作相同但參數不同，需要寫重複程式
    
 #### 基本概念
-解決問題的方法是[Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/README.md#divide-and-conquer)
+解決問題的方法是[Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#divide-and-conquer)
 
 - 性質：函數在執行當中，會不斷**呼叫自己（self-calling）**
   > 要有明確的**終止條件**：避免無止盡自我呼叫
@@ -102,7 +102,7 @@ sys.getrecursionlimit()   #3000
 #### Source
 [Python 初學第八講 — 遞迴](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-11ed5d300d3d)
 
-[⛏](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#content)
+[⛏](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#content)
 
 # Class notes
 - 寫程式：訓練「建立問題觀察的拆解能力」
@@ -110,7 +110,7 @@ sys.getrecursionlimit()   #3000
   
 - pseudocode：偽碼，看似程式碼但無法編譯執行，僅存在邏輯
 
-[🔧](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#content)
+[🔧](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#content)
 
 # Merge Sort
 > 從分割中再合併(整合)
@@ -139,7 +139,7 @@ sys.getrecursionlimit()   #3000
     - 合併：O(n log n)
        > n-1 + n log n
 
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1572951110717.jpg)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_07/image/1572951110717.jpg)
 
 #### Merge Sort VS. Quick Sort
 | | Design approach | Average Time | Best Time | Worst Time | Extra Space | Stability |
@@ -165,11 +165,11 @@ sys.getrecursionlimit()   #3000
 #### Others
 [【硬塞大學生】哈佛校長告訴新生：教育的目標是確保學生能辨別有人在胡說八道](https://www.inside.com.tw/article/10573-harvard-freshman-convocation-address-to-class-2021)
 
-[🔩](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#content)
+[🔩](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#content)
 
 # Design merge sort
 
-[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/Design%20merge%20sort.py)
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_07/Design%20merge%20sort.py)
 
 - 執行步驟
    - 分割：切成兩半，切到不能再切為止(僅剩一個值)
@@ -215,18 +215,18 @@ sys.getrecursionlimit()   #3000
 
 - merge_sort
 
- ![merge_sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1573233221550.jpg)
+ ![merge_sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_07/image/1573233221550.jpg)
 
 - ˍdivide
 
- ![ˍdivide](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1573233373496.jpg)
+ ![ˍdivide](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_07/image/1573233373496.jpg)
  
 - ˍmerge
 
- ![ˍmerge](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1573233455026.jpg)
+ ![ˍmerge](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_07/image/1573233455026.jpg)
 
 #### Demo
- ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/image/1573137796982.jpg)
+ ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_07/image/1573137796982.jpg)
 
 #### Source
 [[演算法] 合併排序法(Merge Sort)](http://notepad.yehyeh.net/Content/Algorithm/Sort/Merge/Merge.php)
@@ -237,4 +237,4 @@ sys.getrecursionlimit()   #3000
 
 [【TBS Learning】演算法-六種排序法之四:合併排序法(merge sort)](https://www.youtube.com/watch?v=KZQbBik3Mew)
 
-[🛠](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#content)
+[🛠](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#content)
