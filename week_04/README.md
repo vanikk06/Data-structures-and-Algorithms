@@ -5,7 +5,7 @@
   - [Jupyter nbviewer](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/H.W._Quick%20Sort.ipynb)
     -  [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/Quick%20Sort.py)
     - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/quick_sort__demo.jpg)
-  - [flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/quick_sort_flowchart.jpg)
+    - [flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/quick_sort_flowchart.jpg)
 
 
 # Content
