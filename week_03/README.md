@@ -1,21 +1,21 @@
 # Content
-- [Object](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#object)
-- [Array VS. List VS. Linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#array-vs-list-vs-linked-list)
-- [List](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#list)
-- [Stack & Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#stack--queue)
-    - [Try Min stack ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#try-min-stack)
-        - [Code_by linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#code)
-        - [Code_by list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#code-1)
-            - [Note](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#note)
-    - [Test Min stack](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#test-min-stack)
-        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#code-2)
-    - [Try Implement queue using stacks](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#try-implement-queue-using-stacks)
-        - [Code_by linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#code-3)
-        - [Code_by list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#code-4)
-    - [Test Implement queue using stacks](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#test-implement-queue-using-stacks)
-        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#code-5)
-    - [Try Implement stack using queues](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#try-implement-stack-using-queues)
-- [Test Set mismatch](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#test-set-mismatch)
+- [Object](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#object)
+- [Array VS. List VS. Linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#array-vs-list-vs-linked-list)
+- [List](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#list)
+- [Stack & Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#stack--queue)
+    - [Try Min stack ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#try-min-stack)
+        - [Code_by linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#code)
+        - [Code_by list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#code-1)
+            - [Note](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#note)
+    - [Test Min stack](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#test-min-stack)
+        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#code-2)
+    - [Try Implement queue using stacks](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#try-implement-queue-using-stacks)
+        - [Code_by linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#code-3)
+        - [Code_by list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#code-4)
+    - [Test Implement queue using stacks](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#test-implement-queue-using-stacks)
+        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#code-5)
+    - [Try Implement stack using queues](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#try-implement-stack-using-queues)
+- [Test Set mismatch](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#test-set-mismatch)
     
 
 
@@ -42,7 +42,7 @@
  [Python對象](https://blog.csdn.net/Li_Danny/article/details/49815761)
  [淺談Python的屬性](https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-python-%E7%9A%84%E5%B1%AC%E6%80%A7/)
 
-[🐟](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
+[🐟](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
 # Array VS. List VS. Linked list 
 > 資料結構是一種電腦運作的方法
@@ -57,7 +57,7 @@
 #### Source
 [陣列(Array) & 串列(Linked list)](https://ithelp.ithome.com.tw/articles/10203422)
 
-[🐠~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
+[🐠~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
 # List
 list(列表)：偏向更簡單的struct
@@ -78,20 +78,20 @@ list(列表)：偏向更簡單的struct
 - `list.copy()`：拷貝list
 - `list.clear()`：清除list內所有資料
 
-[🐡~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
+[🐡~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
 #### Source
 [list 參數](https://www.brilliantcode.net/713/python3-6-list-tuple-set-dictionary/)
 
 # Stack & Queue
  > 儲存資料的方式
-  - [Stack](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#stack)
-  - [Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#queue)
+  - [Stack](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#stack)
+  - [Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#queue)
  
  ## Stack
   > 先進後出（LIFO：last in first out）
   
-  ![stack](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/image/1571423793515.jpg)
+  ![stack](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_03/image/1571423793515.jpg)
   
   疊盤子：優先處理最後發生的事
   - 使用地方：
@@ -105,11 +105,11 @@ list(列表)：偏向更簡單的struct
     - `IsEmpty`：確認stack裡是否有資料
     - `getSize`：回傳stack裡的資料個數
     
-  [~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
+  [~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
  ## Queue
   > 後進先出（FIFO：first in first out）
   
-  ![queue](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/image/1571424208826.jpg)
+  ![queue](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_03/image/1571424208826.jpg)
   
   排隊：按進入順序處理發生的事，不可從中插隊
   - 使用地方：
@@ -126,7 +126,7 @@ list(列表)：偏向更簡單的struct
     - `IsEmpty`：確認queue裡是否有資料
     - `getSize`：回傳queue裡的資料個數
    
-  [🐙~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
+  [🐙~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
   
 #### Source
  [Data Structures: Stacks and Queues](https://www.youtube.com/watch?v=wjI1WNcIntg)
@@ -135,7 +135,7 @@ list(列表)：偏向更簡單的struct
 > By myslef → LeetCode：155. Min Stack
 >>  Using linked list
 
-[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Min%20stack%20By%20linked%20list.py)
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_03/Try%20Min%20stack%20By%20linked%20list.py)
 
 🚫Status：Time Limit Exceeded
 
@@ -157,7 +157,7 @@ list(列表)：偏向更簡單的struct
 > By myslef → LeetCode：155. Min Stack
 >> Using list
 
-[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Min%20stack%20By%20list.py)
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_03/Try%20Min%20stack%20By%20list.py)
 
  Status：Runtime 72 ms, Memory 17.8 MB
  
@@ -190,14 +190,14 @@ list(列表)：偏向更簡單的struct
  #### Source
  [Python 判斷list是否為空](https://www.itread01.com/p/435567.html)
  
-[~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
+[~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
 
 ## Test Min stack
 > Following teacher's → LeetCode：155. Min Stack
 >> Using linked list
 
-[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Min%20stack.py)
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_03/Test%20Min%20stack.py)
 
 Status：Runtime 76 ms, Memory 18.6 MB
 
@@ -223,14 +223,14 @@ Status：Runtime 76 ms, Memory 18.6 MB
  ##### Source
  [用兩個stack來實作MinStack：O(1)](http://alrightchiu.github.io/SecondRound/stack-neng-gou-zai-o1qu-de-zui-xiao-zhi-de-minstack.html#minstack)
  
-[~~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
+[~~~🦑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
 
 # Try Implement queue using stacks
 > By myslef → LeetCode：232. Implement Queue using Stacks
 >> Using linked list
 
-[👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Implement%20queue%20using%20stacks%20By%20linked%20list.py)
+[👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_03/Try%20Implement%20queue%20using%20stacks%20By%20linked%20list.py)
 
 #### Code
 
@@ -244,17 +244,17 @@ Status：Runtime 76 ms, Memory 18.6 MB
 > By myslef → LeetCode：232. Implement Queue using Stacks
 >> Using list
 
-[👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Try%20Implement%20queue%20using%20stacks%20By%20list.py)
+[👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_03/Try%20Implement%20queue%20using%20stacks%20By%20list.py)
 
 #### Code
 
-[🐙~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
+[🐙~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
  # Test Implement queue using stacks
  > Following teacher's：LeetCode：232. Implement Queue using Stacks
  >> Using array
  
- [👉HERE👈](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_3/Test%20Implement%20queue%20using%20stacks.py)
+ [👉HERE👈](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_03/Test%20Implement%20queue%20using%20stacks.py)
 
 Status：Runtime 40 ms, Memory 13.7 MB
 
@@ -282,7 +282,7 @@ Status：Runtime 40 ms, Memory 13.7 MB
 
 
 
-[🐙~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
+[🐙~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
 # Try Implement stack using queues
 > By myslef → LeetCode：225. Implement Stack using Queues
@@ -290,7 +290,7 @@ Status：Runtime 40 ms, Memory 13.7 MB
 #### Source
 [[LeetCode]225. Implement Stack using Queues](https://www.itread01.com/content/1545554882.html)
 
-[🦑🐙](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
+[🦑🐙](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
    
 # Test Set mismatch
@@ -300,4 +300,4 @@ Status：Runtime 40 ms, Memory 13.7 MB
 [this](https://github.com/pecu/DSA/tree/master/03_Set)
 
 
-[🐋](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_3#content)
+[🐋](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
