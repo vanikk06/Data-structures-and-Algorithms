@@ -72,7 +72,7 @@
 [Merge sort and quick sort](https://www.slideshare.net/MJabin/merge-sort-and-quick-sort)
 
 
-[🥜](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🥜](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 # Time complexity
 The time complexity of an algorithm is an **approximation** of how long that algorithm will take to process some input.
@@ -96,18 +96,18 @@ The time complexity of an algorithm is an **approximation** of how long that alg
 
 > ↓ 隨者n增大，O(n²) 會大過O(2<sup>n</sup>)
 
-![O](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571638832242.jpg)
+![O](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/1571638832242.jpg)
 
 
 - O(1)：**constant time**，無論input大小為何，運行所花費的時間都相同
 - O(n)：隨著input個數(n)的增加，時間隨著n倍數成長
 
   > 逐筆跑完每筆資料
-  ![O(n)](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571648550712.jpg)
+  ![O(n)](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/1571648550712.jpg)
 - O(log n)：`log`降低input每個步驟執行的時間
   
   > 執行步驟逐漸減半
-  ![O(log n)](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571648965575.jpg)
+  ![O(log n)](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/1571648965575.jpg)
 - O(n log n)：**divide-and-conquer**，描述資料結構每次運行要花費O(log n)時間
 
 ### Why是"步驟數"而不是"執行時間"
@@ -125,7 +125,7 @@ Class's PPT
 
 [★ A coffee-break introduction to time complexity of algorithms ★](https://dev.to/victoria/a-coffee-break-introduction-to-time-complexity-of-algorithms-160m)
 
-[🍅](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🍅](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 # return VS. break VS. continue
 - `return`：直接**返回函式**，所有該函式內的程式碼都不會再執行
@@ -135,7 +135,7 @@ Class's PPT
 #### Source
 [Python的return、break、continue區別](https://www.itread01.com/content/1548181641.html)
 
-[🍆](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🍆](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 # not
 >　邏輯運算符（and、or、not）
@@ -144,14 +144,14 @@ Class's PPT
 #### Source
 [Python 運算符](https://www.runoob.com/python/python-operators.html)
 
-[🌽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🌽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 # Ipynb change
 > github上jupyter notebook加載很慢，有時候加載不出來
 
 [jupyter nbviewer](https://nbviewer.jupyter.org/)  ← 把github上對應文件的url輸進去
 
-[🌶](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🌶](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 # Class notes
  
@@ -162,7 +162,7 @@ Class's PPT
     2. 可以答對 
     3. 時間最少，並且可以證明
  
-[🍄](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🍄](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 # Insertion Sort
 > 直觀的排序方法，一個個比較，小的就往前面插入
@@ -181,11 +181,11 @@ Class's PPT
 
 - Code
 
-![code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571114698076.jpg)
+![code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/1571114698076.jpg)
 
  - Flowchart
  
-![flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571081952907.jpg)
+![flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/1571081952907.jpg)
 
 
 #### Source
@@ -197,13 +197,13 @@ Class's PPT
 
 [圖片來源](https://commons.wikimedia.org/wiki/File:Insertion-sort-example-300px.gif)
 
-[🥑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🥑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 ## Test Insertion sort list
 > Following teacher's → LeetCode：147. Insertion Sort List
 >> Using linked list
 
-[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Insertion%20sort%20list.py)
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/Test%20Insertion%20sort%20list.py)
 
 Status：Runtime 276 ms, Memory 15.4 MB
 
@@ -238,7 +238,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
  > 執行期錯誤，通常是跑到外面
  
  - `'NoneType' object has no attribute 'next'` 
-![runtime error](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1571141648113.jpg)
+![runtime error](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/1571141648113.jpg)
 
 
 |OR|T|F| |AND|T|F|
@@ -246,7 +246,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 |**T**|T|T| |**T**|T|F|
 |**F**|T|F| |**F**|F|F|
 
-[🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 ## Try Insertion sort list
 > By myself → LeetCode：147. Insertion Sort List
@@ -256,7 +256,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 #### Code
 
-[🥒🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🥒🥒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 
 # Quick Sort
@@ -298,7 +298,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 #### Others
 [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/?fbclid=IwAR1olxlNcAQhKZVNw6-JBCituCKsqfk3YL67xOMfQA-_fyqbHyrFJRm15T4)
 
-[🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 ## Test Quick Sort
 > Following teacher's
@@ -307,15 +307,15 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [this](https://github.com/pecu/DSA/tree/master/05_QuickSort)
 
-[🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 ## Test Quick sort By extra-place
 >  Following blog
 >> Using list
 
-[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Quick%20sort_Extra%20place.py)
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/Test%20Quick%20sort_Extra%20place.py)
 
-[Jupyter nbviewer](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Quick%20Sort_Extra%20place.ipynb)
+[Jupyter nbviewer](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/Test%20Quick%20Sort_Extra%20place.ipynb)
 
 以第一個數為`key`，將其作為基準點與list內的每個元素比較，以此分為三堆`> key`、`= key`、`< key`，再以`< key` + `= key` + `> key`合併，不斷地對`< key`與`> key`重複此行為，直到無法執行將結果輸出
   
@@ -335,16 +335,16 @@ Status：Runtime 276 ms, Memory 15.4 MB
    > 誤用了變數料型態
   
    未指定回傳值return預設回傳`None`，`None`與`list`為不同型態的資料類型
-   ![typeerror](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/typeerror.jpg)
+   ![typeerror](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/typeerror.jpg)
    
 #### Demo
 
-![Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/quick_sort_demo.jpg)
+![Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/quick_sort_demo.jpg)
 
 
 #### Flowchart
 
-![Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/quick_sort_flowchart_.jpg)
+![Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/quick_sort_flowchart_.jpg)
 
  
  #### Source
@@ -352,7 +352,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
  
 [Python 初學第十一講—錯誤與例外處理](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-edd15e2b5d1e#42dc)
 
-[🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 ## Test Quick sort By in-place
 >  Following blog
@@ -360,7 +360,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 > 優化Quick sort
 
-[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/Test%20Quick%20sort_In%20place.py)
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/Test%20Quick%20sort_In%20place.py)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif)
 
@@ -414,12 +414,12 @@ Status：Runtime 276 ms, Memory 15.4 MB
     
       在跳出while迴圈的時候，right_point與left_point必定指在相同的位置，所以誰與key交換都沒差。
       
-      ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1572116689636.jpg)
+      ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/1572116689636.jpg)
 
 #### Demo
   > 與Extra-place相同例子
   
-  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_4/image/1.png)
+  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/1.png)
 
 
 #### Source
@@ -427,7 +427,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
  
  [圖片來源](https://commons.wikimedia.org/wiki/File:Quicksort-example.gif)
 
-[🥦🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🥦🥦🥦🥦](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
 
 # Divide and Conquer
 > 分而治之，**遞迴(Recursive)**的典型應用
@@ -449,4 +449,4 @@ Status：Runtime 276 ms, Memory 15.4 MB
 
 [Merge sort and quick sort](https://www.slideshare.net/MJabin/merge-sort-and-quick-sort)
 
-[🍐](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_4#content)
+[🍐](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#content)
