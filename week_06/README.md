@@ -1,19 +1,19 @@
 # Content
- - [Sorting algorithm stability](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#sorting-algorithm-stability)
- - [range vs. np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range-vs-nparange)
-    - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range)
-    - [np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#nparange)
- - [Division differences](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#division-differences)
- - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#heap-sort)
-    - [Test Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-design-heap-sort)
-       - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#code)
-       - [Bug](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#bug)
-    - [Try Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#try-design-heap-sort)
-       - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#code-1)
-       - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#flowchart)
-       - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#demo)
- - [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-univalued-binary-tree)
- - [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#try-univalued-binary-tree)
+ - [Sorting algorithm stability](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#sorting-algorithm-stability)
+ - [range vs. np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#range-vs-nparange)
+    - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#range)
+    - [np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#nparange)
+ - [Division differences](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/README.md#division-differences)
+ - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#heap-sort)
+    - [Test Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#test-design-heap-sort)
+       - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#code)
+       - [Bug](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#bug)
+    - [Try Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#try-design-heap-sort)
+       - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#code-1)
+       - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/README.md#flowchart)
+       - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/README.md#demo)
+ - [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#test-univalued-binary-tree)
+ - [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#try-univalued-binary-tree)
 
 # Sorting algorithm stability
 > 是否穩定並非固定，主要還是要看程式如何執行（相同值是否會打散）
@@ -44,11 +44,11 @@
 
 [維基百科](https://zh.wikipedia.org/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95#%E7%A9%A9%E5%AE%9A%E6%80%A7)
 
-[🍕](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+[🍕](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#content)
 
 # range vs. np.arange
- - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range)
- - [np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#nparange)
+ - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#range)
+ - [np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#nparange)
  
  || range | np.arange |
  | --- | --- | --- |
@@ -114,7 +114,7 @@ np.arange(start, stop, step, dtype=None)
 [numpy.arange](https://docs.scipy.org/doc/numpy/reference/generated/numpy.arange.html)
 
 
-[🥞](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+[🥞](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#content)
 
 # Division differences
 > 除法差異
@@ -122,13 +122,13 @@ np.arange(start, stop, step, dtype=None)
 - //：取商數，運算之後取**最小整數**
   > 當商數為負數時，會error
  
- ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1572943931909.jpg)
+ ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/image/1572943931909.jpg)
   
 - int()：取整數，小數點後的數**全部捨去**
 
- ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1572944683672.jpg)
+ ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/image/1572944683672.jpg)
  
-[🧀](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+[🧀](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#content)
 
 
 #  Heap Sort
@@ -140,7 +140,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
   > 根據roof值的大小作區分
   
-  ![heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1571665085656.jpg)
+  ![heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/image/1571665085656.jpg)
 
 - Heap Sort：將數列使用Heap結構存入後依序取出的結果
     > 必定為有排序的
@@ -180,15 +180,15 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 [推薦書](https://www.books.com.tw/products/0010771263)
 
-[🍔](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+[🍔](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#content)
 
 # Test Design heap sort
 > Following Teacher's
 >> Using array：Max heap
 
-[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Design%20heap%20sort_bug.py) ← has bug
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Test%20Design%20heap%20sort_bug.py) ← has bug
 
-[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Design%20heap%20sort_debug.py) ← debug，課堂範例Code
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Test%20Design%20heap%20sort_debug.py) ← debug，課堂範例Code
 
 🐛Status：has bug
    > 若最大值存在root的sub-subnode內，因無回頭check，會出現bug
@@ -216,20 +216,20 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
      - 改變size of heap，讓re-balance不包含前一個balance的最大值
    
 #### Bug
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1573072629501.jpg)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/image/1573072629501.jpg)
 
 #### Source
 [Heaps and Heap Sort](https://www.youtube.com/watch?v=H5kAcmGOn4Q)
 
 [Heap Sort | GeeksforGeeks](https://www.youtube.com/watch?v=MtQL_ll5KhQ)
 
-[🍟](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+[🍟](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#content)
 
 # Try Design heap sort
 > H.W.2_Heap Sort
 >> Using list：min heap
 
-[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Try%20Design%20heap%20sort.py)
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Try%20Design%20heap%20sort.py)
 
 - 符合兩個特性：
     1. 完全二元樹（Complete Binary Tree）
@@ -273,19 +273,19 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 #### Flowchart
  - heap_sort
  
-![heap_sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1573153309780.jpg)
+![heap_sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/image/1573153309780.jpg)
  
  - ˍbuildˍminheap
  
- ![ˍbuildˍminheap](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1573153821618.jpg)
+ ![ˍbuildˍminheap](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/image/1573153821618.jpg)
  
  - ˍheapity
  
- ![ˍheapity](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/1573153794189.jpg)
+ ![ˍheapity](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/image/1573153794189.jpg)
 
 #### Demo
 
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/image/150260.jpg)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/image/150260.jpg)
 
 #### Source
 [堆排序(Heapsort)](https://www.youtube.com/watch?v=j-DqQcNPGbE)
@@ -297,13 +297,13 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 [Heap - 堆](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
 
 
-[🥯](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+[🥯](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#content)
 
 # Test Univalued Binary Tree
 > Following blog
 >> LeetCode：965. Univalued Binary Tree
 
-[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Univalued%20binary%20tree.py)
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Test%20Univalued%20binary%20tree.py)
 
 Status：Runtime 36 ms, Memory 13.7 MB
 
@@ -314,12 +314,12 @@ Status：Runtime 36 ms, Memory 13.7 MB
 
 [Leetcode 965：單值二叉樹（最詳細的解法！！！）](https://blog.csdn.net/qq_17550379/article/details/85539683)
 
-[🌭](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+[🌭](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#content)
 
 # Try Univalued Binary Tree
 > By myself
 >> LeetCode：965. Univalued Binary Tree
 
-[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Try%20Univalued%20binary%20tree.py)
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Try%20Univalued%20binary%20tree.py)
 
-[🍿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#content)
+[🍿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#content)
