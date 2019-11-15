@@ -12,17 +12,17 @@
  
 
 # Content
- - [week_2](https://github.com/vanikk06/Data-structures-and-Algorithms#week_2)
- - [week_3](https://github.com/vanikk06/Data-structures-and-Algorithms#week_3)
- - [week_4](https://github.com/vanikk06/Data-structures-and-Algorithms#week_4)
+ - [week_02](https://github.com/vanikk06/Data-structures-and-Algorithms#week_02)
+ - [week_03](https://github.com/vanikk06/Data-structures-and-Algorithms#week_03)
+ - [week_04](https://github.com/vanikk06/Data-structures-and-Algorithms#week_04)
     - [H.W.1_Quick Sort](https://github.com/vanikk06/Data-structures-and-Algorithms#hw1_quick-sort)
- - [week_6](https://github.com/vanikk06/Data-structures-and-Algorithms#week_6)
- - [week_7](https://github.com/vanikk06/Data-structures-and-Algorithms#week_7)
+ - [week_06](https://github.com/vanikk06/Data-structures-and-Algorithms#week_06)
+ - [week_07](https://github.com/vanikk06/Data-structures-and-Algorithms#week_07)
      - [H.W.2_Heap Sort & Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms#hw2_heap-sort--merge-sort)
- - [week_8](https://github.com/vanikk06/Data-structures-and-Algorithms#week_8)
- - [week_9](https://github.com/vanikk06/Data-structures-and-Algorithms#week_9)
+ - [week_08](https://github.com/vanikk06/Data-structures-and-Algorithms#week_08)
+ - [week_09](https://github.com/vanikk06/Data-structures-and-Algorithms#week_09)
  
-# week_2
+# week_02
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02)
    - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#class)
    - [function VS. method](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#function-vs-method)
@@ -39,7 +39,7 @@
 [🧝🏻‍♀️🧝🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 
-# week_3
+# week_03
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03)
 
  - [Object](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#object)
@@ -66,7 +66,7 @@
     
 [🙍🏻‍♀️🙍🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
-# week_4
+# week_04
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04)
 
 - [Sorting algorithms](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#sorting-algorithms)
@@ -107,7 +107,7 @@
 
 [💁🏻‍♀️💁🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
-# week_6
+# week_06
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06)
 
 - [Sorting algorithm stability](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#sorting-algorithm-stability)
@@ -135,7 +135,7 @@
 [💆🏻‍♀️💆🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 
-# week_7
+# week_07
 [👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07)
 
 - [Including image or picture in jupyter notebook](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#including-image-or-picture-in-jupyter-notebook)
@@ -159,12 +159,12 @@
 [🙆🏻‍♀️🙆🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 
-# week_8
+# week_08
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08)
 
 [🙇🏻‍♀️🙇🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
-# week_9
+# week_09
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09)
 
 [🤦🏻‍♀️🤦🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
