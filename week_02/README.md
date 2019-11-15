@@ -1,12 +1,12 @@
 # Content
-  - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#class)
-  - [function VS. method](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#function-vs-method)
-  - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#return)
-  - [Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#linked-list)
-    - [Test Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#test-design-linked-list)
-      - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#code)
-      - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/README.md#wrong-answer)
-    - [Try Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#try-design-linked-list)
+  - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#class)
+  - [function VS. method](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#function-vs-method)
+  - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#return)
+  - [Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#linked-list)
+    - [Test Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#test-design-linked-list)
+      - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#code)
+      - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#wrong-answer)
+    - [Try Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02#try-design-linked-list)
 
 
 # Class
@@ -38,7 +38,7 @@
 
 [Python 私有變量、繼承](http://dangerlover9403.pixnet.net/blog/post/207405243-%5bpython%5d-day10---python-%e7%9a%84%e9%a1%9e%e5%92%8c%e5%b0%8d%e8%b1%a1)
 
-[🚗_](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚗_](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02#content)
 
 
 # function VS. method
@@ -50,7 +50,7 @@
 #### Source
 [Python中function和method](https://blog.csdn.net/u013553529/article/details/79244083)
 
-[🚕__](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚕__](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02#content)
 
 # return
 > keyword用在`def`中**回傳值(return value)**
@@ -63,12 +63,12 @@
   - 若出現在`def`外，會錯誤('return' outside function)
     > P.S. `def`回傳較不適用`print()`，print是打印(裡面不能放運算式)，放到def中，執行到會打印出設定的結果，但此並非def的回傳值，所以仍會回傳預設的return(None)
     
- ![image](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/1570208923463.jpg)
+ ![image](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/image/1570208923463.jpg)
     
 #### Source
 [Python 簡單陳述return](https://kaiching.org/pydoing/py/python-return.html)
 
-[🚙___](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚙___](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02#content)
 
 # Linked List
 > Array VS. Linked list
@@ -88,7 +88,7 @@
   
   - Memory Allocation
   
-  ![Memory Allocation](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/Memory%20Allocation.jpg)
+  ![Memory Allocation](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/image/Memory%20Allocation.jpg)
       
  #### Blockchain 區塊鏈
  > 分散式架構的資料運算與儲存平台，同時具備特殊的P2P(點對點)特性
@@ -111,18 +111,18 @@
 [What’s a Linked List, Anyway? [Part 1]](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d)
 
 
-[🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+[🚌____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02#content)
    
 
 ## Test Design linked list
 > Following teacher's
 >> LeetCode：707. Design Linked List
 
-[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Test%20%20Design%20linked%20list.py)
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/Test%20%20Design%20linked%20list.py)
 
 Status：Runtime 416 ms, Memory 14.2 MB
 
-![linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/linked%20list.jpg)
+![linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/image/linked%20list.jpg)
 
 由`node`跟`pointer`組成一連串的linked list
   - `node`：創造儲存值的空間
@@ -179,23 +179,23 @@ Status：Runtime 416 ms, Memory 14.2 MB
 
 #### Wrong Answer
   1. 在函式中`return`後面加**空值**時，會直接跳出函式
-  ![Return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/Return.jpg)
+  ![Return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/image/Return.jpg)
   2. p = self，`p = p.next`才是建立node的連結
-  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/image/addAtTail.jpg)
+  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/image/addAtTail.jpg)
   
 #### Source
 [What’s a Linked List, Anyway? [Part 1]](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d)
 
- [🚐_____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+ [🚐_____](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02#content)
 
 
 ## Try Design linked list  
   > By myslef
   >> LeetCode：707. Design Linked List
   
-  [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_2/Try%20Design%20linked%20list.py)
+  [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/Try%20Design%20linked%20list.py)
   
 
 
 
-  [🚎______](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_2#content)
+  [🚎______](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02#content)
