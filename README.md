@@ -108,64 +108,64 @@
 [💁🏻‍♀️💁🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 # week_6
-[👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6)
+[👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06)
 
-- [Sorting algorithm stability](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#sorting-algorithm-stability)
- - [range vs. np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range-vs-nparange)
-    - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#range)
-    - [np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#nparange)
- - [Division differences](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#division-differences)
- - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#heap-sort)
-    - [Test Design heap sort_bug.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Design%20heap%20sort_bug.py)
-    - [Test Design heap sort_debug.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Design%20heap%20sort_debug.py)
-    - [Test Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-design-heap-sort)
-       - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#code)
-       - [Bug](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#bug)
-    - [Try Design heap sort.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Try%20Design%20heap%20sort.py)
-    - [Try Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#try-design-heap-sort)
-       - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#code-1)
-       - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#flowchart)
-       - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/README.md#demo)
-- [Test Univalued binary tree.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Test%20Univalued%20binary%20tree.py)
-- [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#test-univalued-binary-tree)
-- [Try Univalued binary tree.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_6/Try%20Univalued%20binary%20tree.py)
-- [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_6#try-univalued-binary-tree)
+- [Sorting algorithm stability](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#sorting-algorithm-stability)
+ - [range vs. np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#range-vs-nparange)
+    - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#range)
+    - [np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#nparange)
+ - [Division differences](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/README.md#division-differences)
+ - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#heap-sort)
+    - [Test Design heap sort_bug.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Test%20Design%20heap%20sort_bug.py)
+    - [Test Design heap sort_debug.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Test%20Design%20heap%20sort_debug.py)
+    - [Test Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#test-design-heap-sort)
+       - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#code)
+       - [Bug](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#bug)
+    - [Try Design heap sort.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Try%20Design%20heap%20sort.py)
+    - [Try Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#try-design-heap-sort)
+       - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#code-1)
+       - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/README.md#flowchart)
+       - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/README.md#demo)
+- [Test Univalued binary tree.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Test%20Univalued%20binary%20tree.py)
+- [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#test-univalued-binary-tree)
+- [Try Univalued binary tree.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Try%20Univalued%20binary%20tree.py)
+- [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#try-univalued-binary-tree)
 
 
 [💆🏻‍♀️💆🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 
 # week_7
-[👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7)
+[👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07)
 
-- [Including image or picture in jupyter notebook](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#including-image-or-picture-in-jupyter-notebook)
-- [Recursion](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#recursion)
-- [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#class-notes)
-- [Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#merge-sort)
-- [Design merge sort.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_7/Design%20merge%20sort.py)
-- [Design merge sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#design-merge-sort)
-   - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#code)
-   - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#flowchart)
-   - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7#demo)
+- [Including image or picture in jupyter notebook](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#including-image-or-picture-in-jupyter-notebook)
+- [Recursion](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#recursion)
+- [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#class-notes)
+- [Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#merge-sort)
+- [Design merge sort.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_07/Design%20merge%20sort.py)
+- [Design merge sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#design-merge-sort)
+   - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#code)
+   - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#flowchart)
+   - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#demo)
 
 
 
 ## H.W.2_Heap Sort & Merge Sort
-[🤜🏿HERE🤛🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort)
- - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort#heap-sort)
- - [Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort#merge-sort)
- - [Merge Sort vs. Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_7/H.W._Heap%20Sort%20%26%20Merge%20Sort#merge-sort-vs-heap-sort)
+[🤜🏿HERE🤛🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07/H.W.2_Heap%20Sort%20%26%20Merge%20Sort)
+ - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07/H.W.2_Heap%20Sort%20%26%20Merge%20Sort#heap-sort)
+ - [Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07/H.W.2_Heap%20Sort%20%26%20Merge%20Sort#merge-sort)
+ - [Merge Sort vs. Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07/H.W.2_Heap%20Sort%20%26%20Merge%20Sort#merge-sort-vs-heap-sort)
 
 [🙆🏻‍♀️🙆🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 
 # week_8
-[👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_8)
+[👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08)
 
 [🙇🏻‍♀️🙇🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 # week_9
-[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_9)
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09)
 
 [🤦🏻‍♀️🤦🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
