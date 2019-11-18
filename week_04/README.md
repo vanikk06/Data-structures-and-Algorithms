@@ -73,6 +73,8 @@
 
 [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg)
 
+[50+ Sorts, Visualized - Scatter Plot](https://www.youtube.com/watch?v=DSMCZZGbZo4&feature=youtu.be)
+
 [Merge sort and quick sort](https://www.slideshare.net/MJabin/merge-sort-and-quick-sort)
 
 
