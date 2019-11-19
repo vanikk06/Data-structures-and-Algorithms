@@ -21,6 +21,7 @@
      - [H.W.2_Heap Sort & Merge Sort](https://github.com/vanikk06/Data-structures-and-Algorithms#hw2_heap-sort--merge-sort)
  - [week_08](https://github.com/vanikk06/Data-structures-and-Algorithms#week_08)
  - [week_09](https://github.com/vanikk06/Data-structures-and-Algorithms#week_09)
+ - [week_10](https://github.com/vanikk06/Data-structures-and-Algorithms#week_10)
  
 # week_02
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02)
