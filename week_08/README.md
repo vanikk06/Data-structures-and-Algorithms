@@ -1,6 +1,8 @@
 # Content
- - []()
- - []()
+ - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#class-notes)
+ - [Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#binary-tree)
+ - [Test Design binary tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#test-design-binary-tree)
+ - [Try Design binary tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#try-design-binary-tree)
  
  
 # Class notes
@@ -8,6 +10,8 @@
 
 - 學習基礎知識：在應用端時，才有辦法判斷的標準
    > 目的是應用端的應用，但作為基礎的觀念必須清晰
+
+[🍃](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#content)
 
 # Binary Tree
  > 儲存資料的方法
@@ -125,7 +129,13 @@ Undone
 
 [Python - Binary Tree](https://www.tutorialspoint.com/python_data_structure/python_binary_tree.htm)
 
+[🌳](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#content)
+
 # Test Design binary tree
   > Using teacher's linked list
   
+[☘](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#content)
+  
 # Try Design binary tree
+
+[🌴](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#content)
