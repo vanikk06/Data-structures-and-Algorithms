@@ -1,6 +1,9 @@
 # Class notes
 - toy code：寫完就可以丟掉的code
 
+- 學習基礎知識：在應用端時，才有辦法判斷的標準
+   > 目的是應用端的應用，但作為基礎的觀念必須清晰
+
 # Binary Tree
  > 儲存資料的方法
  
@@ -29,4 +32,38 @@
          > 限制root樣子
           - Max heap
           - min heap
-    
+          
+#### 與linked list相似
+ - node：空間
+      - .value：儲存的資料
+      - .next：指向下一個node的pointer
+       > 轉為tree，將next拆成兩半，改為left、right
+       
+ - Tree功能：
+      - 查詢：
+        - len、is_empty
+        - root
+        - parent(x)
+        - left(x)
+        - right(x)
+        - sibling(x)
+        - children(x)
+        - depth(x)：深度
+          > 由上往下
+        - height：高度
+          >由下往上
+        - is_root(x)：是否是最上層的node
+        - is_leaf(x)：是否是最後一層的node
+  
+      - 插入、新增（建構結構）：
+           - add_root(x)
+           - add_left(x, y)
+           - add_right(x, y)
+           - replace(x, y)：取代
+           - delete(x)
+           - attach(x, t1, t2)
+
+#### Source
+[圖片來源](https://www.tutorialride.com/data-structures/trees-in-data-structure.htm)
+
+[Binary Tree: Intro(簡介) - 學習Binary Tree的未來出路](http://alrightchiu.github.io/SecondRound/binary-tree-introjian-jie.html#application)
