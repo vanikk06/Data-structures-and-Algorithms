@@ -106,3 +106,16 @@ class _Node:
 
 [Chapter 6. Trees II](http://www.math.bas.bg/~nkirov/2017/NETB201/slides/ch06/ch06-2.html)
 
+[Binary Trees](http://cslibrary.stanford.edu/110/BinaryTrees.html#s1)
+
+
+Undone
+
+[Introduction to Tree Data Structure](https://www.youtube.com/watch?time_continue=1&v=ikPPdBDZnz4&feature=emb_logo)
+
+[Google Coding Interview (2019) - Binary Tree Level Order Traversal (LeetCode)](https://www.youtube.com/watch?v=XZnWETlZZ14&feature=emb_logo)
+
+#### Python 範例Code
+[Python - Linked Lists](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm)
+
+[Python - Binary Tree](https://www.tutorialspoint.com/python_data_structure/python_binary_tree.htm)
