@@ -37,7 +37,7 @@
  - node：空間
       - .value：儲存的資料
       - .next：指向下一個node的pointer
-       > 轉為tree，將next拆成兩半，改為left、right
+        > 轉為tree，將next拆成兩半，改為left、right
        
  - Tree功能：
       - 查詢：
