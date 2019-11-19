@@ -51,7 +51,7 @@
         - depth(x)：深度
           > 由上往下
         - height：高度
-          >由下往上
+          > 由下往上
         - is_root(x)：是否是最上層的node
         - is_leaf(x)：是否是最後一層的node
   
@@ -59,9 +59,13 @@
            - add_root(x)
            - add_left(x, y)
            - add_right(x, y)
-           - replace(x, y)：取代
+           - replace(x, y)：取代，增加在已存在值的位置
            - delete(x)
-           - attach(x, t1, t2)
+           - attach(x, t1, t2)：合併兩棵subtree，從哪個點開始合併（合併點）
+           
+> 定義node，可增加.parent：記錄parent （此功能用走訪也可達到）
+>> 優：可減少走訪parent的函式
+>> 缺：每個node都很肥
 
 #### Source
 [圖片來源](https://www.tutorialride.com/data-structures/trees-in-data-structure.htm)
