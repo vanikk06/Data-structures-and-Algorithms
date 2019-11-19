@@ -1,6 +1,24 @@
 
 # Class notes
 
+
+# Binary Search Tree
+ > 應用於資料庫系統的原型
+ 
+- Binary Tree：僅有**兩個**子節點
+  > 建構：讓資料insert後能維持只有兩個child，且insert後指到新的node
+  >> 可自行指定要放left或right
+  
+- Binary Search Tree：
+   - 僅有兩個child
+   - 不可自行指定add_left或add_right，insert位置要符合架構
+      > 判斷式：與parent相比，大的放right，小的放left
+   - 功能
+      - 走訪
+         - preorder：一直往左邊走(小的)
+         - postorder：一直往右邊走(大的)
+         - inorder：按照input的順序，左右左右
+
 # input：值(存放數值 有重複)
 delete
  > 原則：結構變化最少(取代值：從leaf最底層找)
