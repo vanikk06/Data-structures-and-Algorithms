@@ -74,6 +74,9 @@
 - .left：左邊的child
 - .right：右邊的child
 
+#### Create Binary Tree
+ > add node
+
 #### Source
 [圖片來源](https://www.tutorialride.com/data-structures/trees-in-data-structure.htm)
 
