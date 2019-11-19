@@ -1,4 +1,6 @@
 
+# Class notes
+
 # input：值(存放數值 有重複)
 delete
  > 原則：結構變化最少(取代值：從leaf最底層找)
