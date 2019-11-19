@@ -69,6 +69,11 @@
 
 >> 缺：每個node都很肥
 
+#### Binary Tree 基本設定
+- .val：儲存的值
+- .left：左邊的child
+- .right：右邊的child
+
 #### Source
 [圖片來源](https://www.tutorialride.com/data-structures/trees-in-data-structure.htm)
 
