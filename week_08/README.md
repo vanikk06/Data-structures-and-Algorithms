@@ -74,8 +74,30 @@
 - .left：左邊的child
 - .right：右邊的child
 
+> 範例Code
+```python
+class _Node:
+
+   def __init__(self, element, parent=None, left=None, right=None):
+      self._roof = None
+      self._size = 0
+      self._parent = parent    #記錄parent
+      ``` 基本 ```
+      self._element = element 
+      self._left = left        
+      self._right = right          
+```
+
 #### Create Binary Tree
  > add node
+ 
+ > 範例Code
+ ```python
+ def _add_left(self, p, e):
+   if node._left is not None: raise ValueError('Left child exists'):
+      self._size += 1
+      node._left = self._Node(e, node)
+ ```
 
 #### Source
 [圖片來源](https://www.tutorialride.com/data-structures/trees-in-data-structure.htm)
@@ -83,3 +105,4 @@
 [Binary Tree: Intro(簡介) - 學習Binary Tree的未來出路](http://alrightchiu.github.io/SecondRound/binary-tree-introjian-jie.html#application)
 
 [Chapter 6. Trees II](http://www.math.bas.bg/~nkirov/2017/NETB201/slides/ch06/ch06-2.html)
+
