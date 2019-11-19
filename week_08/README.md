@@ -67,3 +67,5 @@
 [圖片來源](https://www.tutorialride.com/data-structures/trees-in-data-structure.htm)
 
 [Binary Tree: Intro(簡介) - 學習Binary Tree的未來出路](http://alrightchiu.github.io/SecondRound/binary-tree-introjian-jie.html#application)
+
+[Chapter 6. Trees II](http://www.math.bas.bg/~nkirov/2017/NETB201/slides/ch06/ch06-2.html)
