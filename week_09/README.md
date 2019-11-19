@@ -12,12 +12,24 @@
 - Binary Search Tree：
    - 僅有兩個child
    - 不可自行指定add_left或add_right，insert位置要符合架構
-      > 判斷式：與parent相比，大的放right，小的放left
    - 功能
+      - 新增：與root(parent)比較，大的放right，小的放left
+        > 判斷式
       - 走訪
          - preorder：一直往左邊走(小的)
          - postorder：一直往右邊走(大的)
          - inorder：按照input的順序，左右左右
+      - 查詢：find某個固定的值
+         > 呼叫走訪
+      - 刪除
+         > 刪除點後，必須讓新連接的點維持Binary Search Tree架構
+         >> 如何定義：刪除點後，維持Binary Search Tree架構
+         
+           - 有child
+               - 一個child：
+               - 兩個child：
+           - 無child：直接砍掉
+
 
 # input：值(存放數值 有重複)
 delete
