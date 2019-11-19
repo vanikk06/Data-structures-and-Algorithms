@@ -10,6 +10,9 @@
 - 儲存資料、資料結構：linked list、stack、queue、heap
 
 #### Tree points
+
+![](https://www.tutorialride.com/images/data-structures/structure-of-tree.jpeg)
+
 - root：樹的頂端，只會有一個
    - 底下可長出子節點（child）
       > 若child的parent不是root，則此 parent＆child 稱之為子樹（subtree）
