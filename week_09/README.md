@@ -1,7 +1,4 @@
 
-# Class notes
-
-
 # Binary Search Tree
  > 應用於資料庫系統的原型
  
@@ -26,10 +23,19 @@
          >> 如何定義：刪除點後，維持Binary Search Tree架構
          
            - 有child
-               - 一個child：
-               - 兩個child：
+               - 一個child：child要與new_parent比較（大的接右邊，小的接左邊）
+               - 兩個child：要以誰取代？
+                 > 讓取代條件變動愈少愈好
            - 無child：直接砍掉
 
+#### Source
+[Binary Search Tree library in Python](https://www.laurentluce.com/posts/binary-search-tree-library-in-python/)
+
+[Python: Binary Search Tree - BST](https://www.youtube.com/watch?v=YlgPi75hIBc&feature=youtu.be)
+
+[Binary Tree and Binary Search Tree in Data Structure](https://www.youtube.com/watch?v=7vw2iIdqHlM&feature=emb_logo)
+
+# Practice of Binary Search Tree
 
 # input：值(存放數值 有重複)
 delete
