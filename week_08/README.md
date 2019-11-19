@@ -119,3 +119,8 @@ Undone
 [Python - Linked Lists](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm)
 
 [Python - Binary Tree](https://www.tutorialspoint.com/python_data_structure/python_binary_tree.htm)
+
+# Test Design binary tree
+  > Using teacher's linked list
+  
+# Try Design binary tree
