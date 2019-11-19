@@ -64,6 +64,7 @@
            - attach(x, t1, t2)：合併兩棵subtree，從哪個點開始合併（合併點）
            
 > 定義node，可增加.parent：記錄parent （此功能用走訪也可達到）
+
 >> 優：可減少走訪parent的函式
 
 >> 缺：每個node都很肥
