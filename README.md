@@ -169,3 +169,7 @@
 
 [🤦🏻‍♀️🤦🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
+# week_10
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10)
+
+[💇🏻‍♀️💇🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
