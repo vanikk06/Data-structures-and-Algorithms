@@ -35,37 +35,32 @@
 
 [Binary Tree and Binary Search Tree in Data Structure](https://www.youtube.com/watch?v=7vw2iIdqHlM&feature=emb_logo)
 
+# Class notes
+- **結構**目的：搜尋資料、效率important
+
 # Practice of Binary Search Tree
 
-# input：值(存放數值 有重複)
-delete
+- input
+   - 值
+    > 存放數值，可能會有重複
+   - ID(唯一值)
+    > 資料庫：儲存值會同時紀錄ID，刪除時不會有重複值問題
+
+- delete
  > 原則：結構變化最少(取代值：從leaf最底層找)
- balance不會有大結構改變
+ >> balance不會有大結構改變
+ - 刪除值後，若其本身有parent，要讓新連接值與perant比較
  
- 刪除值有parent，要跟perant
- 
- 若有重複值，可指定第一個遇到(設計定義)
- > binary tree：適合存唯一值(ID)
+- 若有重複值，可指定第一個遇到(定義設計)
+ > Binary Search Tree：適合存唯一值(ID)
 
-結構：搜尋資料、效率important
+- Binary Tree：最多兩個child
+ > tree不可以有loop
 
+- Binary Search Tree：左右無法自己決定，全看與parent比較
+ >資料越亂愈越好，若資料是整理好的，那就會是linked list
+   1. 第一個值無條件是root
+    > 缺點：如果第一個是極端值，會變只有單邊(worse:O(n))
+   2.小於root放左邊，大於放右邊
 
-# input：ID(唯一值)
-資料庫：儲存值會同時紀錄ID，刪除時不會有重複值問題
-
-
-binary tree：最多兩個child
-> tree不可以有loop
-
-binary search tree：左右無法自己決定，全看與parent比較
->資料越亂愈越好，if整理後資料就是linked list
-
-> 深度最小
-
-1. 第一個值無條件是root
-> 缺點：如果第一個是極端值，會變只有單邊(worse:O(n))
-
-2.小於root放左邊，大於放右邊
-
-
-紅黑樹：確保樹平衡
+- 紅黑樹：確保樹平衡
