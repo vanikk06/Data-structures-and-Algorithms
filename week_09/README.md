@@ -23,6 +23,7 @@
       - 新增：與root(parent)比較，大的放right，小的放left
         > 判斷式
       - 走訪
+        > Undone
          - pre-order：一直往左邊走(小的)
          - post-order：一直往右邊走(大的)
          - in-order：按照input的順序，左右左右
