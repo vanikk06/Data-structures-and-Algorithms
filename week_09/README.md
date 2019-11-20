@@ -23,9 +23,9 @@
       - 新增：與root(parent)比較，大的放right，小的放left
         > 判斷式
       - 走訪
-         - preorder：一直往左邊走(小的)
-         - postorder：一直往右邊走(大的)
-         - inorder：按照input的順序，左右左右
+         - pre-order：一直往左邊走(小的)
+         - post-order：一直往右邊走(大的)
+         - in-order：按照input的順序，左右左右
       - 查詢：find某個固定的值
          > 呼叫走訪
       - 刪除
