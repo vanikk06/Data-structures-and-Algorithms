@@ -38,6 +38,8 @@
 
 [Python: Binary Search Tree - BST](https://www.youtube.com/watch?v=YlgPi75hIBc&feature=youtu.be)
 
+
+
 [Binary Tree and Binary Search Tree in Data Structure](https://www.youtube.com/watch?v=7vw2iIdqHlM&feature=emb_logo)
 
 # Class notes
@@ -75,3 +77,23 @@
 [Binary Search Tree: Search(搜尋資料)、Insert(新增資料)](http://alrightchiu.github.io/SecondRound/binary-search-tree-searchsou-xun-zi-liao-insertxin-zeng-zi-liao.html)
 
 [GitHub -  jakemmarsh/binarySearchTree.py](https://gist.github.com/jakemmarsh/8273963)
+
+# H.W.
+- input:class
+
+- insert: 與root比較，大的右邊，小的左邊
+   > 遇到一樣的，擺左邊
+   
+- delete: 刪除所有值
+   > 重新建構
+   
+   > 若delete到root，讓深度最小
+   
+- search:一樣的數字，與root最近的(level最top)
+  > preorder:左邊先
+- modify：全部修改
+
+
+- insert & search:要有回傳值
+   > 用我們的search去insert
+- delete & modify:不用回傳值
