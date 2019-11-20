@@ -27,6 +27,11 @@
                - 兩個child：要以誰取代？
                  > 讓取代條件變動愈少愈好
            - 無child：直接砍掉
+                  
+- Binary Tree vs. Binary Search Tree
+  - Binary Tree：set
+  - Binary Search Tree：subset
+    > 多的條件：無法自行決定left或right
 
 #### Source
 [Binary Search Tree library in Python](https://www.laurentluce.com/posts/binary-search-tree-library-in-python/)
@@ -64,3 +69,8 @@
    2.小於root放左邊，大於放右邊
 
 - 紅黑樹：確保樹平衡
+
+#### Source
+[Binary Search Tree: Search(搜尋資料)、Insert(新增資料)](http://alrightchiu.github.io/SecondRound/binary-search-tree-searchsou-xun-zi-liao-insertxin-zeng-zi-liao.html)
+
+[GitHub -  jakemmarsh/binarySearchTree.py](https://gist.github.com/jakemmarsh/8273963)
