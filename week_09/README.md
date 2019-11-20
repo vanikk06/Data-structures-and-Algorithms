@@ -1,4 +1,14 @@
 
+# NoneType
+
+#### Source
+[Python對<type ‘NoneType’>資料型別的處理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/634089/)
+
+#  Practice of class
+
+#### Source
+[python中，怎麼讓類返回值啊？](https://zhidao.baidu.com/question/504532877.html)
+
 # Binary Search Tree
  > 應用於資料庫系統的原型
  
