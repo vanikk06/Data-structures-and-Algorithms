@@ -181,6 +181,7 @@ Status：Runtime 416 ms, Memory 14.2 MB
   1. 在函式中`return`後面加**空值**時，會直接跳出函式
   ![Return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/image/Return.jpg)
   2. p = self，`p = p.next`才是建立node的連結
+     > 此處與`get`不同的是，`get`僅是要返回node內的value，但`AddArIndex`是要對node做更動
   ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/image/addAtTail.jpg)
   
 #### Source
