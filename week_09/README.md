@@ -108,3 +108,6 @@
 - insert & search:要有回傳值
    > 用我們的search去insert
 - delete & modify:不用回傳值
+
+#### Source
+[資料結構 - 二元搜索樹(Binary Search Tree)](https://emn178.pixnet.net/blog/post/94574434)
