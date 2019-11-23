@@ -44,7 +44,7 @@
                - 兩個child：要以誰取代？
                  > 讓取代條件變動愈少愈好
            - 無child：直接砍掉
-                  
+         
 - Binary Tree vs. Binary Search Tree
   - Binary Tree：set
   - Binary Search Tree：subset
@@ -82,7 +82,7 @@
   > tree不可以有loop
 
 - Binary Search Tree：左右無法自己決定，全看與parent比較
-  >資料越亂愈越好，若資料是整理好的，那就會是linked list
+  > 資料越亂愈越好，若資料是整理好的，那就會是linked list
   1. 第一個值無條件是root
      > 缺點：如果第一個是極端值，會變只有單邊(worse:O(n))
     
