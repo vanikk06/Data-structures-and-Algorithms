@@ -201,6 +201,7 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
     - n：size of heap，代表node個數，再抽出值後要作調整
     - i ：index，最初的largest，一個個看array內的值
 1. 用array想像為tree的結構：利用index來推估孩子的位置
+   > 配合python，index由0開始
     - index：i (母)
     - left：2 x i + 1 (子)
     - right：2 x i + 2 (子)
