@@ -136,6 +136,8 @@ np.arange(start, stop, step, dtype=None)
 #### Source
 [Priority Queue：Intro(簡介)](http://alrightchiu.github.io/SecondRound/priority-queueintrojian-jie.html)
 
+[🌮](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#content)
+
 #  Heap Sort
 > tree's special case
 
