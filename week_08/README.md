@@ -137,7 +137,7 @@ Undone
 #### Full binary tree
  > 又稱 Perfect binary tree
  
-![]() 
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_08/image/1574537156689.jpg) 
  
 特性：
   - 所有內部node都有兩個child_node（subtree）
