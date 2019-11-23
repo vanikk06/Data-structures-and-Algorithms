@@ -1,6 +1,7 @@
 # Content
  - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#class-notes)
  - [Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#binary-tree)
+ - [Full binary tree & Complete binary tree](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_08/README.md#full-binary-tree--complete-binary-tree)
  - [Test Design binary tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#test-design-binary-tree)
  - [Try Design binary tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#try-design-binary-tree)
  
@@ -164,6 +165,9 @@ Undone
 
 #### Source
 [Binary Tree: Intro(簡介)](http://alrightchiu.github.io/SecondRound/binary-tree-introjian-jie.html)
+
+[🌵](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#content)
+
 
 # Test Design binary tree
   > Using teacher's linked list
