@@ -16,6 +16,8 @@
 # Binary Search Tree
  > 應用於資料庫系統的原型
  
+ ![](https://upload.wikimedia.org/wikipedia/commons/9/9b/Binary_search_tree_example.gif)
+ 
 - Binary Tree：僅有**兩個**子節點
   > 建構：讓資料insert後能維持只有兩個child，且insert後指到新的node
   >> 可自行指定要放left或right
@@ -53,9 +55,9 @@
 
 [Python: Binary Search Tree - BST](https://www.youtube.com/watch?v=YlgPi75hIBc&feature=youtu.be)
 
-
-
 [Binary Tree and Binary Search Tree in Data Structure](https://www.youtube.com/watch?v=7vw2iIdqHlM&feature=emb_logo)
+
+[圖片來源](https://commons.wikimedia.org/wiki/File:Binary_search_tree_example.gif)
 
 # Class notes
 - **結構**目的：搜尋資料、效率important
