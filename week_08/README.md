@@ -131,6 +131,40 @@ Undone
 
 [🌳](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#content)
 
+# Full binary tree & Complete binary tree
+  > 常見的 binary tree
+  
+#### Full binary tree
+ > 又稱 Perfect binary tree
+ 
+![]() 
+ 
+特性：
+  - 所有內部node都有兩個child_node（subtree）
+  - 所有leaf node具有相同的level（或相同的height）
+    > leaf node：最底層的node
+    
+由上述性質可知道
+
+若一個Full binary tree的leaf node之level為n，則整棵樹共有**2<sup>n</sup> - 1**個node
+
+每個node與其child之關係：
+> 第i個node
+   - left child之index：2i
+   - right child之index：2i + 1
+   - parent之index：i/2 （取整數）
+      > 除了root之parent為NULL
+
+#### Complete binary tree
+ > 不完備的Full binary tree
+
+一棵binary tree的node按照Full binary tree的次序排列（由上至下、由左往右）
+
+![]()
+
+#### Source
+[Binary Tree: Intro(簡介)](http://alrightchiu.github.io/SecondRound/binary-tree-introjian-jie.html)
+
 # Test Design binary tree
   > Using teacher's linked list
   
