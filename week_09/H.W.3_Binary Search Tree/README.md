@@ -31,6 +31,9 @@
 ## Insert
    > 新增、插入
    
+   增加的val必須與root（parent）比較，大的放right，小的放left，若其位置已有node存在，就繼續往下一層放
+   
+   
    
 [🔸](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
 
