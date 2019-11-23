@@ -160,7 +160,7 @@ Undone
 
 一棵binary tree的node按照Full binary tree的次序排列（由上至下、由左往右）
 
-![]()
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_08/image/1574537747299.jpg)
 
 #### Source
 [Binary Tree: Intro(簡介)](http://alrightchiu.github.io/SecondRound/binary-tree-introjian-jie.html)
