@@ -146,8 +146,8 @@ Priority Queue就是在處理此類對象時，能夠在眾多各自具有優先
               > 每次要從此資料結構讀取資料時，必定是拿到「先進入」該資料結構的資料           
             - Possibility_2：額外賦予資料「權重/優先權」順序
               > 每次要從此資料結構讀取資料時，必定會拿到具有「最大值/最小值權重」的資料
-                   - Max-Priority-Queue：讀取資料時，拿到「權重最大」的資料
-                   - Min-Priority-Queue：讀取資料時，拿到「權重最小」的資料
+                 - Max-Priority-Queue：讀取資料時，拿到「權重最大」的資料
+                 - Min-Priority-Queue：讀取資料時，拿到「權重最小」的資料
   
 #### Source
 [Priority Queue：Intro(簡介)](http://alrightchiu.github.io/SecondRound/priority-queueintrojian-jie.html)
