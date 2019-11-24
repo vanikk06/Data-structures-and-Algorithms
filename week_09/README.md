@@ -13,6 +13,12 @@
 #### Source
 [python中，怎麼讓類返回值啊？](https://zhidao.baidu.com/question/504532877.html)
 
+
+# Traversal in Binary Tree
+
+#### Source
+[Binary Tree: Traversal(尋訪)](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html)
+
 # Binary Search Tree
  > 應用於資料庫系統的原型
  
