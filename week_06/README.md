@@ -148,6 +148,24 @@ Priority Queue就是在處理此類對象時，能夠在眾多各自具有優先
               > 每次要從此資料結構讀取資料時，必定會拿到具有「最大值/最小值權重」的資料
                  - Max-Priority-Queue：讀取資料時，拿到「權重最大」的資料
                  - Min-Priority-Queue：讀取資料時，拿到「權重最小」的資料
+                 
+#### Max-Priority-Queue
+  > 三種基本操作
+  
+  > key == 權重
+
+- Insert：將資料加入Queue中
+- IncreaseKey：當某項資料的「重要性提高」時，需要在Queue中改變資料的key，增加
+- ExtractMax：取得最重要（key最大）的資料，並將其從Queue中移除
+
+#### Min-Priority-Queue
+   > 三種基本操作
+  
+   > key == 權重
+
+- Insert：將資料加入Queue中
+- DecreaseKey：當某項資料的「重要性降低」時，需要在Queue中改變資料的key，減少
+- ExtractMin：取得最重要性最低（key最小）的資料，並將其從Queue中移除
   
 #### Source
 [Priority Queue：Intro(簡介)](http://alrightchiu.github.io/SecondRound/priority-queueintrojian-jie.html)
