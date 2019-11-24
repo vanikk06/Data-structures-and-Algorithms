@@ -134,11 +134,13 @@ np.arange(start, stop, step, dtype=None)
 # Priority Queue
   > 優先權佇列
   
+  > 資料結構
+  
 對象：表面上看起來沒有順序，但其實具有**執行時的優先順序**
 
 Priority Queue就是在處理此類對象時，能夠在眾多各自具有優先順序之資料堆中，取出「最重要/最不重要」的項目：
   - Priority：將資料項目**賦予「權重/優先權」**，用以表示資料的重要程度
-  - Queue：隊伍、佇列、順序，意味著將資料整理成**「某種順序」的資料結構** 
+  - Queue：隊伍、佇列、順序，意味著將資料整理成**「某種順序」的資料結構**樣子
   
 #### Source
 [Priority Queue：Intro(簡介)](http://alrightchiu.github.io/SecondRound/priority-queueintrojian-jie.html)
