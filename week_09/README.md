@@ -41,7 +41,7 @@
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574627970308.jpg)
 
 #### In-Order（LVR）
-![]()
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574628411593.jpg)
 
 #### Post-Order（LRV）
 ![]()
