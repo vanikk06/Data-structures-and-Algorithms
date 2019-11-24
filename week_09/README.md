@@ -20,6 +20,22 @@
   
 - Traversal：站在A地，往所有與A地相連的地方移動
   > 在此，以pointer實現，站在node（A）上，並且node（A）具有指向node（B）之pointer，便能夠由A往B移動
+  
+- Visiting：移動到特定的node之後，對其進行的動作
+  > e.g.print out（顯示資料）、assign（賦值）、刪除資料等等
+
+#### Traversal方式
+
+假設現在CurrentNode位在A，leftchild與rightchild分別是B和C，且加上一條限制「L一定在R之前」，能產生三種相對關係：
+
+![]()
+
+- Pre-Order（VLR）：當CurrentNode移動到A時，先對A進行Visiting，接著前往left child，在前往right child
+  > 若child指向None則忽略
+- In-Order（LVR）：當CurrentNode移動到A時，先對A的left child進行Visiting，接著回到A，再前往right child
+   > 若child指向None則忽略
+- Post-Order（LRV）：當CurrentNode移動到A時，先對A的left child進行Visiting，接著前往right child，再回到A
+   > 若child指向None則忽略
 
 #### Source
 [Binary Tree: Traversal(尋訪)](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html)
