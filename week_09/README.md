@@ -28,7 +28,7 @@
 
 假設現在CurrentNode位在A，leftchild與rightchild分別是B和C，且加上一條限制「L一定在R之前」，能產生三種相對關係：
 
-![]()
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574627120689.jpg)
 
 - Pre-Order（VLR）：當CurrentNode移動到A時，先對A進行Visiting，接著前往left child，在前往right child
   > 若child指向None則忽略
@@ -36,6 +36,12 @@
    > 若child指向None則忽略
 - Post-Order（LRV）：當CurrentNode移動到A時，先對A的left child進行Visiting，接著前往right child，再回到A
    > 若child指向None則忽略
+   
+#### Pre-Order（VLR）
+
+#### In-Order（LVR）
+
+#### Post-Order（LRV）
 
 #### Source
 [Binary Tree: Traversal(尋訪)](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html)
