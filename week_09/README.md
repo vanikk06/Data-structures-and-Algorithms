@@ -37,14 +37,9 @@
 - Post-Order（LRV）：當CurrentNode移動到A時，先對A的left child進行Visiting，接著前往right child，再回到A
    > 若child指向None則忽略
    
-#### Pre-Order（VLR）
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574627970308.jpg)
-
-#### In-Order（LVR）
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574628759524.jpg)
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574628411593.jpg)
-
-#### Post-Order（LRV）
-![]()
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574628584718.jpg)
 
 #### Source
 [Binary Tree: Traversal(尋訪)](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html)
