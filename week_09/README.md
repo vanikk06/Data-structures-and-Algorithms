@@ -38,10 +38,13 @@
    > 若child指向None則忽略
    
 #### Pre-Order（VLR）
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574627970308.jpg)
 
 #### In-Order（LVR）
+![]()
 
 #### Post-Order（LRV）
+![]()
 
 #### Source
 [Binary Tree: Traversal(尋訪)](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html)
