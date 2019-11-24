@@ -15,6 +15,11 @@
 
 
 # Traversal in Binary Tree
+  > 尋訪
+  > Binary Tree：node的pointer為二維（left、right）
+  
+- Traversal：站在A地，往所有與A地相連的地方移動
+  > 在此，以pointer實現，站在node（A）上，並且node（A）具有指向node（B）之pointer，便能夠由A往B移動
 
 #### Source
 [Binary Tree: Traversal(尋訪)](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html)
