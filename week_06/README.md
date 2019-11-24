@@ -4,6 +4,7 @@
     - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#range)
     - [np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#nparange)
  - [Division differences](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/README.md#division-differences)
+ - [Priority Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/README.md#priority-queue)
  - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#heap-sort)
     - [Test Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#test-design-heap-sort)
        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#code)
@@ -132,6 +133,10 @@ np.arange(start, stop, step, dtype=None)
 
 # Priority Queue
   > 優先權佇列
+  
+對象：表面上看起來沒有順序，但其實具有**執行時的優先順序**
+
+Priority Queue就是在處理此類對象時，能夠在眾多
   
 #### Source
 [Priority Queue：Intro(簡介)](http://alrightchiu.github.io/SecondRound/priority-queueintrojian-jie.html)
