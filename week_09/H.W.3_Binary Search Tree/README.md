@@ -66,7 +66,8 @@
 
 問題3：回傳值並非node而是None
 > return設置錯誤，回傳的結果並非是設置的回傳值，而是無設置回傳值的結果
-![]()
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574665280253.jpg)
+因為
    
    
 [🔸](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
