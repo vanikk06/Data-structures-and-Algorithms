@@ -179,4 +179,6 @@
 
 [GitHub -  jakemmarsh/binarySearchTree.py](https://gist.github.com/jakemmarsh/8273963)
 
+[資料結構 - 二元搜索樹(Binary Search Tree)](https://emn178.pixnet.net/blog/post/94574434)
+
 [🌝](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
