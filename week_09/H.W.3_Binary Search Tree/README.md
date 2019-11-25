@@ -172,7 +172,7 @@
            - 目標刪除node小於其parent：parent的left child指向None
            - 目標刪除node大於其parent：parent的right child指向None
       - 一個child：要將目標刪除node之parent與目標刪除node的child建立連結
-         > 🐛，無考慮到目標刪除node之parent是否有其他child
+         > 🐛，考慮方向錯誤，應考慮目標刪除node之parent是否有其他child存在
          
            - 目標刪除node是right child：將其right child的值與其parent比較
               > ❌，此處判斷多餘，刪除目標之right child其值必定大於刪除目標之parent
@@ -184,7 +184,9 @@
               - left child的值小於、等於parent的值：將left child建立連結在parent的left
               - left child的值大於parent的值：將left child建立連結在parent的right
            
-      - 兩個child：覆蓋，移動，值到delete_node指標指到僅有一個child的node
+      - 兩個child：覆蓋，移動，直到delete_node指標指到僅有一個child的node
+         建立一個while迴圈，若delete_node指標仍有兩個child，就進入迴圈
+            - 
     
               
     
