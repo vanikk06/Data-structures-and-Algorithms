@@ -69,12 +69,33 @@
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574665280253.jpg)
 
 因為return是放在if else中間，在第一次判斷的時候，如果左邊/右邊已有node存在，就會進入else執行遞迴，遞迴會記憶上一步尚未執行的動作，所以在找到創立的node位置的之後，會因為返回上一步的動作，覆蓋掉return的回傳值
+
+#### P.S.
+再完成Search後，有想要嘗試利用指標移動的方式來達到Insrt，因為以pointer移動的方式進行判斷，不會增加空間複雜度，但因為時間緊迫就暫時作罷
    
    
 [🔸](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
 
 ## Search
    > 搜尋、走訪
+   
+   尋找值為target的node，若有重複值，則選擇距離root最近的node。判斷方式依然與BST相同，若target大於root（parent）就往right child走；若小於、等於，就往left child走
+   
+#### Code
+   > 使用**指標**的方式，執行重複的判斷動作
+   
+   > 注意！node.val不可為None，移動時必須確保移動目標已有node存在，否則會出先`AttributeError: 'NoneType' object has no attribute 'val'
+`
+   
+   先判斷root是否已經存在，若已存在再繼續往下執行
+   
+   建立一個pointer指標，從root開始進行移動
+   
+   - 指標的值是否與target相同
+      - No：
+         - target小於指標內的值，而且指標的left child
+      - Yes：回傳指標指到的node
+   
    
    
 [🔹](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
