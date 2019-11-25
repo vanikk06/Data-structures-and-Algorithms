@@ -59,6 +59,14 @@
          > 放right child
           - Yes：呼叫自己，以已存在的left child作為parent，往下一層繼續看
           - No：在left child的地方創造一個node
+          
+   - 回傳新增的node
+   
+#### Problem
+
+問題3：回傳值並非node而是None
+> return設置錯誤，回傳的結果並非是設置的回傳值，而是無設置回傳值的結果
+![]()
    
    
 [🔸](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
