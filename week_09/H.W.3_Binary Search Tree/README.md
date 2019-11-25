@@ -138,12 +138,16 @@
       - pre_pointer：移動指標之parent
          > 刪除方式為**重建連結**，因此必須把目標刪除node之parent也記錄下來
       - i：target存在的個數
-         >　遇到
+         > 遇到pointer指標的值與target相同時，就+1
       - delete_node：刪除指標
          > 遇到pointer指標的值與target相同時，就將其記錄到delete_node指標內
          
          > 若存在重複值，重新指派時會覆蓋上去
       - pre_delete_node：刪除指標之parent
+      
+   pointer指標要從root走到最底層，因此設計一個while迴圈，若pointer指標有child存在，就進入迴圈，否則跳出迴圈
+     - pointer有left child或有right child
+    
    
 
 [🔶](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
