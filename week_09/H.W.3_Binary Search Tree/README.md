@@ -256,8 +256,17 @@
 
 ## Modify
    > 修改
+   
+   更改已存在於BST內node的值，並讓更改後的BST符合其特性
+   
+#### Code
+   > 注意！修改後的BST其深度不能大於原本的深度
+   
+   
 
 
 #### Demo
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574686740770.jpg)
+
+
 [🔷](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
