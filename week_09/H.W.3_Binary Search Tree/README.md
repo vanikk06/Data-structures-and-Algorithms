@@ -130,11 +130,14 @@
     
     
  起初，程式碼設計：
+   > `_delete_pointer`、` _delete_action`
    - 想讓BST變動變小，因此刪除時從**最底層**的node開始進行
    - 目標刪除node可能存在child，依照各自情況，執行適當的刪除程序
  
  再完成上述的程式碼後，才想到沒有考慮到如果目標刪除node是root的情形，再此情形不適合使用原本的刪除步驟（因為決定在有兩個child的情況下，覆蓋值要用left child還是right child的判斷依據，是看delete_node指標的位置是在root左邊還是右邊），因此另外設計一個目標刪除node為root的刪除程序
+   > `_delete_root`
    
+
    
    - `_delete_pointer`：找到要目標刪除node
       - pointer：移動指標
@@ -208,7 +211,23 @@
                   - 目標刪除node是right child：將right child建立連結在parent的right
       - 迴傳：刪除掉所有target的BST
                      
-              
+   - `_delete_root`：目標刪除node為root
+      > 若要讓刪除root對BST造成的變動最小，可考慮以left_subtree的最大值或right_subtree的最小值取代，在此採**left_subtree的最大值**
+      
+      - Max：left_subtree最大值的指標，從root的left child開始
+      - pre_Max：left_subtree最大值指標之parent
+      
+      建立一個while迴圈，讓Max指標移動到left_subtree最大值的位置
+      > 若為left_subtree的最大值，則其必定存在於最右邊的right child
+      - Max的指標，是否存在right child
+         - Yes：Max往right child移動
+         
+      當跳出while迴圈時，Max指標必定指到left_subtree最右邊的right child
+      
+      此時，要進一步判斷Max指標是否有child存在
+         > 若其存在child，則必定為left child
+      - 
+     
     
    
 
