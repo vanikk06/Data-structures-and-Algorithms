@@ -149,16 +149,18 @@
      
       - pointer有left child或有right child：
          - target等於pointer的值
-         - target小於pointer的值，且pointer的left child存在
+         - target小於pointer的值，且pointer的left child存在：
             > 注意！node必須存在才可移動
             
-            pointer指標往left child移動
+               pointer指標往left child移動
          - target大於pointer的值，且pointer的right child存在
             > 注意！node必須存在才可移動
             
-            pointer指標往right child移動
-         - 不滿足上述任何條件：休息不做任何動作
+               pointer指標往right child移動
+         - 不滿足上述任何條件
             >　target不存在於BST內
+            
+               休息不做任何動作
     
    
 
