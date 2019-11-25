@@ -84,7 +84,8 @@
 #### Code
    > 使用**指標**的方式，執行重複的判斷動作
    
-   > 注意！node.val不可為None，移動時必須確保移動目標已有node存在，否則會出先`AttributeError: 'NoneType' object has no attribute 'val'
+   > 注意！node.val不可為None，移動時必須確保移動目標已有node存在，
+   否則會出現`AttributeError: 'NoneType' object has no attribute 'val'
 `
    
    先判斷root是否已經存在，若已存在再繼續往下執行
