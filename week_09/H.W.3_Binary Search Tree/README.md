@@ -271,7 +271,7 @@
    - 方法2：若目標修改node的變動幅度，會變更到其parent，則採刪除，重新插入的方式
    
    
-
+------
 
 #### Demo
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574686740770.jpg)
