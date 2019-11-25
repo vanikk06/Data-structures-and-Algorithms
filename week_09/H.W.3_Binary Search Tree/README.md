@@ -145,8 +145,9 @@
          > 若存在重複值，重新指派時會覆蓋上去
       - pre_delete_node：刪除指標之parent
       
-   pointer指標要從root走到最底層，因此設計一個while迴圈，若pointer指標有child存在，就進入迴圈，否則跳出迴圈
-     - pointer有left child或有right child
+      pointer指標要從root走到最底層，因此設計一個while迴圈，若pointer指標有child存在，就進入迴圈，否則跳出迴圈
+     
+      - pointer有left child或有right child
     
    
 
