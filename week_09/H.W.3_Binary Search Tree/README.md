@@ -121,7 +121,7 @@
    > 目標：讓BST變動最小
    >> 若存在重複值，則從最底層的node開始刪除
    
- 可能情況：
+可能情況：
    1. 沒有child：直接刪除
    2. 有一個child：改變node的連結，讓目標刪除的child與目標刪除的parent建立新的連結
    3. 有兩個child：將目標刪除node的值用child覆蓋，往下移動，直到指到僅剩一個child的node
@@ -129,9 +129,9 @@
       - 若目標刪除node在root左邊，就用left child覆蓋
     
     
-   起初，程式碼設計：
-     - 想讓BST變動變小，因此刪除時從**最底層**的node開始進行
-     - 若目標刪除node存在child
+ 起初，程式碼設計：
+   - 想讓BST變動變小，因此刪除時從**最底層**的node開始進行
+   - 若目標刪除node存在child
    
    
    - `_delete_pointer`：找到要目標刪除node
