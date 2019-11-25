@@ -43,8 +43,21 @@
 
 # Depth-First Search
   > 深度優先搜尋法（DFS）
+  >> 核心精神：如同Pre-Order Traversal：**先遇到的vertex（頂點）就先Visiting**，並且以先遇到的vertex做為新的搜尋起點，直到所有"有edge相連的vertex"都被探索過
+ 
+ 是一種用來遍尋一個樹（tree）或圖（graph）的演算法。由root（或graph上的某一點）來開始搜尋，先探尋edge上未搜尋的node/vertex，並**盡可能深的搜尋**，直到該node所以edge上的node都以探尋，就**回溯（backtracking）**到前一個node，重複探尋未搜尋的node，直到找到目標node或遍尋全部node
+ 
+ - Pre-Order Traversal：每一組「Current-left-right」必定是Current
+ node先Visiting，接著是left child，最後才是right child
+ - 盲目搜尋（uninformed search）：只要有路就繼續往前走，但不保證是最短路徑
+   > e.g.迷宮問題（maze problem）
+ - 本質上是一種**遞迴結構**，而遞迴結構其實是利用了系統的**Stack**
 
 #### Source
+[Graph: Depth-First Search(DFS，深度優先搜尋)](http://alrightchiu.github.io/SecondRound/graph-depth-first-searchdfsshen-du-you-xian-sou-xun.html)
+
+[深度優先搜尋法
+(Depth-first Search)](http://simonsays-tw.com/web/DFS-BFS/DepthFirstSearch.html)
 
 [🌒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
 
@@ -65,6 +78,8 @@
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574627120689.jpg)
 
 - Pre-Order（VLR）：當CurrentNode移動到A時，先對A進行Visiting，接著前往left child，在前往right child
+  > 先遇到的node就先Visiting
+  
   > 若child指向None則忽略
 - In-Order（LVR）：當CurrentNode移動到A時，先對A的left child進行Visiting，接著回到A，再前往right child
    > 若child指向None則忽略
