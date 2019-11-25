@@ -132,7 +132,7 @@
       - 若目標刪除node存在child
    
    
-   - `_delete_pointer`：找到要刪除的目標node
+   - `_delete_pointer`：找到要目標刪除node
       - pointer：移動指標
          > 想要從最底層開始刪除node，就必須走訪到最底層
       - pre_pointer：移動指標之parent
@@ -147,7 +147,7 @@
       
       pointer指標要從root走到最底層，因此設計一個while迴圈，若pointer指標有child存在，就進入迴圈，否則跳出迴圈
      
-      - pointer有left child或有right child：
+      - pointer有left child或有right child，進入while迴圈：
          - target等於pointer的值：將此時的pointer指標存入delete_node指標內，並將i+1。
             > 🐛，應將 `target == pointer.val`更改為`target == pointer.val and pointer.left != None`
             
@@ -158,7 +158,19 @@
             > 注意！node必須存在才可移動          
          - 不滿足上述任何條件：休息不做任何動作
             > target不存在於BST內
-            
+         
+        當跳出while迴圈時，pointer指標必定指在leaf node
+         - leaf node的值是否與target相同：
+            - Yes：將此時的pointer指標存入delete_node指標內，並將i+1。
+         - 回傳：目標刪除node之parent、目標刪除node與target存在個數
+   
+   - `_delete_action`：進行刪除的動作，要將三種小孩情形考慮進來
+      - 沒有child：無後顧之憂，可以直接刪除
+           - 目標刪除node小於其parent：parent的left child指向None
+           - 目標刪除node大於其parent：parent的right child指向None
+      - 一個child
+      - 兩個child
+    
               
     
    
