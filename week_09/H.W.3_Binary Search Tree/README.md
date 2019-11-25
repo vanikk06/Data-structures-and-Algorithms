@@ -65,7 +65,9 @@
           - No：在left child的地方創造一個node
           
    - 回傳新增的node
-   
+#### Demo
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574416944486.jpg)
+
 #### Problem
 
 問題3：回傳值並非node而是None
@@ -106,7 +108,8 @@
             > target不存在BST內
       - Yes：回傳指標指到的node
    
-   
+#### Demo
+![]()
    
 [🔹](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
 
