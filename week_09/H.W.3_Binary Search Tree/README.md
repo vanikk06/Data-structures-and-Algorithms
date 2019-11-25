@@ -122,9 +122,9 @@
    >> 若存在重複值，則從最底層的node開始刪除
    
    可能情況：
-      1. 沒有child
-      2. 有一個child
-      3. 有兩個child
+    1. 沒有child
+    2. 有一個child
+    3. 有兩個child
     
     
    
