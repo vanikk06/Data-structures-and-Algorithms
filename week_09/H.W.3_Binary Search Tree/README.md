@@ -224,8 +224,8 @@
          
       當跳出while迴圈時，Max指標必定指到left_subtree最右邊的right child
       
-      此時，要進一步判斷Max指標是否有child存在
-         > 若其存在child，則必定為left child
+     此時，要進一步判斷Max指標是否有child存在
+        > 若其存在child，則必定為left child
       - 
      
     
