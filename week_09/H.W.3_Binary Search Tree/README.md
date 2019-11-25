@@ -67,7 +67,8 @@
 問題3：回傳值並非node而是None
 > return設置錯誤，回傳的結果並非是設置的回傳值，而是無設置回傳值的結果
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574665280253.jpg)
-因為
+
+因為return是放在if else中間，在第一次判斷的時候，如果左邊/右邊已有node存在，就會進入else執行遞迴，遞迴會記憶上一步尚未執行的動作，所以在找到創立的node位置的之後，會因為返回上一步的動作，覆蓋掉return的回傳值
    
    
 [🔸](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
