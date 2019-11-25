@@ -171,9 +171,7 @@
       - 沒有child：無後顧之憂，可以直接刪除
            - 目標刪除node小於其parent：parent的left child指向None
            - 目標刪除node大於其parent：parent的right child指向None
-      - 一個child：要將目標刪除node之parent與目標刪除node的child建立連結
-         > 🐛，考慮方向錯誤，應考慮目標刪除node之parent是否有其他child存在
-         
+      - 一個child：要將目標刪除node之parent與目標刪除node的child建立連結         
            - 目標刪除node是right child：將其right child的值與其parent比較
               > ❌，此處判斷多餘，刪除目標之right child其值必定大於刪除目標之parent
               - right child的值小於、等於parent的值：將right child建立連結在parent的left
@@ -186,8 +184,28 @@
            
       - 兩個child：覆蓋，移動，直到delete_node指標指到僅有一個child的node
          建立一個while迴圈，若delete_node指標仍有兩個child，就進入迴圈
-            - 
-    
+         > 在while迴圈內，delete_node指標必定有兩個child
+           - 若目標刪除node在root左邊：用left child覆蓋目標刪除變數，並把delete_node指標指到left child
+           - 若目標刪除node在root右邊：用right child覆蓋目標刪除變數，並把delete_node指標指到right child
+           
+          當跳出while迴圈時，delete_node指標必定指到僅有一個child或沒有child的node
+           - 沒有child：無後顧之憂，可以直接刪除
+              - 目標刪除node小於其parent：parent的left child指向None
+              - 目標刪除node大於其parent：parent的right child指向None
+           - 一個child：
+             > 🐛，此時要重新建立連結的parent，因為前面覆蓋的動作，導致child不必然大於/小於、等於parent，因此建立連結時，要考慮目標刪除node之parent是否有其他的child存在
+              - 目標刪除node是其parent的left child
+                  - 目標刪除node是left child：將left child建立連結在parent的left
+                  - 目標刪除node是right child：將right child建立連結在parent的left
+                     > ❌，應該建立在parent的right
+                     >> 因為此時的parent，就是原本parent
+              - 目標刪除node是其parent的right child
+                  - 目標刪除node是left child：將left child建立連結在parent的right
+                     > ❌，應該建立在parent的left
+                     >> 因為此時的parent，就是原本parent    
+                  - 目標刪除node是right child：將right child建立連結在parent的right
+      - 迴傳：刪除掉所有target的BST
+                     
               
     
    
