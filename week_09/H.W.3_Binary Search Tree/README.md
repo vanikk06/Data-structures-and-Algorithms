@@ -138,6 +138,7 @@
       - pre_pointer：移動指標之parent
          > 刪除方式為**重建連結**，因此必須把目標刪除node之parent也記錄下來
       - i：target存在的個數
+         >　遇到
       - delete_node：刪除指標
          > 遇到pointer指標的值與target相同時，就將其記錄到delete_node指標內
          
