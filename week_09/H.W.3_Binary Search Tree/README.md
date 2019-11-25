@@ -148,19 +148,17 @@
       pointer指標要從root走到最底層，因此設計一個while迴圈，若pointer指標有child存在，就進入迴圈，否則跳出迴圈
      
       - pointer有left child或有right child：
-         - target等於pointer的值
-         - target小於pointer的值，且pointer的left child存在：
-            > 注意！node必須存在才可移動
+         - target等於pointer的值：將此時的pointer指標存入delete_node指標內，並將i+1。
             
-              pointer指標往left child移動
-         - target大於pointer的值，且pointer的right child存在
-            > 注意！node必須存在才可移動
-            
-              pointer指標往right child移動
-         - 不滿足上述任何條件
+            pointer指標往left child移動
+         - target小於pointer的值，且pointer的left child存在：pointer指標往left child移動
+            > 注意！node必須存在才可移動        
+         - target大於pointer的值，且pointer的right child存在：pointer指標往right child移動
+            > 注意！node必須存在才可移動          
+         - 不滿足上述任何條件：休息不做任何動作
             >　target不存在於BST內
             
-              休息不做任何動作
+              
     
    
 
