@@ -66,7 +66,7 @@
           
    - 回傳新增的node
 #### Demo
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574416944486.jpg)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574686627812.jpg)
 
 #### Problem
 
@@ -109,7 +109,7 @@
       - Yes：回傳指標指到的node
    
 #### Demo
-![]()
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574686779337.jpg)
    
 [🔹](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
 
@@ -248,7 +248,8 @@
          - 有一個child：用Max指標的值覆蓋掉root，並將Max指標之parent的right child指向Max指標的left child
        - 迴傳：刪除掉root的BST
      
-    
+#### Demo
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574686676856.jpg)
    
 
 [🔶](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
@@ -256,4 +257,7 @@
 ## Modify
    > 修改
 
+
+#### Demo
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574686740770.jpg)
 [🔷](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
