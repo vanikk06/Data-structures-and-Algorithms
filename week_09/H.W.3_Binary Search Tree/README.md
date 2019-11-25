@@ -149,6 +149,7 @@
      
       - pointer有left child或有right child：
          - target等於pointer的值：將此時的pointer指標存入delete_node指標內，並將i+1。
+            > 🐛，應將 `target == pointer.val`更改為`target == pointer.val and pointer.left != None`
             
             pointer指標往left child移動
          - target小於pointer的值，且pointer的left child存在：pointer指標往left child移動
@@ -156,7 +157,7 @@
          - target大於pointer的值，且pointer的right child存在：pointer指標往right child移動
             > 注意！node必須存在才可移動          
          - 不滿足上述任何條件：休息不做任何動作
-            >　target不存在於BST內
+            > target不存在於BST內
             
               
     
