@@ -137,7 +137,8 @@
  再完成上述的程式碼後，才想到沒有考慮到如果目標刪除node是root的情形，再此情形不適合使用原本的刪除步驟（因為決定在有兩個child的情況下，覆蓋值要用left child還是right child的判斷依據，是看delete_node指標的位置是在root左邊還是右邊），因此另外設計一個目標刪除node為root的刪除程序
    > `_delete_root`
    
-
+   - `delete`：刪除所有存在BST上的目標刪除node
+      - 先呼叫`_delete_pointer`找出第一個目標刪除node之parent、目標刪除node與target存在個數
    
    - `_delete_pointer`：找到要目標刪除node
       - pointer：移動指標
@@ -218,15 +219,23 @@
       - pre_Max：left_subtree最大值指標之parent
       
       建立一個while迴圈，讓Max指標移動到left_subtree最大值的位置
+      > Max指標從root的left child開始
+      
       > 若為left_subtree的最大值，則其必定存在於最右邊的right child
       - Max的指標，是否存在right child
          - Yes：Max往right child移動
          
-      當跳出while迴圈時，Max指標必定指到left_subtree最右邊的right child
+      當跳出while迴圈時，Max指標必定指到left_subtree最大值的位置，在此有兩種情況：
+      1. root的left child本身就是最大值
+      2. 最大值存在於left_subtree最右邊的right child
       
-     此時，要進一步判斷Max指標是否有child存在
-        > 若其存在child，則必定為left child
-      - 
+      - 在情況1：直接將root的left child覆蓋掉root，並重新建立root與root的left child的left child之連結
+      
+      - 情況2，要進一步判斷Max指標是否有child存在
+         > 若其存在child，則必定為left child
+         - 沒有child：用Max指標的值覆蓋掉root，並將Max指標之parent的right child指向None
+         - 有一個child：用Max指標的值覆蓋掉root，並將Max指標之parent的right child指向Max指標的left child
+       - 迴傳：刪除掉root的BST
      
     
    
