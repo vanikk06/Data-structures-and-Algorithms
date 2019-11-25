@@ -16,6 +16,14 @@
 
 
 # Content
+  - [NoneType](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#nonetype)
+  - [Practice of class](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#practice-of-class)
+  - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#depth-first-search)
+  - [Traversal in Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#traversal-in-binary-tree)
+  - [Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#binary-search-tree)
+  - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#class-notes)
+  - [Practice of Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#practice-of-binary-search-tree)
+  
 
 
 
@@ -24,15 +32,21 @@
 #### Source
 [Python對<type ‘NoneType’>資料型別的處理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/634089/)
 
+[🌚](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+
 #  Practice of class
 
 #### Source
 [python中，怎麼讓類返回值啊？](https://zhidao.baidu.com/question/504532877.html)
 
+[🌑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+
 # Depth-First Search
   > 深度優先搜尋法（DFS）
 
 #### Source
+
+[🌒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
 
 # Traversal in Binary Tree
   > 尋訪
@@ -63,6 +77,8 @@
 
 #### Source
 [Binary Tree: Traversal(尋訪)](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html)
+
+[🌓](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
 
 # Binary Search Tree
  > 應用於資料庫系統的原型
@@ -109,8 +125,12 @@
 
 [圖片來源](https://commons.wikimedia.org/wiki/File:Binary_search_tree_example.gif)
 
+[🌔](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+
 # Class notes
 - **結構**目的：搜尋資料、效率important
+
+[🌕](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
 
 # Practice of Binary Search Tree
 
@@ -144,25 +164,4 @@
 
 [GitHub -  jakemmarsh/binarySearchTree.py](https://gist.github.com/jakemmarsh/8273963)
 
-# H.W.
-- input:class
-
-- insert: 與root比較，大的右邊，小的左邊
-   > 遇到一樣的，擺左邊
-   
-- delete: 刪除所有值
-   > 重新建構
-   
-   > 若delete到root，讓深度最小
-   
-- search:一樣的數字，與root最近的(level最top)
-  > preorder:左邊先
-- modify：全部修改
-
-
-- insert & search:要有回傳值
-   > 用我們的search去insert
-- delete & modify:不用回傳值
-
-#### Source
-[資料結構 - 二元搜索樹(Binary Search Tree)](https://emn178.pixnet.net/blog/post/94574434)
+[🌝](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
