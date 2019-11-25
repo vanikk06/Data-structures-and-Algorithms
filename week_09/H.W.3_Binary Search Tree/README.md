@@ -130,8 +130,8 @@
     
     
    起初，程式碼設計：
-      - 想讓BST變動變小，因此刪除時從**最底層**的node開始進行
-      - 若目標刪除node存在child
+     - 想讓BST變動變小，因此刪除時從**最底層**的node開始進行
+     - 若目標刪除node存在child
    
    
    - `_delete_pointer`：找到要目標刪除node
