@@ -13,6 +13,10 @@
 #### Source
 [python中，怎麼讓類返回值啊？](https://zhidao.baidu.com/question/504532877.html)
 
+# Depth-First Search
+  > 深度優先搜尋法（DFS）
+
+#### Source
 
 # Traversal in Binary Tree
   > 尋訪
