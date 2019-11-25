@@ -52,13 +52,13 @@
    接著判斷val是否有值輸入，有的話再往下進行判斷
    - val是否小於等於root的值：
       - Yes：判斷root的left child是否已有node存在
-      > 放left child
-       - Yes：呼叫自己，以已存在的left child作為parent，往下一層繼續看
-       - No：在left child的地方創造一個node
+         > 放left child
+          - Yes：呼叫自己，以已存在的left child作為parent，往下一層繼續看
+          - No：在left child的地方創造一個node
       - No：判斷root的right child是否已有node存在
-      > 放right child
-       - Yes：呼叫自己，以已存在的left child作為parent，往下一層繼續看
-       - No：在left child的地方創造一個node
+         > 放right child
+          - Yes：呼叫自己，以已存在的left child作為parent，往下一層繼續看
+          - No：在left child的地方創造一個node
    
    
 [🔸](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
