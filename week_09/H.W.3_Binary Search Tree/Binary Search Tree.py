@@ -169,8 +169,6 @@ class Solution(object):
             else:
                 return
     
-
-        target_node = pointer
         return pointer
         
     def modify(self, root, target:int, new_val:int):
