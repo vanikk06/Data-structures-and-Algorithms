@@ -131,7 +131,9 @@
     
  起初，程式碼設計：
    - 想讓BST變動變小，因此刪除時從**最底層**的node開始進行
-   - 若目標刪除node存在child
+   - 目標刪除node可能存在child，依照各自情況，執行適當的刪除程序
+ 
+ 再完成上述的程式碼後，才想到沒有考慮到如果目標刪除node是root的情形，再此情形不適合使用原本的刪除步驟（因為決定在有兩個child的情況下，覆蓋值要用left child還是right child的判斷依據，是看delete_node指標的位置是在root左邊還是右邊），因此另外設計一個目標刪除node為root的刪除程序
    
    
    - `_delete_pointer`：找到要目標刪除node
