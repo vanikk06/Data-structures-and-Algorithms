@@ -78,6 +78,7 @@
 
 - 回傳值錯誤
    > `return TreeNode(val)`回傳的是一個新的node，其並無與root連結
+   ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574765983358.jpg)
 
 #### P.S.
 再完成Search後，有想要嘗試利用指標移動的方式來達到Insrt，因為以pointer移動的方式進行判斷，不會增加空間複雜度，但因為時間緊迫就暫時作罷
