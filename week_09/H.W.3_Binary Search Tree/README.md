@@ -14,7 +14,7 @@
 
 
 # Code
-[🤜🏼HERE🤛🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/H.W.3_Binary%20Search%20Tree/Binary%20Search%20Tree.py)
+[🤜🏼HERE🤛🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/H.W.3_Binary%20Search%20Tree/Adjustment%20of%20Binary%20Search%20Tree.py)
 
 此次作業構思方式是採將現階段概念理解的內容，嘗試依造自己的想法逐步轉為執行步驟，過程再根據遇到的問題去進行調整、修正，直到測資結果符合預期
 
@@ -70,11 +70,14 @@
 
 #### Problem
 
-問題3：回傳值並非node而是None
+- 問題3：回傳值並非node而是None
 > return設置錯誤，回傳的結果並非是設置的回傳值，而是無設置回傳值的結果
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574665280253.jpg)
 
 因為return是放在if else中間，在第一次判斷的時候，如果左邊/右邊已有node存在，就會進入else執行遞迴，遞迴會記憶上一步尚未執行的動作，所以在找到創立的node位置的之後，會因為返回上一步的動作，覆蓋掉return的回傳值
+
+- 回傳值錯誤
+   > `return TreeNode(val)`回傳的是一個新的node，其並無與root連結
 
 #### P.S.
 再完成Search後，有想要嘗試利用指標移動的方式來達到Insrt，因為以pointer移動的方式進行判斷，不會增加空間複雜度，但因為時間緊迫就暫時作罷
