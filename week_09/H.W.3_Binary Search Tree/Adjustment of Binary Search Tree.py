@@ -13,15 +13,17 @@ class Solution(object):
             if val <= root.val:
                 if root.left == None:
                     root.left = TreeNode(val)                 #建立node
+                    node = root.left
                 else:
                     self.insert(root.left, val)               #以新的parent進行判斷      
             else:
                 if root.right == None:
                     root.right = TreeNode(val)                #建立node
+                    node = root.right
                 else:
                     self.insert(root.right, val)              #以新的parent進行判斷
 
-        return TreeNode(val)
+        return node
        
         
     def delete(self, root, target:int):
