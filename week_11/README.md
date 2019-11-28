@@ -58,6 +58,7 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
   > 概念，將**字串**對應到**數值**的方法
 
   - MD5：將字元轉為字串（string），再將字串編到一個新的編碼，且確保此編碼唯一
+ ![](https://themoneymongers.com/wp-content/uploads/2019/01/Hash-Functions.png)
 
 #### Source
 [Wikipedia - Hash table](https://en.wikipedia.org/wiki/Hash_table)
