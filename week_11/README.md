@@ -14,9 +14,7 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
    - 特性：
       - Unique hash value：不同的input不可能產生相同的hash value，相同的input只會產生相同的hash value
       - High hashing speed：速度快
-      - Secure hash function：安全，修改困難（修改=input不同，會產生不同的hash value）
-          > 無法從output找到input
-   
+      - Secure hash function：安全，修改困難（修改=input不同，會產生不同的hash value）  
   
 透過follow編碼規則，將字串轉換數值，那就可以對字串進行**排序、比大小**，這次使用有別於Tree的資料結構儲存
 
@@ -56,8 +54,10 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
   
 - hash：將每個字元對應到編碼表後，再去作數學運算
   > 概念，將**字串**對應到**數值**的方法
+  >> 讓明文跟密文不會被輕易破解
 
-  - MD5：將字元轉為字串（string），再將字串編到一個新的編碼，且確保此編碼唯一
+  - [MD5](https://www.ez2o.com/App/Coder/MD5)：將字元轉為字串（string），再將字串編到一個新的編碼，且確保此編碼唯一
+    > Two-way function，可逆的
  ![](https://themoneymongers.com/wp-content/uploads/2019/01/Hash-Functions.png)
 
 #### Source
