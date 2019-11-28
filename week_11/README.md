@@ -10,7 +10,13 @@
  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/473px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
   
 Hash Function：所有字串，經過**編碼對應**之後，能將字串的句子轉換為一個**單一**的編碼、編號
-  > 不重複的(unique)，不同的input不可能產生相同的hash value，相同的input只會產生相同的hash value
+   
+   - 特性：
+      - Unique hash value：不同的input不可能產生相同的hash value，相同的input只會產生相同的hash value
+      - High hashing speed：速度快
+      - Secure hash function：安全，修改困難（修改=input不同，會產生不同的hash value）
+   
+   
   
 透過follow編碼規則，將字串轉換數值，那就可以對字串進行**排序、比大小**，這次使用有別於Tree的資料結構儲存
 
