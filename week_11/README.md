@@ -59,6 +59,8 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
   - [MD5](https://www.ez2o.com/App/Coder/MD5)：將字元轉為字串（string），再將字串編到一個新的編碼，且確保此編碼唯一
     > Two-way function，可逆的
     
+    > 邏輯運算：F、G、H、I
+    
  ![](https://themoneymongers.com/wp-content/uploads/2019/01/Hash-Functions.png)
 
 #### Source
@@ -69,3 +71,5 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 [What is Hashing? Hash Functions Explained Simply](https://www.youtube.com/watch?v=2BldESGZKB8&feature=emb_logo)
 
 [Hash Table | A Helpful Line-by-Line Code Tutorial](https://www.youtube.com/watch?v=aZVNWYSR_sY&feature=emb_logo)
+
+[MD5 Hash](http://practicalcryptography.com/hashes/md5-hash/)
