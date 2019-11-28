@@ -23,13 +23,6 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 - linked list：儲存內容物，抽屜裡放的東西
 
 重新編碼後的字串會產生一個數字，將其塞入對應的array中
-  > e.g. 有100筆資料，1到100，將其放入長度16的array中（index:0 ~ 15），使用除法**餘數**的方式：
-          餘數為0 → index 0，
-          餘數為1 → index 1，
-          餘數為2 → index 2...以此類推下去，
-          將資料放入array中，若遇到資料重複堆疊的情形，就用linked list的方式放在第一個資料的next
-          （在array index 1中儲存的是一條linked list，head是1，next是17...）
-   
   > ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1574962170701.jpg) 
   >> 所以，在長度162的array會有16條linked list，index 1到index 4會有7個node，其餘皆有6個node
 
