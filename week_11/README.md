@@ -100,3 +100,5 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 [MD5 Hash](http://practicalcryptography.com/hashes/md5-hash/)
 
 [MD5.py](https://github.com/timvandermeij/md5.py/blob/master/md5.py)
+
+[9. Hash Sets](https://www.cs.wcupa.edu/rkline/ds/hash-sets.html)
