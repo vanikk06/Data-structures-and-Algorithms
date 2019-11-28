@@ -58,10 +58,30 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 
   - [MD5](https://www.ez2o.com/App/Coder/MD5)：將字元轉為字串（string），再將字串編到一個新的編碼，且確保此編碼唯一
     > Two-way function，可逆的
-    
-    > 邏輯運算：F、G、H、I
-    
+        
  ![](https://themoneymongers.com/wp-content/uploads/2019/01/Hash-Functions.png)
+
+#### § MD5 hash §
+  > hash編碼的一種方式
+  
+  > 更改小部分，編碼變動會很大
+  >> 保護資料：更改會被知道
+
+透過特定規則的邏輯運算可以將字串轉變為數值，且其為唯一，不會有重複的機會
+
+在input近來前，會先有一組初始值（外部給定），進入邏輯運算
+> 將字元(input)轉為十六進位編碼，再轉成二進位去作邏輯運算，之後湊出的編碼
+- 邏輯運算：F、G、H、I
+  > B、C、D = X、Y、Z
+
+
+
+
+
+
+
+
+
 
 #### Source
 [Wikipedia - Hash table](https://en.wikipedia.org/wiki/Hash_table)
@@ -73,3 +93,5 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 [Hash Table | A Helpful Line-by-Line Code Tutorial](https://www.youtube.com/watch?v=aZVNWYSR_sY&feature=emb_logo)
 
 [MD5 Hash](http://practicalcryptography.com/hashes/md5-hash/)
+
+[MD5.py](https://github.com/timvandermeij/md5.py/blob/master/md5.py)
