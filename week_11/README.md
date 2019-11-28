@@ -9,8 +9,8 @@
   
  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/473px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
   
-Hash Table：所有字串，經過**編碼對應**之後，能將字串的句子轉換為一個**單一**的編碼、編號
-  > 不重複的(unique)，不同的input不可能出現相同的hash value
+Hash Function：所有字串，經過**編碼對應**之後，能將字串的句子轉換為一個**單一**的編碼、編號
+  > 不重複的(unique)，不同的input不可能產生相同的hash value，相同的input只會產生相同的hash value
   
 透過follow編碼規則，將字串轉換數值，那就可以對字串進行**排序、比大小**，這次使用有別於Tree的資料結構儲存
 
@@ -24,7 +24,11 @@ Hash Table：所有字串，經過**編碼對應**之後，能將字串的句子
 
 重新編碼後的字串會產生一個數字，將其塞入對應的array中
   > e.g. 有100筆資料，1到100，將其放入長度16的array中（index:0 ~ 15），使用除法**餘數**的方式：
-餘數為0 → index 0，餘數為1 → index 1，餘數為2 → index 2...以此類推下去，將資料放入array中，若遇到資料重複堆疊的情形，就用linked list的方式放在第一個資料的next（在array index 1中儲存的是一條linked list，head是1，next是17...）
+          餘數為0 → index 0，
+          餘數為1 → index 1，
+          餘數為2 → index 2...以此類推下去，
+          將資料放入array中，若遇到資料重複堆疊的情形，就用linked list的方式放在第一個資料的next
+          （在array index 1中儲存的是一條linked list，head是1，next是17...）
   >> 所以，在長度162的array會有16條linked list，index 1到index 4會有7個node，其餘皆有6個node
 
   - 優點：搜尋有效率，可以先判斷是哪堆，再進去搜尋
