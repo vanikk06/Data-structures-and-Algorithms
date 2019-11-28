@@ -69,6 +69,8 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 
 透過特定規則的邏輯運算可以將字串轉變為數值，且其為唯一，不會有重複的機會
 
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1574970350704.jpg)
+
 在input近來前，會先有一組初始值（外部給定），進入邏輯運算
 > 將字元(input)轉為十六進位編碼，再轉成二進位去作邏輯運算，之後湊出的編碼
 - 邏輯運算：F、G、H、I
