@@ -9,7 +9,7 @@
   
  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/473px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
   
-Hash Table：所有字串，經過**編碼對應**之後，能將字串的句子轉換為一個**單一**的編碼、編號
+Hash Table：所有字串，經過**編碼對應**之後，能將字串的句子轉換為一個**單一(unique)**的編碼、編號
   > 不重複的
   
 透過follow編碼規則，將字串轉換數值，那就可以對字串進行**排序、比大小**，這次使用有別於Tree的資料結構儲存
