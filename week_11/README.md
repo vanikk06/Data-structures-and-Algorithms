@@ -15,7 +15,7 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
       - Unique hash value：不同的input不可能產生相同的hash value，相同的input只會產生相同的hash value
       - High hashing speed：速度快
       - Secure hash function：安全，修改困難（修改=input不同，會產生不同的hash value）
-   
+          > 無法從output找到input
    
   
 透過follow編碼規則，將字串轉換數值，那就可以對字串進行**排序、比大小**，這次使用有別於Tree的資料結構儲存
