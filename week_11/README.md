@@ -21,6 +21,8 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 #### § 資料結構 §
    > 將資料**打散**，每堆資料之間的落差不會太懸殊
    > 目的：增加搜尋效率
+   
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1574970681652.jpg)   
   
 類似dictionary（字典）概念，以**鍵值-資料對(Key-Value pair)方式**來描述資料的抽象型態
 - array：儲存空間，一個抽屜
