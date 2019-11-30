@@ -16,9 +16,8 @@
 
 
 # Content
-  - [Practice of class](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#practice-of-class)
-  
-   - [NoneType](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#nonetype)
+  - [is vs. ==](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#practice-of-class)
+  - [NoneType](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#nonetype)
   - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#depth-first-search)
   - [Traversal in Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#traversal-in-binary-tree)
   - [Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#binary-search-tree)
@@ -58,7 +57,7 @@ None：值，表示一個**空物件**
   
   
 #### 變數判斷是否為None
-    > None、False、" "（空字串）、0、[ ]（空列表）、{ }（空字典）、( )（空元組），都相當於False
+   > None、False、" "（空字串）、0、[ ]（空列表）、{ }（空字典）、( )（空元組），都相當於False
     
 - 第一種：`if x is None`
 - 第二種：`if not x`
