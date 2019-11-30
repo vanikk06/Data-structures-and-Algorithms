@@ -62,7 +62,7 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
   - [MD5](https://www.ez2o.com/App/Coder/MD5)：將字元轉為字串（string），再將字串編到一個新的編碼，且確保此編碼唯一
     > Two-way function，可逆的
         
- ![](https://themoneymongers.com/wp-content/uploads/2019/01/Hash-Functions.png)
+ ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575142526928.jpg)
 
 #### § MD5 hash §
   > hash編碼的一種方式
