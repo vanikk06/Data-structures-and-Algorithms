@@ -16,30 +16,60 @@
 
 
 # Content
-  - [NoneType](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#nonetype)
   - [Practice of class](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#practice-of-class)
+  
+   - [NoneType](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#nonetype)
   - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#depth-first-search)
   - [Traversal in Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#traversal-in-binary-tree)
   - [Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#binary-search-tree)
   - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#class-notes)
   - [Practice of Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#practice-of-binary-search-tree)
   
+#  is vs. ==
 
-
-
-# NoneType
+Python物件包含三要素：
+  - id：**唯一**標識一個物件
+  - type：物件的型別
+  - value：物件的值
+  
+is：通過**id**判斷，a物件是否就是b物件
+==：通過**value**判斷，a物件的值是否和b物件相等
 
 #### Source
 [Python對<type ‘NoneType’>資料型別的處理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/634089/)
 
 [🌚](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
 
-#  Practice of class
+
+# NoneType
+  > python內一個特殊型別
+
+Python：物件導向
+  > 物件 = 屬性 + 方法
+  - 基本資料類型：布林型別、整型、浮點型、字串、列表、元組（tuple）、集合、字典...
+  
+NoneType物件，只有一個值**None**
+  > 可將None複製給任何變數，但不能建立其他NoneType物件
+  - 不支援任何運算、也沒有任何內建方法
+  - None和其它的資料型別比較，永遠返回False
+  
+None：值，表示一個**空物件**
+  >　不可理解為0，0是有意義的，而None是特殊的空值
+  
+  
+#### 變數判斷是否為None
+    > None、False、" "（空字串）、0、[ ]（空列表）、{ }（空字典）、( )（空元組），都相當於False
+    
+- 第一種：`if x is None`
+- 第二種：`if not x`
+- 第三種：`if not x is None`
+  > 理解：`if not (x is None)`
 
 #### Source
-[python中，怎麼讓類返回值啊？](https://zhidao.baidu.com/question/504532877.html)
+[Python對<type ‘NoneType’>資料型別的處理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/634089/)
 
 [🌑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+
 
 # Depth-First Search
   > 深度優先搜尋法（DFS）
