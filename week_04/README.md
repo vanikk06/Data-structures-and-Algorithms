@@ -145,6 +145,8 @@ Class's PPT
 
 # not
 >　邏輯運算符（and、or、not）
+
+> 用於布林型：True和F
 - !=：比較運算符（a與b之間關係）
 
 #### Source
