@@ -7,6 +7,8 @@
  
  [Teacher's github](https://github.com/pecu/DSA)
  
+ [C](https://docs.google.com/spreadsheets/d/1GUElSFg_KrUj2FxwP_iZsR5pF9t9MygTaHcKXfSt4sg/edit#gid=989589818)
+ 
  #### Source
  [LeetCode](https://github.com/luliyucoordinate/Leetcode)
  
