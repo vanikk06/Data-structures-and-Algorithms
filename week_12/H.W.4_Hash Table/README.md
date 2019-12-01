@@ -4,3 +4,11 @@
     > 要告訴它編碼為何`.encode("utf-8")`，無此會Error
     
     > 轉出來16進位，要再轉為10進位(not正規)
+
+#### practice
+  - capacity：容量
+      > array長度
+  - 包函式
+    - 走訪linked list：增加、刪除、尋找
+    - 呼叫編碼
+  - array內儲存的是input，index由MD5來
