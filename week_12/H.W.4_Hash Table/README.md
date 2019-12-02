@@ -6,9 +6,10 @@
     > 轉出來16進位，要再轉為10進位(not正規)
 
 #### practice
-  - capacity：容量
+  - capacity：容量，可變動
       > array長度
   - 包函式
     - 走訪linked list：增加、刪除、尋找
+      > 新增可增加一次就好
     - 呼叫編碼
   - array內儲存的是input，index由MD5決定
