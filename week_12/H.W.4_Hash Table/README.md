@@ -47,6 +47,7 @@ index不存在array中，操作的index超過範圍
 
 # Code
   > 使用兩個class，一個MD5套件
+  
 [🤜🏾HERE🤛🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/H.W.4_Hash%20Table/H.W.4_Hash%20Table.py)  
 
 透過MD5將字串轉換為編碼，在決定其於array內的位子，再將其以node的方式加入array中
