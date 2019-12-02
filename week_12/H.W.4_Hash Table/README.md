@@ -26,7 +26,8 @@
     - 走訪linked list：增加、刪除、尋找
       > 新增可增加一次就好
     - 呼叫編碼
-  - array內儲存的是input，index由MD5決定
+  - array內儲存linked list，index由MD5決定
+  - linked list內儲存int
 
 
 # Error
