@@ -39,13 +39,13 @@ class MyHashSet:
             node.next = ListNode(encoding_key)            
         return
     
-    
         
     def Encoding_MD5(self, key:str, capacity:int):
         encoding = MD5.new(key.encode('utf-8'))
         encoding_key = int(encoding.hexdigest(), 16)
         index = int(encoding.hexdigest(), 16) % capacity
         return encoding_key, index
+    
     
     def remove(self, key):
         """
@@ -70,6 +70,7 @@ class MyHashSet:
 
             pre_node.next = node.next
         return
+    
                 
     def contains(self, key):
         """
@@ -88,3 +89,4 @@ class MyHashSet:
                 node = node.next
         return False
        
+        
