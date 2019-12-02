@@ -46,7 +46,7 @@
 > 多個相互連結的node稱之為linked list
 >> 此為單向連結
 
--`__init__`：此class的區域變數
+- `__init__`：此class的區域變數
   - .capacity：容量，array長度
     > int
   - .data：在特定的array[index]內儲存的資料
