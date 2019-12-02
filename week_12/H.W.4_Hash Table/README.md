@@ -39,3 +39,14 @@
 
 #### Source
 [問題Missing 1 required positional argument引出的關於python例項化的經驗教訓](https://www.itread01.com/content/1544325485.html)
+
+
+# Code
+透過MD5將字串轉換為編碼，在決定其於array內的位子，再將其以node的方式加入array中
+> 多個相互連結的node稱之為linked list
+>> 此為單向連結
+
+-`__init__`：此class的區域變數
+  - .capacity：容量，array長度
+    > int
+  - .data：在特定的array[index]內儲存的資料
