@@ -11,4 +11,4 @@
   - 包函式
     - 走訪linked list：增加、刪除、尋找
     - 呼叫編碼
-  - array內儲存的是input，index由MD5來
+  - array內儲存的是input，index由MD5決定
