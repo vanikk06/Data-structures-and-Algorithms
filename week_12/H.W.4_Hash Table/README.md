@@ -86,7 +86,7 @@ index不存在array中，操作的index超過範圍
             
 - `remove`：刪除資料
   
-   使用`Encoding_MD5`將要增加的資料進行編碼
+   使用`Encoding_MD5`將要刪除的資料進行編碼
    - 先判斷目標刪除值是否是array內的第一個node
       - Yes：是否有下一個node存在
         - Yes：將下一個node重新存入array中
@@ -95,3 +95,10 @@ index不存在array中，操作的index超過範圍
         > 因刪除會重新建立連結，所以也記錄指標的前一個node
         
         跳出while迴圈，指針指到目標刪除值，重新建立連結
+        
+- `contains`：包含、搜尋，是否存在此資料
+  
+  使用`Encoding_MD5`將要搜尋的資料進行編碼
+  - 建立指標，使用while迴圈，若指標值與目標搜尋值不同，就往下一個node移動
+    - 如果指標值與目標搜尋值相同，回傳True
+    - 若搜尋到最後一個皆無找到相同，回傳False
