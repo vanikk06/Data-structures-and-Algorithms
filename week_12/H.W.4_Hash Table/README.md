@@ -52,7 +52,15 @@ index不存在array中，操作的index超過範圍
 > 多個相互連結的node稱之為linked list
 >> 此為單向連結
 
-- `__init__`：此class的區域變數
+#### ListNode
+- `__init__`：linked list基本屬性
+  - .val：node內儲存的資料
+    > int
+  - .next：指向下一個node的連結
+    > ListNode
+  
+#### MyHashSet
+- `__init__`：hash table基本屬性
   - .capacity：容量，array長度
     > int
   - .data：在特定的array[index]內儲存的資料
