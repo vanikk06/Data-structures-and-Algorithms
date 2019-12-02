@@ -33,5 +33,8 @@
 
 ### TypeError
  > `missing 1 required positional argument`
+ 
+在使用class建立物件時，使用class名稱，後面必定要帶**'()'**
 
-[](https://www.itread01.com/content/1544325485.html)
+#### Source
+[問題Missing 1 required positional argument引出的關於python例項化的經驗教訓](https://www.itread01.com/content/1544325485.html)
