@@ -46,6 +46,8 @@
 index不存在array中，操作的index超過範圍
 
 # Code
+  > 使用兩個class，一個MD5套件
+
 透過MD5將字串轉換為編碼，在決定其於array內的位子，再將其以node的方式加入array中
 > 多個相互連結的node稱之為linked list
 >> 此為單向連結
