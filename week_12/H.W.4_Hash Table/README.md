@@ -83,3 +83,15 @@ index不存在array中，操作的index超過範圍
             > 先判斷下一個node是否與目標存入值相同，是的話返回
          
             跳出while迴圈，指針指到linked list最後一個node，在指針的下一個創建新的node，存入目標值
+            
+- `remove`：刪除資料
+  
+   使用`Encoding_MD5`將要增加的資料進行編碼
+   - 先判斷目標刪除值是否是array內的第一個node
+      - Yes：是否有下一個node存在
+        - Yes：將下一個node重新存入array中
+        - No：將array內的值改為None
+      - No：將指標指到目標刪除值，使用while迴圈移動指針，如果指標值與目標刪除值不同，就往下一個移動
+        > 因刪除會重新建立連結，所以也記錄指標的前一個node
+        
+        跳出while迴圈，指針指到目標刪除值，重新建立連結
