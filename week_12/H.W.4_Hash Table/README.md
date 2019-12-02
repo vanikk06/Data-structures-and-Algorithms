@@ -40,6 +40,10 @@
 #### Source
 [問題Missing 1 required positional argument引出的關於python例項化的經驗教訓](https://www.itread01.com/content/1544325485.html)
 
+### IndexError
+  > `list assignment index out of range`
+
+index不存在array中，操作的index超過範圍
 
 # Code
 透過MD5將字串轉換為編碼，在決定其於array內的位子，再將其以node的方式加入array中
