@@ -64,3 +64,20 @@ index不存在array中，操作的index超過範圍
   - .capacity：容量，array長度
     > int
   - .data：在特定的array[index]內儲存的資料
+  
+- `Encoding_MD5`：透過MD5將input進行編碼化
+  - 使用MD5套件進行編碼
+  - encoding_key：將編碼以十六進位表示，再轉成十進位
+  - index：將encoding_key除以array的長度，找到存放的位置
+
+- `add`：增加資料
+  使用`Encoding_MD5`將要增加的資料進行編碼
+  - 先判斷目標存入位置是否已有值存在
+    - No：在目標存入位置創造一個node，存入編碼
+    - Yes：將已存的node放入另一個指標，再將指標指向linked list最後一個值
+      > 若遇到重複值，只存取一次
+        - 先判斷已存入的值是否與目標存入值相同
+          - Yes：返回
+          - No：使用while迴圈，如果下一個node存在，指標就往下一個node移動
+            > 先判斷下一個node是否與目標存入值相同，是的話返回
+          跳出while迴圈，指針指到linked list最後一個node，在指針的下一個創要新的node空間，存入目標存入值
