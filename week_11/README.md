@@ -20,6 +20,7 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 
 #### § 資料結構 §
    > 將資料**打散**，每堆資料之間的落差不會太懸殊
+   
    > 目的：增加搜尋效率
    
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1574970681652.jpg)   
