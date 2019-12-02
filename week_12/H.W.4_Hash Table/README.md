@@ -82,4 +82,4 @@ index不存在array中，操作的index超過範圍
           - No：使用while迴圈，如果下一個node存在，指標就往下一個node移動
             > 先判斷下一個node是否與目標存入值相同，是的話返回
          
-            跳出while迴圈，指針指到linked list最後一個node，在指針的下一個創要新的node空間，存入目標存入值
+            跳出while迴圈，指針指到linked list最後一個node，在指針的下一個創建新的node，存入目標值
