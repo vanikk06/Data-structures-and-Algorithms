@@ -174,3 +174,5 @@ Status：Runtime 2824 ms, Memory 17.9 MB
         
 # Try Desigh HashSet
   > 更改H.W.4_Hash Table
+  
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet.py) 
