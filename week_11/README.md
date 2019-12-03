@@ -116,4 +116,13 @@ Status：Runtime 2824 ms, Memory 17.9 MB
 
 利用array跟linked list來達到hash table的資料結構
 
-#### 
+#### Code
+
+- Mynode：linked list基本屬性
+  - .val：node內的資料
+  - .next：node與下一個node的連結
+
+- MyHashSet：結合array與linked list
+  - `__init__`：array基本屬性
+    - .capacity：array長度，有幾個index
+    - .data：建立capacity長度的array，以儲存資料
