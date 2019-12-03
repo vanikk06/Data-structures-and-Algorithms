@@ -48,6 +48,8 @@ index不存在array中，操作的index超過範圍
 ### AttributeError
   > `'NoneType' object has no attribute 'val'`
   
+❗ 移動node指標，若判斷式採**val**，要小心是否會移到None ❗
+  
 目標刪除值不存在，因為其移動的判斷只要值與目標刪除val不同就往下跑，因此會跑到None去判斷它的val，從而錯誤
 
 #### Source
