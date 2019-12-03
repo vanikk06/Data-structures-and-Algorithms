@@ -192,7 +192,7 @@ Status：Runtime 416 ms, Memory 14.2 MB
 
 
 ## Try Design linked list  
-  > By myslef
+  > By myself
   >> LeetCode：707. Design Linked List
   
   [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/Try%20Design%20linked%20list.py)
