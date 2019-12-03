@@ -108,7 +108,8 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 
 
 # Test Desigh HashSet
-  > Following te
+  > Following teacher's → LeetCode：705. Design HashSet
 
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Test%20Design%20HashSet.py)
 
-[](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Test%20Design%20HashSet.py)
+Status：Runtime 2824 ms, Memory 17.9 MB
