@@ -113,7 +113,8 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 
 
 # Test Desigh HashSet
-  > Following teacher's → LeetCode：705. Design HashSet
+  > Following teacher's
+  >> LeetCode：705. Design HashSet
 
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Test%20Design%20HashSet.py)
 
@@ -178,8 +179,32 @@ Status：Runtime 2824 ms, Memory 17.9 MB
         
         
 # Try Desigh HashSet
-  > 更改H.W.4_Hash Table
+  > By myself：更改H.W.4_Hash Table
+  >> LeetCode：705. Design HashSet
+
+根據此題LeetCode對作業四的程式碼進行更改
+
+- []()
+- []()
   
-## 
+## Changing of capacity
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20capacity.py) 
+
+🚫 Status：Time Limit Exceeded
+  > 計算太久
+  >> 有可能是Bug引起的，若不是則是演算法計算太慢，要重新思考計算方式
+
+此處code會出現`Time Limit Exceeded`的問題，除了演算法設計太過繁瑣外，還有一個原因是因為capacity設定的太小（原始設定為5），才會導致即使使用Hash Table的資料結構仍出現計算過久的問題
+
+- 將capacity更改為7：測資皆通過但是仍花過長時間
+  🚫 Status：Time Limit Exceeded
+    > 28 / 28 test cases passed, but took too long.
+
+- 將capacity更改為：
+  Status：Runtime 2596 ms, Memory 17.8 MB
   
-[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet.py) 
+#### Source
+[LeetCode介紹](https://arton0306blog.wordpress.com/2018/04/15/leetcode%E4%BB%8B%E7%B4%B9/)
+
+## Changing of code
+[]()
