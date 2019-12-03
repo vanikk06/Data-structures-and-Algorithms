@@ -113,3 +113,7 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Test%20Design%20HashSet.py)
 
 Status：Runtime 2824 ms, Memory 17.9 MB
+
+利用array跟linked list來達到hash table的資料結構
+
+#### 
