@@ -99,17 +99,21 @@ index不存在array中，操作的index超過範圍
             跳出while迴圈，指針指到linked list最後一個node，在指針的下一個創建新的node，存入目標值
             
 - `remove`：刪除資料
-  > 調整Runtime Error
+  > 調整Runtime Error：目標不存在時
+  >> - index已有值存在：調整移動指標的判斷
+  >> - index未有值存在：直接跳出
   
    使用`Encoding_MD5`將要刪除的資料進行編碼
+   - 如果目標刪除值所在的index是空的，返回
+      > 目標刪除值不存在
    - 先判斷目標刪除值是否是array內的第一個node
       - Yes：是否有下一個node存在
         - Yes：將下一個node重新存入array中
         - No：將array內的值改為None
-      - No：將指標指到目標刪除值，使用while迴圈移動指針，如果指標值與目標刪除值不同，就往下一個移動
+      - No：將指標指到目標刪除值，使用while迴圈移動指針，如果指標值與目標刪除值不同且指標值的下一個node存在，就往下一個移動
         > 因刪除會重新建立連結，所以也記錄指標的前一個node
         
-        跳出while迴圈，指針指到目標刪除值，重新建立連結
+        跳出while迴圈，若指針指到目標刪除值，就重新建立連結
         
 - `contains`：包含、搜尋，是否存在此資料
   
