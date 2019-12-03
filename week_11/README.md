@@ -170,3 +170,7 @@ Status：Runtime 2824 ms, Memory 17.9 MB
             - Yes：返回True
             - No：node指標指到下一個node
         - Yes：返回False
+        
+        
+# Try Desigh HashSet
+  > 更改H.W.4_Hash Table
