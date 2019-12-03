@@ -65,9 +65,9 @@ index不存在array中，操作的index超過範圍
   >> remove：目標刪除值不存在時會出現`AttributeError: 'NoneType' object has no attribute 'val'`
  
 🚫 Status：Time Limit Exceeded
-    > 時間複雜度過高，要精簡程式碼
-    >> 此處未更改，以防程式碼相似度過高
-  
+  > 時間複雜度過高，要精簡程式碼
+  >> 此處未更改，以防程式碼相似度過高
+
   
 
 透過MD5將字串轉換為編碼，在決定其於array內的位子，再將其以node的方式加入array中
