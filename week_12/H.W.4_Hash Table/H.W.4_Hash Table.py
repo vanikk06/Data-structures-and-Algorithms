@@ -57,6 +57,9 @@ class MyHashSet:
         capacity = self.capacity
         encoding_key, index = self.Encoding_MD5(key, capacity)
         
+        if self.data[index] == None:
+            return
+        
         if encoding_key == self.data[index].val:
             if self.data[index].next == None:
                 self.data[index] = None
@@ -64,12 +67,12 @@ class MyHashSet:
                 self.data[index] = self.data[index].next
         else:
             node = self.data[index]
-            pre_node = node
-            while node.val != encoding_key:
+            pre_node = None
+            while node.val != encoding_key and node.next != None:
                 pre_node = node
                 node = node.next
-
-            pre_node.next = node.next
+            if node.val == key:
+                pre_node.next = node.next
         return
     
                 
