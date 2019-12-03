@@ -130,3 +130,8 @@ index不存在array中，操作的index超過範圍
   - 建立指標，使用while迴圈，若指標值與目標搜尋值不同，就往下一個node移動
     - 如果指標值與目標搜尋值相同，回傳True
     - 若搜尋到最後一個皆無找到相同，回傳False
+
+# Demo
+- add
+- remove
+- contains
