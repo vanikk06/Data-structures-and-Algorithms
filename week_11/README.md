@@ -1,4 +1,6 @@
 # Hash Table
+  > class teaching
+
   > 儲存資料的結構
   >> 結合array跟linked list 
  
