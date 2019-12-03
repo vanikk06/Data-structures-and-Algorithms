@@ -108,6 +108,9 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 
 [白話的 Hash Table 簡介](https://blog.techbridge.cc/2017/01/21/simple-hash-table-intro/)
 
+#### Others
+[Pair Programming](https://www.youtube.com/watch?v=vgkahOzFH2Q&feature=youtu.be)
+
 
 # Test Desigh HashSet
   > Following teacher's → LeetCode：705. Design HashSet
@@ -176,5 +179,7 @@ Status：Runtime 2824 ms, Memory 17.9 MB
         
 # Try Desigh HashSet
   > 更改H.W.4_Hash Table
+  
+## 
   
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet.py) 
