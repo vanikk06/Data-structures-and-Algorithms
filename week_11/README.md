@@ -130,5 +130,5 @@ Status：Runtime 2824 ms, Memory 17.9 MB
     先將input除以array長度，找到其存放的index，再將index的值存到另一個變數（node）方便操作
     - node是否為None
       > None必為False
-      >> 若index本身是空的，其值是None
-      >> 若node不存在，其也為None
+      >> - 若index本身是空的，其值是None
+      >> - 若node不存在，其也為None
