@@ -1,4 +1,4 @@
-# H.W.4_Hash Table notes
+# Notes
 ##### [MD5套件](https://kite.com/python/examples/2084/crypto-generate-a-new-md5-hash)
   - 宣告物件時，要先`.new()`一個初始的
   - 塞物件`.update`：這物件裡面要開始轉換
