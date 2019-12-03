@@ -127,6 +127,7 @@ Status：Runtime 2824 ms, Memory 17.9 MB
     - .capacity：array長度，有幾個index
     - .data：建立capacity長度的array，以儲存資料
   -  `add`：在HashSet內插入資料
+  
      先將input除以array長度，找到其存放的index，再將index的值存到另一個變數（node）方便操作
     - node是否為None
       > None必為False
@@ -142,4 +143,5 @@ Status：Runtime 2824 ms, Memory 17.9 MB
       - Yes：跳出while迴圈，建立一個新的node，放到linked list的第一個
       
   - `remove`：移除HashSet內的資料，若資料不存在則不作為
+  
      先將input除以array長度，找到其存放的index，再將index的值存到另一個變數（node）方便操作
