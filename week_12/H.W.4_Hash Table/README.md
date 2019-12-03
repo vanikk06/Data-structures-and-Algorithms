@@ -55,6 +55,8 @@ index不存在array中，操作的index超過範圍
   
 [🤜🏾HERE🤛🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/H.W.4_Hash%20Table/H.W.4_Hash%20Table.py)
 
+缺點：思慮不夠完備，沒有考慮到所有情形
+
 🚫Status：Runtime Error
   > 執行期錯誤，通常是access（訪問）到陣列外面
   >> remove：目標刪除值不存在時會出現`AttributeError: 'NoneType' object has no attribute 'val'
