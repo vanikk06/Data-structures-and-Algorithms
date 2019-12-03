@@ -209,4 +209,4 @@ Status：Runtime 2824 ms, Memory 17.9 MB
 [LeetCode介紹](https://arton0306blog.wordpress.com/2018/04/15/leetcode%E4%BB%8B%E7%B4%B9/)
 
 ## Changing of code
-[]()
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20code.py)
