@@ -48,7 +48,12 @@ index不存在array中，操作的index超過範圍
 # Code
   > 使用兩個class，一個MD5套件
   
-[🤜🏾HERE🤛🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/H.W.4_Hash%20Table/H.W.4_Hash%20Table.py)  
+[🤜🏾HERE🤛🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/H.W.4_Hash%20Table/H.W.4_Hash%20Table.py)
+
+🚫Status：Runtime Error
+  > 執行期錯誤，通常是access（訪問）到陣列外面
+  >> remove：目標刪除值不存在時會出現`AttributeError: 'NoneType' object has no attribute 'val'
+`
 
 透過MD5將字串轉換為編碼，在決定其於array內的位子，再將其以node的方式加入array中
 > 多個相互連結的node稱之為linked list
@@ -87,6 +92,7 @@ index不存在array中，操作的index超過範圍
             跳出while迴圈，指針指到linked list最後一個node，在指針的下一個創建新的node，存入目標值
             
 - `remove`：刪除資料
+  > 調整Runtime Error
   
    使用`Encoding_MD5`將要刪除的資料進行編碼
    - 先判斷目標刪除值是否是array內的第一個node
