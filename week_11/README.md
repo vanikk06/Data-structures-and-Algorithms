@@ -113,6 +113,8 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 #### Others
 [Pair Programming](https://www.youtube.com/watch?v=vgkahOzFH2Q&feature=youtu.be)
 
+[🏳‍🌈](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+
 
 # Test Desigh HashSet
   > Following teacher's
@@ -178,7 +180,8 @@ Status：Runtime 2824 ms, Memory 17.9 MB
             - Yes：返回True
             - No：node指標指到下一個node
         - Yes：返回False
-        
+
+[🏁](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
         
 # Try Desigh HashSet
   > By myself：更改H.W.4_Hash Table
@@ -210,5 +213,9 @@ Status：Runtime 2824 ms, Memory 17.9 MB
 #### Source
 [LeetCode介紹](https://arton0306blog.wordpress.com/2018/04/15/leetcode%E4%BB%8B%E7%B4%B9/)
 
+[🏳](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+
 ## Changing of code
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20code.py)
+
+[🏴](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
