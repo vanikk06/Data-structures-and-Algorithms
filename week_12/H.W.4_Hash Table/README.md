@@ -1,3 +1,13 @@
+# Content
+  - [Jupyter notebook_The process of learning hash table](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/H.W.4_Hash%20Table/The%20process%20of%20%20learning%20hash%20table.ipynb)
+    - [Jupyter nbviewer_The process of learning hash table](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/H.W.4_Hash%20Table/The%20process%20of%20%20learning%20hash%20table.ipynb)
+  - [Notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12/H.W.4_Hash%20Table#notes)
+  - [Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12/H.W.4_Hash%20Table#error)
+  - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12/H.W.4_Hash%20Table#code)
+  - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12/H.W.4_Hash%20Table#demo)
+
+
+
 # Notes
 ##### [MD5套件](https://kite.com/python/examples/2084/crypto-generate-a-new-md5-hash)
   - 宣告物件時，要先`.new()`一個初始的
