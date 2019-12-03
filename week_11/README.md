@@ -132,3 +132,12 @@ Status：Runtime 2824 ms, Memory 17.9 MB
       > None必為False
       >> - 若index本身是空的，其值是None
       >> - 若node不存在，其也為None
+      
+      - No：進入while迴圈
+        >　查看input是否與已存的值相同
+        - 是否相同
+          > 相同值只存取一次
+           - Yes：返回
+           - No：node指標指到下一個node
+      - Yes：跳出while迴圈，建立一個新的node，放到linked list的第一個
+         
