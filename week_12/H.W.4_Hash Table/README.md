@@ -61,12 +61,12 @@ index不存在array中，操作的index超過範圍
 缺點：思慮不夠完備，沒有考慮到所有情形
 
 ✔Status：Runtime Error
-  > 執行期錯誤，通常是access（訪問）到陣列外面
-  >> remove：目標刪除值不存在時會出現`AttributeError: 'NoneType' object has no attribute 'val'`
+    > 執行期錯誤，通常是access（訪問）到陣列外面
+    >> remove：目標刪除值不存在時會出現`AttributeError: 'NoneType' object has no attribute 'val'`
  
 🚫 Status：Time Limit Exceeded
-  > 時間複雜度過高，要精簡程式碼
-  >> 此處未更改，以防程式碼相似度過高
+    > 時間複雜度過高，要精簡程式碼
+    >> 此處未更改，以防程式碼相似度過高
 
   
 
