@@ -184,8 +184,8 @@ Status：Runtime 2824 ms, Memory 17.9 MB
 
 根據此題LeetCode對作業四的程式碼進行更改
 
-- []()
-- []()
+- [Changing of capacity](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#changing-of-capacity)
+- [Changing of code]()
   
 ## Changing of capacity
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20capacity.py) 
@@ -197,10 +197,12 @@ Status：Runtime 2824 ms, Memory 17.9 MB
 此處code會出現`Time Limit Exceeded`的問題，除了演算法設計太過繁瑣外，還有一個原因是因為capacity設定的太小（原始設定為5），才會導致即使使用Hash Table的資料結構仍出現計算過久的問題
 
 - 將capacity更改為7：測資皆通過但是仍花過長時間
+
   🚫 Status：Time Limit Exceeded
     > 28 / 28 test cases passed, but took too long.
 
-- 將capacity更改為：
+- 將capacity更改為
+
   Status：Runtime 2596 ms, Memory 17.8 MB
   
 #### Source
