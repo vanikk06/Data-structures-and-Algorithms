@@ -145,3 +145,15 @@ Status：Runtime 2824 ms, Memory 17.9 MB
   - `remove`：移除HashSet內的資料，若資料不存在則不作為
   
      先將input除以array長度，找到其存放的index，再將index的值存到另一個變數（node）方便操作
+      - 如果node存在 且 node的值等於目標刪除值：將node指標的下一個node重新存入index中，返回
+      建立另一個變數（pre），存入node的前一個node，方便刪除（重新建立連結）
+      
+      - node是否為None
+        - No：進入while迴圈
+          > 尋找目標刪除值
+          - node的值是否與目標刪除值相同
+            - Yes：重新建立連結，返回
+            - No：node指標與pre指標皆指到下一個
+        - Yes：跳出while迴圈，不處理
+      
+      
