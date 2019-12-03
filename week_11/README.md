@@ -115,6 +115,9 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 Status：Runtime 2824 ms, Memory 17.9 MB
 
 利用array跟linked list來達到hash table的資料結構
+  - 增加node是加在linked list第一個
+  - 移動指標，判斷式為node是否存在（node存在就往下一個移動）
+     > 不會出現`AttributeError`
 
 #### Code
 
@@ -157,4 +160,13 @@ Status：Runtime 2824 ms, Memory 17.9 MB
             - No：node指標與pre指標皆指到下一個
         - Yes：跳出while迴圈，不處理
       
-      
+  - `contains`：資料是否存在HashSet內，回傳True或False
+    
+     先將input除以array長度，找到其存放的index，再將index的值存到另一個變數（node）方便操作
+     - node是否為None
+        - No：進入while迴圈
+          > 尋找目標搜尋值
+          - node的值是否與目標搜尋值相同
+            - Yes：返回True
+            - No：node指標指到下一個node
+        - Yes：返回False
