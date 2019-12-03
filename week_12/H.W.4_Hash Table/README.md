@@ -133,5 +133,8 @@ index不存在array中，操作的index超過範圍
 
 # Demo
 - add
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/1575385042454.jpg)
 - remove
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/1575385083737.jpg)
 - contains
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/1575385110448.jpg)
