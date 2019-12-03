@@ -185,7 +185,7 @@ Status：Runtime 2824 ms, Memory 17.9 MB
 根據此題LeetCode對作業四的程式碼進行更改
 
 - [Changing of capacity](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#changing-of-capacity)
-- [Changing of code]()
+- [Changing of code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#changing-of-code)
   
 ## Changing of capacity
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20capacity.py) 
@@ -201,7 +201,7 @@ Status：Runtime 2824 ms, Memory 17.9 MB
   🚫 Status：Time Limit Exceeded
     > 28 / 28 test cases passed, but took too long.
 
-- 將capacity更改為
+- 將capacity更改為8：Accepted
 
   Status：Runtime 2596 ms, Memory 17.8 MB
   
