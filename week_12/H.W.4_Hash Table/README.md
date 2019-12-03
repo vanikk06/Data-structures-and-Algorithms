@@ -84,7 +84,7 @@ index不存在array中，操作的index超過範圍
 - `__init__`：hash table基本屬性
   - .capacity：容量，array長度
     > int
-  - .data：在特定的array[index]內儲存的資料
+  - .data：建立array，以便在特定的array[index]內儲存資料
   
 - `Encoding_MD5`：透過MD5將input進行編碼化
   - 使用MD5套件進行編碼
