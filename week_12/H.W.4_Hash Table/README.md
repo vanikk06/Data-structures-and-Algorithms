@@ -47,6 +47,9 @@
  
 在使用class建立物件（例項化）時，要先呼叫class，使用class名稱，後面必定要加()，否則會出現此TypeError
 
+- 要使用class，必須將class指派到另一個變數，才可產生實例
+  > MyHashSet = MyHashSet()
+
 #### Source
 [問題Missing 1 required positional argument引出的關於python例項化的經驗教訓](https://www.itread01.com/content/1544325485.html)
 
