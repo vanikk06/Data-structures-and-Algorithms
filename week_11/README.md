@@ -122,6 +122,10 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 
 [白話的 Hash Table 簡介](https://blog.techbridge.cc/2017/01/21/simple-hash-table-intro/)
 
+[Python資料加密，解密的相關操作（hashlib、hmac、random、base64、pycrypto）](https://www.itread01.com/content/1542966064.html)
+
+[hash function 觀念和實務](https://hackmd.io/@EW34LLeXTra2Oikg0WEQ5Q/HJln3jU_e?type=view)
+
 #### Others
 [Pair Programming](https://www.youtube.com/watch?v=vgkahOzFH2Q&feature=youtu.be)
 
