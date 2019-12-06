@@ -1,5 +1,4 @@
 # Content
-[A](#A)
 
-
-# A
+DFS
+  > Stack：看要先pop誰
