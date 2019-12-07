@@ -16,7 +16,7 @@
 [Python資料加密，解密的相關操作（hashlib、hmac、random、base64、pycrypto）](https://www.itread01.com/content/1542966064.html)
 
 
-# Hash Table
+# Hash TableⅠ
   > class teaching
 
   > 儲存資料的結構
