@@ -162,6 +162,8 @@ Hash Table是透過hash function將給定的key對應到一個index後，將valu
  
 - hash function：將每個key**對應**到一個固定的index
 
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575746923024.jpg)
+
 
 #### Source
 [【C++ 資料結構與演算法】雜湊表 (hash table)](https://www.youtube.com/watch?v=O4dGJZ4J0Bk&t=)
