@@ -139,7 +139,6 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 
 # Hash TableⅡ
   > online information
-  > 雜湊表
   
 #### mapping
   > 映射：使用鍵值（key）去查詢資料內容（value）
@@ -147,10 +146,26 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 e.g. array：利用index對應到儲存的資料
   - key只能是**非負整數**
     > 必須在index範圍內（0 ~ n-1）
-  - 儲存資料的型別不受限制（一個array可以儲存一個以上的資料型別）
-    > 因為對應到的是儲存空間，而非資料本身
+  - 儲存資料的型別**不受限制**
+    > Python：對應到的是儲存空間，而非資料本身（一個array可以儲存一個以上的資料型別）
+    
+#### Hash Table
+  > 雜湊表
+  > 解決mapping問題
+
+Hash Table是透過hash function將給定的key對應到一個index後，將value存放到對應的位置（bucket）
+ > key不限制只能是非負整數
+ 
+ > **兩次**對應：
+ >> 1. key對應到index
+ >> 2. index對應到value
+ 
+- hash function：將每個key**對應**到一個固定的index
+
 
 #### Source
+[【C++ 資料結構與演算法】雜湊表 (hash table)](https://www.youtube.com/watch?v=O4dGJZ4J0Bk&t=)
+
 [白話的 Hash Table 簡介](https://blog.techbridge.cc/2017/01/21/simple-hash-table-intro/)
 
 [hash function 觀念和實務](https://hackmd.io/@EW34LLeXTra2Oikg0WEQ5Q/HJln3jU_e?type=view)
