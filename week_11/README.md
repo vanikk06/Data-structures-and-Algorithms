@@ -1,5 +1,5 @@
 # Content
-- [Hash Table](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table)
+- [Hash Table](#hash-table%E2%85%B0)
 - [Test Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#test-desigh-hashset)
     - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#code)
 - [Try Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#try-desigh-hashset)
