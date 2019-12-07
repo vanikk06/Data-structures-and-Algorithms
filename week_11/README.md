@@ -141,14 +141,14 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
   > online information
   > 雜湊表
   
-### mapping
+#### mapping
   > 映射：使用鍵值（key）去查詢資料內容（value）
 
 e.g. array：利用index對應到儲存的資料
-    - key只能是**非負整數**
-        > 必須在index範圍內（0 ~ n-1）
-    - 儲存資料的型別不受限制（一個array可以儲存一個以上的資料型別）
-        > 因為對應到的是儲存空間，而非資料本身
+  - key只能是**非負整數**
+    > 必須在index範圍內（0 ~ n-1）
+  - 儲存資料的型別不受限制（一個array可以儲存一個以上的資料型別）
+    > 因為對應到的是儲存空間，而非資料本身
 
 #### Source
 [白話的 Hash Table 簡介](https://blog.techbridge.cc/2017/01/21/simple-hash-table-intro/)
