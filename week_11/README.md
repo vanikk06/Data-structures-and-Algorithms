@@ -150,7 +150,7 @@ e.g. array：利用index對應到儲存的資料
     > Python：對應到的是儲存空間，而非資料本身（一個array可以儲存一個以上的資料型別）
     
 #### Hash Table
-  > 雜湊表
+  > 雜湊表：將key轉成index搜尋
   > 解決mapping問題
 
 Hash Table是透過hash function將給定的key對應到一個index後，將value存放到對應的位置（bucket）
@@ -161,9 +161,29 @@ Hash Table是透過hash function將給定的key對應到一個index後，將valu
  >> 2. index對應到value
  
 - hash function：將每個key**對應**到一個固定的index
+    > 將字串編碼
+    
+    > 位元運算：不在意資料型別
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575746923024.jpg)
 
+理想中的hash table是所有的index都只對應到單一個key，但實際上並非如此
+- collision：碰撞，兩個以上的key對應到相同的index
+    > 可使用linked list或是BST
+    
+    
+時間複雜度：
+- Best：O(1)，將key運算得到index，直接到index找資料
+ > 一個index只對應到一個key
+ >> 當資料量大時，若想達到這點，需要犧牲大量的記憶體空間（增加index個數）
+- Worst：O(n)，所有key都對應到相同的index
+  
+#### 不適用Hash Table
+- 有時間順序的
+    > queue better
+
+- 對data進行排序
+    > hashSet是**字典**對應的資料結構
 
 #### Source
 [【C++ 資料結構與演算法】雜湊表 (hash table)](https://www.youtube.com/watch?v=O4dGJZ4J0Bk&t=)
