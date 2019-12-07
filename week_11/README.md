@@ -26,9 +26,9 @@
   
 - [概念](#-%E6%A6%82%E5%BF%B5-)
 - [資料結構](#-資料結構-)
-- [hash function](https://github.com/vanikk06/Data-structures-and-Al-)
-- m/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#-md5-hash-)
-- [字串格式轉換](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#-%E5%AD%97%E4%B8%B2%E6%A0%BC%E5%BC%8F%E8%BD%89%E6%8F%9B-)
+- [hash function](#-hash-function-)
+- [MD5 hash](#-md5-hash-)
+- [字串格式轉換](#-%E5%AD%97%E4%B8%B2%E6%A0%BC%E5%BC%8F%E8%BD%89%E6%8F%9B-)
  
 #### § 概念 § 
 
