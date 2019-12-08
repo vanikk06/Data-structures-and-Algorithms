@@ -205,21 +205,6 @@ input + Hash function = Hash value
     > input中的微小變化，會產生完全不同的hash value
     >　雙向：input和output之間可以自由轉換
 
-#### Blockchain
-    >
-
-在區塊鏈中，hash被用來表示blockchain的**當前狀態**，並確保他是**不會被更改的**
-
-每筆交易都含有特定的信息，例如數量、送貨地址、到貨地址...，所有這些訊息都會被組合在公式中，產生稱為"Transaction ID"的hash value，可用來識別和確認交易已經發生
-
-在blockchain中的第一塊被稱為Genesis Block，包含交易的訊息，當他們被組合在一起時會產生唯一的hash value，當第二塊創建時，Genesis Block的hash value會被加到新block中的所有新交易，再以新組合產生各自的hash value，重複此行動作在所有blockchain中的block
-
-如此，採用舊的hash value產生新的hash value，從而建造block之間牢不可破的**依賴關係**，每個block都鏈接到其先前的block，以此讓blockchain成為**安全、透明、不變的網絡**
-
-
-
-
-
 
      
 #### Source
@@ -235,7 +220,29 @@ input + Hash function = Hash value
 
 [What is Hashing? Hash Functions Explained Simply](https://www.youtube.com/watch?v=2BldESGZKB8&feature=emb_logo)
 
+
+
 [🏴‍☠️](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+
+# Blockchain
+  > 技術，互聯網上記錄數據的全新方式 
+
+在區塊鏈中，hash被用來表示blockchain的**當前狀態**，並確保他是**不會被更改的**
+
+每筆交易都含有特定的信息，例如數量、送貨地址、到貨地址...，所有這些訊息都會被組合在公式中，產生稱為"Transaction ID"的hash value，可用來識別和確認交易已經發生
+
+在blockchain中的第一塊被稱為Genesis Block，包含交易的訊息，當他們被組合在一起時會產生唯一的hash value，當第二塊創建時，Genesis Block的hash value會被加到新block中的所有新交易，再以新組合產生各自的hash value，重複此行動作在所有blockchain中的block
+
+如此，採用舊的hash value產生新的hash value，從而建造block之間牢不可破的**依賴關係**，每個block都鏈接到其先前的block，以此讓blockchain成為**安全、透明、不變的網絡**
+
+
+#### Source
+[What is Hashing? Hash Functions Explained Simply](https://www.youtube.com/watch?v=2BldESGZKB8&feature=emb_logo)
+
+[What is Blockchain?](https://lisk.io/what-is-blockchain)
+
+[🚩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+
 
 # Test Desigh HashSet
   > Following teacher's
