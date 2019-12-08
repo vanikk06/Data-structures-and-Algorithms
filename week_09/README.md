@@ -131,6 +131,11 @@ None：值，表示一個**空物件**
  
  ![](https://upload.wikimedia.org/wikipedia/commons/9/9b/Binary_search_tree_example.gif)
  
+#### 時間複雜度
+|  | Best | Worst |
+| --- | --- | --- |
+| **Time complexity** | O(log n) | O(n) |
+ 
 - Binary Tree：僅有**兩個**子節點
   > 建構：讓資料insert後能維持只有兩個child，且insert後指到新的node
   >> 可自行指定要放left或right
