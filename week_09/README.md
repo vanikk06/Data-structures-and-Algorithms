@@ -131,7 +131,6 @@ None：值，表示一個**空物件**
  
  ![](https://upload.wikimedia.org/wikipedia/commons/9/9b/Binary_search_tree_example.gif)
  
-#### 時間複雜度
 |  | Best | Worst |
 | --- | --- | --- |
 | **Time complexity** | O(log n) | O(n) |
