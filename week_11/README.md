@@ -1,12 +1,12 @@
 # Content
 - []()
-- [Hash Table Ⅰ](#hash-table%E2%85%B0)
-- [Hash Table Ⅱ](#hash-table%E2%85%B1)
-- [Test Desigh HashSet](#test-desigh-hashset)
-    - [Code](#code)
-- [Try Desigh HashSet](#try-desigh-hashset)
-    - [Changing of capacity](#changing-of-capacity)
-    - [Changing of code](#changing-of-code)
+- [Hash Table Ⅰ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B0)
+- [Hash Table Ⅱ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B1)
+- [Test Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#test-desigh-hashset)
+    - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#code)
+- [Try Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#try-desigh-hashset)
+    - [Changing of capacity](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#changing-of-capacity)
+    - [Changing of code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#changing-of-code)
 
 
 # Encoding
