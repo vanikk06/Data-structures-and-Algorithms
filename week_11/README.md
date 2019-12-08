@@ -39,11 +39,7 @@
   
 Hash Function：所有字串，經過**編碼對應**之後，能將字串的句子轉換為一個**單一**的編碼、編號
    
-   - 特性：
-      - Unique hash value：不同的input不可能產生相同的hash value，相同的input只會產生相同的hash value
-      - High hashing speed：速度快
-      - Secure hash function：安全，修改困難（修改=input不同，會產生不同的hash value）  
-  
+ 
 透過follow編碼規則，將字串轉換數值，那就可以對字串進行**排序、比大小**，這次使用有別於Tree的資料結構儲存
 
 #### § 資料結構 §
@@ -199,8 +195,23 @@ Hash Table是透過hash function將給定的key對應到一個index後，將valu
   > 將任何長度的input利用數學函式**轉換**（convert）為固定大小的字符串的一個過程
   >> 字符串：numbers and letters
 
+input + Hash function = Hash value
 
+- input：任意長度
+- Hash function：轉換過程，密碼學
+- Hash value：固定長度、大小
 
+#### Hash function of property
+
+1. Unique：不同的input不可能產生相同的hash value，相同的input只會產生相同的hash value
+2. High hashing speed：對任何的input，轉換速度皆是快的
+3. Secure hash function：安全，逆轉該函式或是將其設為雙向是困難的
+    > input中的微小變化，會產生完全不同的hash value
+    >　雙向：input和output之間可以自由轉換
+
+#### Blockchain
+
+     
 #### Source
 [【C++ 資料結構與演算法】雜湊表 (hash table)](https://www.youtube.com/watch?v=O4dGJZ4J0Bk&t=)
 
