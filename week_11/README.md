@@ -2,6 +2,7 @@
 - []()
 - [Hash Table Ⅰ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B0)
 - [Hash Table Ⅱ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B1)
+- [Blockchain](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#blockchain)
 - [Test Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#test-desigh-hashset)
     - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#code)
 - [Try Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#try-desigh-hashset)
@@ -136,6 +137,8 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 - [Hash Table](#hash-table)
     - [時間複雜度](#%E6%99%82%E9%96%93%E8%A4%87%E9%9B%9C%E5%BA%A6)
     - [不適用Hash Table](#不適用hash-table)
+- [Hash function](#hash-function)
+    - [Hash function of property](#hash-function-of-property)
 
   
 #### mapping
