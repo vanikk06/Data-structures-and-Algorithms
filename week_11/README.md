@@ -173,12 +173,16 @@ Hash Table是透過hash function將給定的key對應到一個index後，將valu
 理想中的hash table是所有的index都只對應到單一個key，但實際上並非如此
 - collision：碰撞，兩個以上的key對應到相同的index
     > 可使用linked list或是BST
-    
-    
+        
 #### 時間複雜度：
+|   | Best | Worst |
+| --- | --- | --- |
+| **Time complexity** | O(1) | O(n) |
+
 - Best：O(1)，將key運算得到index，直接到index找資料
  > 一個index只對應到一個key
  >> 當資料量大時，若想達到這點，需要犧牲大量的記憶體空間（增加index個數）
+ 
 - Worst：O(n)，所有key都對應到相同的index
   
 #### 不適用Hash Table
@@ -197,6 +201,11 @@ Hash Table是透過hash function將給定的key對應到一個index後，將valu
 
 [Hash Table：Intro(簡介)](http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html)
 
+[What Is Bitcoin Hashing? Hash Functions Explained Simply !!](https://themoneymongers.com/bitcoin-hash/)
+
+[What is Hashing? Hash Functions Explained Simply](https://www.youtube.com/watch?v=2BldESGZKB8&feature=emb_logo)
+
+[🏳](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
 
 # Test Desigh HashSet
   > Following teacher's
