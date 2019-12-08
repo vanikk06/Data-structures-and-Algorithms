@@ -140,7 +140,7 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 # Hash TableⅡ
   > online information
   
-- [mapping](#-mapping-)
+- [mapping](#mapping)
 - []()
   
 #### mapping
