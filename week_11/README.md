@@ -1,7 +1,7 @@
 # Content
 - []()
-- [Hash TableⅠ](#hash-table%E2%85%B0)
-- [Hash TableⅡ](#hash-table%E2%85%B1)
+- [Hash Table Ⅰ](#hash-table%E2%85%B0)
+- [Hash Table Ⅱ](#hash-table%E2%85%B1)
 - [Test Desigh HashSet](#test-desigh-hashset)
     - [Code](#code)
 - [Try Desigh HashSet](#try-desigh-hashset)
@@ -18,7 +18,7 @@
 [Python資料加密，解密的相關操作（hashlib、hmac、random、base64、pycrypto）](https://www.itread01.com/content/1542966064.html)
 
 
-# Hash TableⅠ
+# Hash Table Ⅰ
   > class teaching
 
   > 儲存資料的結構
@@ -129,7 +129,7 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 
 [🏳‍🌈](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
 
-# Hash TableⅡ
+# Hash Table Ⅱ
   > online information
   
 - [mapping](#mapping)
