@@ -116,10 +116,6 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 #### Source
 [Wikipedia - Hash table](https://en.wikipedia.org/wiki/Hash_table)
 
-[What Is Bitcoin Hashing? Hash Functions Explained Simply !!](https://themoneymongers.com/bitcoin-hash/)
-
-[What is Hashing? Hash Functions Explained Simply](https://www.youtube.com/watch?v=2BldESGZKB8&feature=emb_logo)
-
 [Hash Table | A Helpful Line-by-Line Code Tutorial](https://www.youtube.com/watch?v=aZVNWYSR_sY&feature=emb_logo)
 
 [MD5 Hash](http://practicalcryptography.com/hashes/md5-hash/)
