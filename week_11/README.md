@@ -1,7 +1,7 @@
 # Content
 - []()
 - [Hash TableⅠ](#hash-table%E2%85%B0)
-- []()
+- [Hash TableⅡ](#hash-table%E2%85%B1)
 - [Test Desigh HashSet](#test-desigh-hashset)
     - [Code](#code)
 - [Try Desigh HashSet](#try-desigh-hashset)
@@ -141,7 +141,10 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
   > online information
   
 - [mapping](#mapping)
-- []()
+- [Hash Table](#hash-table)
+    - [時間複雜度](#%E6%99%82%E9%96%93%E8%A4%87%E9%9B%9C%E5%BA%A6)
+    - [不適用Hash Table](#不適用hash-table)
+
   
 #### mapping
   > 映射：使用鍵值（key）去查詢資料內容（value）
@@ -191,6 +194,8 @@ Hash Table是透過hash function將給定的key對應到一個index後，將valu
 
 - 對data進行排序
     > hashSet是**字典**對應的資料結構
+    
+#### H
 
 #### Source
 [【C++ 資料結構與演算法】雜湊表 (hash table)](https://www.youtube.com/watch?v=O4dGJZ4J0Bk&t=)
