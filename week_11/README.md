@@ -140,6 +140,9 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 # Hash TableⅡ
   > online information
   
+- [mapping](#-mapping-)
+- []()
+  
 #### mapping
   > 映射：使用鍵值（key）去查詢資料內容（value）
 
@@ -172,7 +175,7 @@ Hash Table是透過hash function將給定的key對應到一個index後，將valu
     > 可使用linked list或是BST
     
     
-時間複雜度：
+#### 時間複雜度：
 - Best：O(1)，將key運算得到index，直接到index找資料
  > 一個index只對應到一個key
  >> 當資料量大時，若想達到這點，需要犧牲大量的記憶體空間（增加index個數）
