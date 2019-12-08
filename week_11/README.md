@@ -195,7 +195,7 @@ Hash Table是透過hash function將給定的key對應到一個index後，將valu
 - 對data進行排序
     > hashSet是**字典**對應的資料結構
     
-#### H
+#### Hash function
 
 #### Source
 [【C++ 資料結構與演算法】雜湊表 (hash table)](https://www.youtube.com/watch?v=O4dGJZ4J0Bk&t=)
@@ -210,7 +210,7 @@ Hash Table是透過hash function將給定的key對應到一個index後，將valu
 
 [What is Hashing? Hash Functions Explained Simply](https://www.youtube.com/watch?v=2BldESGZKB8&feature=emb_logo)
 
-[🏳](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+[🏴‍☠️](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
 
 # Test Desigh HashSet
   > Following teacher's
