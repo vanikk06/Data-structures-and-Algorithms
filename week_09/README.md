@@ -127,6 +127,8 @@ None：值，表示一個**空物件**
 # Binary Search Tree
  > 應用於資料庫系統的原型
  
+ > 放置大量數字並進行排序的資料結構
+ 
  ![](https://upload.wikimedia.org/wikipedia/commons/9/9b/Binary_search_tree_example.gif)
  
 - Binary Tree：僅有**兩個**子節點
@@ -166,6 +168,8 @@ None：值，表示一個**空物件**
 [Python: Binary Search Tree - BST](https://www.youtube.com/watch?v=YlgPi75hIBc&feature=youtu.be)
 
 [Binary Tree and Binary Search Tree in Data Structure](https://www.youtube.com/watch?v=7vw2iIdqHlM&feature=emb_logo)
+
+[Binary Search Tree](http://www.csie.ntnu.edu.tw/~u91029/Order.html)
 
 [圖片來源](https://commons.wikimedia.org/wiki/File:Binary_search_tree_example.gif)
 
