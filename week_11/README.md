@@ -196,6 +196,10 @@ Hash Table是透過hash function將給定的key對應到一個index後，將valu
     > hashSet是**字典**對應的資料結構
     
 #### Hash function
+  > 將任何長度的input利用數學函式**轉換**（convert）為固定大小的字符串的一個過程
+  >> 字符串：numbers and letters
+
+
 
 #### Source
 [【C++ 資料結構與演算法】雜湊表 (hash table)](https://www.youtube.com/watch?v=O4dGJZ4J0Bk&t=)
