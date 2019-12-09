@@ -28,7 +28,7 @@
      - [H.W.3_Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms#hw3_binary-search-tree)
  - [week_10](https://github.com/vanikk06/Data-structures-and-Algorithms#week_10)
  - [week_11](https://github.com/vanikk06/Data-structures-and-Algorithms#week_11)
-     
+     - [H.W.4_Hash Table](https://github.com/vanikk06/Data-structures-and-Algorithms#hw4_hash-table)
  - [week_12](https://github.com/vanikk06/Data-structures-and-Algorithms#week_12)
  - [week_13](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/README.md#week_13)
  
