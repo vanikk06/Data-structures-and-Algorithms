@@ -448,5 +448,26 @@ Status：Runtime 2824 ms, Memory 17.9 MB
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20code.py)
 
 Status：Runtime 2592 ms, Memory 17.8 MB
+ > 在capacity為6的情況下可以通過，但5時仍會超時
+ 
+在移動node指標時，最簡化的判斷是直接判斷**node本身**是否存在，若以node.val或node.next進行判斷，容易將node指標走到不存在的node，為此就需要很多額外的判斷式來補足這點
+
+#### Code
+ 更改`add`與`remove`部分
+ 
+ - `add`：以**node本身是否存在**作為node指標移動的判斷，並增加一個變數pre，以在linked list的最後面增加新資料
+    
+    先將input除以capacity找到存放的index，再將存放在index的資料放到node指標方便走訪，並設置一個變數pre存放node指標的前一個node
+    - 判斷node是否存在
+        - Yes：進入while迴圈
+            - input是否已存在於linked list內：
+                - Yes：返回
+                - No：node指標與pre指標往下一個移動
+        
+        跳出while迴圈，pre指標指在linked list的最後一個node
+        - pre指標是否為None：
+            - Yes：在index內創造一個值是input的node
+              > index本身為None，沒有進入while迴圈，所以直接加
+            - No：在pre指標的下一個node創造一個值為input的新node
 
 [🏴](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
