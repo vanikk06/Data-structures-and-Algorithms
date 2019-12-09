@@ -236,7 +236,7 @@ e.g. table大小為8，則key與table之index對應關係如下：\
 - 缺點：table大小限制，容易發生collision
     > 理想的table大小是「距離2<sup>p</sup>夠遠」的質數，像是701
     >> table大小必須慎選，要盡量避開2的指數（2<sup>p</sup>），否則就只有「最低位的p-bit」會影響hash function的結果，以table大小為8 = 2<sup>3</sup>為例，key mod 2<sup>3</sup>的意思是，只取「以二進位表示的key的最低位的**3個bit**」來決定key對應到的table之index
-![]()
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575883266177.jpg)
 在這種情況下，若有大量變數以相同的命名規則（e.g. a_count、b_count、c_count...），很可能在將字串轉換成key時，得到「低位bit」完全相同的key，因而將三個變數都對應到相同的index導致collision
 
   
