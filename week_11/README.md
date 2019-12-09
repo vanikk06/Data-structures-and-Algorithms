@@ -133,6 +133,9 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 # Hash Table Ⅱ
   > online information
   
+  > 資料結構：使用**字典**的方式儲存資料，優於查詢
+  >> {key：value}
+  
 - [mapping](#mapping)
 - [Hash Table](#hash-table)
     - [時間複雜度](#%E6%99%82%E9%96%93%E8%A4%87%E9%9B%9C%E5%BA%A6)
@@ -223,7 +226,7 @@ input + Hash function = Hash value
 
 [What is Hashing? Hash Functions Explained Simply](https://www.youtube.com/watch?v=2BldESGZKB8&feature=emb_logo)
 
-
+[Hash Table | A Helpful Line-by-Line Code Tutorial](https://www.youtube.com/watch?v=aZVNWYSR_sY&feature=emb_logo)
 
 [🏴‍☠️](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
 
