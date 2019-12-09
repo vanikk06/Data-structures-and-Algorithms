@@ -447,4 +447,6 @@ Status：Runtime 2824 ms, Memory 17.9 MB
 ## Changing of code
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20code.py)
 
+Status：Runtime 2592 ms, Memory 17.8 MB
+
 [🏴](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
