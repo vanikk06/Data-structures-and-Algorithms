@@ -282,16 +282,16 @@ key：K，size of table：m = 2<sup>p</sup>
 5.  取整數部分，h(Key) = ⌊mf⌋ = ⌊m(KA-⌊KA⌋)⌋  
 
   > e.g.將範例轉換為二進位呈現\
-  1. 「常數」\
-  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575927519501.jpg)\
-  2. 「K乘上A」\
-  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575927768696.jpg)\
-  3. r<sub>0</sub>是KA的小數部分（fractional part），也就是「f」\
-  4. 對「KA的小數部分乘上m = 2<sup>3</sup>」，以二進位表示，就是把小數點往右移3位\
-  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575928387536.jpg)\
-  5. 最後，h(Key) = ⌊mf⌋ = ⌊m(KA-⌊KA⌋)⌋，就是取m x r<sub>0</sub>的整數部分\
-  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575928615365.jpg)\
-  從上述的過程可以看到，在決定table之index的時候，key的每一個bit都用上了
+      1. 「常數」\
+      ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575927519501.jpg)\
+      2. 「K乘上A」\
+      ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575927768696.jpg)\
+      3. r<sub>0</sub>是KA的小數部分（fractional part），也就是「f」\
+      4. 對「KA的小數部分乘上m = 2<sup>3</sup>」，以二進位表示，就是把小數點往右移3位\
+      ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575928387536.jpg)\
+      5. 最後，h(Key) = ⌊mf⌋ = ⌊m(KA-⌊KA⌋)⌋，就是取m x r<sub>0</sub>的整數部分\
+      ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575928615365.jpg)\
+      從上述的過程可以看到，在決定table之index的時候，key的每一個bit都用上了
   
 
 - 優點：能夠盡量把更多的key之bit納入考慮，得到對應的table之index
