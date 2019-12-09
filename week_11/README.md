@@ -253,8 +253,6 @@ e.g. table大小為8，則key與table之index對應關係如下：\
 - 優點：能夠盡量把更多的key之bit納入考慮，得到對應的table之index
    > 隨機性增加
 
-
-
 #### Source
 [【C++ 資料結構與演算法】雜湊表 (hash table)](https://www.youtube.com/watch?v=O4dGJZ4J0Bk&t=)
 
@@ -293,9 +291,20 @@ e.g. table大小為8，則key與table之index對應關係如下：\
 
 # BitCoin
   > 比特幣
+  
+經過hash function產生的output稱為hash，是一種**加密產品**
+
+hash function可以分為兩種類型：
+ - One-way function：對於給定的input，很容易產生output，但即使知道output也無法找到input
+    > 回溯input是不可能的
+ - Two-way function：當input跟output已知時，往返兩者是容易的
+ 
+ 
 
 #### Source
 [What Is Bitcoin Hashing? Hash Functions Explained Simply !!](https://themoneymongers.com/bitcoin-hash/)
+
+[Blockchain Basics Explained - Hashes with Mining and Merkle trees](https://www.youtube.com/watch?v=lik9aaFIsl4&feature=youtu.be)
 
 [🚧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
 
