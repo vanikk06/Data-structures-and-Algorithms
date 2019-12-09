@@ -281,6 +281,10 @@ key：K，size of table：m = 2<sup>p</sup>
 4.  將f乘上m，得到mf
 5.  取整數部分，h(Key) = ⌊mf⌋ = ⌊m(KA-⌊KA⌋)⌋  
 
+  > e.g.轉換為二進位呈現\
+  先將常數轉換成二進位
+  ![]()
+
 - 優點：能夠盡量把更多的key之bit納入考慮，得到對應的table之index
    > 隨機性增加
 
