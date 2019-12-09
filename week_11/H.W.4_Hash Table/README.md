@@ -1,10 +1,10 @@
 # Content
-  - [Jupyter notebook_The process of learning hash table](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/H.W.4_Hash%20Table/The%20process%20of%20%20learning%20hash%20table.ipynb)
-    - [Jupyter nbviewer_The process of learning hash table](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/H.W.4_Hash%20Table/The%20process%20of%20%20learning%20hash%20table.ipynb)
-  - [Notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12/H.W.4_Hash%20Table#notes)
-  - [Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12/H.W.4_Hash%20Table#error)
-  - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12/H.W.4_Hash%20Table#code)
-  - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12/H.W.4_Hash%20Table#demo)
+  - [Jupyter notebook_The process of learning hash table](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/H.W.4_Hash%20Table/The%20process%20of%20%20learning%20hash%20table.ipynb)
+    - [Jupyter nbviewer_The process of learning hash table](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/H.W.4_Hash%20Table/The%20process%20of%20%20learning%20hash%20table.ipynb)
+  - [Notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table#notes)
+  - [Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table#error)
+  - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table#code)
+  - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table#demo)
 
 
 
@@ -71,7 +71,7 @@ index不存在array中，操作的index超過範圍
 # Code
   > 使用兩個class，一個MD5套件
   
-[🤜🏾HERE🤛🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/H.W.4_Hash%20Table/H.W.4_Hash%20Table.py)
+[🤜🏾HERE🤛🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/H.W.4_Hash%20Table/H.W.4_Hash%20Table.py)
 
 缺點：思慮不夠完備，沒有考慮到所有情形
 
@@ -146,8 +146,8 @@ index不存在array中，操作的index超過範圍
 
 # Demo
 - add
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/1575385042454.jpg)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575385042454.jpg)
 - remove
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/1575385083737.jpg)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575385083737.jpg)
 - contains
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/1575385110448.jpg)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575385110448.jpg)
