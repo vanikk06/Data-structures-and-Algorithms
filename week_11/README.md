@@ -464,10 +464,23 @@ Status：Runtime 2592 ms, Memory 17.8 MB
                 - Yes：返回
                 - No：node指標與pre指標往下一個移動
         
-        跳出while迴圈，pre指標指在linked list的最後一個node
+         跳出while迴圈，pre指標指在linked list的最後一個node
         - pre指標是否為None：
             - Yes：在index內創造一個值是input的node
               > index本身為None，沒有進入while迴圈，所以直接加
             - No：在pre指標的下一個node創造一個值為input的新node
+                     
+ - `remove`：以**node本身是否存在**作為node指標移動的判斷
+ 
+    先將input除以capacity找到存放的index，再將存放在index的資料放到node指標方便走訪，並設置一個變數pre_node存放node指標的前一個node，方便移除重新建立連結
+    
+    - 先判斷目標移除值是否是第一個node：
+        - Yes：將node指標的下一個node重新存入index中
+    - 判斷node是否存在：
+        - Yes：進入while迴圈
+            - node指標是否為目標移除值
+                - Yes：重新建立連結，pre_node指標的下一個連接到node指標的下一個
+                - No：node指標與pre_node指標皆往下一個node移動
+          跳出while迴圈，代表目標移除值不存在，返回
 
 [🏴](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
