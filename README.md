@@ -230,3 +230,8 @@
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12)
 
 [👩🏻‍🎨👨🏻‍🎨](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+
+# week_13
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_13)
+
+[💂🏻‍♀️💂🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
