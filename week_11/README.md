@@ -2,7 +2,7 @@
 - []()
 - [Hash Table Ⅰ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B0)
 - [Hash Table Ⅱ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B1)
-- [Blockchain](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#blockchain)
+- [BlockChain](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#blockchain)
 - [Test Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#test-desigh-hashset)
     - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#code)
 - [Try Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#try-desigh-hashset)
@@ -230,7 +230,7 @@ input + Hash function = Hash value
 
 [🏴‍☠️](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
 
-# Blockchain
+# BlockChain
   > 技術，互聯網上記錄數據的全新方式 
 
 在區塊鏈中，hash被用來表示blockchain的**當前狀態**，並確保他是**不會被更改的**
