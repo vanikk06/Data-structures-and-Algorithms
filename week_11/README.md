@@ -263,8 +263,6 @@ e.g. table大小為8，則key與table之index對應關係如下：\
 
 [Hash Table：Intro(簡介)](http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html)
 
-[What Is Bitcoin Hashing? Hash Functions Explained Simply !!](https://themoneymongers.com/bitcoin-hash/)
-
 [What is Hashing? Hash Functions Explained Simply](https://www.youtube.com/watch?v=2BldESGZKB8&feature=emb_logo)
 
 [Hash Table | A Helpful Line-by-Line Code Tutorial](https://www.youtube.com/watch?v=aZVNWYSR_sY&feature=emb_logo)
@@ -272,6 +270,8 @@ e.g. table大小為8，則key與table之index對應關係如下：\
 [🏴‍☠️](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
 
 # BlockChain
+  > 區塊鏈
+  
   > 技術，互聯網上記錄數據的全新方式 
 
 在區塊鏈中，hash被用來表示blockchain的**當前狀態**，並確保他是**不會被更改的**
@@ -290,6 +290,13 @@ e.g. table大小為8，則key與table之index對應關係如下：\
 
 [🚩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
 
+# BitCoin
+    > 比特幣
+
+#### Source
+[What Is Bitcoin Hashing? Hash Functions Explained Simply !!](https://themoneymongers.com/bitcoin-hash/)
+
+[🚧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
 
 # Test Desigh HashSet
   > Following teacher's
