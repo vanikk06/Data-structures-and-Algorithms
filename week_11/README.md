@@ -142,6 +142,8 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
     - [不適用Hash Table](#不適用hash-table)
 - [Hash function](#hash-function)
     - [Hash function of property](#hash-function-of-property)
+    - [Division Method](#division-method)
+    - [Multiplication Method](#multiplication-method)
 
   
 #### mapping
@@ -239,10 +241,12 @@ e.g. table大小為8，則key與table之index對應關係如下：\
     ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575883266177.jpg)\
     在這種情況下，若有大量變數以相同的命名規則（e.g. a_count、b_count、c_count...），很可能在將字串轉換成key時，得到「低位bit」完全相同的key，因而將三個變數都對應到相同的index導致collision
 
-  
-  
 #### Multiplication Method
    > 乘法：table大小無限制，但速度較慢
+   
+在實際面對資料時，時常無法預先得知「key的範圍」與「在該範圍內key的分佈情形」，在此前提下，不需要避開特定的table大小的multiplication method會比較優
+
+
 
 #### Source
 [【C++ 資料結構與演算法】雜湊表 (hash table)](https://www.youtube.com/watch?v=O4dGJZ4J0Bk&t=)
