@@ -210,6 +210,20 @@
 # week_11
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11)
 
+- [Coding](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#coding)
+- [Hash Table Ⅰ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B0)
+- [Hash Table Ⅱ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B1)
+- [BlockChain](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#blockchain)
+- [BitCoin Hashing](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#bitcoin-hashing)
+- [Test Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#test-desigh-hashset)
+    - [Test Design HashSet.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Test%20Design%20HashSet.py)
+    - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#code)
+- [Try Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#try-desigh-hashset)
+    - [Try Design HashSet_Changing of capacity.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20capacity.py)
+    - [Changing of capacity](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#changing-of-capacity)
+    - [Try Design HashSet_Changing of code.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20code.py)
+    - [Changing of code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#changing-of-code)
+
 [👩🏻‍💻👨🏻‍💻](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 # week_12
