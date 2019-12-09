@@ -450,7 +450,8 @@ Status：Runtime 2824 ms, Memory 17.9 MB
 Status：Runtime 2592 ms, Memory 17.8 MB
  > 在capacity為6的情況下可以通過，但5時仍會超時
  
-在移動node指標時，最簡化的判斷是直接判斷**node本身**是否存在，若以node.val或node.next進行判斷，容易將node指標走到不存在的node，為此就需要很多額外的判斷式來補足這點
+⭐在移動node指標時，最簡化的判斷是直接判斷**node本身**是否存在
+ > 若以node.val或node.next進行判斷，容易將node指標走到不存在的node，為此就需要很多額外的判斷式來補足這點
 
 #### Code
  更改`add`與`remove`部分
