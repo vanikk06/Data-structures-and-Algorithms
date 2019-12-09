@@ -3,6 +3,7 @@
 - [Hash Table Ⅰ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B0)
 - [Hash Table Ⅱ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B1)
 - [BlockChain](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#blockchain)
+- [BitCoin](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#bitcoin)
 - [Test Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#test-desigh-hashset)
     - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#code)
 - [Try Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#try-desigh-hashset)
@@ -291,7 +292,7 @@ e.g. table大小為8，則key與table之index對應關係如下：\
 [🚩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
 
 # BitCoin
-    > 比特幣
+  > 比特幣
 
 #### Source
 [What Is Bitcoin Hashing? Hash Functions Explained Simply !!](https://themoneymongers.com/bitcoin-hash/)
