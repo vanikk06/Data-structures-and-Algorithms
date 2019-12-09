@@ -11,7 +11,7 @@
     - [Changing of code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#changing-of-code)
 
 
-# Encoding
+# Coding
  > 編碼、加密
  
  
@@ -92,6 +92,7 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 
 #### § MD5 hash §
   > hash編碼的一種方式
+  >> 編碼長度為128 bits
   
   > 更改小部分，編碼變動會很大
   >> 保護資料：更改會被知道
