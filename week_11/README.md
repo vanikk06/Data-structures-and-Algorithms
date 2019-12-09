@@ -247,6 +247,7 @@ input + Hash function = Hash value
    > 除法：table大小有限制，但速度較快
    
 將大範圍的key對應到小範圍的table，最直覺的作法就是利用**modulus(mod)取餘數**
+ > modulus模除：除法取餘數
 
 e.g. table大小為8，則key與table之index對應關係如下：\
   14 mod 8 = 6 → index 6\
