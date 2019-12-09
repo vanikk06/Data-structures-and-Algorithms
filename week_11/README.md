@@ -134,7 +134,7 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
   > online information
   
   > 資料結構：使用**字典**的方式儲存資料，優於查詢
-  >> {key：value}
+  >> {key：value} pair：鍵值-資料對
   
 - [mapping](#mapping)
 - [Hash Table](#hash-table)
@@ -155,7 +155,7 @@ e.g. array：利用index對應到儲存的資料
     
 #### Hash Table
   > 雜湊表：將key轉成index搜尋
-  > 解決mapping問題
+  > 解決mapping問題，避免浪費記憶體空間
 
 Hash Table是透過hash function將給定的key對應到一個index後，將value存放到對應的位置（bucket）
  > key不限制只能是非負整數
@@ -173,7 +173,7 @@ Hash Table是透過hash function將給定的key對應到一個index後，將valu
 
 理想中的hash table是所有的index都只對應到單一個key，但實際上並非如此
 - collision：碰撞，兩個以上的key對應到相同的index
-    > 可使用linked list或是BST
+    > 可能使用到的key之數量大於table大小
         
 #### 時間複雜度：
 |   | Best | Worst |
@@ -195,6 +195,7 @@ Hash Table是透過hash function將給定的key對應到一個index後，將valu
     
 #### Hash function
   > 將任何長度的input利用數學函式**轉換**（convert）為固定大小的字符串的一個過程
+  >> 讓key對應到符合table大小的index
   >> 字符串：numbers and letters
 
 input + Hash function = Hash value
@@ -202,6 +203,15 @@ input + Hash function = Hash value
 - input：任意長度
 - Hash function：轉換過程，密碼學
 - Hash value：固定長度、大小
+
+
+理想的hash function，應該具備兩個特點：
+ > time complexity：O(1)
+   - 定義域（domain）為整個key的集合，值域（range）應小於table的大小
+       > domain：所有可能的input
+       
+       > range：key對應到的index是在table內
+   - 盡可能讓key經過hash function後，在range（index）能夠平均分佈（uniform distributed），如此才不會有collision的情形
 
 #### Hash function of property
 
@@ -211,8 +221,26 @@ input + Hash function = Hash value
     > input中的微小變化，會產生完全不同的hash value
     >　雙向：input和output之間可以自由轉換
 
+#### Division Method
+   > 除法：table大小有限制，但速度較快
+   
+將大範圍的key對應到小範圍的table，最直覺的作法就是利用**modulus(mod)取餘數**
 
-     
+e.g. table大小為8，則key與table之index對應關係如下：\
+  14 mod 8 = 6 → index 6\
+  23 mod 8 = 7 → index 7\
+  16 mod 8 = 0 → index 0\
+  50 mod 8 = 2 → index 2\
+  
+- 優點：快速，只要做一次餘數（除法運算）即可
+- 缺點：table大小限制，容易發生collision
+    > 理想的table大小是「距離2<sup>p</sup>夠遠」的質數，像是701\
+      table大小必須慎選，要盡量避開2的指數（2<sup>p</sup>），否則就只有「最低位的p-bit」會影響hash function的結果
+  
+  
+#### Multiplication Method
+   > 乘法：table大小無限制，但速度較慢
+
 #### Source
 [【C++ 資料結構與演算法】雜湊表 (hash table)](https://www.youtube.com/watch?v=O4dGJZ4J0Bk&t=)
 
