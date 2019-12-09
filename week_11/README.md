@@ -275,8 +275,10 @@ key：K，size of table：m = 2<sup>p</sup>
     > A介於0到1之間（0 < A < 1）
 2. 將K乘以A，得到KA
 3. 取KA的小數點部分f
-    > f = KA - \left \lfloor KA \right
+    > f = KA - ⌊KA⌋ 
+    >> ⌊ ⌋：向下取整數 
 4. 將f乘上m，得到mf
+5. 取整數部分，h(Key) = ⌊mf⌋ = ⌊m(KA-⌊KA⌋)⌋  
 
 - 優點：能夠盡量把更多的key之bit納入考慮，得到對應的table之index
    > 隨機性增加
