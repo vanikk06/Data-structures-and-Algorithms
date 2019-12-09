@@ -3,7 +3,7 @@
 - [Hash Table Ⅰ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B0)
 - [Hash Table Ⅱ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B1)
 - [BlockChain](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#blockchain)
-- [BitCoin](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#bitcoin)
+- [BitCoin Hashing](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#bitcoin-hashing)
 - [Test Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#test-desigh-hashset)
     - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#code)
 - [Try Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#try-desigh-hashset)
@@ -289,7 +289,7 @@ e.g. table大小為8，則key與table之index對應關係如下：\
 
 [🚩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
 
-# BitCoin
+# BitCoin Hashing
   > 比特幣
   
 經過hash function產生的output稱為hash，是一種**加密產品**
@@ -297,9 +297,25 @@ e.g. table大小為8，則key與table之index對應關係如下：\
 hash function可以分為兩種類型：
  - One-way function：對於給定的input，很容易產生output，但即使知道output也無法找到input
     > 回溯input是不可能的
+    
+    > input改變output必然改變
  - Two-way function：當input跟output已知時，往返兩者是容易的
  
  
+在bitcoin中使用的hash function是更為重要且更為複雜的，它使用One-way function （e.g.SHA-256）
+
+#### SHA-256
+   > bitcoin's blockchain主要的hash function
+
+特性：
+1. Unique hash value
+2. High hashing speed
+3. Secure hash function
+
+bitcoin是利用hashes作的數字分類帳，它利用工作量證明（proof of work）與SHA-256結合來獲得數學上的可追溯性（mathematical traceability）和不可破解性（unbreakability）
+
+- Bitcoin Mining：確保上述過程
+  > 挖礦
 
 #### Source
 [What Is Bitcoin Hashing? Hash Functions Explained Simply !!](https://themoneymongers.com/bitcoin-hash/)
