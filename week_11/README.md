@@ -270,6 +270,14 @@ e.g. table大小為8，則key與table之index對應關係如下：\
 方法如下：
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575885467652.jpg)
 
+key：K，size of table：m = 2<sup>p</sup>
+1. 選擇常數A
+    > A介於0到1之間（0 < A < 1）
+2. 將K乘以A，得到KA
+3. 取KA的小數點部分f
+    > f = KA - ，{\displaystyle \lfloor KA\}
+4. 將f乘上m，得到mf
+
 - 優點：能夠盡量把更多的key之bit納入考慮，得到對應的table之index
    > 隨機性增加
 
