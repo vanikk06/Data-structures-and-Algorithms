@@ -481,6 +481,6 @@ Status：Runtime 2592 ms, Memory 17.8 MB
             - node指標是否為目標移除值
                 - Yes：重新建立連結，pre_node指標的下一個連接到node指標的下一個
                 - No：node指標與pre_node指標皆往下一個node移動
-          跳出while迴圈，代表目標移除值不存在，返回
+         跳出while迴圈，代表目標移除值不存在，返回
 
 [🏴](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
