@@ -246,6 +246,12 @@ e.g. table大小為8，則key與table之index對應關係如下：\
    
 在實際面對資料時，時常無法預先得知「key的範圍」與「在該範圍內key的分佈情形」，在此前提下，不需要避開特定的table大小的multiplication method會比較優
 
+方法如下：
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575885467652.jpg)
+
+- 優點：能夠盡量把更多的key之bit納入考慮，得到對應的table之index
+   > 隨機性增加
+
 
 
 #### Source
