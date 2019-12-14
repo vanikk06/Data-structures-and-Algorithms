@@ -36,11 +36,12 @@
 ![](https://upload.wikimedia.org/wikipedia/commons/9/99/Breadth-first_search_Algorithm.gif)
 
 - Step1：從頂點開始，即Level 0
-- Step2：查找頂點以線連接到的所有其他點，這些點即為Level 1
-- Step3：假設所有Level 1的點為頂點，查找所有與Level 1以線相連的其他點，這些點即為Level 2
+- Step2：查找頂點以單線連接到的所有其他點，這些點即為Level 1
+- Step3：假設所有Level 1的點為頂點，查找所有與Level 1以單線相連的其他點，這些點即為Level 2
 - Step4：重複上述步驟，直到所有點都被走訪
   
 #### Practice
+ > by Queue
 
 
 > 無向圖：雙向，無指定特別方向，只要有線連結就要記錄
@@ -48,7 +49,7 @@
 > graph資料結構：塞入資料就好
 >> 無規定由大到小或由小到大：不唯一
 
-使用兩個queue紀錄，
+使用兩個queue紀錄點，
 
 #### Source
 [圖片來源](https://commons.wikimedia.org/wiki/File:Breadth-first_search_Algorithm.gif)
