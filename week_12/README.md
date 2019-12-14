@@ -38,12 +38,18 @@
 - Step2：查找頂點以線連接到的所有其他點，這些點即為Level 1
 - Step3：假設所有Level 1的點為頂點，查找所有與Level 1以線相連的其他點，這些點即為Level 2
 - Step4：重複上述步驟，直到所有點都被走訪
-  
-  
 
+![](https://upload.wikimedia.org/wikipedia/commons/9/99/Breadth-first_search_Algorithm.gif)
+  
+#### Practice
 
-# 黑板
-> 圖 資料結構：塞入資料就好
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/1576310235203.jpg)
+> 無向圖（雙向，無指定特定方向）
+
+> graph資料結構：塞入資料就好
 >> 無規定由大到小或由小到大：不唯一
 
-先將關係畫成圖，再確定走訪順序
+使用兩個queue紀錄，
+
+#### Source
+[圖片來源](https://commons.wikimedia.org/wiki/File:Breadth-first_search_Algorithm.gif)
