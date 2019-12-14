@@ -14,10 +14,22 @@
 
 紀錄graph方式：使用array＆linked list
   - array：點
+    >　長度：所有的點數
   - linked list：臨邊
     > 以線連接到的其他點
+    
+    > 不唯一，依據起點的不同，會有不同的linked list
+    >> 臨邊必須可以還原graph
+    
+#### Source
+[Graph: Breadth-First Search(BFS，廣度優先搜尋)](http://alrightchiu.github.io/SecondRound/graph-breadth-first-searchbfsguang-du-you-xian-sou-xun.html)
 
+# Breadth-First Search
+ > BFS：廣度優先搜尋
+ >> 並非最優的走訪方式
 
+ > traversal（走訪）graph
+ >> search（搜尋）的必要功能
 
 # 黑板
 > 圖 資料結構：塞入資料就好
