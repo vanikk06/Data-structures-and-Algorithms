@@ -43,7 +43,7 @@
 #### Practice
  > by Queue
 
-
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/1576316336720.jpg)
 > 無向圖：雙向，無指定特別方向，只要有線連結就要記錄
 
 > graph資料結構：塞入資料就好
