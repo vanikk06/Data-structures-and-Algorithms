@@ -26,12 +26,12 @@
       > 實際上，是用一對vertex表示edge
       >> e.g.(v1, v2)：即為連結v1與v2的edge
     
-    
-    根據edge是否具有**方向性**
-    - directed graph：edge具有方向性，及vertexA與vertexB之關係為**單向的**
-      > 有向圖
-    - undirected graph：edge不具有方向性，及vertexA與vertexB之關係為**雙向的**
-      > 無向圖
+
+      根據edge是否具有**方向性**
+      - directed graph：edge具有方向性，及vertexA與vertexB之關係為**單向的**
+        > 有向圖
+      - undirected graph：edge不具有方向性，及vertexA與vertexB之關係為**雙向的**
+        > 無向圖
 
 - graph vs. tree
 
