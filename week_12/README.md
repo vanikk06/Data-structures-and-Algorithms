@@ -11,6 +11,8 @@
 #### Source
 [Level-Order Traversal](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html#level)
 
+[✏](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
+
 # Graph
   > 圖：由**點＆線**組成
   
@@ -54,6 +56,8 @@
 
 [Graph: Intro(簡介)](http://alrightchiu.github.io/SecondRound/graph-introjian-jie.html)
 
+[🖋](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
+
 # Breadth-First Search
  > BFS：廣度優先搜尋，由起點開始，往level一層一層走訪
  >> 並非最優的走訪方式
@@ -94,3 +98,5 @@
 [Breadth First Search (BFS) Algorithm](https://www.javatpoint.com/breadth-first-search-algorithm)
 
 [Breadth first search](https://www.programiz.com/dsa/graph-bfs)
+
+[🖊](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
