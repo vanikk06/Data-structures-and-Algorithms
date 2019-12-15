@@ -45,11 +45,11 @@
 紀錄graph方式：使用array＆linked list
   - array：點
     >　長度：所有的點數
-  - linked list：臨邊
+  - linked list：鄰邊
     > 以線連接到的其他點
     
     > 不唯一，依據起點的不同，會有不同的linked list
-    >> 臨邊必須可以還原graph
+    >> 鄰邊必須可以還原graph
     
 #### Source
 [Graph: Breadth-First Search(BFS，廣度優先搜尋)](http://alrightchiu.github.io/SecondRound/graph-breadth-first-searchbfsguang-du-you-xian-sou-xun.html)
@@ -77,7 +77,7 @@
 #### Practice
  > by Queue
  
- > 當起點與臨邊表相同時，走訪方式唯一
+ > 當起點與鄰邊表相同時，走訪方式唯一
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/1576316336720.jpg)
 > 無向圖：雙向，無指定特別方向，只要有線連結就要記錄
