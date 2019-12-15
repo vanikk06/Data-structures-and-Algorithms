@@ -90,6 +90,8 @@
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/output_aMJs9Q.gif)
 > Queue中灰色部分，表示此次被提取的值
 
+使用兩個array，一個處理queue，一個紀錄print出的順序
+
 #### Source
 [圖片來源](https://commons.wikimedia.org/wiki/File:Breadth-first_search_Algorithm.gif)
 
