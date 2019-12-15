@@ -9,10 +9,23 @@
 # Graph
   > 圖：由**點＆線**組成
   
-graph比tree更加廣義，不限制結構裡的node/vertex只能有唯一的parent
+- 定義  
+  graph比tree更加廣義，不限制結構裡的node/vertex只能有唯一的parent
+    > 優點：能以**關係**表示先後
+    
+  - vertex/node：資料節點 
+  - edge：線段、連結
+    > graph為所有的vertex/node與edge所組成之集合
+    
+    根據edge是否具有**方向性**
+    - directed graph：edge具有方向性，及vertexA與vertexB之關係為**單向的**
+      > 有向圖
+    - undirected graph：edge不具有方向性，及vertexA與vertexB之關係為**雙向的**
+      > 無向圖
 
-與tree不同，可以有loop（迴路）
-  > loop：可以繞回原點（root）
+- graph vs. tree
+  與tree不同，可以有loop（迴路）
+    > loop：可以繞回原點（root）
   
 - tree是graph的子集合
   - graph：由**點**跟**線**組成，即為graph
