@@ -29,7 +29,7 @@
  - [week_10](https://github.com/vanikk06/Data-structures-and-Algorithms#week_10)
  - [week_11 Hash Table](https://github.com/vanikk06/Data-structures-and-Algorithms#week_11-hash-table)
      - [H.W.4_Hash Table](https://github.com/vanikk06/Data-structures-and-Algorithms#hw4_hash-table)
- - [week_12](https://github.com/vanikk06/Data-structures-and-Algorithms#week_12)
+ - [week_12 Breadth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms#week_12)
  - [week_13](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/README.md#week_13)
  
  
@@ -239,7 +239,7 @@
 
 [👩🏻‍💻👨🏻‍💻](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
-# week_12
+# week_12 Breadth-First Search
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12)
 
 [👩🏻‍🎨👨🏻‍🎨](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
