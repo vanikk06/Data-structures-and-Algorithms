@@ -49,7 +49,8 @@
 > graph資料結構：塞入資料就好
 >> 無規定由大到小或由小到大：不唯一
 
-使用兩個queue紀錄點，
+使用queue紀錄尚未print出的點
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/output_aMJs9Q.gif)
 
 #### Source
 [圖片來源](https://commons.wikimedia.org/wiki/File:Breadth-first_search_Algorithm.gif)
