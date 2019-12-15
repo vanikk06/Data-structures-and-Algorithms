@@ -1,3 +1,7 @@
+# Level-Order Traversal
+
+#### Source
+[Level-Order Traversal](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html#level)
 
 # Graph
   > 圖：由**點＆線**組成
@@ -23,6 +27,8 @@
     
 #### Source
 [Graph: Breadth-First Search(BFS，廣度優先搜尋)](http://alrightchiu.github.io/SecondRound/graph-breadth-first-searchbfsguang-du-you-xian-sou-xun.html)
+
+[Graph: Intro(簡介)](http://alrightchiu.github.io/SecondRound/graph-introjian-jie.html)
 
 # Breadth-First Search
  > BFS：廣度優先搜尋
@@ -50,6 +56,7 @@
 >> 無規定由大到小或由小到大：不唯一
 
 使用queue紀錄尚未print出的點
+
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/output_aMJs9Q.gif)
 
 #### Source
