@@ -20,9 +20,12 @@
   graph比tree更加廣義，不限制結構裡的node/vertex只能有唯一的parent
     > 優點：能以**關係**表示先後
     
-  - vertex/node：資料節點 
-  - edge：線段、連結
-    > graph為所有的vertex/node與edge所組成之集合
+  graph為所有的vertex/node與edge所組成之集合
+    - vertex/node：資料節點 
+    - edge：線段、連結
+      > 實際上，是用一對vertex表示edge
+      >> e.g.(v1, v2)：即為連結v1與v2的edge
+    
     
     根據edge是否具有**方向性**
     - directed graph：edge具有方向性，及vertexA與vertexB之關係為**單向的**
