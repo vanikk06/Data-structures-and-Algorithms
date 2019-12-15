@@ -62,3 +62,9 @@
 
 #### Source
 [圖片來源](https://commons.wikimedia.org/wiki/File:Breadth-first_search_Algorithm.gif)
+
+[BFS和DFS算法（第1讲）](https://www.youtube.com/watch?v=oLtvUWpAnTQ&t=)
+
+[Breadth First Search (BFS) Algorithm](https://www.javatpoint.com/breadth-first-search-algorithm)
+
+[Breadth first search](https://www.programiz.com/dsa/graph-bfs)
