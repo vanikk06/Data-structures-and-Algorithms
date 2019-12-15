@@ -25,5 +25,7 @@ BFS紀錄會與點數（資料個數）成正比，所以空間個數會較高
 
 DFS：使用**stack**紀錄連結到的其他點
  > code：判斷何時要pop、何時要push 
+ 
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/Webp.net-gifmaker1.gif) 
 
 
