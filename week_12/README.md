@@ -8,6 +8,8 @@
 
 # Graph
   > 圖：由**點＆線**組成
+  
+graph比tree更加廣義，不限制結構裡的node/vertex只能有唯一的parent
 
 與tree不同，可以有loop（迴路）
   > loop：可以繞回原點（root）
