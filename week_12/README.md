@@ -1,6 +1,7 @@
 # Level-Order Traversal
 > 按照**level由小到大**的順序，由上往下，同level由左往右走訪
 
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/1576400035124.jpg)
 
 #### Source
 [Level-Order Traversal](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html#level)
