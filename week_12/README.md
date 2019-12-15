@@ -1,5 +1,5 @@
 # Level-Order Traversal
-> 按照**level由小到大**的順序，由上往下走訪
+> 按照**level由小到大**的順序，由上往下，同level由左往右走訪
 
 
 #### Source
