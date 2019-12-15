@@ -31,7 +31,7 @@
 [Graph: Intro(簡介)](http://alrightchiu.github.io/SecondRound/graph-introjian-jie.html)
 
 # Breadth-First Search
- > BFS：廣度優先搜尋
+ > BFS：廣度優先搜尋，由起點開始，往level一層一層走訪
  >> 並非最優的走訪方式
 
  > traversal（走訪）graph
