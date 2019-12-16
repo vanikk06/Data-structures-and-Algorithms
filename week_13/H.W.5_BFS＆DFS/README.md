@@ -1,3 +1,10 @@
+# Content
+  - []()
+  - []()
+
+
+# Notes
+
 給圖，建此圖該有的資料結構，並以BFS或DFS走訪每個點
 
 - defaultdict：自動建立一個不存在的key，再依照給定參數建立value
