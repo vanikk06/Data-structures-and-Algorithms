@@ -10,6 +10,6 @@
 # Error
 
 - TypeError
-  > 'builtin_function_or_method' object is not subscriptable
+  > `'builtin_function_or_method' object is not subscriptable`
   
  操作錯誤，將pop[0]改為pop(0)即可
