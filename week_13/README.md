@@ -19,7 +19,7 @@
 
 - John Dewey
 
-![]()
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/1576490775235.jpg)
 
 
 # Depth-First Search
