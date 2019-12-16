@@ -47,5 +47,7 @@ DFS：使用**stack**紀錄連結到的其他點
 
 # BFS vs. DFS
 
-| BFS | Queue | O(V+E) |
-|DFS | Stack| O(V+E) |
+|  | Design | Time Complexity |
+| --- | --- | --- |
+| **BFS** | Queue | O(V+E) |
+| **DFS** | Stack| O(V+E) |
