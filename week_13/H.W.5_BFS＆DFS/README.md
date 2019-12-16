@@ -6,3 +6,10 @@
   >　dictionary：key＆value，value可以是任何值
   
 - graph：本身為list
+
+# Error
+
+- TypeError
+  > 'builtin_function_or_method' object is not subscriptable
+  
+ 操作錯誤，將pop[0]改為pop(0)即可
