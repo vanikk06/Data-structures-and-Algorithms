@@ -12,12 +12,16 @@
 
 [Python之父教你寫main()函數](https://codingpy.com/article/guido-shows-how-to-write-main-function/)
 
+[🥧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
+
 # defaultdict
 
 #### Source
 [python中defaultdict的用法詳解](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/365414/)
 
 [collections雜談之一 ——— dict的key值存不存在乾我屁事](https://ithelp.ithome.com.tw/articles/10193094)
+
+[🍦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
 
 # Class notes
 - 達克效應（Dunning-Kruger effect）
@@ -28,6 +32,7 @@
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/1576490775235.jpg)
 
+[🍧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
 
 # Depth-First Search
  > DFS：深度優先搜尋
@@ -59,6 +64,16 @@ DFS：使用**stack**紀錄連結到的其他點
   > 若要進入stack判斷：可在stack進行contain
   >> 原始stack不存在此功能
 
+#### Source
+[Depth First Search (DFS) Algorithm](https://www.javatpoint.com/depth-first-search-algorithm)
+
+[Graph: Depth-First Search(DFS，深度優先搜尋)](http://alrightchiu.github.io/SecondRound/graph-depth-first-searchdfsshen-du-you-xian-sou-xun.html)
+
+[Graph DFS Pseudo Code with Animation](https://www.youtube.com/watch?v=GFlthbUd7LQ&feature=youtu.be)
+
+[圖片來源](http://alrightchiu.github.io/SecondRound/graph-breadth-first-searchbfsguang-du-you-xian-sou-xun.html)
+
+[🍨](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
 
 # BFS vs. DFS
  > 35:00
@@ -80,3 +95,7 @@ DFS：使用**stack**紀錄連結到的其他點
    > 在pop過程，不會保留過多的記憶體空間
  
  
+#### Source
+
+
+[🍩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
