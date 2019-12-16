@@ -1,5 +1,16 @@
 # Content
 
+# if__name__ == __main__
+ > 當主程式時再跑，import時不跑
+ 
+ > 21:20
+
+利用if將class以外的主程式包起來，若此檔案並非成主程式，即不執行
+
+#### Source
+[Python - if __name__ == '__main__' 涵義](http://blog.castman.net/%E6%95%99%E5%AD%B8/2018/01/27/python-name-main.html)
+
+[Python之父教你寫main()函數](https://codingpy.com/article/guido-shows-how-to-write-main-function/)
 
 # Class notes
 
