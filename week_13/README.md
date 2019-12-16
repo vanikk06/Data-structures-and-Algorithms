@@ -18,7 +18,8 @@
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/1576490058855.jpg)
 
 - John Dewey
-"**Education** is not an affair of ‘telling’ and being told, but an **active and constructive process**"
+
+![]()
 
 
 # Depth-First Search
