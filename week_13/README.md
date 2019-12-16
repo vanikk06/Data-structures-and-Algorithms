@@ -12,6 +12,13 @@
 
 [Python之父教你寫main()函數](https://codingpy.com/article/guido-shows-how-to-write-main-function/)
 
+# defaultdict
+
+#### Source
+[python中defaultdict的用法詳解](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/365414/)
+
+[collections雜談之一 ——— dict的key值存不存在乾我屁事](https://ithelp.ithome.com.tw/articles/10193094)
+
 # Class notes
 - 達克效應（Dunning-Kruger effect）
 
