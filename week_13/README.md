@@ -1,4 +1,4 @@
-# Content
+j# Content
 
 # if__name__ == __main__
  > 當主程式時再跑，import時不跑
@@ -46,8 +46,22 @@ DFS：使用**stack**紀錄連結到的其他點
 
 
 # BFS vs. DFS
+ > 35:00
 
 |  | Design | Time Complexity |
 | --- | --- | --- |
 | **BFS** | Queue | O(V+E) |
 | **DFS** | Stack| O(V+E) |
+> 時間複雜度：有多少**鄰邊＆點**
+>> 必須全部走完
+
+兩者時間接花在處理queue/stack上，但queue/stack的時間複雜度是相同的
+
+差異：需要的記憶體空間
+ > 時間＆記憶體空間是相對的
+ 
+ - BFS：把點逐個加入queue，通常需要與點數成正比的記憶體空間
+ - DFS：與**遞迴深度**成正比，與點數相比，遞迴深度並不大
+   > 在pop過程，不會保留過多的記憶體空間
+ 
+ - DFS：在pop過程，不會保
