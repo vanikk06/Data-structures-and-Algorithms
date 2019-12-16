@@ -45,3 +45,7 @@ DFS：使用**stack**紀錄連結到的其他點
   >> 原始stack不存在此功能
 
 
+# BFS vs. DFS
+
+| BFS | Queue | O(V+E) |
+|DFS | Stack| O(V+E) |
