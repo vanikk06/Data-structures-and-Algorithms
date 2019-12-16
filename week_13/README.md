@@ -1,4 +1,4 @@
-j# Content
+# Content
 
 # if__name__ == __main__
  > 當主程式時再跑，import時不跑
@@ -13,6 +13,13 @@ j# Content
 [Python之父教你寫main()函數](https://codingpy.com/article/guido-shows-how-to-write-main-function/)
 
 # Class notes
+- 達克效應（Dunning-Kruger effect）
+
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/1576490058855.jpg)
+
+- John Dewey
+"**Education** is not an affair of ‘telling’ and being told, but an **active and constructive process**"
+
 
 # Depth-First Search
  > DFS：深度優先搜尋
