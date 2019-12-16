@@ -39,4 +39,9 @@ DFS：使用**stack**紀錄連結到的其他點
  
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/Webp.net-gifmaker1.gif) 
 
+- 如何判斷值已經處理過：
+ 將push進stack的值做註記，通常使用染色
+  > 若要進入stack判斷：可在stack進行contain
+  >> 原始stack不存在此功能
+
 
