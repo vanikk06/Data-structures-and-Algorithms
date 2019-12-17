@@ -20,13 +20,13 @@
 - BFS
   > Queue中灰色部分，表示當次提取的值
 
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/Webp.net-gifmaker.gif)
+  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/Webp.net-gifmaker.gif)
 
 
 - DFS
   > Stack中灰色部分，表示當次提取的值
   
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/ifmaker1.gif)
+  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/ifmaker1.gif)
 
 
 # Error
@@ -34,4 +34,4 @@
 - TypeError
   > `'builtin_function_or_method' object is not subscriptable`
   
- 操作錯誤，將pop[0]改為pop(0)即可
+  操作錯誤，將pop[0]改為pop(0)即可
