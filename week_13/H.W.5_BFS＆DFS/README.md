@@ -44,7 +44,7 @@
       
       直接將input放入temp與bfs中，再使用`_key_value`查看input之鄰邊，走訪過或已存放於temp中就不處理，否則即暫存在queue，並紀錄在temp中
     
-      判斷queue是否為空的：
+      使用while迴圈，判斷queue是否為空的：
       
       - No：有尚未走訪的鄰邊存在，要接著走訪
      
@@ -59,7 +59,17 @@
     - dfs：最後結果，按照DFS達到的走訪順序
     - stack：存取vertex的鄰邊，採**後進先出**的資料結構
     
-    直接將input放入temp與dfs中，再使用`_key_value`查看input之鄰邊，走訪過或已存放於temp中就不處理，否則即暫存在stack，並紀錄在temp中
+      直接將input放入temp與dfs中，再使用`_key_value`查看input之鄰邊，走訪過或已存放於temp中就不處理，否則即暫存在stack，並紀錄在temp中
+      
+      使用while迴圈，判斷stack是否為空：
+      
+      - No：有尚未走訪的鄰邊存在，要接著走訪
+      
+        將stack中最後一個值取出，新增到dfs中，並將其放入`_key_value`查看其鄰邊
+         > 必須先進行pop，再丟`_key_value`
+         >> 因為stack為先進先出，提取的值為最新加入的（最後一個），若先丟`_key_value`再pop，最後一個值會改變
+      
+      - Yes：鄰邊皆已走訪完，回傳最終結果（dfs）
 
 # Demo
 
