@@ -25,14 +25,14 @@
     > addEdge(0, 1)：使用**一對**的方式，表示0跟1的edge
     
 - `_key_value`：走訪vertex對應的鄰邊，若其已存在於temp或stack/queue中，則不進行處理
-      - key：要查詢其鄰邊的vertex
-      - method：使用的資料結構
-         > queue或stack
-      - temp：紀錄已走訪過的vertex
+     - key：要查詢其鄰邊的vertex
+    - method：使用的資料結構
+       > queue或stack
+    - temp：紀錄已走訪過的vertex
       
-     先將key對應到之鄰邊存到value變數中，再對value中的值一個個判斷，他是否已存在於temp中
-              - Yes：不處理
-              - No：將值新增到method與temp中
+      先將key對應到之鄰邊存到value變數中，再對value中的值一個個判斷，他是否已存在於temp中
+      - Yes：不處理
+      - No：將值新增到method與temp中
 
 # Demo
 
