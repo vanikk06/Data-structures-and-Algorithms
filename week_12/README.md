@@ -1,4 +1,5 @@
 # Content
+- [Dict & Set](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#dict--set)
 - [Level-Order Traversal](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#level-order-traversal)
 - [Graph](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#graph)
 - [Breadth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#breadth-first-search)
@@ -79,9 +80,7 @@
 
 [用 Python 自學程式設計：list、tuple、dict and set](https://blog.kdchang.cc/2017/08/15/learning-programming-and-coding-with-python-list-tuple-dict-set/)
 
-[帶你搞清楚python中的dict和set的用法
-
-原文網址：https://71a.xyz/6gmx7n](https://kknews.cc/zh-tw/news/m29zo56.html)
+[帶你搞清楚python中的dict和set的用法](https://kknews.cc/zh-tw/news/m29zo56.html)
 
 
 [🖌](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
