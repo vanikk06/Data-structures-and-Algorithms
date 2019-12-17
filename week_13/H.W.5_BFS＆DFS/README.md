@@ -24,15 +24,30 @@
 - `addEdge`：建立「鄰邊」，給定key（u），並在其對應的list新增一個值（v）
     > addEdge(0, 1)：使用**一對**的方式，表示0跟1的edge
     
-- `_key_value`：走訪vertex對應的鄰邊，若其已存在於temp或stack/queue中，則不進行處理
+- `_key_value`：查看vertex對應的鄰邊，若其已存在於temp中，則不進行處理
      - key：要查詢其鄰邊的vertex
-    - method：使用的資料結構
+    - method：使用的資料結構，紀錄尚未走訪的鄰邊
        > queue或stack
     - temp：紀錄已走訪過的vertex
       
-      先將key對應到之鄰邊存到value變數中，再對value中的值一個個判斷，他是否已存在於temp中
+      先將key對應到之鄰邊存到value變數中，再對value中的值一個個判斷，是否已存在於temp中
       - Yes：不處理
-      - No：將值新增到method與temp中
+      - No：將值新增到method與temp
+     
+走訪graph
+- `BFS`：廣度優先搜尋，走訪順序根據**與起點距離差異**排序
+    > 採Level-Order Traversal，靠近起點的就先走訪
+    
+    - temp：紀錄已走訪過的vertex
+    - bfs：最後結果，按照BFS達到的走訪順序
+    - queue：存取vertex的鄰邊，採**先進先出**的資料結構
+    
+    直接將input放入temp與bfs中，再使用`_key_value`對input之鄰邊進行走訪，走訪過就不處理，尚未走訪的即暫存在queue
+    
+    判斷queue是否為空的：
+     - No：有尚未走訪的鄰邊存在，要接著走訪
+     - Yes：
+
 
 # Demo
 
