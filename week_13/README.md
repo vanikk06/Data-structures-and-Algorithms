@@ -44,6 +44,8 @@ BFS紀錄會與點數（資料個數）成正比，所以空間個數會較高
  > 先遇到的就先訪問
  
  從某一vertex出發，不斷地**前進**走訪未曾走訪過的vertex，直到無路可走或所有相鄰的vertex都被走訪過為止，再退回前一個vertex，尋找尚未被走訪的vertex，直到所有相鄰的vertex都被走訪
+ 
+ ![](https://buracagyang.github.io/2019/07/14/breadth-depth-first-search/DFS.gif)
 
 - Step1：先遇到的鄰點就先訪問
   > 可使用stack操作
@@ -77,7 +79,9 @@ DFS：使用**stack**紀錄連結到的其他點
 
 [縱向優先搜尋 (depth-first search)](http://nthucad.cs.nthu.edu.tw/~yyliu/personal/nou/04ds/dfs.html)
 
-[圖片來源](http://alrightchiu.github.io/SecondRound/graph-breadth-first-searchbfsguang-du-you-xian-sou-xun.html)
+[圖片來源_Step](https://buracagyang.github.io/2019/07/14/breadth-depth-first-search/)
+
+[圖片來源_Practice](http://alrightchiu.github.io/SecondRound/graph-breadth-first-searchbfsguang-du-you-xian-sou-xun.html)
 
 [🍨](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
 
