@@ -35,7 +35,8 @@
 [🍧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
 
 # Depth-First Search
- > DFS：深度優先搜尋
+ > DFS：深度優先搜尋，使用Pre-Order Traversal
+ >> 先遇到的就先走訪
  
 BFS紀錄會與點數（資料個數）成正比，所以空間個數會較高
 
