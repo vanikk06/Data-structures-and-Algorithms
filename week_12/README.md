@@ -3,6 +3,18 @@
 - [Graph](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#graph)
 - [Breadth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#breadth-first-search)
 
+# Set
+ > 集合：建立一個無序、不重複的元素集
+ >> 想像成留下key的dict
+
+與tuple、list類似，不同的是set**不會包含重複的值**
+
+- 宣告＆建立集合
+  - `set1 = set()`：建立空的集合
+    > ☆建立空集合的方法是`set1 = set()`而非`set1 = {}`
+    >> {}表示空的dict
+  - `set2 = {1, 2, 3, 4}`
+
 # Level-Order Traversal
 
 各個node相對於root有其對應的level，按照**level由小到大**的順序對node進行走訪
