@@ -4,7 +4,8 @@
 - [Breadth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#breadth-first-search)
 
 # Level-Order Traversal
-> 按照**level由小到大**的順序，由上往下，同level由左往右走訪
+
+各個node相對於root有其對應的level，按照**level由小到大**的順序對node進行走訪
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/1576400035124.jpg)
 
