@@ -42,6 +42,8 @@ BFS紀錄會與點數（資料個數）成正比，所以空間個數會較高
 
 #### Step
  > 先遇到的就先訪問
+ 
+ 從某一vertex出發，不斷地**前進**走訪未曾走訪過的vertex，直到無路可走或所有相鄰的vertex都被走訪過為止，再退回前一個vertex，尋找尚未被走訪的vertex，直到所有相鄰的vertex都被走訪
 
 - Step1：先遇到的鄰點就先訪問
   > 可使用stack操作
@@ -59,6 +61,7 @@ DFS：使用**stack**紀錄連結到的其他點
  > code：判斷何時要pop、何時要push 
  
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/Webp.net-gifmaker1.gif) 
+ > Queue中灰色部分，表示當次被提取的值
 
 - 如何判斷值已經處理過：
  將push進stack的值做註記，通常使用染色
@@ -71,6 +74,8 @@ DFS：使用**stack**紀錄連結到的其他點
 [Graph: Depth-First Search(DFS，深度優先搜尋)](http://alrightchiu.github.io/SecondRound/graph-depth-first-searchdfsshen-du-you-xian-sou-xun.html)
 
 [Graph DFS Pseudo Code with Animation](https://www.youtube.com/watch?v=GFlthbUd7LQ&feature=youtu.be)
+
+[縱向優先搜尋 (depth-first search)](http://nthucad.cs.nthu.edu.tw/~yyliu/personal/nou/04ds/dfs.html)
 
 [圖片來源](http://alrightchiu.github.io/SecondRound/graph-breadth-first-searchbfsguang-du-you-xian-sou-xun.html)
 
