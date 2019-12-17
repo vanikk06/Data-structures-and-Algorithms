@@ -97,7 +97,7 @@
 使用queue紀錄print出的點所連接的其他點
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/output_aMJs9Q.gif)
-> Queue中灰色部分，表示此次被提取的值
+> Queue中灰色部分，表示當次被提取的值
 
 使用兩個array，一個處理queue，一個紀錄print出的順序
 
