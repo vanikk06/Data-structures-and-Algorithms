@@ -76,7 +76,7 @@
 
 從某一vertex出發，先走訪所有**相鄰**的vertex，再依序走訪與已走訪過的vertex相鄰但尚未走訪的vertex，直到所有相鄰的vertex都被走訪
 
-![](https://upload.wikimedia.org/wikipedia/commons/9/99/Breadth-first_search_Algorithm.gif)
+![](https://buracagyang.github.io/2019/07/14/breadth-depth-first-search/BFS.gif)
 
 - Step1：從頂點開始，即Level 0
 - Step2：查找頂點以單線連接到的所有其他點，這些點即為Level 1
@@ -102,7 +102,7 @@
 使用兩個array，一個處理queue，一個紀錄print出的順序
 
 #### Source
-[圖片來源](https://commons.wikimedia.org/wiki/File:Breadth-first_search_Algorithm.gif)
+[圖片來源](https://buracagyang.github.io/2019/07/14/breadth-depth-first-search/)
 
 [BFS和DFS算法（第1讲）](https://www.youtube.com/watch?v=oLtvUWpAnTQ&t=)
 
