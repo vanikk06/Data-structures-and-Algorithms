@@ -73,6 +73,9 @@
  
  
 #### Step
+
+從某一vertex出發，先走訪所有**相鄰**的vertex，再依序走訪與已走訪過的vertex相鄰但尚未走訪的vertex，直到所有相鄰的vertex都被走訪
+
 ![](https://upload.wikimedia.org/wikipedia/commons/9/99/Breadth-first_search_Algorithm.gif)
 
 - Step1：從頂點開始，即Level 0
@@ -106,6 +109,8 @@
 [Breadth First Search (BFS) Algorithm](https://www.javatpoint.com/breadth-first-search-algorithm)
 
 [Breadth first search](https://www.programiz.com/dsa/graph-bfs)
+
+[橫向優先搜尋 (breadth-first search)](http://nthucad.cs.nthu.edu.tw/~yyliu/personal/nou/04ds/bfs.html)
 
 [BFS & DFS 學習整理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/102866/)
 
