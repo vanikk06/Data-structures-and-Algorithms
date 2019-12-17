@@ -63,7 +63,7 @@
 
 # Breadth-First Search
  > BFS：廣度優先搜尋，使用Level-Order Traversal
- >> 由起點開始，往level一層一層走訪
+ >> 由起點開始，根據level一層一層走訪
  
 
  > traversal（走訪）graph之方法
