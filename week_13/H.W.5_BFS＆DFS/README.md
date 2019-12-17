@@ -11,6 +11,23 @@
   > defaultdict(list)：value自動建立為一個空的list
 
   >　dictionary：key＆value，value可以是任何值
+  
+# Code
+[🤜🏼HERE🤛🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS/H.W.5_BFS_and_DFS.py)
+
+# Demo
+
+- BFS
+  > Queue中灰色部分，表示當次提取的值
+
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/Webp.net-gifmaker.gif)
+
+
+- DFS
+  > Stack中灰色部分，表示當次提取的值
+  
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/ifmaker1.gif)
+
 
 # Error
 
