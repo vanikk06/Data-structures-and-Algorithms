@@ -6,8 +6,8 @@
 # Dict & Set
  > 字典（dictionary）與集合
  
-- [Dict]()
-- [Set]()
+- [Dict](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#dict)
+- [Set](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#set)
 
 兩者差別在於「是否有儲存對應的value」
 
@@ -75,7 +75,7 @@
 
 
 #### Source
-[P學習使用集合 (Set)](https://wenyuangg.github.io/posts/python3/python-set.html)
+[Python 學習使用集合 (Set)](https://wenyuangg.github.io/posts/python3/python-set.html)
 
 [用 Python 自學程式設計：list、tuple、dict and set](https://blog.kdchang.cc/2017/08/15/learning-programming-and-coding-with-python-list-tuple-dict-set/)
 
