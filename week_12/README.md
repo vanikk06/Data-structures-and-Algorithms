@@ -9,7 +9,7 @@
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/image/1576400035124.jpg)
 
 #### Source
-[Binary Tree: Traversal(尋訪)Level-Order Traversal](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html#level)
+[Binary Tree: Traversal(尋訪) - Level-Order Traversal](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html#level)
 
 [✏](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
 
