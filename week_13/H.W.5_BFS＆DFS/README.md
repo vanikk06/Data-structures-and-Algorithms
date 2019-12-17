@@ -42,11 +42,12 @@
     - bfs：最後結果，按照BFS達到的走訪順序
     - queue：存取vertex的鄰邊，採**先進先出**的資料結構
     
-    直接將input放入temp與bfs中，再使用`_key_value`對input之鄰邊進行走訪，走訪過就不處理，尚未走訪的即暫存在queue
+    直接將input放入temp與bfs中，再使用`_key_value`查看input之鄰邊，走訪過或已存放於temp中就不處理，否則即暫存在queue，並紀錄在temp中
     
     判斷queue是否為空的：
      - No：有尚未走訪的鄰邊存在，要接著走訪
-     - Yes：
+         將queue中第一個值取出，將其放入`_key_value`查看其鄰邊，並將其新增在bfs中
+     - Yes：鄰邊皆已走訪完，回傳最終結果（bfs）
 
 
 # Demo
