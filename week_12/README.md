@@ -69,6 +69,8 @@
  > traversal（走訪）graph之方法
  >> search（搜尋）的必要功能
  
+ 從起點開始，遍歷完整個graph，按照**就近原則**進行，距離起點相同的vertex其訪問順序是相近的
+ 
  
 #### Step
 ![](https://upload.wikimedia.org/wikipedia/commons/9/99/Breadth-first_search_Algorithm.gif)
@@ -104,5 +106,7 @@
 [Breadth First Search (BFS) Algorithm](https://www.javatpoint.com/breadth-first-search-algorithm)
 
 [Breadth first search](https://www.programiz.com/dsa/graph-bfs)
+
+[BFS & DFS 學習整理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/102866/)
 
 [🖊](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
