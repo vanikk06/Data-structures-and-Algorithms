@@ -9,14 +9,29 @@
 - [Dict]()
 - [Set]()
 
+兩者差別在於「是否有儲存對應的value」
+
 ## Dict
  > 字典：關聯式陣列 or hash table
- >> {'key'：'value'}
+ >> {'key'：'value'}：映射類型
+ 
+一個key僅能對應一個value，有極快的查找速度（不會隨著字典大小增加而變慢），但會使用大量的記憶體，內存浪費多
+
+☆ key必須是**不可變對象**，因為dict根據key來計算value的存儲位置
+ > Hash：通過key計算位置的演算法
+ >> list是可變的，不能作為key
  
 - `.update(x)`：合併 
+- 使用`['key']`：進行key之查詢，回傳其對應的value
 - `.keys()`：取所有鍵（key）
 - `.values()`：取所有值（value）
 - `.items()`：取所有鍵值對（key, value）
+- `pop(key)`：刪除一個key，其對應的value也會隨之刪除
+- 判斷key是否存在
+   > 若key不存在，會出現`KeyError`
+   
+   - `in`
+   - `.get('key')`：若key不存在，則回傳None或指定的值
 
 ## Set
  > 集合：建立一個無序、不重複的元素集
@@ -26,20 +41,47 @@
 
 - 宣告＆建立集合
   - `set1 = set()`：建立空的集合
-    > ☆建立空集合的方法是`set1 = set()`而非`set1 = {}`
+    > ☆ 建立空集合的方法是`set1 = set()`而非`set1 = {}`
     >> {}表示空的dict
   - `set2 = {1, 2, 3, 4}`
 - 基本操作
   - `.add()`：新增元素
-  - `.remove()`：
+  - `.remove()`：刪除元素
+  - `in` ＆ `not in`：判斷元素是否已存在於集合中 
+    > tuple、list皆可使用
+  - ☆ 無法使用[index]索引值來擷取特定元素
 
+- 聯集：A、B集合的所有元素
+  - `.union`
+     > e.g. setA.union(setB)
+  - `|`
+     > e.g. setA|setB
+- 交集：A、B集合的共有元素
+  - `.intersection`
+     > setA.intersection(setB)
+  - `&`
+     > setA & setB
+- 差集：A集合扣掉與B集合的共有元素
+  - `.difference`
+     > setA.difference(setB)
+  - `-`
+     > setA - setB
+- 對稱差集：A、B集合的獨有元素
+  - `.symmetric_difference`
+     > setA.symmetric_difference(setB)
+  - `^ `
+     > setA ^ setB
 
 
 
 #### Source
-[]()
+[P學習使用集合 (Set)](https://wenyuangg.github.io/posts/python3/python-set.html)
 
-[]()
+[用 Python 自學程式設計：list、tuple、dict and set](https://blog.kdchang.cc/2017/08/15/learning-programming-and-coding-with-python-list-tuple-dict-set/)
+
+[帶你搞清楚python中的dict和set的用法
+
+原文網址：https://71a.xyz/6gmx7n](https://kknews.cc/zh-tw/news/m29zo56.html)
 
 
 [🖌](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
