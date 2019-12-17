@@ -3,9 +3,24 @@
 - [Graph](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#graph)
 - [Breadth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#breadth-first-search)
 
-# Set
+# Dict & Set
+ > 字典（dictionary）與集合
+ 
+- [Dict]()
+- [Set]()
+
+## Dict
+ > 字典：關聯式陣列 or hash table
+ >> {'key'：'value'}
+ 
+- `.update(x)`：合併 
+- `.keys()`：取所有鍵（key）
+- `.values()`：取所有值（value）
+- `.items()`：取所有鍵值對（key, value）
+
+## Set
  > 集合：建立一個無序、不重複的元素集
- >> 想像成留下key的dict
+ >> 想像成僅留下key的dict
 
 與tuple、list類似，不同的是set**不會包含重複的值**
 
@@ -14,6 +29,20 @@
     > ☆建立空集合的方法是`set1 = set()`而非`set1 = {}`
     >> {}表示空的dict
   - `set2 = {1, 2, 3, 4}`
+- 基本操作
+  - `.add()`：新增元素
+  - `.remove()`：
+
+
+
+
+#### Source
+[]()
+
+[]()
+
+
+[🖌](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
 
 # Level-Order Traversal
 
