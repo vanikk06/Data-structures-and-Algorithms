@@ -202,7 +202,7 @@
 # Adjustment of Design BFS
  > 調整作業五BFS程式碼
 
-原始BFS程式碼 → [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/Design%20BFS.py)
+原始BFS程式碼  [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/Design%20BFS.py)
 
 在原始程式碼中
 - 使用3個array、1個變數
@@ -211,7 +211,7 @@
    >> 速度隨著array的大小而變慢
 
 #### Code
-調整後BFS程式碼[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/Adjustment%20of%20Design%20BFS.py)
+調整後BFS程式碼 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/Adjustment%20of%20Design%20BFS.py)
 
 - 使用2個array、1個set、兩個變數
 - 判斷vertex是否已進入處理（已走訪 or 在queue中待處理）：判斷是否已存在set中
