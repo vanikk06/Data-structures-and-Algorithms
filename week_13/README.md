@@ -1,6 +1,6 @@
 # Content
  - [ifˍnameˍˍ == ˍˍmainˍˍ](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#if__name__--main)
- - [](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#defaultdict)ˍˍ
+ - [defaultdict](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#defaultdict)
 
 
 
@@ -104,8 +104,8 @@ DFS：使用**stack**紀錄連結到的其他點
 | **BFS** | Queue | O(V+E) |
 | **DFS** | Stack| O(V+E) |
 > 時間複雜度：有多少**鄰邊＆點**
->> V：點的個數
-   E：邊的個數
+>> V：點的個數\
+  E：邊的個數
 
 兩者時間接花在處理queue/stack上，但queue/stack的時間複雜度是相同的
 
