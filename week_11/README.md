@@ -1,3 +1,14 @@
+# H.W.4_Hash Table
+[🤜🏾HERE🤛🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table)
+
+- [Jupyter notebook_The process of learning hash table](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/H.W.4_Hash%20Table/The%20process%20of%20%20learning%20hash%20table.ipynb)
+    - [Jupyter nbviewer_The process of learning hash table](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/H.W.4_Hash%20Table/The%20process%20of%20%20learning%20hash%20table.ipynb)
+  - [Notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table#notes)
+  - [Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table#error)
+  - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table#code)
+  - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table#demo)
+
+
 # Content
 - [Coding](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#coding)
 - [Hash Table Ⅰ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B0)
