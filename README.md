@@ -251,8 +251,17 @@
 
 [👩🏻‍🎨👨🏻‍🎨](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
-# week_13
+# week_13 Depth-First Search
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_13)
+
+- [if＿name＿ == ＿main＿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#if-%EF%BC%BFname%EF%BC%BF--%EF%BC%BFmain%EF%BC%BF)
+ - [defaultdict](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#defaultdict)
+ - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#class-notes)
+ - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#depth-first-search)
+ - [BFS vs. DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#bfs-vs-dfs)
+ - [Adjustment of Design DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#adjustment-of-design-dfs)
+
+
 
 
 
