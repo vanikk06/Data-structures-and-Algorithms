@@ -3,6 +3,7 @@
 - [Level-Order Traversal](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#level-order-traversal)
 - [Graph](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#graph)
 - [Breadth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#breadth-first-search)
+- [Adjustment of Design BFS](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#adjustment-of-design-bfs)
 
 # Dict & Set
  > 字典（dictionary）與集合
