@@ -113,3 +113,23 @@ DFS：使用**stack**紀錄連結到的其他點
 
 
 [🍩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
+
+# Adjustment of Design DFS
+ > 調整作業五DFS程式碼
+ 
+原始DFS程式碼 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/Design%20DFS.py)
+
+在原始程式碼中
+ - 使用4個array、1個變數
+ - 判斷vertex是否已進入處理（已走訪 or 在stack中待處理）：判斷是否已存在array中
+   > 會與array中的值一個個比較，判斷是否已存在
+   >> 速度隨著array的大小而變慢
+   
+ #### Code
+ 
+調整後DFS程式碼 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/Adjustment%20of%20Design%20DFS.py)
+
+- 使用3個array、1個set、1個變數
+- 判斷vertex是否已進入處理（已走訪 or 在stack中待處理）：判斷是否已存在set中
+  > 會以"字典對應"的方式，判斷是否已存在
+  >> 速度不會受到set的大小影響
