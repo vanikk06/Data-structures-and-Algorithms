@@ -21,7 +21,7 @@
 
 ☆ key必須是**不可變對象**，因為dict根據key來計算value的存儲位置
  > Hash：通過key計算位置的演算法
- >> list是可變的，不能作為key
+ >> list是可變的，不能作為key，但tuple可以，因其不可更改
  
 - `.update(x)`：合併 
 - 使用`['key']`：進行key之查詢，回傳其對應的value
