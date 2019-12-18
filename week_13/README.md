@@ -41,6 +41,22 @@
 
 # defaultdict
 
+改善在使用python內建的dict時，若用到不存在的key，就會出現`KeyError`
+
+defaultdict：調用不存在的key值時，會先建立一個預設值（default）給我們
+ - input：int、str、list、set...函式
+  > 預設值資料類型
+  >> 不可直接給予固定的值，會出現`TypeError`\
+  解決：建構一個生成固定值的函式，帶入
+
+#### 擴充特性
+
+defaultdict是dict的子類別，繼承dict的所有方法，並進行擴充
+
+- default_factory：defaultdict在初始化的過程中，第一個接收的函式對象（e.g. list()、自訂函式...），之後皆會比照此作為格式
+- ＿missing＿(key)：使用不存在的key值時，會調用＿missing＿(key)方法，此方法會利用default_factory產生一個default值
+
+
 #### Source
 [python中defaultdict的用法詳解](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/365414/)
 
