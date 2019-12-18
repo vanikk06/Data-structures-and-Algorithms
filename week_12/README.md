@@ -228,6 +228,8 @@
 #### Code
 調整後BFS程式碼 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/Adjustment%20of%20Design%20BFS.py)
 
+將重複對鄰邊表查詢的步驟放在一起，簡化程式碼，並將儲存已處理的vertex之資料類別改為set
+
 - 使用3個array、1個set、1個變數
 - 判斷vertex是否已進入處理（已走訪 or 在queue中待處理）：判斷是否已存在set中
    > 會以"字典對應"的方式，判斷是否已存在
