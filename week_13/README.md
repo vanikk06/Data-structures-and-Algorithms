@@ -81,7 +81,7 @@ DFS：使用**stack**紀錄連結到的其他點
 
 [縱向優先搜尋 (depth-first search)](http://nthucad.cs.nthu.edu.tw/~yyliu/personal/nou/04ds/dfs.html)
 
-[BFS & DFS 學習整理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/102866/)
+[BFS & DFS 學習整理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/102866/#outline__1_2)
 
 [圖片來源_Step](https://buracagyang.github.io/2019/07/14/breadth-depth-first-search/)
 
