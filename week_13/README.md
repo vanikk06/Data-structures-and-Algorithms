@@ -3,7 +3,7 @@
  - [defaultdict](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#defaultdict)
  - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#class-notes)
  - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#depth-first-search)
- - [](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#bfs-vs-dfs)
+ - [BFS vs. DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#bfs-vs-dfs)
 
 
 
@@ -114,7 +114,7 @@ DFS：使用**stack**紀錄連結到的其他點
 - 差異：需要的記憶體空間
   > 時間複雜度＆記憶體複雜度是相對的
  
-![](https://i1.kknews.cc/SIG=10hoqj6/ctp-vzntr/s66099p642ns4p8r8o0801o8804p62ps.jpg)
+ ![](https://i1.kknews.cc/SIG=10hoqj6/ctp-vzntr/s66099p642ns4p8r8o0801o8804p62ps.jpg)
  
    - BFS：把點逐個加入queue，通常需要與**點數**成正比的記憶體空間
      > 一般解決**最短路徑問題**
