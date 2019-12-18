@@ -2,6 +2,7 @@
  - [if＿name＿ == ＿main＿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#if-%EF%BC%BFname%EF%BC%BF--%EF%BC%BFmain%EF%BC%BF)
  - [defaultdict](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#defaultdict)
  - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#class-notes)
+ - [](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#depth-first-search)
 
 
 
@@ -98,12 +99,11 @@ DFS：使用**stack**紀錄連結到的其他點
 [🍨](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
 
 # BFS vs. DFS
- > 35:00
 
-|  | Design | Time Complexity |
-| --- | --- | --- |
-| **BFS** | Queue | O(V+E) |
-| **DFS** | Stack| O(V+E) |
+|  | Design | Time Complexity |  Space Complexity |
+| --- | --- | --- | --- |
+| **BFS** | Queue | O(V+E) | 與**點數個數**成正比 |
+| **DFS** | Stack | O(V+E) | 與**遞迴深度**成正比 |
 > 時間複雜度：有多少**鄰邊＆點**
 >> V：點的個數\
   E：邊的個數
@@ -111,14 +111,29 @@ DFS：使用**stack**紀錄連結到的其他點
 兩者時間接花在處理queue/stack上，但queue/stack的時間複雜度是相同的
 
 差異：需要的記憶體空間
- > 時間＆記憶體空間是相對的
+ > 時間複雜度＆記憶體複雜度是相對的
+ 
+![](https://i1.kknews.cc/SIG=10hoqj6/ctp-vzntr/s66099p642ns4p8r8o0801o8804p62ps.jpg)
  
  - BFS：把點逐個加入queue，通常需要與**點數**成正比的記憶體空間
- - DFS：與**遞迴深度**成正比，與點數相比，遞迴深度並不大
-   > 在pop過程，不會保留過多的記憶體空間
+   > 一般解決**最短路徑問題**
+   >> 暫存多，利用遍歷所有分支的方式，找到最優解
+ - DFS：與**遞迴深度**成正比，與點數相比，遞迴深度並不大，所以DFS更加省記憶體空間
+   > 一般解決**連通性問題**
+   >> 暫存少，從某個分支開始，尋找解（不一定是最優解，但速度較快）
  
+ 一般來說，較常使用DFS，雖然能使用DFS解決的問題都能用BFS解決，但因為DFS遞迴與耗時小的原因較容易實現
+ 
+ P.S.在最糟的情況下，若DFS選到一條無限長的路徑，stack就會爆掉，這時使用BFS會較佳，因其可以控制queue的長度
  
 #### Source
+[BFS 和 DFS](https://www.itread01.com/content/1496927052.html)
+
+[深度優先遍歷、廣度優先遍歷(dfs,bfs)詳解](https://kknews.cc/zh-tw/code/3453n3y.html)
+
+[bfs及dfs的比較](https://www.itread01.com/content/1541297601.html)
+
+[DFS && BFS算法学习总结](https://www.jianshu.com/p/8c71c3a2b1a2)
 
 
 [🍩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
