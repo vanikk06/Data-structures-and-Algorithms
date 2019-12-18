@@ -198,3 +198,8 @@
 [BFS & DFS 學習整理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/102866/)
 
 [🖊](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
+
+# Adjustment of Design BFS
+ > 優化作業五BFS程式碼
+
+原始BFS程式碼 → [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/Design%20BFS.py)
