@@ -96,6 +96,7 @@
 
 [帶你搞清楚python中的dict和set的用法](https://kknews.cc/zh-tw/news/m29zo56.html)
 
+[Python中集合(set)的基本操作以及一些常見的用法](https://blog.51cto.com/10616534/1944841)
 
 [🖌](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
 
