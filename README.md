@@ -242,6 +242,13 @@
 # week_12 Breadth-First Search
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12)
 
+- [Dict & Set](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#dict--set)
+- [Level-Order Traversal](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#level-order-traversal)
+- [Graph](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#graph)
+- [Breadth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#breadth-first-search)
+- [Adjustment of Design BFS](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#adjustment-of-design-bfs)
+
+
 [👩🏻‍🎨👨🏻‍🎨](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 # week_13
