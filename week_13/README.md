@@ -4,6 +4,7 @@
  - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#class-notes)
  - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#depth-first-search)
  - [BFS vs. DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#bfs-vs-dfs)
+ - [](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#adjustment-of-design-dfs)
 
 
 
@@ -114,14 +115,14 @@ DFS：使用**stack**紀錄連結到的其他點
 - 差異：需要的記憶體空間
   > 時間複雜度＆記憶體複雜度是相對的
  
- ![](https://i1.kknews.cc/SIG=10hoqj6/ctp-vzntr/s66099p642ns4p8r8o0801o8804p62ps.jpg)
+  ![](https://i1.kknews.cc/SIG=10hoqj6/ctp-vzntr/s66099p642ns4p8r8o0801o8804p62ps.jpg)
  
-   - BFS：把點逐個加入queue，通常需要與**點數**成正比的記憶體空間
-     > 一般解決**最短路徑問題**
-     >> 暫存多，利用遍歷所有分支的方式，找到最優解
-   - DFS：與**遞迴深度**成正比，與點數相比，遞迴深度並不大，所以DFS更加省記憶體空間
-     > 一般解決**連通性問題**
-     >> 暫存少，從某個分支開始，尋找解（不一定是最優解，但速度較快）
+    - BFS：把點逐個加入queue，通常需要與**點數**成正比的記憶體空間
+      > 一般解決**最短路徑問題**
+      >> 暫存多，利用遍歷所有分支的方式，找到最優解
+    - DFS：與**遞迴深度**成正比，與點數相比，遞迴深度並不大，所以DFS更加省記憶體空間
+      > 一般解決**連通性問題**
+      >> 暫存少，從某個分支開始，尋找解（不一定是最優解，但速度較快）
  
  一般來說，較常使用DFS，雖然能使用DFS解決的問題都能用BFS解決，但因為DFS遞迴與耗時小的原因較容易實現
  
