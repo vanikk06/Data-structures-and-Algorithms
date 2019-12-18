@@ -202,15 +202,13 @@
 #### Source
 [圖片來源](https://buracagyang.github.io/2019/07/14/breadth-depth-first-search/)
 
-[BFS和DFS算法（第1讲）](https://www.youtube.com/watch?v=oLtvUWpAnTQ&t=)
-
 [Breadth First Search (BFS) Algorithm](https://www.javatpoint.com/breadth-first-search-algorithm)
 
 [Breadth first search](https://www.programiz.com/dsa/graph-bfs)
 
 [橫向優先搜尋 (breadth-first search)](http://nthucad.cs.nthu.edu.tw/~yyliu/personal/nou/04ds/bfs.html)
 
-[BFS & DFS 學習整理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/102866/)
+[BFS & DFS 學習整理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/102866/#outline__1_1)
 
 [🖊](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
 
@@ -235,5 +233,8 @@
    > 會以"字典對應"的方式，判斷是否已存在
    >> 速度不會受到set的大小影響
 
+#### Source
+[BFS和DFS算法（第1讲）](https://www.youtube.com/watch?v=oLtvUWpAnTQ&t=)
 
 [🖍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
+
