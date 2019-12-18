@@ -1,11 +1,11 @@
 # Content
- - [ifˍnameˍˍ == ˍˍmainˍˍ](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#if__name__--main)
+ - [if＿name＿ == ＿main＿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#if__name__--main)
  - [defaultdict](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#defaultdict)
  - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#class-notes)
 
 
 
-# if__name__ == ＿main＿
+# if ＿name＿ == ＿main＿
  > 當主程式時再跑，import時不跑
  
  > 21:20
@@ -13,7 +13,7 @@
 利用if將class以外的主程式包起來，若此檔案並非成主程式，即不執行
 
 #### Source
-[Python - if ˍˍnameˍˍ == 'ˍˍmainˍˍ' 涵義](http://blog.castman.net/%E6%95%99%E5%AD%B8/2018/01/27/python-name-main.html)
+[Python - if ＿name＿ == '＿main＿' 涵義](http://blog.castman.net/%E6%95%99%E5%AD%B8/2018/01/27/python-name-main.html)
 
 [Python之父教你寫main()函數](https://codingpy.com/article/guido-shows-how-to-write-main-function/)
 
