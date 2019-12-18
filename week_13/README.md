@@ -1,6 +1,7 @@
 # Content
  - [ifˍnameˍˍ == ˍˍmainˍˍ](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#if__name__--main)
  - [defaultdict](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#defaultdict)
+ - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#class-notes)
 
 
 
