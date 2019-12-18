@@ -5,7 +5,7 @@
 
 
 
-# if__name__ == __main__
+# if__name__ == ＿main＿
  > 當主程式時再跑，import時不跑
  
  > 21:20
