@@ -58,6 +58,9 @@ BFS紀錄會與點數（資料個數）成正比，所以空間個數會較高
 
 #### Practice
  > by stack
+ 
+ DFS本質上是一種**遞迴（recursion）結構**，其遞迴結構是利用系統的stack達成
+  > 當某條路徑走完後，會退回上一個vertex
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/1576310235203.jpg)
 
