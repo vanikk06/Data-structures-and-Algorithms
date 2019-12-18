@@ -249,5 +249,7 @@
 #### Source
 [BFS和DFS算法（第2讲）](https://www.youtube.com/watch?v=bD8RT0ub--0&t=)
 
+[Python判斷值是否在list或set中的效能對比分析](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/369163/)
+
 [🖍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
 
