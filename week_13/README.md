@@ -4,7 +4,7 @@
  - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#class-notes)
  - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#depth-first-search)
  - [BFS vs. DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#bfs-vs-dfs)
- - [](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#adjustment-of-design-dfs)
+ - [Adjustment of Design DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#adjustment-of-design-dfs)
 
 
 
