@@ -20,11 +20,17 @@
 
 
 # if ＿name＿ == ＿main＿
- > 當主程式時再跑，import時不跑
+ > 當主程式時在執行，被引用時不執行
  
- > 21:20
+引用其他的python檔案時，會使用`from 檔名 import class/def`來匯入
 
-利用if將class以外的主程式包起來，若此檔案並非成主程式，即不執行
+當python檔案被引用時，python直譯器會讀取並執行檔案內的每一行，當它在執行時，會有一些內建、隱含的變數，`__name__`就是其中之一，其意義是**模組名稱**
+  - 被引用：`__name__`會是「模組名稱」
+     > e.g.檔案名
+  - 直接執行（透過命令列）：`__name__`會是`__main__`
+     > 即此為"主程式"
+
+在`if __name__ == __main__`下的程式碼，只有當此程式是主程式時，才會執行
 
 #### Source
 [Python - if ＿name＿ == '＿main＿' 涵義](http://blog.castman.net/%E6%95%99%E5%AD%B8/2018/01/27/python-name-main.html)
