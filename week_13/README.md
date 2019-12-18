@@ -141,26 +141,33 @@ DFS：使用**stack**紀錄連結到的其他點
 [🍩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
 
 # Adjustment of Design DFS
- > 調整作業五DFS程式碼
+ > 優化作業五DFS程式碼
  
 原始DFS程式碼 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/Design%20DFS.py)
 
 在原始程式碼中
  - 使用4個array、1個變數
- - 判斷vertex是否已進入處理（已走訪 or 在stack中待處理）：判斷是否已存在array中
-   > 會與array中的值一個個比較，判斷是否已存在
-   >> 速度隨著array的大小而變慢
+ - 判斷vertex是否已進入處理（已走訪 or 在stack中待處理）：是否已存在array中
    
  #### Code
- 
 調整後DFS程式碼 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/Adjustment%20of%20Design%20DFS.py)
 
+將重複對鄰邊表查詢的步驟放在一起，簡化程式碼，並將儲存已處理的vertex之資料類別改為set
+
 - 使用3個array、1個set、1個變數
-- 判斷vertex是否已進入處理（已走訪 or 在stack中待處理）：判斷是否已存在set中
-  > 會以"字典對應"的方式，判斷是否已存在
-  >> 速度不會受到set的大小影響
+- 判斷vertex是否已進入處理（已走訪 or 在stack中待處理）：是否已存在set中
+
+#### 差異
+  
+  進行「是否已存在」的判斷時，使用set會比array快
+   - set：使用hsah的方式
+     > 時間複雜度為O(1)
+   - array：與array內的元素一個個比較
+     > 時間複雜度為O(n)，n為array內元素個數
   
 #### Source
 [BFS和DFS算法（第2讲）](https://www.youtube.com/watch?v=bD8RT0ub--0&t=)
+
+[Python判斷值是否在list或set中的效能對比分析](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/369163/)
 
 [🍪](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
