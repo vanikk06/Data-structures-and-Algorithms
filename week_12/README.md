@@ -39,7 +39,12 @@
  > 集合：建立一個無序、不重複的元素集
  >> 想像成僅留下key的dict
 
-與tuple、list類似，不同的是set**不會包含重複的值**
+與tuple、list類似，但不同的是set內的元素是**不包含重複值＆無序的**
+
+使用時機：
+ 1. 去除重複值
+ 2. 關係測試
+     > e.g. 交集、聯集...
 
 - 宣告＆建立集合
   - `set1 = set()`：建立空的集合
@@ -51,7 +56,9 @@
   - `.remove()`：刪除元素
   - `in` ＆ `not in`：判斷元素是否已存在於集合中 
     > tuple、list皆可使用
+  - `.copy()`：複製
   - ☆ 無法使用[index]索引值來擷取特定元素
+    > 集合元素是無序的，所以無法通過數字進行索引獲取某一個元素
 
 - 聯集：A、B集合的所有元素
   - `.union`
@@ -68,11 +75,17 @@
      > setA.difference(setB)
   - `-`
      > setA - setB
-- 對稱差集：A、B集合的獨有元素
+- 對稱差集：A、B集合的獨有元素，去掉兩合集共同部分
   - `.symmetric_difference`
      > setA.symmetric_difference(setB)
   - `^ `
      > setA ^ setB
+- 子集合：判斷A集合是否是B集合的子集
+  - `issubset`
+     > setA.issbuset(setB)
+- 父集合：判斷A集合是否是B集合的父/母集
+  - `issuperset`
+     > setA.issuperset(setB)
 
 
 
