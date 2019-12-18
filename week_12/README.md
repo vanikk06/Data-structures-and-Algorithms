@@ -234,7 +234,7 @@
    >> 速度不會受到set的大小影響
 
 #### Source
-[BFS和DFS算法（第1讲）](https://www.youtube.com/watch?v=oLtvUWpAnTQ&t=)
+[BFS和DFS算法（第2讲）](https://www.youtube.com/watch?v=bD8RT0ub--0&t=)
 
 [🖍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
 
