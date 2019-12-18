@@ -248,6 +248,9 @@
 - [Graph](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#graph)
 - [Breadth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#breadth-first-search)
 - [Adjustment of Design BFS](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#adjustment-of-design-bfs)
+   - [Design BFS.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/Design%20BFS.py)
+   - [Adjustment of Design BFS.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_12/Adjustment%20of%20Design%20BFS.py)
+
 
 
 [👩🏻‍🎨👨🏻‍🎨](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
@@ -261,7 +264,9 @@
  - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#depth-first-search)
  - [BFS vs. DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#bfs-vs-dfs)
  - [Adjustment of Design DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#adjustment-of-design-dfs)
-
+   - [Design DFS.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/Design%20DFS.py)
+   - [Adjustment of Design DFS.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/Adjustment%20of%20Design%20DFS.py)
+   
 
 
 
