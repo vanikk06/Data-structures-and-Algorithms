@@ -1,5 +1,5 @@
 # H.W.5_BFS＆DFS
-[🤜🏾HERE🤛🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS/README.md)
+[🤜🏾HERE🤛🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS)
 
  - [Jupyter notebook_The process of learning BFS and DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS/The%20process%20of%20%20learning%20BFS%20and%20DFS.ipynb)
     - [Jupyter nbviewer_The process of learning BFS and DFS](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS/The%20process%20of%20%20learning%20BFS%20and%20DFS.ipynb)
