@@ -169,6 +169,9 @@
  
  從起點開始，遍歷完整個graph，按照**就近原則**進行，距離起點相同的vertex其訪問順序是相近的
  
+ 在edge是沒有weight的情況下，BFS可以確保vertexA到vertexB是最短路徑
+
+ 
  
 #### Step
 
