@@ -144,6 +144,9 @@ Status：Runtime 416 ms, Memory 14.2 MB
 由`node`跟`pointer`組成一連串的linked list
   - `node`：創造儲存值的空間
   - `pointer`：將空間與空間組合起來，串起零碎的空間
+  
+每個node都是一個MyLinkedList()物件
+  > 物件串物件
 
 #### Code
 - `__init__`:node基礎的屬性設定
