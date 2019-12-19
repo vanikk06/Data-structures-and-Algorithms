@@ -31,10 +31,11 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
   > rotation：旋轉，會回到balance
   >> balance：上一層沒塞滿不能塞下一層
 
+#### Red Black Tree小遊戲
+[✋🏻This✋🏻](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
 
-
-# 星期二
-
+在non-balance的情形下，會作rotation
+  > non-balance：第n層還沒塞滿就要塞n+1層
 
 
 
@@ -44,4 +45,7 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
  
  建立小工具，再呼叫
  　著色判斷：何時要左旋轉、右旋轉
+
+
+#### Source
 
