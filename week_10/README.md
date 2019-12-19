@@ -9,6 +9,10 @@
   > 自學
   
   > 獨立性思考
+  
+- 小技巧：
+  - `Tab`：一次往後
+  - `shift` + `Tab`：一次往前
 
 
 # Red Black Tree
