@@ -27,9 +27,15 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
 
 - tree結構：愈balance就可在O(log n)搞定
 
+- BST + rotation = Red Black Tree
+  > rotation：旋轉，會回到balance
+  >> balance：上一層沒塞滿不能塞下一層
+
+
+
 # 星期二
 
-balance = 上一層沒塞滿不能塞下一層
+
 
 
 ## 紅黑樹
