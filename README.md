@@ -32,6 +32,8 @@
  - [week_12 Breadth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms#week_12-breadth-first-search)
  - [week_13 Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms#week_13-depth-first-search)
      - [H.W.5_BFS＆DFS](https://github.com/vanikk06/Data-structures-and-Algorithms#hw5_bfsdfs)
+ - []()
+ 
  
  
 # week_02 Linked List
@@ -268,9 +270,6 @@
    - [Adjustment of Design DFS.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/Adjustment%20of%20Design%20DFS.py)
    
 
-
-
-
 ## H.W.5_BFS＆DFS
 [🤜🏾HERE🤛🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS)
 
@@ -282,3 +281,11 @@
   - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_13/H.W.5_BFS%EF%BC%86DFS#demo)
 
 [💂🏻‍♀️💂🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+
+
+# week_14
+[👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14)
+
+
+
+[👮🏻‍♀️👮🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
