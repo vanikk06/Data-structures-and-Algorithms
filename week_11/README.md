@@ -344,6 +344,8 @@ key：K，size of table：m = 2<sup>p</sup>
 
 [What is Blockchain?](https://lisk.io/what-is-blockchain)
 
+[How does a blockchain work - Simply Explained](https://www.youtube.com/watch?v=SSo_EIwHSd4)
+
 [🚩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
 
 # BitCoin Hashing
