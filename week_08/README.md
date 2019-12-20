@@ -122,8 +122,6 @@ class _Node:
 
 [Introduction to Tree Data Structure](https://www.youtube.com/watch?time_continue=1&v=ikPPdBDZnz4&feature=emb_logo)
 
-[Google Coding Interview (2019) - Binary Tree Level Order Traversal (LeetCode)](https://www.youtube.com/watch?v=XZnWETlZZ14&feature=emb_logo)
-
 #### Python 範例Code
 [Python - Linked Lists](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm)
 
@@ -167,6 +165,13 @@ class _Node:
 
 [🌵](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#content)
 
+# Try Binary Tree Level Order Traversal
+> LeetCode：102. Binary Tree Level Order Traversal
+
+#### Source
+[Google Coding Interview (2019) - Binary Tree Level Order Traversal (LeetCode)](https://www.youtube.com/watch?v=XZnWETlZZ14&feature=emb_logo)
+
+[🌿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#content)
 
 # Test Design binary tree
   > Using teacher's linked list
