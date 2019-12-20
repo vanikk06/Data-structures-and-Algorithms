@@ -29,12 +29,14 @@
 - root：樹的頂端，只會有一個
    - 底下可長出子節點（child）
       > 若child的parent不是root，則此 parent＆child 稱之為子樹（subtree）
-- Edge：連結點
+- Edge：連結
 - node：每個節點      
 - subtree：
     - siblings（手足）：同階層的多個child
     - leaf node：自己一個，沒有child
-    
+- height of a node：從node到leaf node的edge數量
+ > height of leaf node is 0.
+ 
 - Binary Tree：每一個node，最多只有兩個child
   > 二元樹：Tree's special cass
   
@@ -117,9 +119,6 @@ class _Node:
 [Chapter 6. Trees II](http://www.math.bas.bg/~nkirov/2017/NETB201/slides/ch06/ch06-2.html)
 
 [Binary Trees](http://cslibrary.stanford.edu/110/BinaryTrees.html#s1)
-
-
-Undone
 
 [Introduction to Tree Data Structure](https://www.youtube.com/watch?time_continue=1&v=ikPPdBDZnz4&feature=emb_logo)
 
