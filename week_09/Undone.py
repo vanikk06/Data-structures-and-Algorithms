@@ -1,22 +1,27 @@
-#Undone
-##利用Search的方式嘗試用Insert
+#利用pointer的移動，來達成insert
 
 def insert(root, val):
     if root == None:
         return
     
     pointer = root
-    add_node = 0
+    node = None
     
     if val != None:
-        while add_node == 0:
-            if val <= pointer.val and pointer.left == None:
-                pointer.left = TreeNode(val)
-                add_node = 1
+        while not node:
+            if val <= pointer.val:
+                if pointer.left == None:
+                    pointer.left = TreeNode(val)
+                    node = pointer.left
+                else:
+                    pointer = pointer.left
             else:
-                pointer = pointer.left
-
-            while pointer.right == None:
-                pointer.right = TreeNode(val)
+                if pointer.right == None:
+                    pointer.right = TreeNode(val)
+                    node = pointer.right
+                else:
+                    pointer = pointer.right
+    
+        return node
         
-        
+       
