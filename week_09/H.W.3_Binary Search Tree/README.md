@@ -46,6 +46,8 @@
         2. 考慮不夠完備：思考到的處理方式，無法涵蓋到所有可能範圍
         3. 時間不夠充分：在打這次作業的時候，剛好事情比較多，無妥善分攤導致作業製作的時間緊迫
 
+[🔘](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
+
 ## Insert
    > 新增、插入
    
