@@ -317,6 +317,8 @@
 # Adjustment of code
 更改或優化Binary Search Tree的程式碼
 
+- [Optimization of Insert](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#optimization-of-insert)
+
 ## Optimization of Insert
 > 將尋找node的方式，由遞迴改為指標
 
