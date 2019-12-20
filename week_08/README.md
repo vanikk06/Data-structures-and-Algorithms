@@ -35,7 +35,7 @@
     - siblings（手足）：同階層的多個child
     - leaf node：自己一個，沒有child
 - height of a node：從node到leaf node的edge數量
- > height of leaf node is 0.
+  > height of leaf node is 0.
  
 - Binary Tree：每一個node，最多只有兩個child
   > 二元樹：Tree's special cass
