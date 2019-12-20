@@ -318,13 +318,32 @@
 ## Optimization of Insert
 > 將尋找node的方式，由遞迴改為指標
 
+[🤜🏼HERE🤛🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/H.W.3_Binary%20Search%20Tree/Optimization%20of%20insert.py)
+
 在BST增加一個node，並讓BST維持其架構
  
 #### Code
+> 指標
+
 val小於、等於root放左邊，大於root放右邊，若已經有node存在，則將其作為parent，往下繼續找
 
+先判斷root是否已經存在
+   - Yes：返回
+   - No：繼續往下執行，建立一個pointer指標放入root，並建立一個空的node變數給後面操作
 
-
-[🤜🏼HERE🤛🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/H.W.3_Binary%20Search%20Tree/Optimization%20of%20insert.py)
+接著判斷val是否有值輸入，有的話再往下進行判斷
+   - 使用while迴圈判斷node是否是空的
+      > node：放入新增的node
+      - Yes：將input的val與pointer指標的val做比較
+         - 小於、等於：
+            - left child是否已有node存在
+               - Yes：pointer指標往左邊移動
+               - No：在此位置創造一個新的node，並存入node變數中
+         - 大於：
+            - right child是否已有node存在
+               - Yes：pointer指標往右邊移動
+               - No：在此位置創造一個新的node，並存入node變數中
+      - No：回傳node變數
+     
 
 [🔴](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
