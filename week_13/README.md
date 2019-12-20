@@ -197,6 +197,8 @@ DFS：使用**stack**紀錄連結到的其他點
      > 時間複雜度為O(1)
    - array：與array內的元素一個個比較
      > 時間複雜度為O(n)，n為array內元素個數
+     
+P.S.此處沒有使用`defaultdict`套件，當input的key不存在字典內時，會出現`KeyError` 
   
 #### Source
 [BFS和DFS算法（第2讲）](https://www.youtube.com/watch?v=bD8RT0ub--0&t=)
