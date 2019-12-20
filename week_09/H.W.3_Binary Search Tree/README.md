@@ -321,11 +321,11 @@
 [🤜🏼HERE🤛🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/H.W.3_Binary%20Search%20Tree/Optimization%20of%20insert.py)
 
 在BST增加一個node，並讓BST維持其架構
+
+val小於、等於root放左邊，大於root放右邊，若已經有node存在，則將其作為parent，往下繼續找
  
 #### Code
 > 指標
-
-val小於、等於root放左邊，大於root放右邊，若已經有node存在，則將其作為parent，往下繼續找
 
 先判斷root是否已經存在
    - Yes：返回
