@@ -1,4 +1,52 @@
+from collections import defaultdict 
+  
+class Graph:
+    def __init__(self): 
+        self.graph = defaultdict(list) 
 
+    def addEdge(self,u,v): 
+        self.graph[u].append(v) 
+        
+    def _key_value(self, key, method, temp):
+        value = self.graph[key]
+
+        for i in value:
+            if not (i in temp):
+                method.append(i)
+                temp.append(i)
+
+        return method, temp
+  
+    def BFS(self, s): 
+        temp = [s]
+        bfs = [s]
+        queue = []
+
+        queue, temp = self._key_value(s, queue, temp)
+
+        while queue:
+            queue, temp = self._key_value(queue[0], queue, temp)
+
+            bfs.append(queue.pop(0))
+
+        return bfs
+        
+        
+    def DFS(self, s):
+        temp = [s]
+        dfs = [s]
+        stack = []
+
+        stack, temp = self._key_value(s, stack, temp)
+
+        while stack:
+            tempp = stack.pop()
+            dfs.append(tempp)
+
+            stack, temp = self._key_value(tempp, stack, temp)
+
+        return dfs
+   
    
 
 ## 參考資料
