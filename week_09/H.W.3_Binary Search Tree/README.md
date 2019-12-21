@@ -84,6 +84,10 @@
 - 回傳值錯誤
    > `return TreeNode(val)`回傳的是一個新的node，其並無與root連結
    ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574765983358.jpg)
+   
+- 更改上面的「回傳值錯誤」後，會出現`UnboundLocalError`
+   > `UnboundLocalError`：此錯誤是因為遞迴結束，會一層一層往回，當回到最初並返回node時，python會找不到node的位置
+   ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/Snipaste_2019-12-22_04-52-43.png)
 
 #### P.S.
 再完成Search後，有想要嘗試利用指標移動的方式來達到Insrt，因為以pointer移動的方式進行判斷，不會增加空間複雜度，~但因為時間緊迫就暫時作罷~，此部分已完成，在[Optimization of insert](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#optimization-of-insert)
