@@ -321,6 +321,7 @@
 
 ## Optimization of Insert
 > 將尋找node的方式，由遞迴改為指標
+>> 使用指標的方式，空間複雜度會較低
 
 [🤜🏼HERE🤛🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/H.W.3_Binary%20Search%20Tree/Optimization%20of%20insert.py)
 
