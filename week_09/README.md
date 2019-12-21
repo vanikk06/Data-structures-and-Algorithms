@@ -23,7 +23,16 @@
   - [Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#binary-search-tree)
   - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#class-notes)
   - [Practice of Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#practice-of-binary-search-tree)
-  
+
+# UnboundLocalError
+
+#### Source
+[python的作用域問題](https://segmentfault.com/q/1010000006716248/a-1020000006720179)
+
+[python exceptions.UnboundLocalError(已解決)](https://ithelp.ithome.com.tw/questions/10185944)
+
+[🌚](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+
 #  is vs. ==
 
 Python物件包含三要素：
@@ -38,7 +47,8 @@ is：通過**id**判斷，a物件是否就是b物件
 #### Source
 [Python對<type ‘NoneType’>資料型別的處理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/634089/)
 
-[🌚](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+[🌗](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+
 
 
 # NoneType
@@ -68,8 +78,7 @@ None：值，表示一個**空物件**
 #### Source
 [Python對<type ‘NoneType’>資料型別的處理](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/634089/)
 
-[🌑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
-
+[🌖](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
 
 # Depth-First Search
   > 深度優先搜尋法（DFS）
@@ -89,7 +98,8 @@ None：值，表示一個**空物件**
 [深度優先搜尋法
 (Depth-first Search)](http://simonsays-tw.com/web/DFS-BFS/DepthFirstSearch.html)
 
-[🌒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+[🌑](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+
 
 # Traversal in Binary Tree
   > 尋訪
@@ -123,7 +133,7 @@ None：值，表示一個**空物件**
 #### Source
 [Binary Tree: Traversal(尋訪)](http://alrightchiu.github.io/SecondRound/binary-tree-traversalxun-fang.html)
 
-[🌓](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+[🌒](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
 
 # Binary Search Tree
  > 應用於資料庫系統的原型
@@ -178,12 +188,13 @@ None：值，表示一個**空物件**
 
 [圖片來源](https://commons.wikimedia.org/wiki/File:Binary_search_tree_example.gif)
 
-[🌔](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+[🌓](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+
 
 # Class notes
 - **結構**目的：搜尋資料、效率important
 
-[🌕](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+[🌔](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
 
 # Practice of Binary Search Tree
 
@@ -219,8 +230,9 @@ None：值，表示一個**空物件**
 
 [資料結構 - 二元搜索樹(Binary Search Tree)](https://emn178.pixnet.net/blog/post/94574434)
 
-[🌝](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
+[🌕](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
 
 
 # Try Print Binary Tree
   > LeetCode：655. Print Binary Tree
+[🌝](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#content)
