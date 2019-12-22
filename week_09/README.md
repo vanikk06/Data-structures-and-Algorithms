@@ -28,6 +28,13 @@
 # UnboundLocalError
   > 未綁定區域錯誤
   >> 作用域問題
+  
+此error會出現，是因為在local（區域）內，python無法參照（reference）到此變數（找不到其記憶體的位置）
+
+一般解決此問題，會在變數前加上`global`來定址，讓python找到它的記憶體位置
+
+#### 觀念
+- 
 
 #### Source
 [python的作用域問題](https://segmentfault.com/q/1010000006716248/a-1020000006720179)
