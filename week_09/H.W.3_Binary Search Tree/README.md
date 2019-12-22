@@ -389,6 +389,7 @@ val小於、等於root放左邊，大於root放右邊，若已經有node存在�
    僅更改在while迴圈內，target等於pointer的值的判斷，讓其完備
 
 - `_delete_action`：進行刪除的動作
+   
    刪掉多餘的判斷式
    
    在「兩個孩子」的情況下，跳出while迴圈時，還存在一個child的bug仍未解決，嘗試了許多方法，目前都還沒有成功
