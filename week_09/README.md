@@ -29,7 +29,8 @@
   > 未綁定區域錯誤
   >> 作用域問題：像是local裡面出現not defined的error
   
-此error會出現，是因為在local（區域）內，python無法參照（reference）到此變數（可能在local內出現重新賦值此變數的動作，因為是在local內所以python會判定是一個新的變數，然而在local內找不到此變數被賦值（assignment）的動作，從而找不到其記憶體的位置）
+此error會出現，是因為在local（區域）內，python無法參照（reference）到此變數\
+（可能在local內出現重新賦值此變數的動作，因為是在local內所以python會判定是一個新的變數，然而在local內找不到此變數被賦值（assignment）的動作，從而找不到其記憶體的位置）
 
 一般解決此問題，會在變數前加上`global`來定址，讓python到全域去找到它的記憶體位置
 
