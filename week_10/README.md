@@ -23,6 +23,10 @@
 #### Source
 [【台灣｜分散式帳本新創BiiLabs】透過IOTA技術應用，可能參與聯合國數位身分專案](https://www.blocktempo.com/taiwan-biilabs-use-iota-building-did-with-un/)
 
+[Blockchain Technology Market Size, Share, & Trends Analysis Report By Type, By Component, By Application, By Enterprise Size, By End Use, By Region, And Segment Forecasts, 2019 - 2025](https://www.grandviewresearch.com/industry-analysis/blockchain-technology-market)
+
+[108課程: 金融科技-文字探勘與機器學習](http://18.217.252.187/%E8%AA%B2%E7%A8%8B%E6%9C%9F%E6%9C%AB%E6%88%90%E6%9E%9C%E7%99%BC%E8%A1%A8/)
+
 # Red Black Tree
 
 BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處（查詢可在O(log n)解決）就消失了
