@@ -86,7 +86,7 @@
    ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/1574765983358.jpg)
    
 - 更改上面的「回傳值錯誤」後，會出現`UnboundLocalError`
-   > `UnboundLocalError`：此錯誤是因為遞迴結束，會一層一層往回，當回到最初並返回node時，python會找不到node的位置
+   > `UnboundLocalError`：此錯誤是因為遞迴結束時，會一層一層往回退，當回到最初並返回node時，python會此時node尚未被賦值而找不到node的位置
    ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/image/Snipaste_2019-12-22_04-52-43.png)
 
 #### P.S.
