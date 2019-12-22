@@ -42,10 +42,10 @@
   > assignment：等號左邊為被賦予者，右邊為被賦予之值
   
 - 若有定義local變數，則python不會去尋找global變數，否則python會自動取用global變數
-- 觀察一個function內有沒有定義local變數，就看該變數（variable name）有沒有出現在**等號左邊**，且該variable name沒有被global指明
+- 觀察一個function內有沒有定義local變數，就看該變數（variable name）有沒有出現在**等號左邊**，且該variable name沒有被global指明 
 
 
-
+詳細操作，可以參考 → [python的作用域問題](https://segmentfault.com/q/1010000006716248/a-1020000006720179)
 #### Source
 [python的作用域問題](https://segmentfault.com/q/1010000006716248/a-1020000006720179)
 
