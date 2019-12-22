@@ -182,6 +182,7 @@
 # week_09 Binary Search Tree
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09)
 
+  - [UnboundLocalError](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/README.md#unboundlocalerror)
   - [is vs. ==](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/README.md#is-vs-)
   - [NoneType](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#nonetype)
   - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#depth-first-search)
