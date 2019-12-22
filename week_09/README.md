@@ -35,7 +35,8 @@
 一般解決此問題，會在變數前加上`global`來定址，讓python到全域去找到它的記憶體位置
 
 #### 觀念
-- 
+- python是函數(function)式語言, 函數的意義如同變數, 在函數中的變數範圍僅及於函數的範圍
+- python並無變數宣告(declaration)的機制, 必須透過「等號」對變數**賦值(assignment)在記憶體中定址**
 
 #### Source
 [python的作用域問題](https://segmentfault.com/q/1010000006716248/a-1020000006720179)
