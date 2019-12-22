@@ -216,6 +216,7 @@
               - left child的值大於parent的值：將left child建立連結在parent的right
            
       - 兩個child：覆蓋，移動，直到delete_node指標指到僅有一個child的node
+      
          建立一個while迴圈，若delete_node指標仍有兩個child，就進入迴圈
          > 在while迴圈內，delete_node指標必定有兩個child
            - 若目標刪除node在root左邊：用left child覆蓋目標刪除變數，並把delete_node指標指到left child
