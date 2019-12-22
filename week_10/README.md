@@ -54,4 +54,4 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
 
 
 #### Source
-
+[Red Black Tree Animation](https://www.youtube.com/watch?time_continue=119&v=rcDF8IqTnyI&feature=emb_logo)
