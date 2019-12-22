@@ -358,3 +358,8 @@ val小於、等於root放左邊，大於root放右邊，若已經有node存在�
      
 
 [🔴](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
+
+## Adjustment of Delete
+   > 調整一些錯誤跟多餘的程式碼，但在「有兩個孩子」的狀況仍尚未完備
+
+[🤜🏼HERE🤛🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/H.W.3_Binary%20Search%20Tree/Adjustment%20of%20delete.py)
