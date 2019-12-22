@@ -37,8 +37,14 @@
 一般解決此問題，會在變數前加上`global`來定址，讓python到全域去找到它的記憶體位置
 
 #### 觀念
-- python是函數(function)式語言, 函數的意義如同變數, 在函數中的**變數範圍僅及於函數的範圍**
-- python並無變數宣告(declaration)的機制, 必須透過「等號」對變數**賦值(assignment)在記憶體中定址**
+- python是函數（function）式語言，函數的意義如同變數，在函數中的**變數範圍僅及於函數的範圍**
+- python並無變數宣告（declaration）的機制，必須透過「等號」對變數**賦值(assignment)在記憶體中定址**
+  > assignment：等號左邊為被賦予者，右邊為被賦予之值
+  
+- 若有定義local變數，則python不會去尋找global變數，否則python會自動取用global變數
+- 觀察一個function內有沒有定義local變數，就看該變數（variable name）有沒有出現在**等號左邊**，且該variable name沒有被global指明
+
+
 
 #### Source
 [python的作用域問題](https://segmentfault.com/q/1010000006716248/a-1020000006720179)
