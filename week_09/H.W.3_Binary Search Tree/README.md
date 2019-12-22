@@ -7,6 +7,7 @@
 
 - [Adjustment of code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#adjustment-of-code)
    - [Optimization of Insert](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#optimization-of-insert)
+   - [Adjustment of Delete](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#adjustment-of-delete)
    
   
 - [Jupyter notebook_The process of learning binary search tree](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/H.W.3_Binary%20Search%20Tree/The%20process%20of%20learning%20binary%20search%20tree%20.ipynb)
@@ -360,6 +361,29 @@ val小於、等於root放左邊，大於root放右邊，若已經有node存在�
 [🔴](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
 
 ## Adjustment of Delete
-   > 調整一些錯誤跟多餘的程式碼，但在「有兩個孩子」的狀況仍尚未完備
+   > 調整一些錯誤跟多餘的程式碼
 
 [🤜🏼HERE🤛🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/H.W.3_Binary%20Search%20Tree/Adjustment%20of%20delete.py)
+
+將原本delete程式碼內有問題的部分進行更改，但在「有兩個孩子」的刪除狀況還沒有想到較好的方法，仍未更改
+
+#### Code
+   > 此處僅更改部分
+
+- `delete`：刪除所有存在BST上的目標刪除node
+   > 原本若存在root的重複值時，刪除的動作僅會採用`_delete_action`，不會進入`_delete_root`
+   
+   先呼叫`_delete_pointer`找出第一個目標刪除node之parent、目標刪除node與target存在個數\
+   
+   用for迴圈，來重複執行刪除動作
+    > 若i = 0則for迴圈不會執行
+     
+     - 先判斷目標刪除node是否是root
+         - Yes：呼叫`_delete_root`進行刪除，並回傳其結果
+            > 當刪除到root，若其存在重複值，root的刪除一定是最後一個動作，所以可以直接回傳
+         - No：呼叫`_delete_action`進行刪除
+     - 回傳：完成刪除後的BST
+   
+   
+
+[🔵](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree#content)
