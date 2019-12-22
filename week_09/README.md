@@ -25,6 +25,8 @@
   - [Practice of Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#practice-of-binary-search-tree)
 
 # UnboundLocalError
+  > 未綁定區域錯誤
+  >> 作用域問題
 
 #### Source
 [python的作用域問題](https://segmentfault.com/q/1010000006716248/a-1020000006720179)
