@@ -58,7 +58,9 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
     
     ![](https://upload.wikimedia.org/wikipedia/commons/3/31/Tree_rotation_animation_250x250.gif)
 
-rotation發生機制：
+著紅色地方：希望從leaf到root的路徑中黑點個數相同，若不同，則著紅色點
+  > rotation條件：將紅點作為rotation的點
+  >> 希望維持路徑中黑點個數一樣多，所以紅點僅是過繼點
 
 
 #### 概念
@@ -67,6 +69,7 @@ rotation發生機制：
 
 1. 每個node設為紅色或是黑色
 2. root必定為黑色
+  > 一定要往下長
 3. 若node是紅色，其child必定是黑色
 4. 若node是黑色，其child可以是紅色也可以是黑色
 5. 每個空node都是黑色
