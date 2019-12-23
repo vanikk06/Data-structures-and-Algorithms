@@ -46,10 +46,10 @@ edge有weight（權重），其對應的是cost
 
 1. 先將cost排序，**由小排到大**，再使用disjoint sets（互斥集、並查集）來作紀錄
 2. parent的紀錄先設為 -1，當有edge加入時，再將-1更改為起點，並記錄cost
-  > -1：代表尚未走訪過 
+   > -1：代表尚未走訪過 
 3. 按照sorted順序慢慢加入，方向性先固定，左邊是起點右邊是終點，當邊數滿足即可停止
-  > 假設左邊為右邊的root
-  >> 會產生loop的edge就不放入
+   > 假設左邊為右邊的root
+   >> 會產生loop的edge就不放入
 4. 最後吐出graph min cost的路徑與minimum cost
 
 
