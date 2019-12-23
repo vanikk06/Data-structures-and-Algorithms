@@ -57,7 +57,7 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
   > rotation：旋轉，會回到balance
   >> balance：上一層沒塞滿不能塞下一層
 
-#### Red Black Tree小遊戲
+#### § Red Black Tree小遊戲 §
   > 觀察
   
  [✌🏻This🤞🏻](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
@@ -80,7 +80,7 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
   >> 希望維持路徑中黑點個數一樣多，所以紅點僅是**過繼點**
 
 
-#### 觀念
+#### § 觀念 §
 
 ![](https://yotsuba1022.gitbooks.io/data-structure-note/content/assets/rbtree-2.png)
 
@@ -101,7 +101,7 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
 利用**黑點數量**來做平衡計算，當non-balance發生黑點數量會不一樣多
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/image/1577109453459.jpg)
 
-#### Live coding of Rotation
+#### § Live coding of Rotation §
   > 示範right roration
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/image/1577102692121.jpg)
@@ -122,7 +122,7 @@ def rightRotate(self):
   return x
 ```
 
-#### Red Black Tree vs. Binary Search Tree
+#### § Red Black Tree vs. Binary Search Tree §
 
 兩者皆有「新增」、「刪除」、「查詢」、「修改」，但RBT又增加了「左旋轉」、「右旋轉」跟「著色判斷」
 > 有「著色判斷」才可知道，何時要呼叫「左旋轉」，何時要呼叫「右旋轉」
