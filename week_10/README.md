@@ -153,6 +153,8 @@ def rightRotate(self):
 
 # Try Find Median from Data Stream
   > LeetCode：295. Find Median from Data Stream
+  
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/Try%20Find%20Median%20from%20Data%20Stream.py)  
 
 #### Source
 [Both O(log(n)) Red-Black Tree solution in Python](https://leetcode.com/problems/find-median-from-data-stream/discuss/74134/both-ologn-red-black-tree-solution-in-python)
