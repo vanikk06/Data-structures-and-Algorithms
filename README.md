@@ -211,8 +211,15 @@
 
 [🤦🏻‍♀️🤦🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
-# week_10
+# week_10 Red Black Tree
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10)
+
+- [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10#class-notes)
+- [Red Black Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10#red-black-tree)
+- [Try Find Median from Data Stream.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/Try%20Find%20Median%20from%20Data%20Stream.py)
+- [Try Find Median from Data Stream](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10#try-find-median-from-data-stream)
+
+
 
 [💇🏻‍♀️💇🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
