@@ -15,10 +15,17 @@
   - `shift` + `Tab`：一次往前
   
 - 演算法四個條件：
+  
+  觀察現象，找出能夠作為判斷條件的現象
+
   1. 合理的開始 
   2. 合理的結束
   3. 找的到下一步
   4. 可找出下一步的方法/動作
+   
+  
+- 在資料庫中，搜尋時會採唯一值（ID）
+  
 
 #### Source
 [【台灣｜分散式帳本新創BiiLabs】透過IOTA技術應用，可能參與聯合國數位身分專案](https://www.blocktempo.com/taiwan-biilabs-use-iota-building-did-with-un/)
