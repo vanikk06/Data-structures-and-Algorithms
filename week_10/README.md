@@ -74,18 +74,13 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
 4. 若node是黑色，其child可以是紅色也可以是黑色
 5. 每個空node都是黑色
 6. 從root到leaf的每條路徑，必定包含相同數目的黑色node
-
+    > rotation觸發機制
+    
 在node內，還要有一個`.color`的基本屬性，以判斷此為穩定狀態還是有可能被rotation的狀況
+  > 紅點、黑點的區分，是觀察出來，可以對rotation下的判斷條件
   - 黑點：穩定狀態
   - 紅點：有可能被rotation
-
-
-
-同質無法 轉
- >　資料庫搜尋採唯一值（都當不一樣）
- 
- 建立小工具，再呼叫
- 　著色判斷：何時要左旋轉、右旋轉
+  
 
 
 #### Source
