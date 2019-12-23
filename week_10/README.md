@@ -42,7 +42,7 @@
 - [Red Black Tree小遊戲](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#red-black-tree%E5%B0%8F%E9%81%8A%E6%88%B2)
 - [觀念](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#%E8%A7%80%E5%BF%B5)
 - [Live coding of Rotation](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#live-coding-of-rotation)
-- [](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#red-black-tree-vs-binary-search-tree)
+- [Red Black Tree vs. Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#red-black-tree-vs-binary-search-tree)
 
 BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處（查詢可在O(log n)解決）就消失了
 
@@ -124,8 +124,13 @@ def rightRotate(self):
 兩者皆有「新增」、「刪除」、「查詢」、「修改」，但RBT又增加了「左旋轉」、「右旋轉」跟「著色判斷」
 > 有「著色判斷」才可知道，何時要呼叫「左旋轉」，何時要呼叫「右旋轉」
 >> 要有兩個小工具：\
-    1. 何時改變顏色
+    1. 何時改變顏色\
     2. 計算path中有多少黑點
+    
+
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/image/1577106909037.jpg)
+> 在BST，若root選得不好，就很容易變成linked list（worst case）
+
 
 
 #### Source
@@ -139,4 +144,12 @@ def rightRotate(self):
 
 [Red-Black Tree](http://www.ciaoshen.com/algorithm/2018/11/09/red-black-tree.html)
 
+[Complexity of different tree data structures](https://subscription.packtpub.com/book/application_development/9781786463890/6/ch06lvl1sec63/complexity-of-different-tree-data-structures)
+
 [⏰](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#content)
+
+# Try Find Median from Data Stream
+  > LeetCode：295. Find Median from Data Stream
+
+#### Source
+[Both O(log(n)) Red-Black Tree solution in Python](https://leetcode.com/problems/find-median-from-data-stream/discuss/74134/both-ologn-red-black-tree-solution-in-python)
