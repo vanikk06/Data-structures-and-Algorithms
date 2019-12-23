@@ -42,10 +42,10 @@
 # Red Black Tree
   > 紅黑樹
 
-- [Red Black Tree小遊戲](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#red-black-tree%E5%B0%8F%E9%81%8A%E6%88%B2)
-- [觀念](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#%E8%A7%80%E5%BF%B5)
-- [Live coding of Rotation](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#live-coding-of-rotation)
-- [Red Black Tree vs. Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#red-black-tree-vs-binary-search-tree)
+- [Red Black Tree小遊戲](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10#-red-black-tree%E5%B0%8F%E9%81%8A%E6%88%B2-)
+- [觀念](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10#-%E8%A7%80%E5%BF%B5-)
+- [Live coding of Rotation](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10#-live-coding-of-rotation-)
+- [Red Black Tree vs. Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10#-red-black-tree-vs-binary-search-tree-)
 
 BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處（查詢可在O(log n)解決）就消失了
 
