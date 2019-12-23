@@ -179,7 +179,7 @@
 
  
  
-#### Step
+#### § Step §
 
 從某一vertex出發，先走訪所有**相鄰**的vertex，再依序走訪與已走訪過的vertex相鄰但尚未走訪的vertex，直到所有相鄰的vertex都被走訪
 
@@ -190,7 +190,7 @@
 - Step3：假設所有Level 1的點為頂點，查找所有與Level 1以單線相連的其他點，這些點即為Level 2
 - Step4：重複上述步驟，直到所有點都被走訪
   
-#### Practice
+#### § Practice §
  > by Queue
  
  > 當起點與鄰邊表相同時，走訪方式唯一
