@@ -1,5 +1,13 @@
 # Content
 
+# Disjoint Sets
+
+#### Source
+[Disjoint Sets](http://www.csie.ntnu.edu.tw/~u91029/Set.html#5)
+
+[1042 Quiz#1 互斥集合 (Disjoint Sets)](http://squall.cs.ntou.edu.tw/cpp/1042/labtest/test1/DisjointSets.html)
+
+[并查集（Disjoint-set union）第1讲](https://www.youtube.com/watch?v=YKE4Vd1ysPI)
 
 # Minimum Spanning Tree
  > 最小生成樹：關心**邊**的問題
@@ -36,7 +44,11 @@ edge有weight（權重），其對應的是cost
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/MST_kruskal_en.gif/255px-MST_kruskal_en.gif)
 
-先將cost**由小排到大**
+先將cost排序，**由小排到大**，再使用disjoint sets（互斥集、並查集）來作紀錄
+
+parent的紀錄先設為 -1
+ > 代表尚未走訪過
+
 
 
 
