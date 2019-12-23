@@ -61,7 +61,21 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
 rotation發生機制：
 
 
-## 紅黑樹
+#### 概念
+
+![](https://yotsuba1022.gitbooks.io/data-structure-note/content/assets/rbtree-2.png)
+
+1. 每個node設為紅色或是黑色
+2. root必定為黑色
+3. 若node是紅色，其child必定是黑色
+4. 若node是黑色，其child可以是紅色也可以是黑色
+5. 每個空node都是黑色
+6. 從root到leaf的每條路徑，必定包含相同數目的黑色node
+
+
+
+
+
 同質無法 轉
  >　資料庫搜尋採唯一值（都當不一樣）
  
