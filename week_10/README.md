@@ -32,6 +32,10 @@
 # Red Black Tree
   > 紅黑樹
 
+- [Red Black Tree小遊戲](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#red-black-tree%E5%B0%8F%E9%81%8A%E6%88%B2)
+- [觀念]()
+- [Live coding of Rotation]()
+
 BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處（查詢可在O(log n)解決）就消失了
 
 ![](https://yotsuba1022.gitbooks.io/data-structure-note/content/assets/rbtree-1.png)
@@ -65,7 +69,7 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
   >> 希望維持路徑中黑點個數一樣多，所以紅點僅是**過繼點**
 
 
-#### 概念
+#### 觀念
 
 ![](https://yotsuba1022.gitbooks.io/data-structure-note/content/assets/rbtree-2.png)
 
@@ -85,6 +89,8 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
  
 利用**黑點數量**來做平衡計算，當non-balance發生黑點數量會不一樣多
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Red-black_tree_example.svg/675px-Red-black_tree_example.svg.png)
+
+#### Live coding of Rotation
 
 #### Source
 [Red Black Tree Animation](https://www.youtube.com/watch?time_continue=119&v=rcDF8IqTnyI&feature=emb_logo)
