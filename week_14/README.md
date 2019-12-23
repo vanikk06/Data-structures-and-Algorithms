@@ -24,6 +24,10 @@
 - Minimum Spanning Tree：將複雜問題映射到圖論的問題上，並將最低的花費、成本考量進來
   > 可保留minimum cost，進而規劃後面的資源
   
+minimum spanning tree（最小生成樹）有很多實際應用\
+將node看作城市，edge看作連線城市的通訊網，edge的weight看作連線城市通訊線路的成本，根據minimum spanning tree建立的通訊網就是這些城市之間成本最低的通訊網
+
+
 #### § Spanning Tree §
 
 - Spanning Tree：在graph中，可以找到一個tree視為graph的subset
