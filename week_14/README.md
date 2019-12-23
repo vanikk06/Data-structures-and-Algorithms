@@ -43,6 +43,7 @@ minimum spanning tree（最小生成樹）有很多實際應用\
 2. 是否為連通的tree
 
 #### § Practice §
+ > 答案唯一
 
 edge有weight（權重），其對應的是cost
 
@@ -65,4 +66,12 @@ edge有weight（權重），其對應的是cost
  #### Source
  [維基百科_克魯斯克爾演算法](https://zh.wikipedia.org/wiki/%E5%85%8B%E9%B2%81%E6%96%AF%E5%85%8B%E5%B0%94%E6%BC%94%E7%AE%97%E6%B3%95)
  
+ [Kruskal’s Minimum Spanning Tree Algorithm | Greedy Algo-2](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)
+ 
+ [[101北一資訊集訓] 06_3_1 MST之Kruskal演算法(NEW)](https://www.youtube.com/watch?v=wuU4DDEUu1w)
 
+[Kruskal's algorithm in 2 minutes — Review and example](https://www.youtube.com/watch?v=71UQH7Pr9kU&feature=emb_logo)
+
+[Check if a given graph is tree or not](https://www.geeksforgeeks.org/check-given-graph-tree/)
+
+[Detect cycle in an undirected graph](https://www.geeksforgeeks.org/detect-cycle-undirected-graph/)
