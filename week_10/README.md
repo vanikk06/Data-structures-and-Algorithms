@@ -27,6 +27,8 @@
 
 [108課程: 金融科技-文字探勘與機器學習](http://18.217.252.187/%E8%AA%B2%E7%A8%8B%E6%9C%9F%E6%9C%AB%E6%88%90%E6%9E%9C%E7%99%BC%E8%A1%A8/)
 
+[⌚](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#content)
+
 # Red Black Tree
   > 紅黑樹
 
@@ -53,8 +55,8 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
 
 - rotation
   > 旋轉
-    - right rotation：往右邊倒，讓左邊變小往右邊轉
-    - left rotation：往左邊倒，讓右邊變小往左邊轉
+    - right rotation：往右邊轉，讓左邊的點往上抽，右邊的點往下轉
+    - left rotation：往左邊轉，讓右邊的點往上抽，左邊的點往下轉
     
     ![](https://upload.wikimedia.org/wikipedia/commons/3/31/Tree_rotation_animation_250x250.gif)
 
@@ -94,3 +96,5 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
 [維基百科_紅黑樹](https://zh.wikipedia.org/wiki/%E7%BA%A2%E9%BB%91%E6%A0%91)
 
 [Red-Black Tree](http://www.ciaoshen.com/algorithm/2018/11/09/red-black-tree.html)
+
+[⏰](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#content)
