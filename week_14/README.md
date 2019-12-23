@@ -5,7 +5,7 @@
  > 最小生成樹：關心**邊**的問題
  >> Kruskal's Algorithm
  
- - []()
+ - [Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#spanning-tree)
  - []()
 
 將複雜問題簡化到graph的問題上，讓graph的edge數字，可以代表某種cost（可將所有可能情形疊加在graph）
@@ -42,4 +42,4 @@
  
  > 邊滿足即可停止
  
- #### S
+ #### Source
