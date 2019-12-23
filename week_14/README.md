@@ -44,24 +44,19 @@ edge有weight（權重），其對應的是cost
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/MST_kruskal_en.gif/255px-MST_kruskal_en.gif)
 
-先將cost排序，**由小排到大**，再使用disjoint sets（互斥集、並查集）來作紀錄
-
-parent的紀錄先設為 -1
- > -1：代表尚未走訪過
- 
- 按照sorted順序慢慢加入，方向性先固定，左邊是起點右邊是終點
+1. 先將cost排序，**由小排到大**，再使用disjoint sets（互斥集、並查集）來作紀錄
+2. parent的紀錄先設為 -1，當有edge加入時，再將-1更改為起點，並記錄cost
+  > -1：代表尚未走訪過 
+3. 按照sorted順序慢慢加入，方向性先固定，左邊是起點右邊是終點，當邊數滿足即可停止
   > 假設左邊為右邊的root
+  >> 會產生loop的edge就不放入
+4. 最後吐出graph min cost的路徑與minimum cost
 
 
 
 
 
-# 黑板
--1：還沒走訪過
-加入edge將-1更改為連結對象，並記錄cost
- > be加入會有loop產生
- 
- > 邊滿足即可停止
+
  
  #### Source
  [維基百科_克魯斯克爾演算法](https://zh.wikipedia.org/wiki/%E5%85%8B%E9%B2%81%E6%96%AF%E5%85%8B%E5%B0%94%E6%BC%94%E7%AE%97%E6%B3%95)
