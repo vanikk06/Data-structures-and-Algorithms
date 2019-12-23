@@ -32,6 +32,8 @@
 
 BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處（查詢可在O(log n)解決）就消失了
 
+![](https://yotsuba1022.gitbooks.io/data-structure-note/content/assets/rbtree-1.png)
+
 - tree結構：愈balance就可在O(log n)搞定
 
 - BST + rotation = Red Black Tree
@@ -56,6 +58,9 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
     
     ![](https://upload.wikimedia.org/wikipedia/commons/3/31/Tree_rotation_animation_250x250.gif)
 
+rotation發生機制：
+
+
 ## 紅黑樹
 同質無法 轉
  >　資料庫搜尋採唯一值（都當不一樣）
@@ -67,7 +72,7 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
 #### Source
 [Red Black Tree Animation](https://www.youtube.com/watch?time_continue=119&v=rcDF8IqTnyI&feature=emb_logo)
 
-[圖片來源](https://en.wikipedia.org/wiki/Tree_rotation)
+[rotation_圖片來源](https://en.wikipedia.org/wiki/Tree_rotation)
 
 [Red-Black Tree (紅黑樹)](https://yotsuba1022.gitbooks.io/data-structure-note/content/1.4.3-red-black-tree.html)
 
