@@ -91,6 +91,6 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
 
 [Red-Black Tree (紅黑樹)](https://yotsuba1022.gitbooks.io/data-structure-note/content/1.4.3-red-black-tree.html)
 
-[紅黑樹](https://zh.wikipedia.org/wiki/%E7%BA%A2%E9%BB%91%E6%A0%91)
+[維基百科_紅黑樹](https://zh.wikipedia.org/wiki/%E7%BA%A2%E9%BB%91%E6%A0%91)
 
 [Red-Black Tree](http://www.ciaoshen.com/algorithm/2018/11/09/red-black-tree.html)
