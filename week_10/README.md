@@ -42,8 +42,11 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
   > 觀察
   
  [✌🏻This🤞🏻](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
+ 
+遊戲定義：leaf node的下一個是空集合，將空集合視作黑點，相當於塞滿了null
+  > Bug：以root為準，在左子樹發生non-balance的情況下，不會出現rotation
 
-在non-balance的情形下，會作rotation
+- 在non-balance的情形下，會作rotation
   > non-balance：第n層還沒塞滿就要塞n+1層
 
 - rotation
