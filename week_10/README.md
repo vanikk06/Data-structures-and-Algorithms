@@ -98,6 +98,28 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Red-black_tree_example.svg/675px-Red-black_tree_example.svg.png)
 
 #### Live coding of Rotation
+  > 示範right roration
+
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/image/1577102692121.jpg)
+
+先給一個新的node x（color去繼承原本h的color），去暫存node h的left child（F），原本的h會變成x的right child，最後讓child維持是紅色（rotation後的點就變黑色）
+ > 用暫存空間接過node
+
+```python
+def rightRotate(self):
+  x = self.left
+  self.left = x.right #轉
+  x.right = self
+  
+  # color
+  x.color = x.right.color
+  x.right.color = 'red'
+  
+  return x
+  
+```
+
+
 
 #### Source
 [Red Black Tree Animation](https://www.youtube.com/watch?time_continue=119&v=rcDF8IqTnyI&feature=emb_logo)
