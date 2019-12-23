@@ -51,7 +51,7 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
     - right rotation：往右邊倒，讓左邊變小往右邊轉
     - left rotation：往左邊倒，讓右邊變小往左邊轉
     
-   ![](https://upload.wikimedia.org/wikipedia/commons/3/31/Tree_rotation_animation_250x250.gif)
+    ![](https://upload.wikimedia.org/wikipedia/commons/3/31/Tree_rotation_animation_250x250.gif)
 
 ## 紅黑樹
 同質無法 轉
