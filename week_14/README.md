@@ -1,14 +1,12 @@
-# 黑板
--1：還沒走訪過
-加入edge將-1更改為連結對象，並記錄cost
- > be加入會有loop產生
- 
- > 邊滿足即可停止
+# Content
 
 
 # Minimum Spanning Tree
  > 最小生成樹：關心**邊**的問題
  >> Kruskal's Algorithm
+ 
+ - []()
+ - []()
 
 將複雜問題簡化到graph的問題上，讓graph的edge數字，可以代表某種cost（可將所有可能情形疊加在graph）
  > e.g.花費時間、花費金額...
@@ -31,3 +29,17 @@
  >> 邊的個數也可作為停止的條件
 1. 是否有cycle
 2. 是否為連通的tree
+
+#### Practice
+
+
+
+
+# 黑板
+-1：還沒走訪過
+加入edge將-1更改為連結對象，並記錄cost
+ > be加入會有loop產生
+ 
+ > 邊滿足即可停止
+ 
+ #### S
