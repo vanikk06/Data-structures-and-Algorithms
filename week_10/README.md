@@ -60,7 +60,7 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
 
 著紅色地方：希望從leaf到root的路徑中黑點個數相同，若不同，則著紅色點
   > rotation條件：將紅點作為rotation的點
-  >> 希望維持路徑中黑點個數一樣多，所以紅點僅是過繼點
+  >> 希望維持路徑中黑點個數一樣多，所以紅點僅是**過繼點**
 
 
 #### 概念
@@ -77,11 +77,12 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
     > rotation觸發機制
     
 在node內，還要有一個`.color`的基本屬性，以判斷此為穩定狀態還是有可能被rotation的狀況
-  > 紅點、黑點的區分，是觀察出來，可以對rotation下的判斷條件
+  > 紅點、黑點的條件，是觀察出來的現象，可以對rotation下的判斷條件
   - 黑點：穩定狀態
   - 紅點：有可能被rotation
-  
-
+ 
+利用**黑點數量**來做平衡計算，當non-balance發生黑點數量會不一樣多
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Red-black_tree_example.svg/675px-Red-black_tree_example.svg.png)
 
 #### Source
 [Red Black Tree Animation](https://www.youtube.com/watch?time_continue=119&v=rcDF8IqTnyI&feature=emb_logo)
