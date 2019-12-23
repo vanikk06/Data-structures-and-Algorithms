@@ -1,7 +1,7 @@
 # Content 
   - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10#class-notes)
   - [Red Black Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10#red-black-tree)
-  - [Try Find Median from Data Stream]()
+  - [Try Find Median from Data Stream](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10#try-find-median-from-data-stream)
 
 
 # Class notes
