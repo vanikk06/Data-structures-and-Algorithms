@@ -32,6 +32,12 @@
 
 #### Practice
 
+edge有weight（權重），其對應的是cost
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/MST_kruskal_en.gif/255px-MST_kruskal_en.gif)
+
+先將cost**由小排到大**
+
 
 
 
@@ -43,3 +49,6 @@
  > 邊滿足即可停止
  
  #### Source
+ [維基百科_克魯斯克爾演算法](https://zh.wikipedia.org/wiki/%E5%85%8B%E9%B2%81%E6%96%AF%E5%85%8B%E5%B0%94%E6%BC%94%E7%AE%97%E6%B3%95)
+ 
+
