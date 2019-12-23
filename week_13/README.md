@@ -77,7 +77,7 @@ defaultdict是dict的子類別，繼承dict的所有方法，並進行擴充
 
 # Depth-First Search
  > DFS：深度優先搜尋，使用Pre-Order Traversal
- >> 先遇到的就先走訪
+ >> 先遇到的就先走訪：關心**點**的問題
  
 BFS紀錄會與點數（資料個數）成正比，所以空間個數會較高
 
