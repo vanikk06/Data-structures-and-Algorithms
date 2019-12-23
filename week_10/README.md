@@ -96,7 +96,7 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
   - 紅點：有可能被rotation
  
 利用**黑點數量**來做平衡計算，當non-balance發生黑點數量會不一樣多
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Red-black_tree_example.svg/675px-Red-black_tree_example.svg.png)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/image/1577109453459.jpg)
 
 #### Live coding of Rotation
   > 示範right roration
@@ -153,3 +153,5 @@ def rightRotate(self):
 
 #### Source
 [Both O(log(n)) Red-Black Tree solution in Python](https://leetcode.com/problems/find-median-from-data-stream/discuss/74134/both-ologn-red-black-tree-solution-in-python)
+
+[⏱](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#content)
