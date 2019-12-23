@@ -69,13 +69,15 @@ BST有可能會弱化成linked list，一旦弱化成linked list，tree的好處
 
 1. 每個node設為紅色或是黑色
 2. root必定為黑色
-  > 一定要往下長
+    > 一定要往下長
 3. 若node是紅色，其child必定是黑色
 4. 若node是黑色，其child可以是紅色也可以是黑色
 5. 每個空node都是黑色
 6. 從root到leaf的每條路徑，必定包含相同數目的黑色node
 
-
+在node內，還要有一個`.color`的基本屬性，以判斷此為穩定狀態還是有可能被rotation的狀況
+  - 黑點：穩定狀態
+  - 紅點：有可能被rotation
 
 
 
