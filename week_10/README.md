@@ -116,9 +116,15 @@ def rightRotate(self):
   x.right.color = 'red'
   
   return x
-  
 ```
 
+#### Red Black Tree vs. Binary Search Tree
+
+兩者皆有「新增」、「刪除」、「查詢」、「修改」，但RBT又增加了「左旋轉」、「右旋轉」跟「著色判斷」
+> 有「著色判斷」才可知道，何時要呼叫「左旋轉」，何時要呼叫「右旋轉」
+>> 要有兩個小工具：\
+  1. 何時改變顏色
+  2. 計算path中有多少黑點
 
 
 #### Source
