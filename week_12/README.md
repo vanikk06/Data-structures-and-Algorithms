@@ -170,7 +170,7 @@
  >> 由起點開始，根據level一層一層走訪
  
 
- > traversal（走訪）graph之方法
+ > traversal（走訪）graph之方法：關心**點**的問題
  >> search（搜尋）的必要功能
  
  從起點開始，遍歷完整個graph，按照**就近原則**進行，距離起點相同的vertex其訪問順序是相近的
