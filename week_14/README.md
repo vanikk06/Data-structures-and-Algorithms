@@ -61,11 +61,27 @@ edge有weight（權重），其對應的是cost
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/image/Snipaste_2019-12-24_16-22-02.png)
  > 此為記錄parent，edge增加parent就可能要update
  >> 紀錄可採linked list的方式（如圖），方便查詢即可
+ 
+☆ 將兩個disjoint set合併時，要決定誰要當root
+  > 先確定一個方向（src當parent還是dest當parent），置換或合併時採相同的動作
 
 
 #### § Exercise §
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/image/MST.gif)
+
+
+#### § Kruskal's Algorithm §
+ > 解決如何生成一個「最小生成樹」的問題
+ 
+需要決定的是「tree產生了沒」，需要在意的是：
+1. There is no cycle.
+  > disjoint set不斷在看，是否有cycle發生
+2. The graph is connected.
+  > 兩個方法：\
+   1. 觀察edge是否達到v-1的數量
+   2. 建tree時，呼叫BFS/DFS走訪
+    >> 若連通，即可走完每個點
 
  
  #### Source
