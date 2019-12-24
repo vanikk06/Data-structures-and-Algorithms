@@ -88,19 +88,19 @@
   - 子集合：判斷A集合是否是B集合的子集
     - `.issubset()`
        > setA.issbuset(setB)
-          - True：setA是setB的子集合
-          - False：setA不是setB的子集合
+         - True：setA是setB的子集合
+         - False：setA不是setB的子集合
   - 超集合：判斷A集合是否是B集合的父/母集
     - `.issuperset()`
        > setA.issuperset(setB)
-          - True：setA是setB的超集合
-          - False：setA不是setB的超集合
+         - True：setA是setB的超集合
+         - False：setA不是setB的超集合
   - 互斥集合：判斷A集合與B集合是否互斥（沒有交集，沒有任何元素是一樣的）
     - `.isdisjoint()`
        > setA.isdisjoint(setB)
        >> disjoint：互斥的概念
-          - True：setA與setB互斥
-          - False：setA不與setB互斥
+         - True：setA與setB互斥
+         - False：setA不與setB互斥
        
 
 
