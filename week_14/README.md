@@ -57,7 +57,7 @@ edge有weight（權重），其對應的是cost
    >> 會產生loop的edge就不放入
 4. 最後吐出graph min cost的路徑與minimum cost
 
-
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/image/Snipaste_2019-12-24_16-16-41.png)
 
 
 
