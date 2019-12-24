@@ -60,36 +60,48 @@
   - `.remove()`：刪除元素
   - `in` ＆ `not in`：判斷元素是否已存在於集合中 
     > tuple、list皆可使用
-  - `.copy()`：複製
+  - `.copy()`：複製集合的副本
+  - `.clear()`：刪除集合內所有元素
   - ☆ 無法使用[index]索引值來擷取特定元素
     > 集合元素是無序的，所以無法通過數字進行索引獲取某一個元素
-
-- 聯集：A、B集合的所有元素
-  - `.union`
-     > e.g. setA.union(setB)
-  - `|`
-     > e.g. setA|setB
-- 交集：A、B集合的共有元素
-  - `.intersection`
-     > setA.intersection(setB)
-  - `&`
-     > setA & setB
-- 差集：A集合扣掉與B集合的共有元素
-  - `.difference`
-     > setA.difference(setB)
-  - `-`
-     > setA - setB
-- 對稱差集：A、B集合的獨有元素，去掉兩合集共同部分
-  - `.symmetric_difference`
-     > setA.symmetric_difference(setB)
-  - `^ `
-     > setA ^ setB
-- 子集合：判斷A集合是否是B集合的子集
-  - `issubset`
-     > setA.issbuset(setB)
-- 父集合：判斷A集合是否是B集合的父/母集
-  - `issuperset`
-     > setA.issuperset(setB)
+- 關係判斷    
+  - 聯集：A、B集合的所有元素
+    - `.union()`
+       > e.g. setA.union(setB)
+    - `|`
+       > e.g. setA|setB
+  - 交集：A、B集合的共有元素
+    - `.intersection()`
+       > setA.intersection(setB)
+    - `&`
+       > setA & setB
+  - 差集：A集合扣掉與B集合的共有元素
+    - `.difference()`
+       > setA.difference(setB)
+    - `-`
+       > setA - setB
+  - 對稱差集：A、B集合的獨有元素，去掉兩合集共同部分
+    - `.symmetric_difference()`：聯集-交集
+       > setA.symmetric_difference(setB)
+    - `^ `
+       > setA ^ setB
+  - 子集合：判斷A集合是否是B集合的子集
+    - `.issubset()`
+       > setA.issbuset(setB)
+          - True：setA是setB的子集合
+          - False：setA不是setB的子集合
+  - 超集合：判斷A集合是否是B集合的父/母集
+    - `.issuperset()`
+       > setA.issuperset(setB)
+          - True：setA是setB的超集合
+          - False：setA不是setB的超集合
+  - 互斥集合：判斷A集合與B集合是否互斥（沒有交集，沒有任何元素是一樣的）
+    - `.isdisjoint()`
+       > setA.isdisjoint(setB)
+       >> disjoint：互斥的概念
+          - True：setA與setB互斥
+          - False：setA不與setB互斥
+       
 
 
 
@@ -101,6 +113,8 @@
 [帶你搞清楚python中的dict和set的用法](https://kknews.cc/zh-tw/news/m29zo56.html)
 
 [Python中集合(set)的基本操作以及一些常見的用法](https://blog.51cto.com/10616534/1944841)
+
+[Python set(集合) 這一定是最全的介紹集合的博文](https://blog.csdn.net/Solo95/article/details/78753265)
 
 [🖌](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
 
