@@ -44,7 +44,7 @@ minimum spanning tree（最小生成樹）有很多實際應用\
 2. 是否為連通的tree
 
 #### § Practice §
- > 答案唯一
+ > min cost會唯一
 
 edge有weight（權重），其對應的是cost
 
