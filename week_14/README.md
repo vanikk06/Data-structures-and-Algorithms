@@ -63,7 +63,7 @@ edge有weight（權重），其對應的是cost
 
 #### § Exercise §
 
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/image/output_WDYufp.gif)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/image/MST.gif)
 
  
  #### Source
