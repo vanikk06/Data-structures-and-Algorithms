@@ -60,7 +60,9 @@ edge有weight（權重），其對應的是cost
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/image/Snipaste_2019-12-24_16-22-02.png)
 
 
+#### § Exercise §
 
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/image/output_WDYufp.gif)
 
  
  #### Source
