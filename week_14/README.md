@@ -69,7 +69,11 @@ edge有weight（權重），其對應的是cost
 
 #### § Exercise §
 
+- 畫圖表示，無使用edge表紀錄採用的edge與其cost
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/image/MST.gif)
+
+- 畫圖表示，並且使用edge表紀錄採用的edge與其cost
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/image/output_UjbChm.gif)
 
 
 #### § Kruskal's Algorithm §
