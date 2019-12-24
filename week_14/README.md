@@ -16,6 +16,7 @@
  - [Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-spanning-tree-)
  - [Practice](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-practice-)
  - [Exercise](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-exercise-)
+ - [Kruskal's Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-kruskals-algorithm-)
 
 將複雜問題簡化到graph的問題上，讓graph的edge數字，可以代表某種cost（可將所有可能情形疊加在graph）
  > e.g.花費時間、花費金額...
@@ -76,12 +77,12 @@ edge有weight（權重），其對應的是cost
  
 需要決定的是「tree產生了沒」，需要在意的是：
 1. There is no cycle.
-  > disjoint set不斷在看，是否有cycle發生
+   > disjoint set不斷在看，是否有cycle發生
 2. The graph is connected.
-  > 兩個方法：\
-  1. 觀察edge是否達到v-1的數量
-   2. 建tree時，呼叫BFS/DFS走訪
-  >> 若連通，即可走完每個點
+   > 兩個方法：\
+    1. 觀察edge是否達到v-1的數量
+    2. 建tree時，呼叫BFS/DFS走訪
+   >> 若連通，即可走完每個點
 
  
  #### Source
