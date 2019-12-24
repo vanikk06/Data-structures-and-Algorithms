@@ -59,6 +59,8 @@ edge有weight（權重），其對應的是cost
 4. 最後吐出graph min cost的路徑與minimum cost
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/image/Snipaste_2019-12-24_16-22-02.png)
+ > 此為記錄parent，edge增加parent就可能要update
+ >> 紀錄可採linked list的方式（如圖），方便查詢即可
 
 
 #### § Exercise §
