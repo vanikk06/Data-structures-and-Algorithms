@@ -79,9 +79,10 @@ edge有weight（權重），其對應的是cost
 1. There is no cycle.
    > disjoint set不斷在看，是否有cycle發生
 2. The graph is connected.
-   > 兩個方法：\
+   > 兩個方法：
    > 1. 觀察edge是否達到v-1的數量
    > 2. 建tree時，呼叫BFS/DFS走訪
+   >> 若連通，即可走完每個點
    
 
  
