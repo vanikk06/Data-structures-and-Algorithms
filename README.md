@@ -59,6 +59,7 @@
 
  - [Object](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#object)
 - [Array VS. List VS. Linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#array-vs-list-vs-linked-list)
+- [Python list vs. array](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_03#python-list-vs-array)
 - [List](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#list)
 - [Stack & Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#stack--queue)
     - [Try Min stack By linked list.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_03/Try%20Min%20stack%20By%20linked%20list.py)
