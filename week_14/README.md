@@ -13,6 +13,13 @@
 
 # Disjoint Sets
  > 互斥集合、併查集
+ 
+ 一堆集合中，各自擁有的元素都各不相同，也就是集合與集合之間彼此沒有交集
+ 
+功能：
+ - union：將兩個set做聯集，合併成一個set
+ - find：尋找一個元素是在哪個set
+ - split：將一個set拆成兩個set
 
 #### Source
 [Disjoint Sets](http://www.csie.ntnu.edu.tw/~u91029/Set.html#5)
