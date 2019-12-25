@@ -47,6 +47,9 @@ minimum spanning tree（最小生成樹）有很多實際應用\
 
 可以想像成許多的MST做作union（聯集）
  > 用disjoint set作為union-find之輔助
+1. root不同即可union
+2. root相同不可union
+   > 會出現cycle
 
 #### § Practice §
  > min cost會唯一
