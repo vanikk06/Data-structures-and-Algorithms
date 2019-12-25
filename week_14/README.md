@@ -30,6 +30,7 @@ minimum spanning tree（最小生成樹）有很多實際應用\
 將node看作城市，edge看作連線城市的通訊網，edge的weight看作連線城市通訊線路的成本，根據minimum spanning tree建立的通訊網就是這些城市之間成本最低的通訊網
 
 
+
 #### § Spanning Tree §
 
 - Spanning Tree：在graph中，可以找到一個tree視為graph的subset
@@ -44,6 +45,9 @@ minimum spanning tree（最小生成樹）有很多實際應用\
 1. 是否有cycle
 2. 是否為連通的tree
 
+可以想像成許多的MST做作union（聯集）
+ > 用disjoint set作為union-find之輔助
+
 #### § Practice §
  > min cost會唯一
 
@@ -51,7 +55,7 @@ edge有weight（權重），其對應的是cost
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/MST_kruskal_en.gif/255px-MST_kruskal_en.gif)
 
-1. 先將cost排序，**由小排到大**，再使用disjoint sets（互斥集、並查集）來作紀錄
+1. 先將cost排序，**由小排到大**，從小的開始，再使用disjoint sets（互斥集、並查集）來作紀錄
 2. parent的紀錄先設為 -1，當有edge加入時，再將-1更改為起點，並記錄cost
    > -1：代表尚未走訪過 
 3. 按照sorted順序慢慢加入，方向性先固定，左邊是起點右邊是終點，當邊數滿足即可停止
@@ -68,7 +72,7 @@ edge有weight（權重），其對應的是cost
 
 
 #### § Exercise §
- > 儲存對象：edge
+ > 儲存紀錄對象：edge
 
 - 畫圖表示，無使用edge表紀錄採用的edge與其cost
 
