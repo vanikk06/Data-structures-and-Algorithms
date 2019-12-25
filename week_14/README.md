@@ -12,6 +12,7 @@
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
 
 # Disjoint Sets
+ > 互斥集合、併查集
 
 #### Source
 [Disjoint Sets](http://www.csie.ntnu.edu.tw/~u91029/Set.html#5)
@@ -71,7 +72,7 @@ edge有weight（權重），其對應的是cost
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/MST_kruskal_en.gif/255px-MST_kruskal_en.gif)
 
-1. 先將cost排序，**由小排到大**，從小的開始，再使用disjoint sets（互斥集、並查集）來作紀錄
+1. 先將cost排序，**由小排到大**，從小的開始，再使用disjoint sets（互斥集、併查集）來作紀錄
 2. parent的紀錄先設為 -1，當有edge加入時，再將-1更改為起點，並記錄cost
    > -1：代表尚未走訪過 
 3. 按照sorted順序慢慢加入，方向性先固定，左邊是起點右邊是終點，當邊數滿足即可停止
