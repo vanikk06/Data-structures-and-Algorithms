@@ -68,6 +68,7 @@ edge有weight（權重），其對應的是cost
 
 
 #### § Exercise §
+ > 儲存對象：edge
 
 - 畫圖表示，無使用edge表紀錄採用的edge與其cost
 
