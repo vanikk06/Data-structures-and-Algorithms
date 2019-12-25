@@ -20,7 +20,6 @@
 
 [并查集（Disjoint-set union）第1讲](https://www.youtube.com/watch?v=YKE4Vd1ysPI)
 
-[Set](http://www.csie.ntnu.edu.tw/~u91029/SpanningTree.html)
 
 # Minimum Spanning Tree
  > 最小生成樹：關心**邊**的問題
