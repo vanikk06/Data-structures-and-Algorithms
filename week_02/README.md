@@ -217,6 +217,7 @@ Status：Runtime 416 ms, Memory 14.2 MB
   [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/Try%20Design%20linked%20list.py)
   
 
-
+#### Source
+[python 動態陣列 list 記憶體對映，leetcode 707，真連結串列能打敗假連結串列嗎？](https://www.itread01.com/content/1542450063.html)
 
   [🚎______](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02#content)
