@@ -13,6 +13,8 @@
 
 # Disjoint Sets
  > 互斥集合、併查集
+ >> 資料結構：檢查一個graph是否存在一個cycle\
+ 又稱為union-find資料結構、merge-find資料結構
  
  一堆集合中，各自擁有的元素都各不相同，也就是集合與集合之間彼此沒有交集
  
@@ -20,6 +22,19 @@
  - union：將兩個set做聯集，合併成一個set
  - find：尋找一個元素是在哪個set
  - split：將一個set拆成兩個set
+ 
+#### 操作
+將edge連接的vertex放到同一個set裡面，若連接的vertex已存在別的set中，則將兩個set合併
+ > 同一個set：站在任一個vertex上，都可以走到相同set的任意一個vertex
+ >> 若選中的edge其連接的vertex已存在同一個set中，即會出現cycle
+ 
+使用一個array，紀錄每個vertex的parent\
+每個vertex先預設為-1
+> -1：獨立的vertex
+
+在同一個set中，找一個vertex A作為parent，並將相同set的其他vertex其parent更改為A\
+當合併兩個set時，將其parent改為相同即可\
+當edge連接的vertex已有相同的parent時，代表採用此edge即會出現cycle
 
 #### Source
 [Disjoint Sets](http://www.csie.ntnu.edu.tw/~u91029/Set.html#5)
