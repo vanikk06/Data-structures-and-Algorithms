@@ -63,7 +63,7 @@
 # Python list vs. array
   > 從「記憶體」角度
 
-python雖然好用，但時常被詬病執行速度非常慢
+python雖然好用，但時常被詬病執行速度非常慢，numpy.array優化了python內建的list缺點
 
 #### python與記憶體
 當宣告一個變數`a=5`時，python會去跟電腦要一塊記憶體，將5存到這塊記憶體內，並在mapping table記下變數a與其記憶體位置
