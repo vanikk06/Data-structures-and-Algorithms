@@ -1,5 +1,17 @@
 # Content
 
+# Sort ＆ Sorted
+
+
+
+#### Source
+[淺談 Python 的排序](https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-python-%E7%9A%84%E6%8E%92%E5%BA%8F/)
+
+[Python List sort()方法](https://www.runoob.com/python/att-list-sort.html)
+
+[Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
+
+
 # Disjoint Sets
 
 #### Source
