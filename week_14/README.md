@@ -11,7 +11,6 @@
 
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
 
-
 # Disjoint Sets
 
 #### Source
@@ -20,6 +19,8 @@
 [1042 Quiz#1 互斥集合 (Disjoint Sets)](http://squall.cs.ntou.edu.tw/cpp/1042/labtest/test1/DisjointSets.html)
 
 [并查集（Disjoint-set union）第1讲](https://www.youtube.com/watch?v=YKE4Vd1ysPI)
+
+[Set](http://www.csie.ntnu.edu.tw/~u91029/SpanningTree.html)
 
 # Minimum Spanning Tree
  > 最小生成樹：關心**邊**的問題
@@ -124,3 +125,6 @@ edge有weight（權重），其對應的是cost
 [Check if a given graph is tree or not](https://www.geeksforgeeks.org/check-given-graph-tree/)
 
 [Detect cycle in an undirected graph](https://www.geeksforgeeks.org/detect-cycle-undirected-graph/)
+
+[Spanning Tree](http://www.csie.ntnu.edu.tw/~u91029/SpanningTree.html)
+
