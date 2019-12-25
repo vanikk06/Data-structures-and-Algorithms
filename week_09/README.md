@@ -41,14 +41,85 @@
 
 #### 觀念
 - python是函數（function）式語言，函數的意義如同變數，在函數中的**變數範圍僅及於函數的範圍**
-- python並無變數宣告（declaration）的機制，必須透過「等號」對變數**賦值(assignment)在記憶體中定址**
+- python宣告變數的方式，必須透過「等號」對變數**賦值(assignment)在記憶體中定址**
   > assignment：等號左邊為被賦予者，右邊為被賦予之值
   
 - 若有定義local變數，則python不會去尋找global變數，否則python會自動取用global變數
 - 觀察一個function內有沒有定義local變數，就看該變數（variable name）有沒有出現在**等號左邊**，且該variable name沒有被global指明 
 
+#### 操作範例
 
-詳細操作，可以參考 → [python的作用域問題](https://segmentfault.com/q/1010000006716248/a-1020000006720179)
+```python
+b = 100  #global variable
+
+def test(a):
+  print(a)
+  print(b)
+  
+test(1)
+```
+結果：
+```python
+1
+100
+```
+> 因為在local沒有定義b，所以python會到global的作用域內去找global b
+
+在local內對變數賦值：
+```python
+b = 100  #global variable
+
+def test(a):
+  b = 20
+  print(a)
+  print(b)
+  
+test(1)
+print(b)
+```
+```python
+1
+20
+100
+```
+> 在local內`b = 20`的動作，是宣告一個local變數b，並對此變數賦值為20\
+python會認為local b與global b是兩個不同的變數，因此在local內對b的變動，並不會影響到global b
+
+如果想要在local內對global的變數作變動，就可以使用`global`輔助，python就會將在local內對b賦值的動作，當作是對global b的重新賦值（local b與global b是相同的變數）
+```python
+b = 100  #global variable
+
+def test(a):
+  global b
+  b = 20
+  print(a)
+  print(b)
+  
+test(1)
+print(b)
+```
+```python
+1
+20
+20
+```
+
+比較特殊的例子
+```python
+b = 100  #global variable
+
+def test(a):
+  print(a)
+  print(b)
+  b = 20
+  
+test(1)
+```
+此時就會出現`UnboundLocalError：local variable 'b' referenced before assignment`
+
+因為在local內出現宣告local b的動作，但當python去抓local b時，local b還沒被賦值，因此才會說`local variable 'b' referenced before assignment`在被賦值前就被參照了
+> 宣告動作：出現在`=`左邊
+
 #### Source
 [python的作用域問題](https://segmentfault.com/q/1010000006716248/a-1020000006720179)
 
