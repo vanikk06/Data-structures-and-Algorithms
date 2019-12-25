@@ -59,6 +59,14 @@
 
 [🐠~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
+# Python list vs. array
+  > 從「記憶體」角度
+
+#### Source
+[用記憶體管理講解為何 python 的 list 那麼慢](https://medium.com/@t0915290092/%E7%94%A8%E8%A8%98%E6%86%B6%E9%AB%94%E7%AE%A1%E7%90%86%E8%AC%9B%E8%A7%A3%E7%82%BA%E4%BD%95-python-%E7%9A%84-list-%E9%82%A3%E9%BA%BC%E6%85%A2-bf2cd80bbf72)
+
+[🦐~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
+
 # List
 list(列表)：偏向更簡單的struct
  > struct特性：可以放很多不同類型的型態進去
@@ -78,7 +86,7 @@ list(列表)：偏向更簡單的struct
 - `list.copy()`：拷貝list
 - `list.clear()`：清除list內所有資料
 
-[🐡~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
+[🐡~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
 #### Source
 [list 參數](https://www.brilliantcode.net/713/python3-6-list-tuple-set-dictionary/)
