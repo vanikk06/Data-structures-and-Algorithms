@@ -46,11 +46,12 @@ minimum spanning tree（最小生成樹）有很多實際應用\
 
 #### § Spanning Tree §
 
-- Spanning Tree：在graph中，可以找到一個tree視為graph的subset
+- Spanning Tree：在graph中，可以找到一個tree視為graph的subset（此tree包含graph的所有vertex）
    - 有兩個關鍵，因為是tree：
        1. 不可有loop
-       2. 所有node，任兩點一定可以找到path走到對方
+       2. 所有node，任兩點一定可以找到path走到對方（完全連通）
           > node不可有isolated（孤立）的情況
+          >> 若graph並非完全連通，則沒有spanning tree，而是擁有許多棵spanning sub-tree（生成子樹）構成的spanning forest（生成森林）
           
 建立minimum spanning tree有兩個判斷條件：
  > 方式：**邊的個數 = 點-1**
