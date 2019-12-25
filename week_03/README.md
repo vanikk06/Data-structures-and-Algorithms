@@ -71,7 +71,7 @@ python雖然好用，但時常被詬病執行速度非常慢
 當呼叫a時，python就會到其記憶體位置內去抓取存在記憶體內的值
 
 #### list vs. array
-![](https://miro.medium.com/max/1307/1*LNVzJWoJlVafWC4qIMJPBw.png)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_03/image/Snipaste_2019-12-26_02-26-17.png)
 
 - list：內部儲存的是一堆pointer，因此除了儲存資料的記憶體之外，還需要一個額外的空間，來儲存pointer的對應位置
     > 其對應記憶體的位置
@@ -88,6 +88,8 @@ python雖然好用，但時常被詬病執行速度非常慢
 
 #### Source
 [用記憶體管理講解為何 python 的 list 那麼慢](https://medium.com/@t0915290092/%E7%94%A8%E8%A8%98%E6%86%B6%E9%AB%94%E7%AE%A1%E7%90%86%E8%AC%9B%E8%A7%A3%E7%82%BA%E4%BD%95-python-%E7%9A%84-list-%E9%82%A3%E9%BA%BC%E6%85%A2-bf2cd80bbf72)
+
+[圖片來源](https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/)
 
 [🦐~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
