@@ -1,5 +1,12 @@
 # Content
 
+# Greedy
+
+#### Source
+[貪婪演算法](https://zh.wikipedia.org/wiki/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)
+
+[貪婪演算法(Greedy)](https://www.csie.ntu.edu.tw/~b98902112/cpp_and_algo/cpp02/greedy.html)
+
 # Sort ＆ Sorted
 
 
@@ -55,7 +62,7 @@
 
 # Minimum Spanning Tree
  > 最小生成樹：關心**邊**的問題
- >> Kruskal's Algorithm
+ >> Kruskal's Algorithm：採Greedy
  
  - [Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-spanning-tree-)
  - [Practice](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-practice-)
