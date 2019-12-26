@@ -170,6 +170,11 @@ edge有weight（權重），其對應的是cost
    > 1. 觀察edge是否達到v-1的數量
    > 2. 建tree時，呼叫BFS/DFS走訪（若連通，即可走完每個點）
    
+#### § Time Complexity §
+
+排序graph上所有的edge，為O(E log E)
+ > 與heap sort樹狀排序相同
+ 
 
  
  #### Source
