@@ -12,13 +12,18 @@
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
 
 # Disjoint Sets
- > 互斥集合、併查集
- >> 資料結構：檢查一個graph是否存在一個cycle\
+ > 互斥集合、併查集\
  又稱為union-find資料結構、merge-find資料結構
+ >> 資料結構：檢查一個graph是否存在一個cycle
  
  一堆集合中，各自擁有的元素都各不相同，也就是集合與集合之間彼此沒有交集
  
+- union-find：給出n個vertex，vertex與vertex之間要麼連通要麼不連通，此為實現連通函數（union）以及判斷vertex之間是否為直接連通或間接連通（connected）的函數
+ > disjoint sets的合併及查詢
+ 
 功能：
+ > 皆為O(log n)，平均為O(α(n))
+ >> 其中α(n)是Ackermann function f(N,N) 的反函數
  - union：將兩個set做聯集，合併成一個set
  - find：尋找一個元素是在哪個set
  - split：將一個set拆成兩個set
@@ -27,7 +32,9 @@
 將edge連接的vertex放到同一個set裡面，若連接的vertex已存在別的set中，則將兩個set合併
  > 同一個set：站在任一個vertex上，都可以走到相同set的任意一個vertex
  >> 若選中的edge其連接的vertex已存在同一個set中，即會出現cycle
- 
+
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/image/Snipaste_2019-12-24_16-22-02.png)
+
 使用一個array，紀錄每個vertex的parent\
 每個vertex先預設為-1
 > -1：獨立的vertex
@@ -42,6 +49,8 @@
 [1042 Quiz#1 互斥集合 (Disjoint Sets)](http://squall.cs.ntou.edu.tw/cpp/1042/labtest/test1/DisjointSets.html)
 
 [并查集（Disjoint-set union）第1讲](https://www.youtube.com/watch?v=YKE4Vd1ysPI)
+
+[普林斯頓課程學習筆記1 Union-find](https://medium.com/@gxyou45/algorithm%E6%99%AE%E6%9E%97%E6%96%AF%E9%A0%93%E8%AA%B2%E7%A8%8B%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%981-union-find-5af7911ca5ef)
 
 
 # Minimum Spanning Tree
