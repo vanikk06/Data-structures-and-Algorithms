@@ -88,6 +88,7 @@
  - [Practice](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-practice-)
  - [Exercise](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-exercise-)
  - [Kruskal's Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-kruskals-algorithm-)
+ - [Time Complexity](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-time-complexity-)
 
 將複雜問題簡化到graph的問題上，讓graph的edge數字，可以代表某種cost（可將所有可能情形疊加在graph）
  > e.g.花費時間、花費金額...
