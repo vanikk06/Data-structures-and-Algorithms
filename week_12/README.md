@@ -6,10 +6,13 @@
 - [Adjustment of Design BFS](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#adjustment-of-design-bfs)
 
 # deque
- > python collections.deque
+ > python collections.deque(x, maxlen=None)
  >> double-ended queue（雙端隊列結構）
  
 類似於list，提供在**兩端**加入和刪除的操作
+ > 優化：在兩端的操作皆為O(1)
+ >> 原本list在`pop(0)`與`insert(0, v)`其為O(n)\
+ 因其內存移動的操作，改變底層data表達的大小和位置
 
 ```python
 from collections import deque
@@ -22,23 +25,63 @@ queue
 deque(['1', '2', '3', '2', '4', '4'])
 ```
 
-繼承list功能：
+繼承list所有功能：
  > input的data皆為**字串**格式
  - `len()`：長度
  - `queue[index]`：索引查詢
     > -1：倒數第一個
- - `remove()`：刪除
-    > input為刪除對象
-    >> e.g. `queue.remove('4')`
- - `append()`：從最右邊（後面）增加元素
+ - `remove('x')`：刪除X元素
+    > 若找不到，則出現`ValueError`
+ - `append('x')`：從最右邊（後面）增加x元素
     > 不拆包
-    >> e.g. `queue.append('6')`
- - `extend()`：從最右邊（後面）增加元素
+ - `extend('x')`：從最右邊（後面）增加x元素
     > 拆包
-    >> e.g. `queue.extend('8')`
+ - `pop()`：取出最右邊的值
+    > 移除並且返回元素
+    >> 若無元素，則會出現`IndexError`
+ - `clear()`：移除所有元素，使其長度為0
+ - `copy()`：複製備份
+ - `count('x')`：計算deque中等於x元素的個數
+ - `index('x', start, stop)`：返回第x個元素（從start到stop），返回第一個匹配index
+    > 若沒有找到，則會出現` ValueError`
+ - `insert(index, 'x')`：在index的位置插入一個x元素
+    > 若插入導致deque超出maxlen限定的長度，則會出現`IndexError`
+ - `reverse()`：將deque逆序排列
+
+新增功能：
+ - `deque(x, maxlen=None)：deque例項化
+     - `maxlen`：制定deque的最大尺寸，預設為None
+        > 當限定長度滿足時，當新元素增加時（append/extend），相同數量的元素會從另一端刪除
+ - `appendleft('x')`：從最左邊（前面）增加x元素
+    > 不拆包
+ - `extendleft('x')`：從最左邊（前面）增加x元素
+    > 拆包
+ - `popleft()`：取出最左邊的值
+    > 移除並且返回元素
+     >> 若無元素，則會出現`IndexError`
+ - `rotate(n)`：
+     - n為正數：向右旋轉移動n步
+       > 當n = 1，等價於`queue.appendleft(queue.pop())`
+     - n為負數：向左旋轉移動n步
+       > 當n = -1，等價於`queue.append(queue.popleft())`
+ ```python
+ queue = deque('123244')
+ 
+ right_rotate = queue.rotate(1)
+ left_rotate = queue.rotate(-1)
+ 
+ print(right_rotate)
+ print(left_rotate)
+ ```
+ ```python
+ deque(['4', '1', '2', '3', '2', '4'])
+ deque(['2', '3', '2', '4', '4', '1'])
+ ```
 
 #### Source
+[deque 对象](https://docs.python.org/zh-cn/3/library/collections.html#deque-objects)
 
+[詳解Python的collections模塊中的deque雙端隊列結構](https://www.itread01.com/articles/1476167111.html)
 
 [📝](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
 
