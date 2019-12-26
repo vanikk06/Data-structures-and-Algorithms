@@ -28,16 +28,27 @@
 
 [👪](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
 
-# Sort ＆ Sorted
+# sort vs. sorted
+ > 排序對象要屬於相同資料型態
 
+- `list.sort(key=None, reverse=False)`
+ > 此函式會直接變動到原始的資料內容
+ 
+- `sorted(list, key=None, reverse=False)`
+ > 此函示不會變動到原始的資料內容
+ >> 要使用變數來儲存回傳值
 
+不設定任何條件的話，字串會按照字母排序排列、數字則會遞增排列
+ > 相反：`reverse=True`
 
 #### Source
-[淺談 Python 的排序](https://marco79423.net/articles/%E6%B7%BA%E8%AB%87-python-%E7%9A%84%E6%8E%92%E5%BA%8F/)
-
-[Python List sort()方法](https://www.runoob.com/python/att-list-sort.html)
-
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
+
+[Python 初學第六講 — 串列的更多操作](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f1b4e7d2e5ac)
+
+[python sort()和sorted()區別
+
+原文網址：https://kknews.cc/code/p6mo3xp.html](https://kknews.cc/zh-tw/code/p6mo3xp.html)
 
 [👨‍👩‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
 
