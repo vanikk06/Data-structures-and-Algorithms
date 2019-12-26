@@ -1,4 +1,5 @@
 # Content
+- [deque](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#deque)
 - [Dict & Set](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#dict--set)
 - [Level-Order Traversal](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#level-order-traversal)
 - [Graph](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#graph)
@@ -49,7 +50,7 @@ deque(['1', '2', '3', '2', '4', '4'])
  - `reverse()`：將deque逆序排列
 
 新增功能：
- - `deque(x, maxlen=None)：deque例項化
+ - `deque(x, maxlen=None)`：deque例項化
      - `maxlen`：制定deque的最大尺寸，預設為None
         > 當限定長度滿足時，當新元素增加時（append/extend），相同數量的元素會從另一端刪除
  - `appendleft('x')`：從最左邊（前面）增加x元素
