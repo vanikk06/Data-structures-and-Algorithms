@@ -256,6 +256,7 @@
 # week_12 Breadth-First Search
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12)
 
+- [deque](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#deque)
 - [Dict & Set](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#dict--set)
 - [Level-Order Traversal](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#level-order-traversal)
 - [Graph](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#graph)
