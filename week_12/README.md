@@ -5,6 +5,38 @@
 - [Breadth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#breadth-first-search)
 - [Adjustment of Design BFS](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#adjustment-of-design-bfs)
 
+# deque
+ > python collections.deque
+ >> double-ended queue（雙端隊列結構）
+ 
+類似於list，提供在**兩端**加入和刪除的操作
+
+```python
+from collections import deque
+
+queue = deque('123244') #格式須為字串
+queue
+```
+若直接在建立物件時輸入資料，會採用`extend`將元素拆包
+```python
+deque(['1', '2', '3', '2', '4', '4'])
+```
+
+繼承list功能：
+ - `len()`：長度
+ - `queue[index]`：索引查詢
+    > -1：倒數第一個
+ - `remove()`：刪除
+    > input為刪除對象
+    >> e.g. `queue.remove('4')`
+ - ``
+
+#### Source
+
+
+[📝](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_12#content)
+
+
 # Dict & Set
  > 字典（dictionary）與集合
  
