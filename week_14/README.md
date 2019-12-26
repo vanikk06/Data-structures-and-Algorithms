@@ -22,6 +22,8 @@
 
 [貪婪式演算法的原理](http://ccckmit.wikidot.com/so:greedyalgorithm)
 
+[👪](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
+
 # Sort ＆ Sorted
 
 
@@ -32,6 +34,8 @@
 [Python List sort()方法](https://www.runoob.com/python/att-list-sort.html)
 
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
+
+[👨‍👩‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
 
 # Disjoint Sets
  > 互斥集合、併查集\
@@ -74,6 +78,7 @@
 
 [普林斯頓課程學習筆記1 Union-find](https://medium.com/@gxyou45/algorithm%E6%99%AE%E6%9E%97%E6%96%AF%E9%A0%93%E8%AA%B2%E7%A8%8B%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%981-union-find-5af7911ca5ef)
 
+[👨‍👩‍👧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
 
 # Minimum Spanning Tree
  > 最小生成樹：關心**邊**的問題
@@ -182,3 +187,4 @@ edge有weight（權重），其對應的是cost
 
 [Spanning Tree](http://www.csie.ntnu.edu.tw/~u91029/SpanningTree.html)
 
+[👨‍👩‍👧‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
