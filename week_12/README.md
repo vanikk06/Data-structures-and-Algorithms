@@ -23,13 +23,19 @@ deque(['1', '2', '3', '2', '4', '4'])
 ```
 
 繼承list功能：
+ > input的data皆為**字串**格式
  - `len()`：長度
  - `queue[index]`：索引查詢
     > -1：倒數第一個
  - `remove()`：刪除
     > input為刪除對象
     >> e.g. `queue.remove('4')`
- - ``
+ - `append()`：從最右邊（後面）增加元素
+    > 不拆包
+    >> e.g. `queue.append('6')`
+ - `extend()`：從最右邊（後面）增加元素
+    > 拆包
+    >> e.g. `queue.extend('8')`
 
 #### Source
 
