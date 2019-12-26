@@ -95,7 +95,7 @@ python雖然好用，但時常被詬病執行速度非常慢，numpy.array優化
 [🦐~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
 # List
-list(列表)：偏向更簡單的struct
+list(串列)：偏向更簡單的struct
  > struct特性：可以放很多不同類型的型態進去
     
 相關參數： 
@@ -113,10 +113,10 @@ list(列表)：偏向更簡單的struct
 - `list.copy()`：拷貝list
 - `list.clear()`：清除list內所有資料
 
-[🐡~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
-
 #### Source
 [list 參數](https://www.brilliantcode.net/713/python3-6-list-tuple-set-dictionary/)
+
+[🐡~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
 # Stack & Queue
  > 儲存資料的方式
