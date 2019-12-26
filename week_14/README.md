@@ -19,7 +19,7 @@
  一堆集合中，各自擁有的元素都各不相同，也就是集合與集合之間彼此沒有交集
  
 - union-find：給出n個vertex，vertex與vertex之間要麼連通要麼不連通，此為實現連通函數（union）以及判斷vertex之間是否為直接連通或間接連通（connected）的函數
- > disjoint sets的合併及查詢
+  > disjoint sets的合併及查詢
  
 功能：
  > 皆為O(log n)，平均為O(α(n))
