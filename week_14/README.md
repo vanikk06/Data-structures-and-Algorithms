@@ -1,4 +1,8 @@
 # Content
+ - [Greedy Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#greedy-algorithm)
+ - [Sort ＆ Sorted](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#sort--sorted)
+ - [Disjoint Sets](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#disjoint-sets)
+ - [Minimum Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#minimum-spanning-tree)
 
 # Greedy Algorithm
  > 貪婪演算法、貪心演算法
