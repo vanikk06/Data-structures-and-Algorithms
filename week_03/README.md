@@ -101,8 +101,8 @@ list(串列)：偏向更簡單的struct
 相關參數： 
 - `list.append(x)`：將x元素增加到list尾端，等同`list[len(list)] = [x]`
 - `list.extend(L)`：將L列表(list)增加到list尾端，等同`list[len(list)] = L`
-> append全部加在最後一筆[-1]，extend從最後面一筆筆加上(拆開)
--`list.insert(i, x)`：將x元素插入第i個index位置
+    > append全部加在最後一筆[-1]，extend從最後面一筆筆加上(拆開)
+- `list.insert(i, x)`：將x元素插入第i個index位置
 - `list.remove(x)`：刪除list中第一個x元素(遇到的第一筆)
 - `list.pop(i)`：取出list中第i個元素，並將其刪除
 - `list.pop()`：取出list最尾端的元素，並將其刪除
@@ -115,6 +115,8 @@ list(串列)：偏向更簡單的struct
 
 #### Source
 [list 參數](https://www.brilliantcode.net/713/python3-6-list-tuple-set-dictionary/)
+
+[5.1. 進一步了解 List（串列）](https://docs.python.org/zh-tw/3/tutorial/datastructures.html#more-on-lists)
 
 [🐡~~~](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#content)
 
