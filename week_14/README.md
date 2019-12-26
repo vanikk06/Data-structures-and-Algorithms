@@ -77,7 +77,7 @@
 
 # Minimum Spanning Tree
  > 最小生成樹：關心**邊**的問題
- >> Kruskal's Algorithm：採Greedy
+ >> Kruskal's Algorithm：採Greedy Algorithm
  
  - [Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-spanning-tree-)
  - [Practice](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-practice-)
