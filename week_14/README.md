@@ -173,7 +173,7 @@ edge有weight（權重），其對應的是cost
 
 #### § Kruskal's Algorithm §
  > 解決如何生成一個「最小生成樹」的問題
- >> 是處理minimum spanning tree其中一個作法
+ >> 是處理minimum spanning tree最經典的一個作法
  
 需要決定的是「tree產生了沒」，需要在意的是：
 1. There is no cycle.
