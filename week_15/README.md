@@ -1,6 +1,4 @@
-# 黑板
-起點固定
-  > 歷程要記錄
+# Content
 
 # Adjacency Matrix
   > 鄰接矩陣
@@ -19,4 +17,11 @@
   >> 若將cost轉為時間，尋找時間最少的路徑，價格會拉高
   
 #### § Practice §
-  > 使用adjacency matrix輔助
+
+起點固定，紀錄走到vertex的cost，若走不到則記錄∞（無限大），再慢慢增加最小cost的vertex，增加的vertex與起點可以共同被取用（可用可不用）
+  > 當graph複雜，查看會很困難，使用edge表（包含weight、起點、終點）較優
+
+- 若cost大小相同，可自行制定取用順序
+  > 相同cost先後沒差，最後結果都會收斂
+- 可被取用的vertex，其cost已為最小cost，記錄重複抄寫即可
+- 新增的vertex重新計算cost的對象，只要對新增此vertex可連到vertex即可
