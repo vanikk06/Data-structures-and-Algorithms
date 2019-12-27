@@ -184,7 +184,7 @@ edge有weight（權重），其對應的是cost
    
 #### § Time Complexity §
 
-排序graph上所有的edge，為O(E log E)
+排序graph上所有的edge，為O(E log E)或O(E log V)
  > 與heap sort樹狀排序相同
  
 
