@@ -61,8 +61,6 @@
   > disjoint sets的合併及查詢
  
 功能：
- > 皆為O(log n)，平均為O(α(n))
- >> 其中α(n)是Ackermann function f(N,N) 的反函數
  - union：將兩個set做聯集，合併成一個set
  - find：尋找一個元素是在哪個set
  - split：將一個set拆成兩個set
