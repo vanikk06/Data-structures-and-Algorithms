@@ -26,3 +26,4 @@
 - 可被取用的vertex，其cost已為最小cost，記錄重複抄寫即可
   > 不須updata
 - 新增的vertex重新計算cost的對象，只要考慮新增vertex產生的所有可能path即可，再選出最小的cost
+  > 調整過的cost可自行作下標紀錄
