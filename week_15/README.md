@@ -24,4 +24,5 @@
 - 若cost大小相同，可自行制定取用順序
   > 相同cost先後沒差，最後結果都會收斂
 - 可被取用的vertex，其cost已為最小cost，記錄重複抄寫即可
+  > 不須updata
 - 新增的vertex重新計算cost的對象，只要考慮新增vertex產生的所有可能path即可，再選出最小的cost
