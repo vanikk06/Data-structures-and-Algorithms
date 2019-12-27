@@ -93,7 +93,7 @@
 
 # Minimum Spanning Tree
  > 最小生成樹：關心**邊**的問題
- >> Kruskal's Algorithm：採Greedy Algorithm
+ >> 此為Kruskal's Algorithm：採Greedy Algorithm
  
  - [Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-spanning-tree-)
  - [Practice](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#-practice-)
@@ -173,6 +173,7 @@ edge有weight（權重），其對應的是cost
 
 #### § Kruskal's Algorithm §
  > 解決如何生成一個「最小生成樹」的問題
+ >> 是處理minimum spanning tree其中一個作法
  
 需要決定的是「tree產生了沒」，需要在意的是：
 1. There is no cycle.
