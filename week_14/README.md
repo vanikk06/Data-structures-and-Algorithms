@@ -183,11 +183,12 @@ edge有weight（權重），其對應的是cost
    > 2. 建tree時，呼叫BFS/DFS走訪（若連通，即可走完每個點）
    
 #### § Time Complexity §
+ > O(E log E)或O(E log V)
 
-排序graph上所有的edge，為O(E log E)或O(E log V)
- > 與heap sort樹狀排序相同
- 
+- 前面的E：要先排序edge，所以會先走訪完全部的邊
 
+- 後面的E/V： E = V-1（1過小可忽略），所以E = V
+- log：每走訪一個E/V次數是隨log指數減少的
  
  #### Source
  [維基百科_克魯斯克爾演算法](https://zh.wikipedia.org/wiki/%E5%85%8B%E9%B2%81%E6%96%AF%E5%85%8B%E5%B0%94%E6%BC%94%E7%AE%97%E6%B3%95)
