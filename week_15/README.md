@@ -20,6 +20,8 @@
 
 起點固定，紀錄走到vertex的cost，若走不到則記錄∞（無限大），再慢慢增加最小cost的vertex，增加的vertex與起點可以共同被取用（可用可不用）
   > 當graph複雜，查看會很困難，使用edge表（包含weight、起點、終點）較優
+  
+ ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/image/output_HGOiV3.gif)
 
 - 若cost大小相同，可自行制定取用順序
   > 相同cost先後沒差，最後結果都會收斂
