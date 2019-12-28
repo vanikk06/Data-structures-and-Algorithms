@@ -35,3 +35,8 @@
 #### § Exercise §
 
 #### Source
+[Dijkstra’s shortest path algorithm | Greedy Algo-7](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)
+
+[Question: Link State Routing Algorithm With Dijkstra's Algorithm. Please Provide The Forwarding Table And Explain How It Was Obtained](https://www.chegg.com/homework-help/questions-and-answers/link-state-routing-algorithm-dijkstra-s-algorithm-please-provide-forwarding-table-explain--q26034913)
+
+[Dijkstra Algorithm Example](https://www.youtube.com/watch?v=0nVYi3o161A&feature=emb_logo)
