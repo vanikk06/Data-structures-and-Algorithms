@@ -3,6 +3,8 @@
  
  [CS50](http://cs50.tv/2013/fall/#about,seminars)
  
+ [PecuLab](https://www.peculab.org/)
+ 
  [Pecu Tsai](https://medium.com/@pecutsai)
  
  [Teacher's github](https://github.com/pecu/DSA)
