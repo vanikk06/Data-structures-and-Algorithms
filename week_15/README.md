@@ -33,7 +33,11 @@
   > 調整過的cost可自行作下標紀錄
 
 #### § Exercise §
-
+- 加入edge表格
+  > 小心，edge為無向，只要連結都要考慮
+  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/image/output_8P7AbS.gif)
+  
+  
 #### Source
 [Dijkstra’s shortest path algorithm | Greedy Algo-7](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)
 
