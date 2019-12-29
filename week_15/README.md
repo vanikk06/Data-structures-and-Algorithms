@@ -35,6 +35,7 @@
 #### § Exercise §
 - 加入edge表格
   > 小心，edge為無向，只要連結都要考慮
+  
   ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/image/output_8P7AbS.gif)
   
   
