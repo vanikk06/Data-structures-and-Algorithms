@@ -1,32 +1,14 @@
 # Content
- - [Greedy Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#greedy-algorithm)
  - [sort vs. sorted](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#sort-vs-sorted)
+ - [Greedy Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#greedy-algorithm)
  - [Disjoint Sets](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#disjoint-sets)
  - [Minimum Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#minimum-spanning-tree)
 
-# Greedy Algorithm
- > 貪婪演算法、貪心演算法
- >> 尋找「最佳解」的方法
- 
- 尋找方法：在每一步選擇中都採取**當前看起來最好的選擇**，進而希望最終答案是**最佳的**方法
-  > 不斷的改進解答，直到無法改進為止
-  
- 使用此演算法的前提是，必須確保局部最佳解能解決全域最佳解
-  > 簡單的說，問題能夠分解為子問題來解決，子問題的最佳解能遞推到最終問題的最佳解
-  
- 可以解決一些最佳化問題，但一般無法得到理想中的答案（沒有測試所有可能的解，容易**過早做決定**，因而無法達到最佳解）
-  > 可解決e.g. Minimal Spanning Tree、Huffman Coding（哈夫曼編碼）...
-  >> 一個問題如果可以通過greedy algorithm來解決，那通常greedy algorithm是解決此問題的最好辦法
- 
+
+# key vs. value
 
 #### Source
-[貪婪演算法](https://zh.wikipedia.org/wiki/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)
-
-[貪婪演算法(Greedy)](https://www.csie.ntu.edu.tw/~b98902112/cpp_and_algo/cpp02/greedy.html)
-
-[貪婪式演算法的原理](http://ccckmit.wikidot.com/so:greedyalgorithm)
-
-[👪](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
+[Python基礎——字典中由value查key的幾點說明](https://blog.csdn.net/ywx1832990/article/details/79145576)
 
 # sort vs. sorted
  > 排序對象要屬於相同資料型態
@@ -98,6 +80,31 @@ dict內元素本身為無序，若想依照某個特定的順序來取用dict內
 [python sort、sorted高階排序技巧](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/373191/)
 
 [👨‍👩‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
+
+# Greedy Algorithm
+ > 貪婪演算法、貪心演算法
+ >> 尋找「最佳解」的方法
+ 
+ 尋找方法：在每一步選擇中都採取**當前看起來最好的選擇**，進而希望最終答案是**最佳的**方法
+  > 不斷的改進解答，直到無法改進為止
+  
+ 使用此演算法的前提是，必須確保局部最佳解能解決全域最佳解
+  > 簡單的說，問題能夠分解為子問題來解決，子問題的最佳解能遞推到最終問題的最佳解
+  
+ 可以解決一些最佳化問題，但一般無法得到理想中的答案（沒有測試所有可能的解，容易**過早做決定**，因而無法達到最佳解）
+  > 可解決e.g. Minimal Spanning Tree、Huffman Coding（哈夫曼編碼）...
+  >> 一個問題如果可以通過greedy algorithm來解決，那通常greedy algorithm是解決此問題的最好辦法
+ 
+
+#### Source
+[貪婪演算法](https://zh.wikipedia.org/wiki/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)
+
+[貪婪演算法(Greedy)](https://www.csie.ntu.edu.tw/~b98902112/cpp_and_algo/cpp02/greedy.html)
+
+[貪婪式演算法的原理](http://ccckmit.wikidot.com/so:greedyalgorithm)
+
+[👪](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
+
 
 # Disjoint Sets
  > 互斥集合、併查集\
