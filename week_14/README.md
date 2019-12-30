@@ -81,6 +81,7 @@ dict內元素本身為無序，若想依照某個特定的順序來取用dict內
 
 使用key參數來指定排序之前要跳用的函式\
 在`sorted()`函式的key參數稱為`key function`，可以自行指定排序依據的函數，當`sorted()`與`key function`搭配使用，`sorted()`會將所有要排序標的中的元素一個個丟進`key function`中，得到和標的元素一樣多的回傳值，再根據這些回傳值對原始的標的進行排序
+> 因為是根據`key function`的回傳值進行排序，因此`function`的參數只能是list當中的**元素**，而不是整個list
 
 
 
