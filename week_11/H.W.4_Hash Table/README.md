@@ -39,6 +39,7 @@
   - array內儲存linked list，index由MD5決定
   - linked list內儲存int
 
+[➕](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table#content)
 
 # Error
 
@@ -67,6 +68,8 @@ index不存在array中，操作的index超過範圍
 
 #### Source
 [LeetCode介紹](https://arton0306blog.wordpress.com/2018/04/15/leetcode%E4%BB%8B%E7%B4%B9/)
+
+[➖](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table#content)
 
 # Code
   > 使用兩個class，一個MD5套件
@@ -144,6 +147,8 @@ index不存在array中，操作的index超過範圍
     - 如果指標值與目標搜尋值相同，回傳True
     - 若搜尋到最後一個皆無找到相同，回傳False
 
+[✖](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table#content)
+
 # Demo
 - add
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575385042454.jpg)
@@ -151,3 +156,5 @@ index不存在array中，操作的index超過範圍
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575385083737.jpg)
 - contains
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/image/1575385110448.jpg)
+
+[➗](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table#content)
