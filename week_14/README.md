@@ -170,7 +170,8 @@ dict內元素本身為無序，若想依照某個特定的順序來取用dict內
 將複雜問題簡化到graph的問題上，讓graph的edge數字，可以代表某種cost（可將所有可能情形疊加在graph）
  > e.g.花費時間、花費金額...
  
- 建立最佳選擇之前，要有一個lower burden（最低負擔）的評估模式
+ 建立最佳選擇之前，要有一個lower burden（最低負擔）的評估模式\
+ 以最小的cost走訪完每個vertex
 
 - Minimum Spanning Tree：將複雜問題映射到圖論的問題上，並將最低的花費、成本考量進來
   > 可保留minimum cost，進而規劃後面的資源
