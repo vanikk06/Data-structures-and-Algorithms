@@ -79,7 +79,10 @@ dict內元素本身為無序，若想依照某個特定的順序來取用dict內
 
 ##### 以value排序
 
-使用key參數來指定
+使用key參數來指定排序之前要跳用的函式\
+在`sorted()`函式的key參數稱為`key function`，可以自行指定排序依據的函數，當`sorted()`與`key function`搭配使用，`sorted()`會將所有要排序標的中的元素一個個丟進`key function`中，得到和標的元素一樣多的回傳值，再根據這些回傳值對原始的標的進行排序
+
+
 
 #### Source
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
