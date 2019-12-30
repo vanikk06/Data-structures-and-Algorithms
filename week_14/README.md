@@ -97,6 +97,35 @@ sorted(d.items(), key=lambda d: d[1])
          > 在此為`d[1]`
          >> 意思為，當這個`key function`每次拿到一個tuple作為參數，就取出index為1的值回傳
 
+- 範例，建立dict
+   ```python
+   d = {}
+   d['45'] = 4
+   d['1'] = 1
+   d['52'] = 2
+   d['76'] = 5
+   d['30'] = 3
+   d
+   ```
+   回傳
+   ```python
+   {'45': 4, '1': 1, '52': 2, '76': 5, '30': 3}
+   ```
+   搭配`lambda function`對`value`進行排序
+   ```python
+   test = sorted(d.items(), key=lambda d:d[1])
+   
+   temp = {}
+   for i in range(len(test)):
+        temp[test[i][0]] = test[i][1]
+
+   temp
+   ```
+   回傳
+   ```python
+   {'1': 1, '52': 2, '30': 3, '45': 4, '76': 5}
+   ```
+
 #### Source
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
 
