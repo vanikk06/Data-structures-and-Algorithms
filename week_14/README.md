@@ -79,7 +79,7 @@ dict內元素本身為無序，若想依照某個特定的順序來取用dict內
 
 [python sort、sorted高階排序技巧](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/373191/)
 
-[👨‍👩‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
+[👨‍👩‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
 # Greedy Algorithm
  > 貪婪演算法、貪心演算法
@@ -103,7 +103,7 @@ dict內元素本身為無序，若想依照某個特定的順序來取用dict內
 
 [貪婪式演算法的原理](http://ccckmit.wikidot.com/so:greedyalgorithm)
 
-[👪](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
+[👪](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
 
 # Disjoint Sets
@@ -145,7 +145,7 @@ dict內元素本身為無序，若想依照某個特定的順序來取用dict內
 
 [普林斯頓課程學習筆記1 Union-find](https://medium.com/@gxyou45/algorithm%E6%99%AE%E6%9E%97%E6%96%AF%E9%A0%93%E8%AA%B2%E7%A8%8B%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%981-union-find-5af7911ca5ef)
 
-[👨‍👩‍👧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
+[👨‍👩‍👧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
 # Minimum Spanning Tree
  > 最小生成樹：關心**邊**的問題
