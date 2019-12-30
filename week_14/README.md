@@ -79,6 +79,7 @@ dict內元素本身為無序，若想依照某個特定的順序來取用dict內
 
 ##### 以value排序
 
+使用key參數來指定
 
 #### Source
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
