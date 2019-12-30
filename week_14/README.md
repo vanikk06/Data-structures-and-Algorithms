@@ -42,6 +42,46 @@
 
 不設定任何條件的話，字串會按照字母排序排列、數字則會遞增排列
   > 相反：`reverse=True`
+  
+#### dict sorted
+
+dict內元素本身為無序，若想依照某個特定的順序來取用dict內的元素，則需要使用`for`迴圈 + `sorted()`對其進行排序
+
+舉例，直接對dict執行`sorted()`
+```python
+d = {}
+d[4] = 'four'
+d[1] = 'one'
+d[2] = 'two'
+d[5] = 'five'
+d[3] = 'three'
+d
+```
+```python
+{4: 'four', 1: 'one', 2: 'two', 5: 'five', 3: 'three'}
+```
+```python
+test = sorted(d)
+print(test)
+print(type(test))
+```
+```python
+[1, 2, 3, 4, 5]
+<class 'list'>
+```
+直接進行`sorted()`，只會對dict的所有`key`值作排序，而非將`key`與`value`一同排序\
+因此需要搭配`for`迴圈，依照已排序好的`key`值找其對應到的`value`
+```python
+sorted_d = dict()
+
+for i in sorted(d):
+    sorted_d[i] = d[i]
+
+sorted_d
+```
+```python
+{1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five'}
+```
 
 #### Source
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
@@ -49,6 +89,8 @@
 [Python 初學第六講 — 串列的更多操作](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f1b4e7d2e5ac)
 
 [python sort()和sorted()區別](https://kknews.cc/zh-tw/code/p6mo3xp.html)
+
+[python sort、sorted高階排序技巧](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/373191/)
 
 [👨‍👩‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
 
