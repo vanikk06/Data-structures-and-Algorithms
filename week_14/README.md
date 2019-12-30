@@ -4,6 +4,14 @@
  - [Disjoint Sets](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#disjoint-sets)
  - [Minimum Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#minimum-spanning-tree)
 
+# split
+
+#### Source
+[Python中的split()函數的用法](https://www.itread01.com/content/1531306711.html)
+
+[Python中的split()函數的使用方法](https://blog.csdn.net/JohinieLi/article/details/76196882)
+
+[👨‍👩‍👧‍👧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
 # key vs. value
 
