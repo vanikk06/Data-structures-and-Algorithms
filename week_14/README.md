@@ -112,6 +112,7 @@ sorted(d.items(), key=lambda d: d[1])
    {'45': 4, '1': 1, '52': 2, '76': 5, '30': 3}
    ```
    搭配`lambda function`對`value`進行排序
+    > `sorted()`的回傳值為list，再搭配`for`迴圈的方式將其轉回dict
    ```python
    test = sorted(d.items(), key=lambda d:d[1])
    
