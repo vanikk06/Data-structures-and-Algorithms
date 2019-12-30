@@ -30,6 +30,8 @@
   
 #### dict sorted
 
+- [以key排序](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#%E4%BB%A5key%E6%8E%92%E5%BA%8F)
+- [以value排序](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#%E4%BB%A5value%E6%8E%92%E5%BA%8F)
 
 ##### 以key排序
 dict內元素本身為無序，若想依照某個特定的順序來取用dict內的元素，則需要使用`for`迴圈 + `sorted()`對其進行排序
