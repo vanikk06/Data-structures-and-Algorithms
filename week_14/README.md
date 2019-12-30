@@ -83,7 +83,19 @@ dict內元素本身為無序，若想依照某個特定的順序來取用dict內
 在`sorted()`函式的key參數稱為`key function`，可以自行指定排序依據的函數，當`sorted()`與`key function`搭配使用，`sorted()`會將所有要排序標的中的元素一個個丟進`key function`中，得到和標的元素一樣多的回傳值，再根據這些回傳值對原始的標的進行排序
 > 因為是根據`key function`的回傳值進行排序，因此`function`的參數只能是list當中的**元素**，而不是整個list
 
-
+```python
+sorted(d.items(), key=lambda d: d[1])
+```
+ - `items()`：存取dict當中所有的`key-value`元素
+   > 回傳值為一個list，其元素皆為tuple形式的`(key, value)`
+   
+在此`key function`使用的是一個十分特別的function，叫作`lambda function`
+ - `lambda function`：簡化的function定義方式
+      - 在`lambda`後面的值：是這個function的參數
+         > 在此為`d`
+      - `:`後面的值：這個function的回傳值
+         > 在此為`d[1]`
+         >> 意思為，當這個`key function`每次拿到一個tuple作為參數，就取出index為1的值回傳
 
 #### Source
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
