@@ -47,41 +47,45 @@
 
 dict內元素本身為無序，若想依照某個特定的順序來取用dict內的元素，則需要使用`for`迴圈 + `sorted()`對其進行排序
 
-舉例，直接對dict執行`sorted()`
-```python
-d = {}
-d[4] = 'four'
-d[1] = 'one'
-d[2] = 'two'
-d[5] = 'five'
-d[3] = 'three'
-d
-```
-```python
-{4: 'four', 1: 'one', 2: 'two', 5: 'five', 3: 'three'}
-```
-```python
-test = sorted(d)
-print(test)
-print(type(test))
-```
-```python
-[1, 2, 3, 4, 5]
-<class 'list'>
-```
+- 舉例，直接對dict執行`sorted()`
+ ```python
+ d = {}
+ d[4] = 'four'
+ d[1] = 'one'
+ d[2] = 'two'
+ d[5] = 'five'
+ d[3] = 'three'
+ d
+ ```
+ 回傳：
+ ```python
+ {4: 'four', 1: 'one', 2: 'two', 5: 'five', 3: 'three'}
+ ```
+ 使用`sorted()`排序
+ ```python
+ test = sorted(d)
+ print(test)
+ print(type(test))
+ ```
+ 回傳：
+ ```python
+ [1, 2, 3, 4, 5]
+ <class 'list'>
+ ```
 直接進行`sorted()`，只會對dict的所有`key`值作排序，而非將`key`與`value`一同排序\
 因此需要搭配`for`迴圈，依照已排序好的`key`值找其對應到的`value`
-```python
-sorted_d = dict()
+ ```python
+ sorted_d = dict()
 
-for i in sorted(d):
-    sorted_d[i] = d[i]
+ for i in sorted(d):
+     sorted_d[i] = d[i]
 
-sorted_d
-```
-```python
-{1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five'}
-```
+ sorted_d
+ ```
+ 回傳：
+ ```python
+ {1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five'}
+ ```
 
 #### Source
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
