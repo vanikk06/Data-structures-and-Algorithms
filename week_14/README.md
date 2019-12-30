@@ -16,11 +16,11 @@
 # sort vs. sorted
  > 排序對象要屬於相同資料型態
 
-- `list.sort(key=None, reverse=False)`
+- `list.sort(reverse=False, key=None)`
   > list內建的排序方法（限用list）
   >> 此函式會直接變動到原始的資料內容
  
-- `sorted(list, key=None, reverse=False)`
+- `sorted(list,  reverse=False, key=None)`
   > python內建**全域性**的排序方法（對所有可迭代序列皆有效）
   >> 此函示不會變動到原始的資料內容\
   要使用變數來儲存回傳值
