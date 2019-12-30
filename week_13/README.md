@@ -10,12 +10,12 @@
 
 
 # Content
- - [if＿name＿ == ＿main＿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#if-%EF%BC%BFname%EF%BC%BF--%EF%BC%BFmain%EF%BC%BF)
- - [defaultdict](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#defaultdict)
- - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#class-notes)
- - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#depth-first-search)
- - [BFS vs. DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#bfs-vs-dfs)
- - [Adjustment of Design DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#adjustment-of-design-dfs)
+ - [if＿name＿ == ＿main＿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#if-%EF%BC%BFname%EF%BC%BF--%EF%BC%BFmain%EF%BC%BF)
+ - [defaultdict](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#defaultdict)
+ - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#class-notes)
+ - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#depth-first-search)
+ - [BFS vs. DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#bfs-vs-dfs)
+ - [Adjustment of Design DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#adjustment-of-design-dfs)
 
 
 
@@ -37,7 +37,7 @@
 
 [Python之父教你寫main()函數](https://codingpy.com/article/guido-shows-how-to-write-main-function/)
 
-[🥧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
+[🥧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#content)
 
 # defaultdict
 
@@ -62,7 +62,7 @@ defaultdict是dict的子類別，繼承dict的所有方法，並進行擴充
 
 [collections雜談之一 ——— dict的key值存不存在乾我屁事](https://ithelp.ithome.com.tw/articles/10193094)
 
-[🍦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
+[🍦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#content)
 
 # Class notes
 - 達克效應（Dunning-Kruger effect）
@@ -73,7 +73,7 @@ defaultdict是dict的子類別，繼承dict的所有方法，並進行擴充
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/1576490775235.jpg)
 
-[🍧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
+[🍧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#content)
 
 # Depth-First Search
  > DFS：深度優先搜尋，使用Pre-Order Traversal
@@ -131,7 +131,7 @@ DFS：使用**stack**紀錄連結到的其他點
 
 [圖片來源_Practice](http://alrightchiu.github.io/SecondRound/graph-breadth-first-searchbfsguang-du-you-xian-sou-xun.html)
 
-[🍨](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
+[🍨](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#content)
 
 # BFS vs. DFS
 
@@ -171,7 +171,7 @@ DFS：使用**stack**紀錄連結到的其他點
 [DFS && BFS算法学习总结](https://www.jianshu.com/p/8c71c3a2b1a2)
 
 
-[🍩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
+[🍩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#content)
 
 # Adjustment of Design DFS
  > 優化作業五DFS程式碼
@@ -205,4 +205,4 @@ P.S.此處沒有使用`defaultdict`套件，當input的key不存在字典內時�
 
 [Python判斷值是否在list或set中的效能對比分析](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/369163/)
 
-[🍪](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#content)
+[🍪](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#content)
