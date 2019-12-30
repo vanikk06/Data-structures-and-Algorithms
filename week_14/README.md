@@ -30,6 +30,8 @@
   
 #### dict sorted
 
+
+##### 以key排序
 dict內元素本身為無序，若想依照某個特定的順序來取用dict內的元素，則需要使用`for`迴圈 + `sorted()`對其進行排序
 
 - 舉例，直接對dict執行`sorted()`
@@ -72,6 +74,9 @@ dict內元素本身為無序，若想依照某個特定的順序來取用dict內
    ```python
    {1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five'}
    ```
+
+##### 以value排序
+
 
 #### Source
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
