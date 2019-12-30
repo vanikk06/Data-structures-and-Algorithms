@@ -10,6 +10,9 @@
 #### Source
 [Python基礎——字典中由value查key的幾點說明](https://blog.csdn.net/ywx1832990/article/details/79145576)
 
+[👨‍👩‍👦‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
+
+
 # sort vs. sorted
  > 排序對象要屬於相同資料型態
 
@@ -262,4 +265,4 @@ edge有weight（權重），其對應的是cost
 
 [Spanning Tree](http://www.csie.ntnu.edu.tw/~u91029/SpanningTree.html)
 
-[👨‍👩‍👧‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/README.md#content)
+[👨‍👩‍👧‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
