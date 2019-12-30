@@ -133,6 +133,8 @@ sorted(d.items(), key=lambda d: d[1])
 
 [python sort、sorted高階排序技巧](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/373191/)
 
+[排序指南](https://docs.python.org/zh-cn/3/howto/sorting.html)
+
 [👨‍👩‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
 # Greedy Algorithm
