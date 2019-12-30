@@ -13,3 +13,6 @@
 Dijkstra先建一個權重的matrix（index由由0開始，為nxn矩陣）
   > 回傳值：input到每vertex的最短距離
   >> type dictionary
+
+Kruskal建立edge不侷限用defaultdict
+   > 回傳值：從最小的weight開始，起點-終點（小-大）
