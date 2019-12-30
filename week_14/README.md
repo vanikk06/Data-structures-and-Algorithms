@@ -74,18 +74,18 @@ dict內元素本身為無序，若想依照某個特定的順序來取用dict內
    ```
 直接進行`sorted()`，只會對dict的所有`key`值作排序，而非將`key`與`value`一同排序\
 因此需要搭配`for`迴圈，依照已排序好的`key`值找其對應到的`value`
-   ```python
-   sorted_d = dict()
+    ```python
+    sorted_d = dict()
 
-   for i in sorted(d):
-       sorted_d[i] = d[i]
+    for i in sorted(d):
+        sorted_d[i] = d[i]
 
-   sorted_d
-   ```
-   回傳：
-   ```python
-   {1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five'}
-   ```
+    sorted_d
+    ```
+    回傳：
+    ```python
+    {1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five'}
+    ```
 
 #### Source
 [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
