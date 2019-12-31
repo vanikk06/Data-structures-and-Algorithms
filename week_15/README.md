@@ -1,5 +1,142 @@
 # Content
 
+# isinstance vs. type
+
+
+#### Source
+[python-isinstance和type的用法和区别](https://www.jianshu.com/p/1f59c4cc3876)
+
+# copy
+  > 對list進行複製
+
+複製可區分為「深拷貝」與「淺拷貝」，兩者的差異在於「對新list的變動是否會影響到原本的list」
+  > 兩個list在記憶體中是否儲存在同一個區域
+  - 深拷貝：兩者完全無關
+  - 淺拷貝：在巢狀list，內層仍會有影響
+
+#### code
+- 非拷貝方式：使用`=`賦值
+   > 以此方式，兩個list是等價的
+   ```python
+   old = [1, [1, 2, 3], 3]
+   new = old
+   print('Before:')
+   print(old)
+   print(new)
+   new[0] = 3
+   new[1][0] = 3
+   print('After:')
+   print(old)
+   print(new)
+   ```
+   輸出
+   ```python
+   Before:
+   [1, [1, 2, 3], 3]
+   [1, [1, 2, 3], 3]
+   After:
+   [3, [3, 2, 3], 3]
+   [3, [3, 2, 3], 3]
+   ```
+- 淺拷貝：在內層仍會相互影響
+    > 僅拷貝第一層的資料，若第一層的資料中存在list（內層的list），則會因為list內儲存的是記憶體位置，複製會直接複製記憶體位置，因此在內層的list仍會指向相同的記憶體位置
+    
+    - `copy()`：複製list
+        ```python
+        old = [1, [1, 2, 3], 3]
+        new = old.copy()
+        print('Before:')
+        print(old)
+        print(new)
+        new[0] = 3
+        new[1][0] = 3
+        print('After:')
+        print(old)
+        print(new)
+        ```
+        輸出
+        ```python
+        Before:
+        [1, [1, 2, 3], 3]
+        [1, [1, 2, 3], 3]
+        After:
+        [1, [3, 2, 3], 3]
+        [3, [3, 2, 3], 3]
+        ```
+    - 使用解析式列表生成：
+        ```python
+        old = [1, [1, 2, 3], 3]
+        new = [i for i in old]
+        print('Before:')
+        print(old)
+        print(new)
+        new[0] = 3
+        new[1][0] = 3
+        print('After:')
+        print(old)
+        print(new)
+        ```
+        輸出
+        ```python
+        Before:
+        [1, [1, 2, 3], 3]
+        [1, [1, 2, 3], 3]
+        After:
+        [1, [3, 2, 3], 3]
+        [3, [3, 2, 3], 3]
+        ```
+    - 使用`for`迴圈遍歷：將元素一個個新增到新的list中
+        ```python
+        old = [1, [1, 2, 3], 3]
+        new = []
+        for i in range(len(old)):
+            new.append(old[i])
+        print('Before:')
+        print(old)
+        print(new)
+        new[0] = 3
+        new[1][0] = 3
+        print('After:')
+        print(old)
+        print(new)        
+        ```
+        輸出
+        ```python
+        Before:
+        [1, [1, 2, 3], 3]
+        [1, [1, 2, 3], 3]
+        After:
+        [1, [3, 2, 3], 3]
+        [3, [3, 2, 3], 3]
+        ```
+    - 使用`[:]`切片：
+         ```python
+         old = [1, [1, 2, 3], 3]
+         new = old[:]
+         print('Before:')
+         print(old)
+         print(new)
+         new[0] = 3
+         new[1][0] = 3
+         print('After:')
+         print(old)
+         print(new)
+         ```
+         輸出
+         ```python
+          Before:
+          [1, [1, 2, 3], 3]
+          [1, [1, 2, 3], 3]
+          After:
+          [1, [3, 2, 3], 3]
+          [3, [3, 2, 3], 3]
+         ```
+    
+    
+
+#### Source
+[深入淺析Python中list的複製及深拷貝與淺拷貝](https://www.itread01.com/article/1535941191.html)
+
 # Adjacency Matrix
   > 鄰接矩陣
 
