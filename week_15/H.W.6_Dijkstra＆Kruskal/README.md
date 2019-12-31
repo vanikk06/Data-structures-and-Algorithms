@@ -31,3 +31,47 @@ Kruskal建立edge不侷限用defaultdict
 
 #### Source
 [Python初學者錯誤：TypeError: unsupported operand type(s) for +: 'int' and 'str'](https://blog.csdn.net/foryouslgme/article/details/51536882)
+
+
+ - ⭐assignment⭐
+    > 指派、賦值
+   
+   在python中`=`代表的是一個指派、賦值的動作，讓變數在記憶體中定址\
+   當執行兩個變數相互指派的程式碼時，代表的是讓**兩個變數定址在相同的記憶體位置**\
+   ```python 
+   a = [3]
+   b = []
+   
+   b = a
+   b.append(7)
+   
+   print('a = ', a)
+   print('b = ', b)
+   print( a is b )
+   ```
+   因為是在相同的記憶體位置，因此對其中一個變數作出變動時，會直接影響到另一個變數
+   ```python
+   a =  [3, 7]
+   b =  [3, 7]
+   True
+   ```
+   如果想要將a變數的值儲存到b變數內，但不想讓對b變動的變動影響到a變數的話，可以使用`.copy()`函式
+    ```python 
+   a = [3]
+   c = []
+   
+   c = a.copy()
+   c.append(8)
+   
+   print('a = ', a)
+   print('c = ', c)
+   print( a is c )
+   ```
+   結果
+   ```python
+   a =  [3, 7]
+   c =  [3, 7, 8]
+   False
+   ```
+
+
