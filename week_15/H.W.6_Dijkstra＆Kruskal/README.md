@@ -74,4 +74,24 @@ Kruskal建立edge不侷限用defaultdict
    False
    ```
 
+# Code
+
+使用`collections.defaultdict`套件
+
+- `__init__`：基本屬性
+    - .V：vertex個數
+    - .graph：Dijkstra使用之adjacency matrix
+    - .graph1：Kruskal使用之字典，資料類型為`defaultdict`，參數為int
+    - .graph_matrix：Dijkstra使用之紀錄cost的矩陣
+
+- `addEdge`：建立edge，有三個參數
+    - u：src，起點
+    - v：dest，終點
+    - w：weight/cost，權重、成本
+- `Dijkstra`：最短路徑
+    > 有一個參數：起點
+    
+    
+    
+
 
