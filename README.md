@@ -228,7 +228,7 @@
 # week_11 Hash Table
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11)
 
-- [Coding](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#coding)
+- [Coding](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11#coding)
 - [Hash Table Ⅰ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B0)
 - [Hash Table Ⅱ](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#hash-table-%E2%85%B1)
 - [BlockChain](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#blockchain)
@@ -297,7 +297,7 @@
 [💂🏻‍♀️💂🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 
-# week_14
+# week_14 Minimum Spanning Tree
 [👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14)
 
 
@@ -305,7 +305,7 @@
 [👮🏻‍♀️👮🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 
-# week_15 
+# week_15 Shortest Path
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15)
 
 [👩🏻‍🎓👨🏻‍🎓](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
