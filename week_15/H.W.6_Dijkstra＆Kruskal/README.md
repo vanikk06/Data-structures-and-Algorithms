@@ -153,9 +153,26 @@ Kruskal建立edge不侷限用defaultdict
                         
                      - No：執行下一個
           
-                
-        - Yes：
-    
+            更新完增加min_index對起點到vertex的cost產生的變化後，要再從中找出這次最小的cost
+            - 如果還沒找出所有vertex的最短路徑：
+                創立一個temp變數，資料類型為list
+                - 一個個對vertex進行判斷
+                    - 將未找出最短路徑vertex的cost放入temp中
+                        > 不存在在checked裡面
+                        >> 有兩種情形：
+                        >> 1. 已與起點建立連結，但還未找到最短路徑
+                        >> 2. 未與起點建立連結
+                找出temp中的最小值
+             
+             將這次處理完的min_index存入s中
+              > s：上一個找到最小路徑的vertex  
+                        
+                    
+        - Yes：跳出迴圈
+        
+    建立一個空的字典，命名為SP\
+    一個個將vertex與起點到其的最短路徑轉換成字典格式\
+    回傳SP
     
     
 
