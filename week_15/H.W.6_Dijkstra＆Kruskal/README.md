@@ -92,6 +92,11 @@ Kruskal建立edge不侷限用defaultdict
     - u：src，起點
     - v：dest，終點
     - w：weight/cost，權重、成本
+    
+        將edge加入graph1的字典中\
+        - key：src - dest
+        - value：weight/cost
+    
 - `Dijkstra`：最短路徑
     > 有一個參數：起點
     - s：起點/上一個找到最小路徑的vertex
@@ -175,6 +180,63 @@ Kruskal建立edge不侷限用defaultdict
     一個個將vertex與起點到其的最短路徑轉換成字典格式\
     回傳SP
     
-    
+- `Kruskal`：最小生成樹
+   - sort_graph：依weight/cost大小排序的list
+      > data為(key, value)
+   - src：起點list，index是按照sort_graph大小順序的edge
+   - dest：終點list，index是按照sort_graph大小順序的edge
+      > src[0]與dest[0]是weight/cost最小之edge的起點與終點
+   - root：disjoint sets，資料類型為list，index為vertex，data為vertex之root
+      > 預設值為-1
+      >> 相同root代表vertex為相同的集合
+   - edge：紀錄要採用的edge，data為對應sort_graph的index
+   - j：int，排序後第j條edge，輔助走訪src與dest
+      > 從0開始，最大值為edge個數
 
+   利用`addEge(u,v,w)`建立vertex之間的連結，並依照graph1中value的大小，由小到大重新排序
+   
+   - 判斷edge的個數是否滿足vertex-1:
+        - No：返回
+            > edge不足無法形成spanning tree
+            >> vertex並非完全連通
+        - Yes：往下繼續執行
+    
+   建立src與dest變數，拆解已排序的sort_graph，按照edge由小到大的順序，依序加入edge的起點與終點
+   
+   建立root變數，其長度與vertex個數相同\
+   建立一個空的list名為edge，並創立一個變數j
+   
+   使用`while`迴圈，操作root，一個個判斷edge，若採用即放到edge變數中，直到edge變數中的edge可以走訪完所有的vertex
+    > 判斷關鍵：
+    > 1. 是否會產生cycle
+    >> cycle情況：
+    >> - 起點與終點已是相同的root
+    >> - 起點已是終點的root
+    > 2. 從任一vertex出發，是否可以走訪完所有vertex
+   - edge變數是否可以滿足spanning tree的生成：
+        - No：進入迴圈
+            - 第j條edge的終點其root為預設值
+                > 有兩種可能：\
+                > 1. 尚未變動過
+                > 2. 其本身是root
+                
+               - 進一步判斷第j條edge的起點是否已存在root：
+                   - Yes：將終點放置與起點相同的root
+                      > 
+                   - No：將終點的root設為起點
+                      > 要小心，有可能終點已經是別的vertex的root
+                      檢查root變數中是否存在以此終點為root的情形\
+                      若存在，依次將他們的root更改為此終點之起點
+                將第j條edge，加入edge變數中
+                
+            - 第j條edge「終點的root已為其起點」或是「終點的root已為起點的root」
+                - Yes：跳過此條edge，往下一條edge繼續執行
+                    > 若加入此edge，會產生cycle
+            - 非上述兩個情形
+                - 判斷第j條edge的起點是否已存在root：
+                    - Yes：
+                    - No：
+            
+                
+        - Yes：
 
