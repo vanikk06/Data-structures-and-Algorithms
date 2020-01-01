@@ -34,8 +34,8 @@
  - [week_12 Breadth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms#week_12-breadth-first-search)
  - [week_13 Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms#week_13-depth-first-search)
      - [H.W.5_BFS＆DFS](https://github.com/vanikk06/Data-structures-and-Algorithms#hw5_bfsdfs)
- - []()
- - []()
+ - [week_14 Minimum Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms#week_14-minimum-spanning-tree)
+ - [week_15 Shortest Path](https://github.com/vanikk06/Data-structures-and-Algorithms#week_15-shortest-path)
  
  
  
@@ -309,3 +309,14 @@
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15)
 
 [👩🏻‍🎓👨🏻‍🎓](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+
+## H.W.6_Dijkstra＆Kruskal
+[🤜🏻HERE🤛🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal)
+
+[👩🏻‍🌾👨🏻‍🌾](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+
+
+# week_16
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16)
+
+[🧛🏻‍♀️🧛🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
