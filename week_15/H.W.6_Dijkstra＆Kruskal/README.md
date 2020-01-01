@@ -134,9 +134,24 @@ Kruskal建立edge不侷限用defaultdict
                     - 如果fix_min_index不存在：將上一個vertex的cost紀錄複製到fix_min_index
                  
                     將fix_min_index中第一個符合min_cost的vertex移除\
-                    找出下一個符合min_cost的vertex
-             
+                    找出下一個符合min_cost的vertex             
                 - No：往下繼續執行
+          將此次要尋找最短路徑的vertex加入checked裡面\
+          先複製前一個vertex的cost紀錄到min_index的cost紀錄，再使用`for`迴圈一個個檢查增加min_index對每個vertex的最短路徑是否有要更新
+            - 一個個查看min_index與每個vertex之間的關係
+                - 已經存在在checked裡面：跳過，執行下一個
+                   > 存在：已找出最短路徑
+                 - vertex是否與min_index有連結：
+                     - Yes：需要進一步判斷，此連結對原本的cost紀錄造成何種影響
+                        > 會有兩種情形
+                        - 原本與起點沒連結，但因min_index所以產生連結：此vertex的cost，為「起點到min_index的cost」加上「min_index到vertex的cost」
+                        - 原本與起點已有連結，但因min_index所以產生新的連結選項：
+                           - 判斷vertex新的連結方式的cost是否小於原本的cost
+                              - Yes：更新cost
+                                  > 新cost為「起點到min_index的cost」加上「min_index到vertex的cost」
+                              - No：保持原本cost
+                        
+                     - No：執行下一個
           
                 
         - Yes：
