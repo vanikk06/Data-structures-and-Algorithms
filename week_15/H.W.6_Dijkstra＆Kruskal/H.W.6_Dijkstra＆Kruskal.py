@@ -32,7 +32,7 @@ class Graph():
 
         for i in range(self.V):
             self.graph_matrix[s][s] = 0
-            if self.graph[s][i] != 0 and i != s:  # 排除自己的情況
+            if self.graph[s][i] != 0:  # 排除自己的情況
                 self.graph_matrix[s][i] = self.graph[s][i]
                 if not min_cost:
                     min_cost = self.graph[s][i]
