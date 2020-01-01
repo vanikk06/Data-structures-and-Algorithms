@@ -208,10 +208,11 @@ Kruskal建立edge不侷限用defaultdict
    
    使用`while`迴圈，操作root變數，一個個判斷edge，若採用即放到edge變數中，直到edge變數中的edge可以走訪完所有的vertex
     > 判斷關鍵：
-    > 1. 是否會產生cycle
-    > 2. 起點與終點已是相同的root
-    >> cycle情況：
-    >>   - 從任一vertex出發，是否可以走訪完所有vertex
+    > 1. 從任一vertex出發，是否可以走訪完所有vertex
+    > 2. 是否會產生cycle
+    
+    >> 出現cycle情況：
+    >>   - 起點與終點已是相同的root
     >>   - 起點已是終點的root
     
    - edge變數是否可以滿足spanning tree的生成：
