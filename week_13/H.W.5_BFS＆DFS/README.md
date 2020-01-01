@@ -16,7 +16,7 @@
 
   > dictionary：key＆value，value可以是任何值
 
-[📫](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS/README.md#content)
+[📫](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS#content)
 
 # Error
 
@@ -25,7 +25,7 @@
   
   操作錯誤，將pop[0]改為pop(0)即可
 
-[📪](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS/README.md#content)
+[📪](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS#content)
 
 # Code
 [🤜🏼HERE🤛🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS/H.W.5_BFS_and_DFS.py)
@@ -86,7 +86,7 @@
       
       - Yes：鄰邊皆已走訪完，回傳最終結果（dfs）
 
-[📬](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS/README.md#content)
+[📬](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS#content)
 
 # Demo
 
@@ -101,4 +101,4 @@
   
   ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/image/ifmaker1.gif)
 
-[📭](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS/README.md#content)
+[📭](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/H.W.5_BFS%EF%BC%86DFS#content)
