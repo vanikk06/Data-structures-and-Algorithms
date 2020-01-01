@@ -81,7 +81,7 @@ Kruskal建立edge不侷限用defaultdict
 - `__init__`：基本屬性
     - .V：vertex個數
     - .graph：Dijkstra使用之adjacency matrix
-        > 各個vertex之間的weight
+        > 各個vertex之間的cost
         >> 0：未連結
     - .graph1：Kruskal使用之字典，資料類型為`defaultdict`，參數為int
     - .graph_matrix：Dijkstra使用之紀錄已檢查過的cost的矩陣
@@ -111,7 +111,16 @@ Kruskal建立edge不侷限用defaultdict
     將起點連結到的vertex紀錄到graph_matrix上\
     使用`for`迴圈，一個個查看起點在graph中與其他vertex的連結情況
         > 將自己與自己的cost紀錄為0
-        - 如果vertex與起點有連結 且
+        - 判斷vertex與起點是否有連結：
+            - Yes：將graph上的cost紀錄到graph_matrix
+                > 要找出此次最小的cost，以決定下次要增加的vertex為何                
+                - 如果min_cost不存在：將min_cost存入此次cost
+                - 如果此次cost小於min_cost：將min_cost存入此次cost
+ 
+            - No：不執行任何動作
+        
+     
+    
     
 
 
