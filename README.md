@@ -36,6 +36,8 @@
      - [H.W.5_BFS＆DFS](https://github.com/vanikk06/Data-structures-and-Algorithms#hw5_bfsdfs)
  - [week_14 Minimum Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms#week_14-minimum-spanning-tree)
  - [week_15 Shortest Path](https://github.com/vanikk06/Data-structures-and-Algorithms#week_15-shortest-path)
+     - [H.W.6_Dijkstra＆Kruskal]()
+ - []()
  
  
  
@@ -82,7 +84,7 @@
     - [Try Implement stack using queues](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#try-implement-stack-using-queues)
 - [Test Set mismatch](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#test-set-mismatch)
     
-[🙍🏻‍♀️🙍🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+[👩🏻‍🎓👨🏻‍🎓](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 # week_04 Insertion Sort
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04)
@@ -151,7 +153,7 @@
 - [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#try-univalued-binary-tree)
 
 
-[💆🏻‍♀️💆🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+[👩🏻‍🔬👨🏻‍🔬](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 
 # week_07 Merge Sort
@@ -181,7 +183,7 @@
 # week_08 Binary Tree
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08)
 
-[🙇🏻‍♀️🙇🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+[👩🏻‍🚀👨🏻‍🚀](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 # week_09 Binary Search Tree
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09)
@@ -211,7 +213,7 @@
   - [Jupyter nbviewer_Binary Search Tree功能說明](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/H.W.3_Binary%20Search%20Tree/Binary%20Search%20Tree%E5%8A%9F%E8%83%BD%E8%AA%AA%E6%98%8E.ipynb)
 
 
-[🤦🏻‍♀️🤦🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+[🧙🏻‍♀️🧙🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
 # week_10 Red Black Tree
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_10)
@@ -308,7 +310,7 @@
 # week_15 Shortest Path
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15)
 
-[👩🏻‍🎓👨🏻‍🎓](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+
 
 ## H.W.6_Dijkstra＆Kruskal
 [🤜🏻HERE🤛🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal)
