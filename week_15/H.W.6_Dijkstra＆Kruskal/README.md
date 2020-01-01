@@ -81,8 +81,12 @@ Kruskal建立edge不侷限用defaultdict
 - `__init__`：基本屬性
     - .V：vertex個數
     - .graph：Dijkstra使用之adjacency matrix
+        > 各個vertex之間的weight
+        >> 0：未連結
     - .graph1：Kruskal使用之字典，資料類型為`defaultdict`，參數為int
-    - .graph_matrix：Dijkstra使用之紀錄cost的矩陣
+    - .graph_matrix：Dijkstra使用之紀錄已檢查過的cost的矩陣
+        >必為V x V矩陣
+        >> 預設值為-1
 
 - `addEdge`：建立edge，有三個參數
     - u：src，起點
@@ -90,8 +94,24 @@ Kruskal建立edge不侷限用defaultdict
     - w：weight/cost，權重、成本
 - `Dijkstra`：最短路徑
     > 有一個參數：起點
+    - min_cost：最小cost，每新增一個vertex就會變動
+        > 以此去尋找相對應的index（vertex）
+    - min_index：此次最小cost的index，也就是下次要增加的vertex
+    - fix_min_index：修復index，排除bug
+        > 當cost出現相同值時，因尋找index的方式是採用`list.index()`，它會回傳第一個相符值的index
+    - fix_time：修復次數
+        > 原始list中的index = fix_min_index + fix_time
+        >> 因修復方法為「刪除第一個相符值」讓`list.index()`找到此次應增加的vertex\
+        因刪除會使index產生變動，且第一個相符值必定存在於第二個相符值的前面\
+        因此，將「修復次數」加上「修復後找到的index」即可得出原始正確的index
+    - checked：紀錄已找到最小cost的vertex
     
+    先設定一些小工具（min_cost、fix_min_index、fix_time、checked），方便等一下操作
     
+    將起點連結到的vertex紀錄到graph_matrix上\
+    使用`for`迴圈，一個個查看起點在graph中與其他vertex的連結情況
+        > 將自己與自己的cost紀錄為0
+        - 如果vertex與起點有連結 且
     
 
 
