@@ -94,6 +94,7 @@ Kruskal建立edge不侷限用defaultdict
     - w：weight/cost，權重、成本
 - `Dijkstra`：最短路徑
     > 有一個參數：起點
+    - s：起點/上一個找到最小路徑的vertex
     - min_cost：最小cost，每新增一個vertex就會變動
         > 以此去尋找相對應的index（vertex）
     - min_index：此次最小cost的index，也就是下次要增加的vertex
@@ -119,8 +120,25 @@ Kruskal建立edge不侷限用defaultdict
         - No：不執行任何動作
         
     建立起點的cost後，要一個個新增下一個vertex直到起點到所有vertex的最短路徑都找出
-    > 直接與起點相連，及紀錄最小的cost\
-    非
+    > vertex：\
+    - 直接與起點相連：直接紀錄cost\
+    - 非直接與起點相連：透過已找出最小cost的vertex，間接找出走訪到其的最小cost
+    
+    使用`while`迴圈，尋找尚未找出最短路徑的vertex
+    - 判斷checked長度是否等於vertex個數：
+        - No：進入迴圈
+        
+          先透過min_cost找出下一個要尋找最短路徑的vertex，將尋找對象存入min_index
+            - 檢查min_index是否已經存在於checked：
+                - Yes：代表min_cost出現相同的值，需要修復min_index
+                    - 如果fix_min_index不存在：將上一個vertex的cost紀錄複製到fix_min_index
+                 將fix_min_index中第一個符合min_cost的vertex移除\
+                 找出下一個符合min_cost的vertex
+             
+                - No：往下繼續執行
+          
+                
+        - Yes：
     
     
     
