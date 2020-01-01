@@ -218,13 +218,16 @@ Kruskal建立edge不侷限用defaultdict
             - 第j條edge的終點其root為預設值
                 > 有兩種可能：\
                 > 1. 尚未變動過
-                > 2. 其本身是root
+                > 2. ❣其本身是root
                 
                - 進一步判斷第j條edge的起點是否已存在root：
                    - Yes：將終點放置與起點相同的root
-                      > 
+                      > ❣有可能終點已經是別的vertex的root
+                      檢查root變數中是否存在以此終點為root的情形\
+                      若存在，依次將他們的root更改為與此起點相同的root
+                      
                    - No：將終點的root設為起點
-                      > 要小心，有可能終點已經是別的vertex的root
+                      > ❣有可能終點已經是別的vertex的root
                       檢查root變數中是否存在以此終點為root的情形\
                       若存在，依次將他們的root更改為此終點之起點
                 將第j條edge，加入edge變數中
@@ -232,11 +235,25 @@ Kruskal建立edge不侷限用defaultdict
             - 第j條edge「終點的root已為其起點」或是「終點的root已為起點的root」
                 - Yes：跳過此條edge，往下一條edge繼續執行
                     > 若加入此edge，會產生cycle
-            - 非上述兩個情形
+            - 非上述兩種情形
+               > 兩個root合併
+               >> 要將被合併的root，其root也改為合併的root
                 - 判斷第j條edge的起點是否已存在root：
                     - Yes：
+                       > 要先排除會出現cycle的edge
+                       
+                       先將root變數中，所有root與第j條edge終點之root相同的vertex，其root更改為第j條edge起點的root\
+                       再將第j條edge終點之root的root也改為第j條edge起點的root\
+                       
+                       將第j條edge，加入edge變數中
                     - No：
-            
+                       > 要先排除會出現cycle的edge
+                       先將第j條edge終點之root的root，改為第j條edge起點\
+                       再將root變數中，所有root與第j條edge終點之root相同的vertex，其root更改為第j條edge起點
+                       
+                       將第j條edge，加入edge變數中
+            改為第j+1條edge繼續執行
                 
-        - Yes：
+        - Yes：跳出迴圈
+        
 
