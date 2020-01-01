@@ -32,7 +32,7 @@ class Graph():
 
         for i in range(self.V):
             self.graph_matrix[s][s] = 0
-            if self.graph[s][i] != 0:  # 排除自己的情況
+            if self.graph[s][i] != 0:  #有連結
                 self.graph_matrix[s][i] = self.graph[s][i]
                 if not min_cost:
                     min_cost = self.graph[s][i]
@@ -101,9 +101,6 @@ class Graph():
         while len(edge) < self.V-1:
             if root[dest[j]] == -1:
                 if root[src[j]] != -1:  # 起點本身有別的root的，要將終點放到src的root內
-                    if root[dest[j]] == src[j] or root[dest[j]] == root[src[j]]:    # 排除cycle
-                        j += 1
-                        continue
                     root[dest[j]] = root[src[j]]
                 else:
                     root[dest[j]] = src[j]
