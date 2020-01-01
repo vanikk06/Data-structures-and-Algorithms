@@ -102,6 +102,8 @@ class Graph():
             if root[dest[j]] == -1:
                 if root[src[j]] != -1:  # 起點本身有別的root的，要將終點放到src的root內
                     root[dest[j]] = root[src[j]]
+                    for k in range(root.count(dest[j])):     # 原本為root
+                        root[root.index(dest[j])] = root[src[j]]
                 else:
                     root[dest[j]] = src[j]
                     for k in range(root.count(dest[j])):     # 原本為root的連到別的root
