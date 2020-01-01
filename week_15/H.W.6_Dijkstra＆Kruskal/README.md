@@ -17,6 +17,8 @@ Dijkstra先建一個權重的matrix（index由由0開始，為nxn矩陣）
 Kruskal建立edge不侷限用defaultdict
    > 回傳值：從最小的weight開始，起點-終點（小-大）
 
+[👁](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#content)
+
 # Error
 
 - TyprError
@@ -73,6 +75,7 @@ Kruskal建立edge不侷限用defaultdict
    c =  [3, 7, 8]
    False
    ```
+[🦷](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#content)
 
 # Code
 
@@ -262,5 +265,12 @@ Kruskal建立edge不侷限用defaultdict
            改為第j+1條edge繼續執行
                 
         - Yes：跳出迴圈
-        
-
+      
+   建立一個字典命名為MST\
+   使用`for`迴圈一個個將edge變數中的值（index），對應到sort_graph中的值並轉換成字典格式
+    - key：edge，'src-dest'
+    - value：weight/cost
+   
+   回傳MST
+   
+[👅](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#content)
