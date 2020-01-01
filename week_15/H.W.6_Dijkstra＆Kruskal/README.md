@@ -209,10 +209,11 @@ Kruskal建立edge不侷限用defaultdict
    使用`while`迴圈，操作root變數，一個個判斷edge，若採用即放到edge變數中，直到edge變數中的edge可以走訪完所有的vertex
     > 判斷關鍵：
     > 1. 是否會產生cycle
-        >> cycle情況：
-        >> - 起點與終點已是相同的root
-        >> - 起點已是終點的root
-    > 2. 從任一vertex出發，是否可以走訪完所有vertex
+    > 2. 起點與終點已是相同的root
+    >> cycle情況：
+    >>   - 從任一vertex出發，是否可以走訪完所有vertex
+    >>   - 起點已是終點的root
+    
    - edge變數是否可以滿足spanning tree的生成：
         - No：進入迴圈
             - 第j條edge的終點其root為預設值
@@ -232,6 +233,7 @@ Kruskal建立edge不侷限用defaultdict
                       
                       檢查root變數中是否存在以此終點為root的情形\
                       若存在，依次將他們的root更改為此終點之起點
+                
                 將第j條edge，加入edge變數中
                 
             - 第j條edge「終點的root已為其起點」或是「終點的root已為起點的root」
@@ -250,11 +252,13 @@ Kruskal建立edge不侷限用defaultdict
                        將第j條edge，加入edge變數中
                     - No：
                        > 要先排除會出現cycle的edge
+                       
                        先將第j條edge終點之root的root，改為第j條edge起點\
                        再將root變數中，所有root與第j條edge終點之root相同的vertex，其root更改為第j條edge起點
                        
                        將第j條edge，加入edge變數中
-            改為第j+1條edge繼續執行
+            
+           改為第j+1條edge繼續執行
                 
         - Yes：跳出迴圈
         
