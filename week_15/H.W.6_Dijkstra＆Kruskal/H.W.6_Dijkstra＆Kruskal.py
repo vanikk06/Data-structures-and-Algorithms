@@ -116,11 +116,10 @@ class Graph():
                 if root[src[j]] != -1:
                     if root[dest[j]] == root[src[j]] or root[dest[j]] == src[j]: # 排除cycle
                         j += 1
-                        continue
-                    temp = root[dest[j]]
-                    for k in range(root.count(temp)):
-                        root[root.index(temp)] = root[src[j]]
-                    root[temp] = root[src[j]]
+                        continue         
+                    for k in range(root.count(root[dest[j]])):
+                        root[root.index(root[dest[j]])] = root[src[j]]
+                    root[root[dest[j]]] = root[src[j]]
                     edge.append(j)
                 else:
                     if root[dest[j]] == root[src[j]] or root[dest[j]] == src[j]: # 排除cycle
