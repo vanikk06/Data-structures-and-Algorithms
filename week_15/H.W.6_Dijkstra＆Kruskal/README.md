@@ -206,28 +206,30 @@ Kruskal建立edge不侷限用defaultdict
    建立root變數，其長度與vertex個數相同\
    建立一個空的list名為edge，並創立一個變數j
    
-   使用`while`迴圈，操作root，一個個判斷edge，若採用即放到edge變數中，直到edge變數中的edge可以走訪完所有的vertex
+   使用`while`迴圈，操作root變數，一個個判斷edge，若採用即放到edge變數中，直到edge變數中的edge可以走訪完所有的vertex
     > 判斷關鍵：
     > 1. 是否會產生cycle
-    >> cycle情況：
-    >> - 起點與終點已是相同的root
-    >> - 起點已是終點的root
+        >> cycle情況：
+        >> - 起點與終點已是相同的root
+        >> - 起點已是終點的root
     > 2. 從任一vertex出發，是否可以走訪完所有vertex
    - edge變數是否可以滿足spanning tree的生成：
         - No：進入迴圈
             - 第j條edge的終點其root為預設值
-                > 有兩種可能：\
+                > 有兩種可能：
                 > 1. 尚未變動過
                 > 2. ❣其本身是root
                 
                - 進一步判斷第j條edge的起點是否已存在root：
                    - Yes：將終點放置與起點相同的root
                       > ❣有可能終點已經是別的vertex的root
+                      
                       檢查root變數中是否存在以此終點為root的情形\
                       若存在，依次將他們的root更改為與此起點相同的root
                       
                    - No：將終點的root設為起點
                       > ❣有可能終點已經是別的vertex的root
+                      
                       檢查root變數中是否存在以此終點為root的情形\
                       若存在，依次將他們的root更改為此終點之起點
                 將第j條edge，加入edge變數中
