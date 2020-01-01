@@ -37,7 +37,7 @@
 
 [108課程: 金融科技-文字探勘與機器學習](http://18.217.252.187/%E8%AA%B2%E7%A8%8B%E6%9C%9F%E6%9C%AB%E6%88%90%E6%9E%9C%E7%99%BC%E8%A1%A8/)
 
-[⌚](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#content)
+[⌚](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10#content)
 
 # Red Black Tree
   > 紅黑樹
@@ -149,7 +149,7 @@ def rightRotate(self):
 
 [Complexity of different tree data structures](https://subscription.packtpub.com/book/application_development/9781786463890/6/ch06lvl1sec63/complexity-of-different-tree-data-structures)
 
-[⏰](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#content)
+[⏰](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10#content)
 
 # Try Find Median from Data Stream
   > LeetCode：295. Find Median from Data Stream
@@ -159,4 +159,4 @@ def rightRotate(self):
 #### Source
 [Both O(log(n)) Red-Black Tree solution in Python](https://leetcode.com/problems/find-median-from-data-stream/discuss/74134/both-ologn-red-black-tree-solution-in-python)
 
-[⏱](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10/README.md#content)
+[⏱](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_10#content)
