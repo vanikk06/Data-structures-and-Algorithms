@@ -118,7 +118,10 @@ Kruskal建立edge不侷限用defaultdict
             - 如果此次cost小於min_cost：將min_cost存入此次cost
         - No：不執行任何動作
         
-     
+    建立起點的cost後，要一個個新增下一個vertex直到起點到所有vertex的最短路徑都找出
+    > 直接與起點相連，及紀錄最小的cost\
+    非
+    
     
     
 
