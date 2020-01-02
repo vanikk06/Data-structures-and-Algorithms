@@ -203,7 +203,7 @@
   ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/image/output_8P7AbS.gif)
   
 #### § Time Complexity §
-  > O(V²)
+   > O(V²)
 
 分成兩部份：
   1. 加入vertex、edge：每個vertex只加入一次，每個edge也只加入一次，時間複雜度會剛好是走訪整個graph的時間
