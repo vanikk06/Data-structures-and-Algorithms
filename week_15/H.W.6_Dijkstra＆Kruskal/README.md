@@ -85,7 +85,7 @@ Kruskal建立edge不侷限用defaultdict
 
 # Code
   - [Dijkstra](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal/README.md#dijkstra)
-  - []()
+  - [Kruskal](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal/README.md#kruskal)
 
 使用`collections.defaultdict`套件
 
@@ -216,9 +216,9 @@ Kruskal建立edge不侷限用defaultdict
    第2個問題，後來解決的方法是用不同的list儲存不同的東西（src：起點；dest：終點；root：disjoint set）\
    透過index來將他們連結，有點像是data frame的方式，row是個筆資料（邊），column是欄位（資料屬性）\
    
-  e.g.       | edge | src | dest | root |
-         | --- | --- | --- | --- |
-         | '5-6' | 5 | 6 | 0 |
+   | edge | src | dest | root |
+   | --- | --- | --- | --- |
+   | '5-6' | 5 | 6 | 0 |
     
 
 
