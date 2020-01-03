@@ -287,6 +287,6 @@ Kruskal建立edge不侷限用defaultdict
 
 - Dijkstra
 
-![]()
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/image/output_R6nuqr.gif)
 
 [👄](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#content)
