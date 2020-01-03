@@ -16,24 +16,31 @@
 # Iterators
  > 疊代器
 
-- 疊代（iteration）：重複反饋過程的活動，其目的通常是為了接近並到達所需的目標或結果\
+- 疊代（iteration）：重複反饋過程的活動，其目的通常是為了接近並到達所需的目標或結果
    > 每一次對過程的重複被稱為一次「疊代」\
    每一次疊代得到的結果會被用來作為下一次疊代的初始值
-   >> e.g. 使用`for`迴圈，遍歷容器（list、tuple...）中的元素
+   >> e.g. 在python使用`for...in`進行疊代，如遍歷容器（list、tuple...）中的元素
   
-  
+
   
 #### iterable and iterator
+  > iterator一定是iterable\
+  但iter
 
 在python中，所有事物都是object(對象)
 
 - iterable：可疊代對象
    > Iter-**ables** are able to be iterated over.
+   >> 可以「對其進行」疊代的對象
    
-   iterable是實現`__iter__()`方法的對象，該方法返回的是一個iterator對象（因此，iterable是可以從其獲得iterator的對象）
+   iterable是實現`__iter__()`方法的對象，該方法返回的是一個iterator對象\
+   （因此，iterable是可以從其獲得iterator的對象）
+   1. 一個能夠一次返回**一個**元素的對象
+   2. 有些iterable將包含的元素存在內存中（e.g. list），但有些不是（e.g. iterator）
 
-- iterator：疊代器
+- iterator：疊代器，
    > Iter-**ators** are the agents that perform the iteration.
+   >> 可以「執行」疊代這個活動的對象
    
    
 #### Source
@@ -43,10 +50,32 @@
 
 [Python: range is not an iterator!](https://treyhunner.com/2018/02/python-range-is-not-an-iterator/)
 
+[👨‍👨‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
+
+# Python: range is not an iterator!
+ > `range`返回的是iterable
+
+#### Source
+[Python: range is not an iterator!](https://treyhunner.com/2018/02/python-range-is-not-an-iterator/)
+
+[理解Python的Iterable和Iterator](https://www.kawabangga.com/posts/2772)
+
+# Generator
+  > 生成器
+  
+#### Source
+[生成器](http://wiki.jikexueyuan.com/project/explore-python/Advanced-Features/generator.html)
+
+[Python 學習筆記_20-Iterators vs Generators](https://www.youtube.com/watch?v=7UUn65QLDW0)
+
+[👨‍👨‍👧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
+
 # List Comprehension
 
 #### Source
 []()
+
+[👨‍👨‍👧‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
 # sort vs. sorted
  > 排序對象要屬於相同資料型態
