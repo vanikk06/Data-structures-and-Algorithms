@@ -1,5 +1,12 @@
 # Content
 
+
+# Infinite
+  > 無限大、無窮
+  
+#### Source
+[]()
+
 # isinstance vs. type
 
 
