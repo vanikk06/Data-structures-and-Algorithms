@@ -114,12 +114,14 @@ Kruskal建立edge不侷限用defaultdict
   
   因為我在設計紀錄「cost表格」時，也就是使用`graph_matrix`的部分\
   沒有採取老師上課時教得方式：還沒走訪到的就記錄成 ∞（不知道python原來可以使用無限大😂），而是將`graph_matrix`的所有值預設為-1，還沒走訪到的就保留預設值
-    > 此處「未走訪」指的是「還沒找到最小cost的vertex」
+    
+   > 此處「未走訪」指的是「還沒找到最小cost的vertex」
   
   結果導致在找min cost的時候變得非常麻煩，如果一個個比較的話一定會找的還沒走訪到的值\
   為此，我一開始的解決方法是在每進行一次cost更改的動作，就記錄下當前最小的min cost，結果程式碼就變得非常瑣碎，打到後面都不知道自己在打什麼了
   
-  後來花了很多時間，索性直接改掉原本個別找min cost的方式，直接在新增vertex完成cost更動後，排除掉所來的狀況後（已走訪＆走訪不到的），再來找min cost\
+  後來花了很多時間，索性直接改掉原本個別找min cost的方式\
+  直接在新增vertex完成cost更動後，排除掉所來的狀況後（已走訪＆走訪不到的），再來找min cost\
   更改後，程式碼很快就完成了，而且變得比較簡單
 
 
@@ -211,12 +213,12 @@ Kruskal建立edge不侷限用defaultdict
   1. 如何用value去排序dict：這部份是對python語法的不熟悉，上網查一下就解決了
   2. 排序後，如何將鄰邊表搭配disjoint set使用
     
-   第2個問題，後來解決的方法是用不同的list儲存不同的東西（src：起點；dest：終點；root：disjoint set），透過index來將他們連結，有點像是data frame的方式，row是個筆資料（邊），column是欄位（資料屬性）\
-   e.g.
+   第2個問題，後來解決的方法是用不同的list儲存不同的東西（src：起點；dest：終點；root：disjoint set）\
+   透過index來將他們連結，有點像是data frame的方式，row是個筆資料（邊），column是欄位（資料屬性）\
    
-   | edge | src | dest | root |
-   | --- | --- | --- | --- |
-   | '5-6' | 5 | 6 | 0 |
+  e.g.       | edge | src | dest | root |
+         | --- | --- | --- | --- |
+         | '5-6' | 5 | 6 | 0 |
     
 
 
