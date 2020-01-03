@@ -13,13 +13,6 @@
 
 [👨‍👩‍👧‍👧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
-# key vs. value
-
-#### Source
-[Python基礎——字典中由value查key的幾點說明](https://blog.csdn.net/ywx1832990/article/details/79145576)
-
-[👨‍👩‍👦‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
-
 
 # sort vs. sorted
  > 排序對象要屬於相同資料型態
@@ -145,6 +138,15 @@ sorted(d.items(), key=lambda d: d[1])
 [排序指南](https://docs.python.org/zh-cn/3/howto/sorting.html)
 
 [👨‍👩‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
+
+
+# key vs. value
+
+#### Source
+[Python基礎——字典中由value查key的幾點說明](https://blog.csdn.net/ywx1832990/article/details/79145576)
+
+[👨‍👩‍👦‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
+
 
 # Greedy Algorithm
  > 貪婪演算法、貪心演算法
