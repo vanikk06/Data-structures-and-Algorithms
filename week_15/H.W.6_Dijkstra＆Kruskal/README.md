@@ -214,7 +214,7 @@ Kruskal建立edge不侷限用defaultdict
   2. 排序後，如何將鄰邊表搭配disjoint set使用
     
    第2個問題，後來解決的方法是用不同的list儲存不同的東西（src：起點；dest：終點；root：disjoint set）\
-   透過index來將他們連結，有點像是data frame的方式，row是個筆資料（邊），column是欄位（資料屬性）\
+   透過index來將他們連結，有點像是data frame的方式，row是個筆資料（邊），column是欄位（資料屬性）
    
    | edge | src | dest | root |
    | --- | --- | --- | --- |
