@@ -347,7 +347,7 @@ Status：Runtime 276 ms, Memory 15.4 MB
    
 #### Demo
 
-![Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/quick_sort_demo.jpg)
+![Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/image/quick_sort_demo_.jpg)
 
 
 #### Flowchart
