@@ -21,11 +21,39 @@
    每一次疊代得到的結果會被用來作為下一次疊代的初始值
    >> e.g. 在python使用`for...in`進行疊代，如遍歷容器（list、tuple...）中的元素
   
+在python中，可以使用內建的`hasattr()`來判斷一個對象是否是可疊代的
+```python
+hasattr((), '__iter__') #True
 
+hasattr([], '__iter__') #True
+
+hasattr({}, '__iter__') #True
+
+hasattr(123, '__iter__') #False
+
+hasattr('abc', '__getitem__') #True
+```
+
+也可以使用`collections.Iterable`來判斷
+```python
+from collections import Iterable
+
+isinstance((), Iterable) #True
+
+isinstance([], Iterable) #True
+
+isinstance({}, Iterable) #True
+
+isinstance('abc', Iterable) #True
+
+isinstance(100, Iterable) #False
+```
+由此可知，dict、tuple、set和字串都是iterable  
+  
   
 #### iterable and iterator
   > iterator一定是iterable\
-  但iter
+  但iterable不一定是iterator
 
 在python中，所有事物都是object(對象)
 
@@ -33,14 +61,17 @@
    > Iter-**ables** are able to be iterated over.
    >> 可以「對其進行」疊代的對象
    
-   iterable是實現`__iter__()`方法的對象，該方法返回的是一個iterator對象\
+   iterable是實現`__iter__()`、方法的對象，該方法返回的是一個iterator對象\
    （因此，iterable是可以從其獲得iterator的對象）
    1. 一個能夠一次返回**一個**元素的對象
    2. 有些iterable將包含的元素存在內存中（e.g. list），但有些不是（e.g. iterator）
+     > iterable比iterator的範圍更大
+     - iterable：只要是能對它進行iteration的對象
+     - iterator：能夠**執行**iteration這件事的對象
 
-- iterator：疊代器，
+- iterator：疊代器，遵循疊代協議（iterator protocol）的對象
    > Iter-**ators** are the agents that perform the iteration.
-   >> 可以「執行」疊代這個活動的對象
+   >> 可以「執行」疊代這個活動的對象（有`__next__`函數）
    
    
 #### Source
@@ -49,6 +80,10 @@
 [Python之生成器詳解](http://kissg.me/2016/04/09/python-generator-yield/#generator)
 
 [Python: range is not an iterator!](https://treyhunner.com/2018/02/python-range-is-not-an-iterator/)
+
+[python 的 iterator](https://freedomknight.me/python-de-iterator/)
+
+[暫_iterator和generator雜談之一———剖析for in內部機制](https://ithelp.ithome.com.tw/articles/10196096?sc=iThelpR)
 
 [👨‍👨‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
@@ -68,7 +103,16 @@
 
 [Python 學習筆記_20-Iterators vs Generators](https://www.youtube.com/watch?v=7UUn65QLDW0)
 
+[Python之生成器詳解](http://kissg.me/2016/04/09/python-generator-yield/#generator)
+
 [👨‍👨‍👧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
+
+# ＿＿name＿＿
+ > python中，定義class使用的一些特殊函式名稱
+
+
+#### Source
+[特殊方法名稱](https://openhome.cc/Gossip/Python/SpecialMethodNames.html)
 
 # List Comprehension
 
