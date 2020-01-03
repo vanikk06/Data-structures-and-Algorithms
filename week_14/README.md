@@ -13,6 +13,23 @@
 
 [👨‍👩‍👧‍👧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
+# Iterators
+ > 疊代器
+
+- 疊代（iteration）：重複反饋過程的活動，其目的通常是為了接近並到達所需的目標或結果\
+   > 每一次對過程的重複被稱為一次「疊代」\
+   每一次疊代得到的結果會被用來作為下一次疊代的初始值
+  
+  
+  
+#### iterable and iterator
+
+- iterable：
+
+- iterator
+   
+
+
 # List Comprehension
 
 #### Source
