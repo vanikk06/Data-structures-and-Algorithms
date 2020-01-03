@@ -19,16 +19,29 @@
 - 疊代（iteration）：重複反饋過程的活動，其目的通常是為了接近並到達所需的目標或結果\
    > 每一次對過程的重複被稱為一次「疊代」\
    每一次疊代得到的結果會被用來作為下一次疊代的初始值
+   >> e.g. 使用`for`迴圈，遍歷容器（list、tuple...）中的元素
   
   
   
 #### iterable and iterator
 
-- iterable：
+在python中，所有事物都是object(對象)
 
-- iterator
+- iterable：可疊代對象
+   > Iter-**ables** are able to be iterated over.
    
+   iterable是實現`__iter__()`方法的對象，該方法返回的是一個iterator對象（因此，iterable是可以從其獲得iterator的對象）
 
+- iterator：疊代器
+   > Iter-**ators** are the agents that perform the iteration.
+   
+   
+#### Source
+[迭代器 (Iterator)迭代和可迭代](https://wiki.jikexueyuan.com/project/explore-python/Advanced-Features/iterator.html)
+
+[Python之生成器詳解](http://kissg.me/2016/04/09/python-generator-yield/#generator)
+
+[Python: range is not an iterator!](https://treyhunner.com/2018/02/python-range-is-not-an-iterator/)
 
 # List Comprehension
 
