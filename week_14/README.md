@@ -53,7 +53,7 @@
 [👨‍👨‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
 # Python: range is not an iterator!
- > `range`返回的是iterable
+ > `range`返回的是iterable，而非iterator
 
 #### Source
 [Python: range is not an iterator!](https://treyhunner.com/2018/02/python-range-is-not-an-iterator/)
