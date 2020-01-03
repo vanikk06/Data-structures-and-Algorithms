@@ -5,7 +5,11 @@
   > 無限大、無窮
   
 #### Source
-[]()
+[關於Python中Inf與Nan的判斷問題詳解](https://www.itread01.com/p/438707.html)
+
+[Python數字類型](http://tw.gitbook.net/python/python_numbers.html)
+
+[python中的無窮大](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/116717/)
 
 # isinstance vs. type
 
