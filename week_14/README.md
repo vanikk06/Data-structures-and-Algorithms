@@ -13,6 +13,10 @@
 
 [👨‍👩‍👧‍👧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
+# List Comprehension
+
+#### Source
+[]()
 
 # sort vs. sorted
  > 排序對象要屬於相同資料型態
