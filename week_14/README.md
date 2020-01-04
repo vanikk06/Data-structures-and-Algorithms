@@ -78,8 +78,8 @@ isinstance(100, Iterable) #False
    
    iterator是實現`__iter__()`和`__next__()`方法的對象（準確來說是`iterator.__iter__()`和`iterator.__next__()`）
     > 疊代協議：實現`__iter__()`與`__next__()`
-    - `__iter__()`：返回iterator本身
-    - `__next__()`：允許我們**顯示**地獲取**一個元素**，返回容器的下一個元素\
+    - `__iter__()`：返回iterator本身，這個對象可以呼叫`__next__`
+    - `__next__()`：執行iterator的疊代行為，允許我們**顯示**地獲取**一個元素**，返回容器的下一個元素\
        實際上是執行了兩個步驟：
        1. 更新iterator狀態，令其指向後一項，以便下一次調用
        2. 返回當前結果
@@ -90,8 +90,99 @@ isinstance(100, Iterable) #False
        >> 但不等於None\
        若要重複使用iterator，可以利用`list()`將其結果保存
        
-    使用
+    使用程式碼來感受一下，使用`collections.Iterator`
+    ```python
+    from collections import Iterator
+    
+    isinstance((), Iterator) #False
+    
+    isinstance([], Iterator) #False
+    
+    isinstance({}, Iterator) #False
+    
+    isinstance('', Iterator) #False
+    
+    isinstance(123, Iterator) #False
+    ```
+    由此可見，tuple、list、dict雖然是iterable，但不是iterator
+    
+    這些iterable可以透過python內建的`iter()`獲得他們的iterator
+    ```python
+    from collections import Iterable, Iterator
+    
+    a = [1, 2, 3]
+    b = iter(a)
+    
+    isinstance(a, Iterator) #False
+    
+    isinstance(b, Iterator) #True
+    
+    isinstance(b, Iterable) #True
+    ```
+    使用`next()`操作iterator
+    ```python
+    next(b) #1
+    next(b) #2
+    next(b) #3
+    next(b) #StopIteration
+    ```
+    在iterator中每走訪一個元素，那個元素就會消失\
+    當遍歷完最後一個元素後，就會出現`StopIteration`表示iterator已經空了，要停止疊代
+     > 一般`for...in`在呼叫`__next__`的過程中，遇到`StopIteration`就會自動停止`for`迴圈的執行
+     
+     另外，對iterator進行資料類型的轉換，也會一個個對iterator中的元素做操作，所以轉換一次，iterator就空了
+     ```python
+     a = [1, 2, 3]
+     b = iter(a)
+     
+     c = list(b)
+     c            #[1, 2, 3]
+     
+     d = list(b)
+     d            #[] 
+     ```
+     但空的iterator不等於None
+     ```python
+     isinstance(b, Iterator) #True
+     
+     if b:
+       print(3)     #3
+       
+     if b == None:
+       print(3)     # 
+     ```
+#### 解析`for`迴圈
+
+在`fot...in`中，執行了兩個動作：
+Step1. 抓取x的iterator對象，來判斷可否走訪
+ > 使用`__iter__()`
    
+   使用`iter(x)`去抓，也就是使用`x.__iter__()`去取x，看x中是否包含`__iter__()`方法（判斷x是否是iterable）\
+   - 如果有：就放入`iter()`函式中，回傳iterator
+   - 如果沒有：`iter()`就會出現Type Error，也就表示此對象是無法被`for`迴圈走訪的
+
+Step2. 開始走訪iterator，取得元素
+ > 使用`__next__()`
+ 
+   對`iter()`的傳回值調用`next()`，也就是抓取`iterator.__next__()`回傳的東西，一次次的執行，每次將回傳的值丟給i，直到遇到StopIteration例外停止
+```python
+for x in [1, 2, 3]:
+    print i
+```
+等價於
+```python
+it = iter([1, 2, 3]) #得到iterator
+
+while True:
+    try:
+        x = next(it)
+        print x
+    except StopIteration:        
+        break
+```
+
+    
+    
 #### Source
 [迭代器 (Iterator)迭代和可迭代](https://wiki.jikexueyuan.com/project/explore-python/Advanced-Features/iterator.html)
 
