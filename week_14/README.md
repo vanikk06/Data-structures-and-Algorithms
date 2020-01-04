@@ -28,7 +28,7 @@
    - [n]：選取第n個子字串
      > 注意！當使用空格作為分割符時，空的項會被自動忽略
 
-   [✍🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#split) 
+   [✍🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#split-1) 
 
 - `os.path.split()`：**按照路徑**將文件名和路徑分割開
    > os.path.split('PATH')
