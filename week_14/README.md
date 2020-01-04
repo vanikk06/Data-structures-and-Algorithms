@@ -1,5 +1,14 @@
 # Content
+ - [split](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#split)
+ - [try and raise](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#try-and-raise)
+ - [Iterators](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#iterators)
+ - [Python: range is not an iterator!](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#python-range-is-not-an-iterator)
+ - [Generator](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#generator)
+ - [＿＿name＿＿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#%EF%BC%BF%EF%BC%BFname%EF%BC%BF%EF%BC%BF)
+ - [python –](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#python-)
+ - [List Comprehension](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#list-comprehension)
  - [sort vs. sorted](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#sort-vs-sorted)
+ - [key vs. value](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#key-vs-value)
  - [Greedy Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#greedy-algorithm)
  - [Disjoint Sets](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#disjoint-sets)
  - [Minimum Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#minimum-spanning-tree)
@@ -166,14 +175,14 @@ python是一門講求實用主義的語言，在python中「所有的事情，�
 在`fot...in`中，執行了兩個動作：
 
 - Step1. 抓取x的iterator物件，來判斷可否走訪
- > `__iter__()`
+  > `__iter__()`
 
    使用`iter(x)`去抓，也就是使用`x.__iter__()`去判斷x中是否包含`__iter__()`函式（判斷x是否是iterable）
     - 如果有：就放入`iter()`函式中，回傳iterator
     - 如果沒有：`iter()`就會出現Type Error，也就表示此對象是無法被`for`迴圈走訪的
 
 - Step2. 開始走訪iterator，取得元素
- > `__next__()`
+  > `__next__()`
  
    對`iter()`的回傳值調用`next()`，也就是抓取`iterator.__next__()`回傳的東西，一次次的執行，每次將回傳的值丟給i，直到遇到StopIteration例外停止
 ```python
