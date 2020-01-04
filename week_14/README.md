@@ -69,8 +69,8 @@ isinstance(100, Iterable) #False
    1. 一個能夠一次返回**一個**元素的對象
    2. 有些iterable將包含的元素存在內存中（e.g. list），但有些不是（e.g. iterator）
       > iterable比iterator的範圍更大
-       - iterable：只要是能對它進行iteration的對象
-       - iterator：能夠**執行**iteration這件事的對象
+      > - iterable：只要是能對它進行iteration的對象
+      > - iterator：能夠**執行**iteration這件事的對象
 
 - iterator：疊代器，遵循疊代協議（iterator protocol）的對象
    > Iter-**ators** are the agents that perform the iteration.
