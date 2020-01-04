@@ -64,7 +64,7 @@ isinstance(100, Iterable) #False
    > Iter-**ables** are able to be iterated over.
    >> 可以「對其進行」疊代的對象
    
-   iterable是實現`__iter__()`、方法的對象，該方法返回的是一個iterator對象\
+   iterable是實現`__iter__()`方法的對象（準確說是`container.__iter__()`），該方法返回的是一個iterator對象\
    （因此，iterable是可以從其獲得iterator的對象）
    1. 一個能夠一次返回**一個**元素的對象
    2. 有些iterable將包含的元素存在內存中（e.g. list），但有些不是（e.g. iterator）
@@ -75,6 +75,17 @@ isinstance(100, Iterable) #False
 - iterator：疊代器，遵循疊代協議（iterator protocol）的對象
    > Iter-**ators** are the agents that perform the iteration.
    >> 可以「執行」疊代這個活動的對象（有`__next__`函數）
+   
+   iterator是實現`__iter__()`和`__next__()`方法的對象（準確來說是`iterator.__iter__()`和`iterator.__next__()`）
+    > 疊代協議：實現`__iter__()`與`__next__()`
+    - `__iter__()`：返回iterator本身
+    - `__next__()`：允許我們**顯示**地獲取**一個元素**，返回容器的下一個元素\
+       實際上是執行了兩個步驟：
+       1. 更新iterator狀態，令其指向後一項，以便下一次調用
+       2. 返回當前結果
+      
+     iterator每次被調用時，會返回一個單一的值，**從而極大的節省內存資源**，這點是要特別注意的\
+     iterator是**消耗型**的，
    
    
 #### Source
