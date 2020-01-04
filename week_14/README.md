@@ -23,7 +23,7 @@
    每一次疊代得到的結果會被用來作為下一次疊代的初始值
    >> e.g. 在python使用`for...in`進行疊代，如遍歷容器（list、tuple...）中的元素
   
-在python中，可以使用內建的`hasattr()`來判斷一個對象是否是可疊代的
+在python中，可以使用內建的`hasattr()`來判斷一個物件是否是可疊代的
 ```python
 hasattr((), '__iter__') #True
 
@@ -58,27 +58,27 @@ isinstance(100, Iterable) #False
   但iterable不一定是iterator
   >> 最大差別：是否實現`__next__()`方法
 
-在python中，所有事物都是object(對象)
+在python中，所有事物都是object(物件)
 
-- iterable：可疊代對象
+- iterable：可疊代物件
    > Iter-**ables** are able to be iterated over.
-   >> 可以「對其進行」疊代的對象
+   >> 可以「對其進行」疊代的物件
    
-   iterable是實現`__iter__()`方法的對象（準確說是`container.__iter__()`），該方法返回的是一個iterator對象\
-   （因此，iterable是可以從其獲得iterator的對象）
-   1. 一個能夠一次返回**一個**元素的對象
+   iterable是實現`__iter__()`函式的物件（準確說是`container.__iter__()`），該函式返回的是一個iterator物件\
+   （因此，iterable是可以從其獲得iterator的物件）
+   1. 一個能夠一次返回**一個**元素的物件
    2. 有些iterable將包含的元素存在內存中（e.g. list），但有些不是（e.g. iterator）
-      > iterable比iterator的範圍更大
-      > - iterable：只要是能對它進行iteration的對象
-      > - iterator：能夠**執行**iteration這件事的對象
+      > iterable比iterator定義的範圍廣
+      > - iterable：只要是能對它進行iteration的物件
+      > - iterator：能夠**執行**iteration這件事的物件
 
-- iterator：疊代器，遵循疊代協議（iterator protocol）的對象
+- iterator：疊代器，遵循疊代協議（iterator protocol）的物件
    > Iter-**ators** are the agents that perform the iteration.
-   >> 可以「執行」疊代這個活動的對象（有`__next__`函數）
+   >> 可以「執行」疊代這個活動的物件（有`__next__`函數）
    
-   iterator是實現`__iter__()`和`__next__()`方法的對象（準確來說是`iterator.__iter__()`和`iterator.__next__()`）
+   iterator是實現`__iter__()`和`__next__()`函式的物件（準確來說是`iterator.__iter__()`和`iterator.__next__()`）
     > 疊代協議：實現`__iter__()`與`__next__()`
-    - `__iter__()`：返回iterator本身，這個對象可以呼叫`__next__`
+    - `__iter__()`：返回iterator本身，這個物件可以呼叫`__next__`
     - `__next__()`：執行iterator的疊代行為，允許我們**顯示**地獲取**一個元素**，返回容器的下一個元素\
        實際上是執行了兩個步驟：
        1. 更新iterator狀態，令其指向後一項，以便下一次調用
@@ -153,22 +153,27 @@ isinstance(100, Iterable) #False
      ```
 #### 解析`for`迴圈
 
+python是一門講求實用主義的語言，在python中「所有的事情，都只用一個方法做到」
+ > e.g.
+ > - `for`：遍歷物件
+ > - `while`：條件判斷
+
 在`fot...in`中，執行了兩個動作：
 
-- Step1. 抓取x的iterator對象，來判斷可否走訪
- > 使用`__iter__()`
-   
-   使用`iter(x)`去抓，也就是使用`x.__iter__()`去取x，看x中是否包含`__iter__()`方法（判斷x是否是iterable）\
-   - 如果有：就放入`iter()`函式中，回傳iterator
-   - 如果沒有：`iter()`就會出現Type Error，也就表示此對象是無法被`for`迴圈走訪的
+- Step1. 抓取x的iterator物件，來判斷可否走訪
+ > `__iter__()`
+
+   使用`iter(x)`去抓，也就是使用`x.__iter__()`去判斷x中是否包含`__iter__()`函式（判斷x是否是iterable）
+    - 如果有：就放入`iter()`函式中，回傳iterator
+    - 如果沒有：`iter()`就會出現Type Error，也就表示此對象是無法被`for`迴圈走訪的
 
 - Step2. 開始走訪iterator，取得元素
- > 使用`__next__()`
+ > `__next__()`
  
-   對`iter()`的傳回值調用`next()`，也就是抓取`iterator.__next__()`回傳的東西，一次次的執行，每次將回傳的值丟給i，直到遇到StopIteration例外停止
+   對`iter()`的回傳值調用`next()`，也就是抓取`iterator.__next__()`回傳的東西，一次次的執行，每次將回傳的值丟給i，直到遇到StopIteration例外停止
 ```python
-for x in [1, 2, 3]:
-    print i
+for i in [1, 2, 3]:
+    print(i)
 ```
 等價於
 ```python
@@ -177,12 +182,26 @@ it = iter([1, 2, 3]) #得到iterator
 while True:
     try:
         x = next(it)
-        print x
+        print(x)
     except StopIteration:        
         break
 ```
+所以只要物件擁有`__iter__()`跟`__next__()`這兩個函式，就能被`for`使用
 
-    
+透視一點程式碼，此程式碼與上面執行的是一樣的
+```python
+it = [1, 2, 3].__iter__()
+
+while True:
+    try:
+        x = it.__next__()
+        print(x)
+    except StopIteration:
+        break
+```
+
+
+P.S：
     
 #### Source
 [迭代器 (Iterator)迭代和可迭代](https://wiki.jikexueyuan.com/project/explore-python/Advanced-Features/iterator.html)
