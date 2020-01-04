@@ -588,3 +588,13 @@ edge有weight（權重），其對應的是cost
 [Spanning Tree](http://www.csie.ntnu.edu.tw/~u91029/SpanningTree.html)
 
 [👨‍👩‍👧‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
+
+
+# Try Design Kruskal
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/Try%20Design%20Kruskal.py)
+
+調整HW6的Kruskal部分，增加計算最小cost的值
+
+- 回傳：min_cost, MST
+
+[👨‍👨‍👧‍👧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
