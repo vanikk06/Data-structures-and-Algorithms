@@ -15,6 +15,11 @@
 
 [👨‍👩‍👧‍👧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
+# try and raise
+
+#### Source
+[try、raise 陳述句](https://openhome.cc/Gossip/Python/TryStatement.html)
+
 # Iterators
  > 疊代器
 
