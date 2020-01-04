@@ -48,7 +48,7 @@
      > 包含空格、換行(\n)、Tab(\t)
    - count：分割次數，預設為分割符在字串中出現的總次數
    
-   [✍🏽]()
+   [✍🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#rsplit)
 
 #### 實例
 
@@ -56,10 +56,35 @@
 
 ###### os.path.split()
 
+分離文件名和路徑
+```python
+import os
+
+print(os.path.split('/dodo/soft/python/'))  #目錄
+print(os.path.split('/dodo/soft/python'))   #目錄+文件名
+```
+輸出：
+```python
+('/dodo/soft/python', '')
+('/dodo/soft', 'python')
+```
+
+超級好的例子
+```python
+s="hello boy<[www.doiido.com]>byebye"
+
+print(s.split("[")[1].split("]")[0])
+print(s.split("[")[1].split("]")[0].split("."))
+```
+輸出：
+```python
+www.doiido.com
+['www', 'doiido', 'com']
+```
 
 ###### rsplit()
-展示`rsplit()`用法
 
+常用實例
 ```python
 s = "this is string example....wow!"
 print (s.rsplit( ))
@@ -73,10 +98,6 @@ print (s.rsplit('w'))
 ['this is string example....', 'o', '!']
 
 ```
-
-
-
-   
    
 #### Source
 [Python中的split()函數的使用方法](https://blog.csdn.net/JohinieLi/article/details/76196882)
