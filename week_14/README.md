@@ -86,8 +86,8 @@ isinstance(100, Iterable) #False
       
      iterator每次被調用時，會返回一個單一的值，**從而極大的節省內存資源**，這點是要特別注意的\
      ⭐iterator是**消耗型**的，每一個值被使用過後就消失了
-       > 可以理解成用`pop`對iterator進行遍歷之後，iterator就變成一個空的容器了
-       >> 但不等於None\
+        > 可以理解成用`pop`對iterator進行遍歷之後，iterator就變成一個空的容器了
+        >> 但不等於None\
        若要重複使用iterator，可以利用`list()`將其結果保存
        
     使用程式碼來感受一下，使用`collections.Iterator`
@@ -154,6 +154,7 @@ isinstance(100, Iterable) #False
 #### 解析`for`迴圈
 
 在`fot...in`中，執行了兩個動作：
+
 Step1. 抓取x的iterator對象，來判斷可否走訪
  > 使用`__iter__()`
    
