@@ -86,8 +86,8 @@ isinstance(100, Iterable) #False
       
      iterator每次被調用時，會返回一個單一的值，**從而極大的節省內存資源**，這點是要特別注意的\
      ⭐iterator是**消耗型**的，每一個值被使用過後就消失了
-        > 可以理解成用`pop`對iterator進行遍歷之後，iterator就變成一個空的容器了
-        >> 但不等於None\
+       > 可以理解成用`pop`對iterator進行遍歷之後，iterator就變成一個空的容器了
+       >> 但不等於None\
        若要重複使用iterator，可以利用`list()`將其結果保存
        
     使用程式碼來感受一下，使用`collections.Iterator`
@@ -155,14 +155,14 @@ isinstance(100, Iterable) #False
 
 在`fot...in`中，執行了兩個動作：
 
-Step1. 抓取x的iterator對象，來判斷可否走訪
+- Step1. 抓取x的iterator對象，來判斷可否走訪
  > 使用`__iter__()`
    
    使用`iter(x)`去抓，也就是使用`x.__iter__()`去取x，看x中是否包含`__iter__()`方法（判斷x是否是iterable）\
    - 如果有：就放入`iter()`函式中，回傳iterator
    - 如果沒有：`iter()`就會出現Type Error，也就表示此對象是無法被`for`迴圈走訪的
 
-Step2. 開始走訪iterator，取得元素
+- Step2. 開始走訪iterator，取得元素
  > 使用`__next__()`
  
    對`iter()`的傳回值調用`next()`，也就是抓取`iterator.__next__()`回傳的東西，一次次的執行，每次將回傳的值丟給i，直到遇到StopIteration例外停止
