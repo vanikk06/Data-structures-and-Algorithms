@@ -199,10 +199,6 @@ while True:
     except StopIteration:
         break
 ```
-
-
-P.S：
-    
 #### Source
 [迭代器 (Iterator)迭代和可迭代](https://wiki.jikexueyuan.com/project/explore-python/Advanced-Features/iterator.html)
 
