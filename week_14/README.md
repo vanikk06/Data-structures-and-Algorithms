@@ -85,7 +85,7 @@ isinstance(100, Iterable) #False
        2. 返回當前結果
       
      iterator每次被調用時，會返回一個單一的值，**從而極大的節省內存資源**，這點是要特別注意的\
-     ⭐iterator是**消耗型**的，每一個值被使用過後就消失了
+     ★iterator是**消耗型**的，每一個值被使用過後就消失了
        > 可以理解成用`pop`對iterator進行遍歷之後，iterator就變成一個空的容器了
        >> 但不等於None\
        若要重複使用iterator，可以利用`list()`將其結果保存
