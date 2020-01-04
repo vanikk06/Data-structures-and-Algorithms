@@ -1,5 +1,10 @@
 # Content
 
+# String Type
+  > 字串型態
+  
+#### Source
+[字串型態](https://openhome.cc/Gossip/Python/StringType.html)
 
 # Infinite
   > 無限大、無窮
