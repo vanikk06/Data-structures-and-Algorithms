@@ -124,6 +124,7 @@ Kruskal建立edge不侷限用defaultdict
   直接在新增vertex完成cost更動後，排除掉所來的狀況後（已走訪＆走訪不到的），再來找min cost\
   更改後，程式碼很快就完成了，而且變得比較簡單
 
+  P.S.在調用`Dijkstra()`時，因為每次updata cost都有紀錄，所以在重複執行`Dijkstra()`時，要再重跑整個class，回到原本預設值才不會出現error
 
 - `Dijkstra`：最短路徑
     > 有一個參數：起點
