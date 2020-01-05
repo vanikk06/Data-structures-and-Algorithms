@@ -723,10 +723,13 @@ edge有weight（權重），其對應的是cost
 [👨‍👩‍👧‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
 
-# Try Design Kruskal
-[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/Try%20Design%20Kruskal.py)
+# Adjustment of Design Kruskal
+  > 調整作業六Kruskal程式碼
+  
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/Adjustment%20of%20Design%20Kruskal.py)
 
-調整HW6的Kruskal部分，增加計算最小cost的值
+增加計算min cost的值\
+在Kruskal中，tree可能不唯一（依據鄰邊表的排序變動會有差異），但min cost一定會唯一
 
 - 回傳：min_cost, MST
 
