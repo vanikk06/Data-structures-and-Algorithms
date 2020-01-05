@@ -325,7 +325,7 @@ c > 3                         #False
 adjacency matrix是一種graph結構中常用的表示方法\
 用**數字方陣**紀錄各個vertex之間「是否有edge相連」，數字大小可以表示edge的weight大小
   
-- 方陣：n為graph中vertex個數
+- 方陣：A<sub>nxn</sub>，n為graph中vertex個數
   
   | | (0) | (1) | (2) | (3) |
   | --- | --- | --- | --- | --- |
