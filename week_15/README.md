@@ -64,6 +64,43 @@ c > 3                         #False
 [💧](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#content)
 
 # isinstance vs. type
+  > instance：實例，用class建造出來的物件
+  >> instantiation：實例化
+
+在python中，通常使用`isinstance()`和`type()`這兩個內建函式來判斷**變數屬於何種資料類型（class）**
+
+最大差異：判斷對象是否已知
+
+- `isinstance()`：判斷物件是否是某個class或child class的實例
+   > isinstance(object, type-or-tuple-or-class)
+   >> 回傳值：bool
+   
+   - object：要判斷的物件
+   - type-or-tuple-or-class：要判斷的類型，可以是一個或多個
+     > 多個：tuple，符合其中任意一個元素，及回傳True
+   
+   
+   判斷為何種資料類型
+   ```python
+   a = 5
+   
+   isinstance (a, int)            #True
+   isinstance (a, str)            #False
+   
+   isinstance (a, (str,int,list))   #True
+   isinstance (a, (str,list,float)) #False
+   ```
+   判斷是否為class之實例
+   ```python
+   class A(object):    #創建class
+    pass
+   
+   a=A()
+   isinstance(a,A)     #True
+   ```
+
+- `type`：得到物件的資料類型（class）
+   > type(object)
 
 
 #### Source
