@@ -16,6 +16,8 @@
  
  [travishen/datastructure-python](https://github.com/travishen/datastructure-python)
  
+ [w3schools.com](https://www.w3schools.com/python/default.asp)
+ 
 
 # Content
  - [week_02 Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms#week_02-linked-list)
