@@ -340,6 +340,7 @@ adjacency matrix是一種graph結構中常用的表示方法\
     > 但僅能記錄一筆資料
   
 可以透過adjacency matrix還原graph
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/image/Snipaste_2020-01-06_01-16-37.png)
 
 #### Source
 [維基百科_鄰接矩陣](https://zh.wikipedia.org/wiki/%E9%82%BB%E6%8E%A5%E7%9F%A9%E9%98%B5)
