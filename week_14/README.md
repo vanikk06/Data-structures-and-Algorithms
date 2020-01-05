@@ -1,6 +1,5 @@
 # Content
  - [split](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#split)
- - [try and raise](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#try-and-raise)
  - [Iterators](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#iterators)
  - [Python: range is not an iterator!](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#python-range-is-not-an-iterator)
  - [Generator](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#generator)
@@ -162,10 +161,6 @@ print (s.rsplit('w'))
 
 [👨‍👩‍👧‍👧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
-# try and raise
-
-#### Source
-[try、raise 陳述句](https://openhome.cc/Gossip/Python/TryStatement.html)
 
 # Iterators
  > 疊代器
