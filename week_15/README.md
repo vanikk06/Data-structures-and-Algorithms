@@ -61,8 +61,6 @@ c > 3                         #False
 #### Source
 [python中的無窮大](https://segmentfault.com/a/1190000011908915)
 
-[Python數字類型](http://tw.gitbook.net/python/python_numbers.html)
-
 [💧](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#content)
 
 # isinstance vs. type
@@ -70,6 +68,8 @@ c > 3                         #False
 
 #### Source
 [python-isinstance和type的用法和区别](https://www.jianshu.com/p/1f59c4cc3876)
+
+[🔥](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#content)
 
 # copy
   > 對list進行複製
@@ -228,12 +228,18 @@ c > 3                         #False
 #### Source
 [深入淺析Python中list的複製及深拷貝與淺拷貝](https://www.itread01.com/article/1535941191.html)
 
+[❄](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#content)
+
 # Adjacency Matrix
   > 鄰接矩陣
+
+[☃](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#content)
 
 # Class notes
 
 - 演算法：生活應用問題的延伸，觀摩演算法的想法可以引起對生活議題的不同看法，重新解構問題，抽象化並一步步歸納解決方法
+
+[⛄](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#content)
 
 # Shortest Path
   > 最短路徑：關心**邊**的問題
@@ -287,3 +293,5 @@ c > 3                         #False
 
 [Single Source Shortest Paths:
 Dijkstra's Algorithm](http://www.csie.ntnu.edu.tw/~u91029/Path.html#4)
+
+[⚡](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#content)
