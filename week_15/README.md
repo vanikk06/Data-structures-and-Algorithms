@@ -324,7 +324,7 @@ c > 3                         #False
   >> 紀錄vertex彼此的關聯
 
 adjacency matrix是一種graph結構中常用的表示方法\
-用**數字方陣**紀錄各個vertex之間「是否有edge相連」，數字大小可以表示edge的weight大小
+用**數字方陣**紀錄各個vertex之間「是否有edge相連」，數字大小可以表示edge的weight大小或edge個數
   
 - 方陣：A<sub>nxn</sub>，n為graph中vertex個數
   > A(vertex, vertex)
@@ -337,8 +337,7 @@ adjacency matrix是一種graph結構中常用的表示方法\
   | **(2)** | 0 | 9 | 0 | 0 |
   | **(3)** | 1 | 1 | 0 | 0 |
   - 方陣內儲存連結資訊，可以是任何任意兩點之間的資訊
-    > edge的cost、edge個數...
-    >> 但僅能記錄一筆資料
+    > 但僅能記錄一筆資料
   
 可以透過adjacency matrix還原graph
 
