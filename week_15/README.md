@@ -338,6 +338,7 @@ adjacency matrix是一種graph結構中常用的表示方法\
   | **(3)** | 1 | 1 | 0 | 0 |
   - 方陣內儲存連結資訊，可以是任何任意兩點之間的資訊
     > 但僅能記錄一筆資料
+    >> A(0, 2)與A(2, 0)內記錄的資料會相同
   
 可以透過adjacency matrix還原graph
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/image/Snipaste_2020-01-06_01-16-37.png)
