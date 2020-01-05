@@ -321,11 +321,14 @@ c > 3                         #False
 
 # Adjacency Matrix
   > 鄰接矩陣、伴隨矩陣
+  >> 紀錄vertex彼此的關聯
 
 adjacency matrix是一種graph結構中常用的表示方法\
 用**數字方陣**紀錄各個vertex之間「是否有edge相連」，數字大小可以表示edge的weight大小
   
 - 方陣：A<sub>nxn</sub>，n為graph中vertex個數
+  > A(vertex, vertex)
+  >> e.g. A(0, 2)：vertex 0與vertex 2
   
   | | (0) | (1) | (2) | (3) |
   | --- | --- | --- | --- | --- |
@@ -333,6 +336,11 @@ adjacency matrix是一種graph結構中常用的表示方法\
   | **(1)** | 4 | 0 | 9 | 1 |
   | **(2)** | 0 | 9 | 0 | 0 |
   | **(3)** | 1 | 1 | 0 | 0 |
+  - 方陣內儲存連結資訊，可以是任何任意兩點之間的資訊
+    > edge的cost、edge個數...
+    >> 但僅能記錄一筆資料
+  
+可以透過adjacency matrix還原graph
 
 #### Source
 [維基百科_鄰接矩陣](https://zh.wikipedia.org/wiki/%E9%82%BB%E6%8E%A5%E7%9F%A9%E9%98%B5)
