@@ -11,7 +11,7 @@
  - [Greedy Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#greedy-algorithm)
  - [Disjoint Sets](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#disjoint-sets)
  - [Minimum Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#minimum-spanning-tree)
- - [Try Design Kruskal](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#try-design-kruskal)
+ - [Adjustment of Design Kruskal](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#adjustment-of-design-kruskal)
 
 # split
   > 拆分字串
