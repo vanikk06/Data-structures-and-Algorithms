@@ -6,15 +6,64 @@
 #### Source
 [字串型態](https://openhome.cc/Gossip/Python/StringType.html)
 
+[🌊](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#content)
+
 # Infinite
-  > 無限大、無窮
+  > 無限大、無窮大
   
+在python表示無限大：
+  > 通過`float()`創建
+  - `float('inf')`：正無限大
+  - `float('-inf')`：負無限大
+
+此無限大與數學運算邏輯相同
+1. 與任意常數運算：皆為無限大
+   > 比較中，比任何數都大
+   >> 正無限大 ＞ 負無限大
+2. 放置於分母：0.0
+   > 在此無限大以符點數表示
+
+可使用`math.isinf()`進行判斷
+```python
+import math
+
+a = float("inf")    #正無限大
+b = float("-inf")   #負無限大
+
+math.isinf(a)       #True
+math.isinf(b)       #True
+```
+
+若將正無限大與負無限大共同運算，會得到`NaN`
+  - `nan`：not a number
+     > 對`nan`進行操作，不會出現error
+ 
+任何數與`nan`進行比較，皆返回False
+
+可使用`math.isnan()`進行判斷
+```python
+import math
+
+c = float('nan')
+
+math.isnan(c)                 #True
+
+#比較
+float("nan") == float("nan")  #False
+float("inf") == float("inf")  #True
+
+c > 3                         #False
+```
+ 
+
+
+
 #### Source
-[關於Python中Inf與Nan的判斷問題詳解](https://www.itread01.com/p/438707.html)
+[python中的無窮大](https://segmentfault.com/a/1190000011908915)
 
 [Python數字類型](http://tw.gitbook.net/python/python_numbers.html)
 
-[python中的無窮大](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/116717/)
+[💧](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#content)
 
 # isinstance vs. type
 
