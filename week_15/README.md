@@ -357,6 +357,10 @@ c > 3                         #False
   > 調整過的cost可自行作下標紀錄
 
 #### § Exercise §
+- 關鍵
+  1. 可被採用的vertex，其cost必然已是min cost
+  2. 新增的vertex，只會影響與其相連接的vertex
+  
 - 加入edge表格
   > 小心，edge為無向，只要連結都要考慮
   
