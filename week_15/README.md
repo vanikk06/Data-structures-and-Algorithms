@@ -101,6 +101,49 @@ c > 3                         #False
 
 - `type`：得到物件的資料類型（class）
    > type(object)
+   
+   
+   ```python
+   class A(object):    #創建class
+    pass
+   
+   a=A()
+   type(a)             #__main__.A
+   type(a) == A        #True
+   ```
+   
+#### 總結
+
+- 共同點：皆可判斷物件屬於何種類型
+
+- 相異點：
+    1. 判斷方式
+        - `isinstance()`：兩個參數
+           > 像是問「物件和xxx是相同類型嗎？」
+           >> 只能判斷**已知**，一定要有個判斷的類型對象
+        - `type()`：一個參數
+           > 像是問「物件是什麼類型的？」
+           >> 能夠判斷**未知**
+    2. class存在繼承關係時
+        - `isinstance()`：主要功能
+        - `type()`：不適合，此判斷的物件是物件為主class（`__main__.class名`）
+        
+     ```python
+     class father(object):
+          pass
+
+     class son(father):
+          pass
+          
+     a = father()
+     b = son()
+     
+     isinstance(b ,father)     #True
+     
+     type(b)                   #__main__.son
+     type(b) == father         #False
+     ```
+     `type(b)`判斷出的類型為`__main__.son`，所以拿`type(b)`去與`son()`的parent class`father()`判斷，自然會是不匹配的
 
 
 #### Source
