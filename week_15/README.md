@@ -320,7 +320,24 @@ c > 3                         #False
 [❄](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#content)
 
 # Adjacency Matrix
-  > 鄰接矩陣
+  > 鄰接矩陣、伴隨矩陣
+
+adjacency matrix是一種graph結構中常用的表示方法\
+用**數字方陣**紀錄各個vertex之間「是否有edge相連」，數字大小可以表示edge的weight大小
+  
+- 方陣：n為graph中vertex個數
+  
+  | | (0) | (1) | (2) | (3) |
+  | --- | --- | --- | --- |
+  | **(0)** | 0 | 4 | 0 | 1 |
+  | **(1)** | 4 | 0 | 9 | 1 |
+  | **(2)** | 0 | 9 | 0 | 0 |
+  | **(3)** | 1 | 1 | 0 | 0 |
+
+#### Source
+[維基百科_鄰接矩陣](https://zh.wikipedia.org/wiki/%E9%82%BB%E6%8E%A5%E7%9F%A9%E9%98%B5)
+
+[Graph 資料結構 :Adjacency Matrix](http://www.csie.ntnu.edu.tw/~u91029/Graph.html#3)
 
 [☃](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#content)
 
