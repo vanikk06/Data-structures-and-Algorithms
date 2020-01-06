@@ -1,6 +1,18 @@
 # Data-structures-and-Algorithms
  Weekly Learning Note
  
+ 姓名：陳鳳庭 😏
+ 
+ tips：
+  1. 筆記：有「課堂筆記」跟「課外補充」兩部份
+      - 課堂筆記：標題與課堂標題相同
+      - 課外補充：部分還在努力
+  
+  2. 作業：檔案放置在交作業的當週，在下面content都有連結
+  3. 小圖：返回當頁目錄
+     > e.g.🎈
+      
+ 
  [CS50](http://cs50.tv/2013/fall/#about,seminars)
  
  [PecuLab](https://www.peculab.org/)
@@ -55,14 +67,14 @@
  
 # week_02 Linked List
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02)
-   - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#class)
-   - [function VS. method](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#function-vs-method)
-  - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#return)
-  - [Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#linked-list)
+   - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#class)
+   - [function VS. method](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#function-vs-method)
+  - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#return)
+  - [Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#linked-list)
     - [Test Design linked list.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/Test%20%20Design%20linked%20list.py)
-    - [Test Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#test-design-linked-list)
-      - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#code)
-      - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#wrong-answer)
+    - [Test Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#test-design-linked-list)
+      - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#code)
+      - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#wrong-answer)
     - [Try Design linked list.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/Try%20Design%20linked%20list.py)
     - [Try Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02#try-design-linked-list)
 
@@ -101,7 +113,7 @@
 # week_04 Insertion Sort
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04)
 
-- [Sorting algorithms](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#sorting-algorithms)
+- [Sorting algorithms](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#sorting-algorithms)
 - [Time complexity](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#time-complexity)
 - [return VS. break VS. continue](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#return-vs-break-vs-continue)
 - [not](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#not)
@@ -114,19 +126,19 @@
     - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#wrong-answer)
     - [Runtime Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#runtime-error)
  - [Try Insertion sort list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04#try-insertion-sort-list)
- - [Quick Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#quick-sort)
+ - [Quick Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#quick-sort)
      - [Test Quick sort_Extra place.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/Test%20Quick%20sort_Extra%20place.py)
-     - [Test Quick sort By extra-place](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#test-quick-sort-by-extra-place)
-         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#code-1)
-         - [TypeError](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#typeerror)
-         - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#demo)
-         - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#flowchart)
+     - [Test Quick sort By extra-place](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#test-quick-sort-by-extra-place)
+         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#code-1)
+         - [TypeError](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#typeerror)
+         - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#demo)
+         - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#flowchart)
      - [Test Quick sort_In place.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/Test%20Quick%20sort_In%20place.py)
-     - [Test Quick sort By in-place](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#test-quick-sort-by-in-place)
-         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#code-1)
-         - [Q&A](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#qa)
-         - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#demo)
-     - [Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/README.md#divide-and-conquer)
+     - [Test Quick sort By in-place](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#test-quick-sort-by-in-place)
+         - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#code-1)
+         - [Q&A](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#qa)
+         - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#demo)
+     - [Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#divide-and-conquer)
 
 ## H.W.1_Quick Sort
 [🤜HERE🤛](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04/H.W.1_Quick%20Sort)
@@ -134,8 +146,8 @@
   - [Jupyter notebook](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/Quick%20Sort.ipynb) 
   - [Jupyter nbviewer](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/Quick%20Sort.ipynb)
     -  [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/Quick%20Sort.py)
-    - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/quick_sort__demo.jpg)
-  - [flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/quick_sort_flowchart.jpg)
+    - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort#demo)
+    - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04/H.W.1_Quick%20Sort#flowchart)
 
 [💁🏻‍♀️💁🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
