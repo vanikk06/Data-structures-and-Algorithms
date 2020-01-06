@@ -18,7 +18,10 @@
  
  [w3schools.com](https://www.w3schools.com/python/default.asp)
  
-
+# LeetCode
+| LeetCode | Code | 附註 |
+| --- | --- | --- |
+ 
 # Content
  - [week_02 Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms#week_02-linked-list)
  - [week_03 Stack & Queue](https://github.com/vanikk06/Data-structures-and-Algorithms#week_03-stack--queue)
