@@ -146,7 +146,7 @@
 
   - [Jupyter notebook](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/Quick%20Sort.ipynb) 
   - [Jupyter nbviewer](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/Quick%20Sort.ipynb)
-    -  [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/Quick%20Sort.py)
+    - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/Quick%20Sort.py)
     - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort#demo)
     - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04/H.W.1_Quick%20Sort#flowchart)
 
@@ -159,8 +159,8 @@
  - [range vs. np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#range-vs-nparange)
     - [range](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#range)
     - [np.arange](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#nparange)
- - [Division differences](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/README.md#division-differences)
- - [Priority Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/README.md#priority-queue)
+ - [Division differences](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06#division-differences)
+ - [Priority Queue](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06#priority-queue)
  - [Heap Sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#heap-sort)
     - [Test Design heap sort_bug.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Test%20Design%20heap%20sort_bug.py)
     - [Test Design heap sort_debug.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Test%20Design%20heap%20sort_debug.py)
@@ -170,8 +170,8 @@
     - [Try Design heap sort.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Try%20Design%20heap%20sort.py)
     - [Try Design heap sort](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#try-design-heap-sort)
        - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#code-1)
-       - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/README.md#flowchart)
-       - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/README.md#demo)
+       - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06#flowchart)
+       - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06#demo)
 - [Test Univalued binary tree.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Test%20Univalued%20binary%20tree.py)
 - [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#test-univalued-binary-tree)
 - [Try Univalued binary tree.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Try%20Univalued%20binary%20tree.py)
@@ -213,14 +213,15 @@
 # week_09 Binary Search Tree
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09)
 
-  - [UnboundLocalError](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/README.md#unboundlocalerror)
-  - [is vs. ==](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/README.md#is-vs-)
+  - [UnboundLocalError](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09#unboundlocalerror)
+  - [is vs. ==](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09#is-vs-)
   - [NoneType](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#nonetype)
   - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#depth-first-search)
   - [Traversal in Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#traversal-in-binary-tree)
   - [Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#binary-search-tree)
   - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#class-notes)
   - [Practice of Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#practice-of-binary-search-tree)
+  
 ## H.W.3_Binary Search Tree
 [🤜🏼HERE🤛🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree)
 - [Jupyter notebook_The process of learning binary search tree](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_09/H.W.3_Binary%20Search%20Tree/The%20process%20of%20learning%20binary%20search%20tree%20.ipynb)
@@ -302,12 +303,12 @@
 # week_13 Depth-First Search
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_13)
 
-- [if＿name＿ == ＿main＿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#if-%EF%BC%BFname%EF%BC%BF--%EF%BC%BFmain%EF%BC%BF)
- - [defaultdict](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#defaultdict)
- - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#class-notes)
- - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#depth-first-search)
- - [BFS vs. DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#bfs-vs-dfs)
- - [Adjustment of Design DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/README.md#adjustment-of-design-dfs)
+- [if＿name＿ == ＿main＿](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#if-%EF%BC%BFname%EF%BC%BF--%EF%BC%BFmain%EF%BC%BF)
+ - [defaultdict](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#defaultdict)
+ - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#class-notes)
+ - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#depth-first-search)
+ - [BFS vs. DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#bfs-vs-dfs)
+ - [Adjustment of Design DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#adjustment-of-design-dfs)
    - [Design DFS.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/Design%20DFS.py)
    - [Adjustment of Design DFS.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/Adjustment%20of%20Design%20DFS.py)
    
