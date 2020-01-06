@@ -490,7 +490,7 @@ Status：Runtime 2592 ms, Memory 17.8 MB
  
 ⭐在移動node指標時，最簡化的判斷是直接判斷**node本身**是否存在
  > 若以node.val或node.next進行判斷，容易將node指標走到不存在的node，為此就需要很多額外的判斷式來補足這點
-  \
+ 
   
  與老師code最大的差別是在`add`的部分
 - teacher's：在確定新增的值不重複後，就新增在linked list第一個
