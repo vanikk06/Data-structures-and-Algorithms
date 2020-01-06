@@ -495,8 +495,8 @@ Status：Runtime 2592 ms, Memory 17.8 MB
  與老師code最大的差別是在`add`的部分
 - teacher's：在確定新增的值不重複後，就新增在linked list第一個
 - Mine：在確定新增值不重複後，是新增在最後一個
- > 每走訪一個node就要紀錄「走訪的node」與「走訪的前一個node」
- >> 這步驟時間會隨著node的增加，變得愈來愈長
+  > 每走訪一個node就要紀錄「走訪的node」與「走訪的前一個node」
+  >> 這步驟時間會隨著node的增加，變得愈來愈長
     
 
 #### Code
