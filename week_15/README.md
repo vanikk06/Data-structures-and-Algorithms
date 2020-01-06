@@ -392,6 +392,12 @@ adjacency matrix是一種graph結構中常用的表示方法\
   
   ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/image/output_8P7AbS.gif)
   
+
+- 有向線與無向線混合
+  
+  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/image/output_cJiS8V.gif)
+
+
 #### § Time Complexity §
    > O(V²)
 
