@@ -1,15 +1,15 @@
 # Data-structures-and-Algorithms
- Weekly Learning Note
+  > Weekly Learning Note
  
  姓名：陳鳳庭 😏
  
  tips：
   1. 筆記：有「課堂筆記」跟「課外補充」兩部份
-      - 課堂筆記：標題與課堂標題相同
-      - 課外補充：部分還在努力
+     - 課堂筆記：標題與課堂標題相同
+     - 課外補充：部分還在努力
   
   2. 作業：檔案放置在交作業的當週，在下面content都有連結
-  3. 小圖：返回當頁目錄
+  3. 小圖：左下角的圖案是「返回當頁目錄」的快捷鍵
      > e.g.🎈
       
  
