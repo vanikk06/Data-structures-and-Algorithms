@@ -19,6 +19,8 @@
  [w3schools.com](https://www.w3schools.com/python/default.asp)
  
 # LeetCode
+  > 期末LeetCode五題
+  
 | LeetCode | Code | 附註 |
 | --- | --- | --- |
 | 705. Design HashSet | [code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20code.py) | [附註](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#changing-of-code) |
