@@ -1,11 +1,11 @@
 # Content
-  - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#class)
-  - [function VS. method](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#function-vs-method)
-  - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#return)
-  - [Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#linked-list)
-    - [Test Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#test-design-linked-list)
-      - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#code)
-      - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02/README.md#wrong-answer)
+  - [Class](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#class)
+  - [function VS. method](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#function-vs-method)
+  - [return](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#return)
+  - [Linked List](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#linked-list)
+    - [Test Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#test-design-linked-list)
+      - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#code)
+      - [Wrong Answer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_02#wrong-answer)
     - [Try Design linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_02#try-design-linked-list)
 
 
