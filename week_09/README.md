@@ -26,6 +26,7 @@
   - [Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#binary-search-tree)
   - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#class-notes)
   - [Practice of Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#practice-of-binary-search-tree)
+  - [Try Print Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#try-print-binary-tree)
 
 # UnboundLocalError
   > 未綁定區域錯誤
