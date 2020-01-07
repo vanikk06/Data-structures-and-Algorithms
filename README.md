@@ -385,5 +385,8 @@
 
 # week_16 Overview
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16)
+  - [pip](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#pip)
+  - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#class-notes)
+  - [BlockChain 101 Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#blockchain-101-demo)
 
 [🧛🏻‍♀️🧛🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
