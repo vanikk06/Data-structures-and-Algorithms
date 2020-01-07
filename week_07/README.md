@@ -14,7 +14,7 @@
    - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#code)
    - [Flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#flowchart)
    - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#demo)
-- [Try Sort an Array]()
+- [Try Sort an Array](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#try-sort-an-array)
 
 # Including image or picture in jupyter notebook
 
@@ -243,9 +243,11 @@ sys.getrecursionlimit()   #3000
 
 
 # Try Sort an Array
-  > 微微調整作業二的merge sort
+  > 作業二的merge sort
   >> LeetCode：912. Sort an Array
   
   [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_07/Try%20Sort%20an%20Array.py)
+  
+  拿之前自己打的程式碼去刷Leetcode的題
   
   [⚙](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_07#content)
