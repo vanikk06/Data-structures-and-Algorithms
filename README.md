@@ -338,6 +338,21 @@
 # week_14 Minimum Spanning Tree
 [👉🏿HERE👈🏿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14)
 
+- [split](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#split)
+ - [Iterators](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#iterators)
+ - [Python: range is not an iterator!](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#python-range-is-not-an-iterator)
+ - [Generator](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#generator)
+ - [＿＿name＿＿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#%EF%BC%BF%EF%BC%BFname%EF%BC%BF%EF%BC%BF)
+ - [python –](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#python-)
+ - [List Comprehension](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#list-comprehension)
+ - [sort vs. sorted](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#sort-vs-sorted)
+ - [key vs. value](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#key-vs-value)
+ - [Greedy Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#greedy-algorithm)
+ - [Disjoint Sets](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#disjoint-sets)
+ - [Minimum Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#minimum-spanning-tree)
+ - [Adjustment of Design Kruskal.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/Adjustment%20of%20Design%20Kruskal.py)
+ - [Adjustment of Design Kruskal](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#adjustment-of-design-kruskal)
+
 
 
 [👮🏻‍♀️👮🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
