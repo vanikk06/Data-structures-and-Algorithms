@@ -207,6 +207,13 @@
 
 # week_08 Binary Tree
 [👉🏾HERE👈🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08)
+ - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#class-notes)
+ - [Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#binary-tree)
+ - [Full binary tree & Complete binary tree](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_08/README.md#full-binary-tree--complete-binary-tree)
+ - [Try Binary Tree Level Order Traversal](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#try-binary-tree-level-order-traversal)
+ - [Test Design binary tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#test-design-binary-tree)
+ - [Try Design binary tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_08#try-design-binary-tree)
+ 
 
 [👩🏻‍🚀👨🏻‍🚀](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
