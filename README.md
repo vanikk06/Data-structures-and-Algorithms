@@ -228,6 +228,8 @@
   - [Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#binary-search-tree)
   - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#class-notes)
   - [Practice of Binary Search Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#practice-of-binary-search-tree)
+  - [Try Print Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09#try-print-binary-tree)
+
   
 ## H.W.3_Binary Search Tree
 [🤜🏼HERE🤛🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_09/H.W.3_Binary%20Search%20Tree)
