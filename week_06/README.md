@@ -349,6 +349,9 @@ linked list的變形，每一個node都有且僅有**兩個subnode**，放置順
 
 Status：Runtime 36 ms, Memory 13.7 MB
 
+- 題目：判斷binary tree是否是univalued
+  > univalued：tree中所有的node值都相同
+
 針對一個root做判斷，其值是否與左邊值相同，其值是否與右邊值相同，再利用遞迴的方式走訪每個root
 
 #### Source
@@ -363,5 +366,30 @@ Status：Runtime 36 ms, Memory 13.7 MB
 >> LeetCode：965. Univalued Binary Tree
 
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Try%20Univalued%20binary%20tree.py)
+
+Status：Runtime 24 ms, Memory 12.7 MB
+
+- 題目：判斷binary tree是否是univalued
+  > univalued：tree中所有的node值都相同
+
+試圖讓程式碼的判斷精簡化，先歸類可能情況
+- False：binary tree中有node的值與其他node不一樣
+- True：binary tree中所有node的值都相等
+  > 除了False的情形
+
+#### Code
+
+先區分出False的情形，如果沒有變成False，那就是True\
+再用遞迴的方式走訪每個node
+
+ - parent存在：
+   - Yes：進一步判斷，parent與child的值是否相等
+      - 如果left child存在且left child值與parent值不相等 或是 right child存在且right child值與parent值不相等：回傳False
+       > 此處`return`為遞迴出口
+   - No：回傳True
+     > 此處`return`為遞迴出口
+   
+ 使用遞迴，對每個parent and child組合進行判斷，再回傳最後總值
+ > 只要有一次判斷是False，最後結果一定是False
 
 [🍿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#content)
