@@ -361,10 +361,24 @@
 # week_15 Shortest Path
 [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15)
 
-
+  - [String Type](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#string-type)
+  - [Infinite](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#infinite)
+  - [isinstance vs. type](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#isinstance-vs-type)
+  - [copy](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#copy)
+  - [Adjacency Matrix](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#adjacency-matrix)
+  - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#class-notes)
+  - [Shortest Path](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#shortest-path)
+  
 
 ## H.W.6_Dijkstra＆Kruskal
 [🤜🏻HERE🤛🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal)
+  
+- [Jupyter notebook_The process of learning Kruskal & Dijkstra](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal/The%20process%20of%20learning%20Kruskal%20%26%20Dijkstra.ipynb)
+  - [Jupyter nbviewer_The process of learning Kruskal & Dijkstra](https://nbviewer.jupyter.org/github/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal/The%20process%20of%20learning%20Kruskal%20%26%20Dijkstra.ipynb)
+- [Notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#notes)
+- [Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#error)
+- [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#code)
+- [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#demo)
 
 [👩🏻‍🌾👨🏻‍🌾](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
 
