@@ -15,6 +15,7 @@
        - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06#demo)
  - [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#test-univalued-binary-tree)
  - [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#try-univalued-binary-tree)
+    - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#code-2)
 
 # Sorting algorithm stability
 > 是否穩定並非固定，主要還是要看程式如何執行（相同值是否會打散）
@@ -385,7 +386,7 @@ Status：Runtime 24 ms, Memory 12.7 MB
  - parent存在：
    - Yes：進一步判斷，parent與child的值是否相等
       - 如果left child存在且left child值與parent值不相等 或是 right child存在且right child值與parent值不相等：回傳False
-       > 此處`return`為遞迴出口
+        > 此處`return`為遞迴出口
    - No：回傳True
      > 此處`return`為遞迴出口
    
