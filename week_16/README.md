@@ -13,3 +13,16 @@
 
 #### others
 [寫程式只是工具，解決問題才是目標](http://blog.udn.com/yccsonar/78345080)
+
+
+# BlockChain 101 Demo
+  > 同學期末專案
+
+- [區塊鏈101學生作品 - 簡大為](https://www.youtube.com/watch?v=RqTTfm0vF4c&feature=youtu.be)
+- [區塊鏈101學生作品 - 陳偉傑](https://www.youtube.com/watch?v=Ri3o0ZqYBmQ&feature=youtu.be)
+- [區塊鏈101學生作品 - 陳佳淳](https://www.youtube.com/watch?v=DQT6R-27bDY&feature=youtu.be)
+
+
+#### feedback
+看到同學做出來真的覺得他們很厲害\
+本來我是有想嘗試的，但是時間真的太短就作罷，想說學期結束之後再來努力，至少要聽懂同學在說什麼
