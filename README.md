@@ -177,6 +177,7 @@
 - [Test Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#test-univalued-binary-tree)
 - [Try Univalued binary tree.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_06/Try%20Univalued%20binary%20tree.py)
 - [Try Univalued Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#try-univalued-binary-tree)
+    - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_06#code-2)
 
 
 [👩🏻‍🔬👨🏻‍🔬](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
