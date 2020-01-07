@@ -362,6 +362,11 @@ adjacency matrix是一種graph結構中常用的表示方法\
 
 常用在路徑規劃中，最小距離的估算方式
 
+  - [Practice](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#-practice-)
+  - [Exercise](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#-exercise-)
+  - [Time Complexity](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#-time-complexity-)
+
+
 計算graph上從起點到終點哪裡有**最短路徑（cost最低）**
   > e.g.Google map的參考路徑：以時間為標的、以費用為標的（是否上高速公路）...
   >> 若將cost轉為價格，尋找價格最低的路徑，時間會拉長\
