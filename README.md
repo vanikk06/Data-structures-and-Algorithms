@@ -35,8 +35,8 @@
   
 | LeetCode | Code | 附註 |
 | --- | --- | --- |
-| 705. Design HashSet | [code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20code.py) | [附註](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#changing-of-code) |
-| 155. Min Stack | [code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_03/Try%20Min%20stack%20By%20list.py) | [附註](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#code-1) |
+| 705. Design HashSet | [code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/Leetcode/705%23_DesignHashSet_05113010.py) | [附註](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#changing-of-code) |
+| 155. Min Stack | [code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/Leetcode/155%23_MinStack_05113010.py) | [附註](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_03#code-1) |
 ||||
 ||||
 ||||
