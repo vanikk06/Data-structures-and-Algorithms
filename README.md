@@ -390,3 +390,17 @@
   - [BlockChain 101 Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#blockchain-101-demo)
 
 [🧛🏻‍♀️🧛🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
+
+
+# Feedback
+
+一學期的課程結束了，這學期因為資料結構與演算法這堂課過得很充實
+
+記得第一堂課的時候，原本就耳聞從台大來了一位很硬的老師，為這學期要好好認真已經做了心理準備，但在課堂上還是有點被震驚到，原因是因為老師很直接地告訴我們一些「事實」，讓我意識到自己的能力有多麼的不足。\
+其實這也是當時的我一直很擔心的，我目前已經大四又非本科生，在這之前修了一些巨資的必修課覺得自己的能力沒有什麼進步，但是這樣的我就要畢業了，總感覺很讓人害怕。
+
+在第一次老師讓我們看Linked list的程式碼的時候，真的覺得壓力很大，回去看了很久都看不懂，後來去問助教，經過助教不厭其煩地解釋之後，突然有種豁然開朗的感覺，原來程式碼沒有想像的那麼難\
+後來幾次上課，雖然還是會覺得壓力有點大，但是慢慢按照老師的進度走，課堂上沒聽懂的就回去看影片，看影片不理解的就上網取查，
+
+
+[🦸🏻‍♀️🦸🏻‍♂️](https://github.com/vanikk06/Data-structures-and-Algorithms#content)
