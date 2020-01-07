@@ -9,6 +9,7 @@
 
 # Class notes
 
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_16/image/Snipaste_2020-01-07_14-32-36.png)
 
 #### others
 [寫程式只是工具，解決問題才是目標](http://blog.udn.com/yccsonar/78345080)
