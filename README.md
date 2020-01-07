@@ -350,6 +350,12 @@
  - [Greedy Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#greedy-algorithm)
  - [Disjoint Sets](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#disjoint-sets)
  - [Minimum Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#minimum-spanning-tree)
+    - [Spanning Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#-spanning-tree-)
+    - [Practice](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#-practice-)
+    - [Exercise](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#-exercise-)
+    - [Kruskal's Algorithm](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#-kruskals-algorithm-)
+    - [Time Complexity](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#-time-complexity-)
+
  - [Adjustment of Design Kruskal.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14/Adjustment%20of%20Design%20Kruskal.py)
  - [Adjustment of Design Kruskal](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#adjustment-of-design-kruskal)
 
