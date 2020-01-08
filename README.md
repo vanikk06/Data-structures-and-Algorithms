@@ -323,6 +323,7 @@
  - [Adjustment of Design DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#adjustment-of-design-dfs)
    - [Design DFS.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/Design%20DFS.py)
    - [Adjustment of Design DFS.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/Adjustment%20of%20Design%20DFS.py)
+ - [Try Minimum Depth of Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_13#try-minimum-depth-of-binary-tree)
    
 
 ## H.W.5_BFS＆DFS
