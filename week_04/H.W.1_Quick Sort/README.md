@@ -9,8 +9,12 @@
 # Demo
 ![demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/quick_sort__demo.jpg)
 
+[🍬](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04/H.W.1_Quick%20Sort#content)
+
 # Flowchart
 ![flowchart](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04/H.W.1_Quick%20Sort/quick_sort_flowchart.jpg)
+
+[🍫](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_04/H.W.1_Quick%20Sort#content)
 
 #### 參考網站
 [QuickSort on Singly Linked List](https://www.geeksforgeeks.org/quicksort-on-singly-linked-list/)
