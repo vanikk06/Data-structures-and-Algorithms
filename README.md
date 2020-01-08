@@ -283,6 +283,12 @@
     - [Changing of capacity](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#changing-of-capacity)
     - [Try Design HashSet_Changing of code.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20code.py)
     - [Changing of code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#changing-of-code)
+- [Try Design HashMap](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#try-design-hashmap)
+    - [Try Design HashMap of dict.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashMap%20of%20dict.py)
+    - [Using dict](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#using-dict)
+    - [Try Design HashMap of array and linked list.py](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashMap%20of%20array%20and%20linked%20list.py)
+    - [Using array and linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#using-array-and-linked-list)
+
     
 ## H.W.4_Hash Table
 [🤜🏾HERE🤛🏾](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11/H.W.4_Hash%20Table)
