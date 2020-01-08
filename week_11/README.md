@@ -20,6 +20,9 @@
 - [Try Desigh HashSet](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#try-desigh-hashset)
     - [Changing of capacity](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#changing-of-capacity)
     - [Changing of code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#changing-of-code)
+- [Try Design HashMap](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#try-design-hashmap)
+    - [Using dict](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#using-dict)
+    - [Using array and linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#using-array-and-linked-list)
 
 
 # Coding
@@ -540,8 +543,8 @@ Status：Runtime 2592 ms, Memory 17.8 MB
   
 設計一個HashMap，不使用任何已建好的hash table
 
-- []()
-- []()
+- [Using dict](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#using-dict)
+- [Using array and linked list](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_11#using-array-and-linked-list)
   
 ## Using dict
    > 使用python內建的dict
