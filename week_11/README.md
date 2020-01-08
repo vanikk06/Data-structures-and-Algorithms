@@ -539,6 +539,9 @@ Status：Runtime 2592 ms, Memory 17.8 MB
   >> LeetCode：706. Design HashMap
   
 設計一個HashMap，不使用任何已建好的hash table
+
+- []()
+- []()
   
 ## Using dict
    > 使用python內建的dict
@@ -546,10 +549,28 @@ Status：Runtime 2592 ms, Memory 17.8 MB
    
 [👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashMap%20of%20dict.py)
 
+Status：Runtime 208 ms, Memory 15.3 MB
+
 #### Code
 
-
-
+- `__init__`：區域屬性
+    - .dic：建立一個空字典
+- `put(key, value)`：增加一對(key, value)到HashMap中
+   > 如果key已存在，更新value
+   
+   - 判斷key是否已存在在dic中：
+        - No：在dic中建立一筆(key:value)的資料
+        - Yes：更新dic中key的value
+- `get(key)`：回傳key對應到的value
+   > 若key不存在，則回傳-1
+   
+   - 判斷key是否存在在dic中：
+        - Yes：回傳key對應的value
+        - No：回傳-1
+- `remove(key)`：移除key與其對應的value
+   - 判斷key是否在dict中：
+        - Yes：使用`pop()`移除此組(key:value)
+        - No：不做任何動作
 
 [🚨](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11#content)
 
