@@ -24,7 +24,7 @@
  [Class](https://docs.google.com/spreadsheets/d/1GUElSFg_KrUj2FxwP_iZsR5pF9t9MygTaHcKXfSt4sg/edit#gid=989589818)
  
  #### Source
- [LeetCode](https://github.com/luliyucoordinate/Leetcode)
+ [Source_LeetCode](https://github.com/luliyucoordinate/Leetcode)
  
  [travishen/datastructure-python](https://github.com/travishen/datastructure-python)
  
