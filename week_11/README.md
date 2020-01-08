@@ -45,7 +45,7 @@
 #### Source
 [Python資料加密，解密的相關操作（hashlib、hmac、random、base64、pycrypto）](https://www.itread01.com/content/1542966064.html)
 
-[🚦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+[🚦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11#content)
 
 # Hash Table Ⅰ
   > class teaching
@@ -157,7 +157,7 @@ Hash Function：所有字串，經過**編碼對應**之後，能將字串的句
 #### Others
 [Pair Programming](https://www.youtube.com/watch?v=vgkahOzFH2Q&feature=youtu.be)
 
-[🏳‍🌈](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+[🏳‍🌈](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11#content)
 
 # Hash Table Ⅱ
   > online information
@@ -323,7 +323,7 @@ key：K，size of table：m = 2<sup>p</sup>
 
 [Python資料加密，解密的相關操作（hashlib、hmac、random、base64、pycrypto）](https://www.itread01.com/content/1542966064.html)
 
-[🏴‍☠️](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+[🏴‍☠️](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11#content)
 
 # BlockChain
   > 區塊鏈
@@ -346,7 +346,7 @@ key：K，size of table：m = 2<sup>p</sup>
 
 [How does a blockchain work - Simply Explained](https://www.youtube.com/watch?v=SSo_EIwHSd4)
 
-[🚩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+[🚩](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11#content)
 
 # BitCoin Hashing
   > 比特幣
@@ -381,7 +381,7 @@ bitcoin是利用hashes作的數字分類帳，它利用工作量證明（proof o
 
 [Blockchain Basics Explained - Hashes with Mining and Merkle trees](https://www.youtube.com/watch?v=lik9aaFIsl4&feature=youtu.be)
 
-[🚧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+[🚧](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11#content)
 
 # Test Desigh HashSet
   > Following teacher's
@@ -448,7 +448,7 @@ Status：Runtime 2824 ms, Memory 17.9 MB
             - No：node指標指到下一個node
         - Yes：返回False
 
-[🏁](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+[🏁](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11#content)
         
 # Try Desigh HashSet
   > By myself：更改H.W.4_Hash Table
@@ -480,7 +480,7 @@ Status：Runtime 2824 ms, Memory 17.9 MB
 #### Source
 [LeetCode介紹](https://arton0306blog.wordpress.com/2018/04/15/leetcode%E4%BB%8B%E7%B4%B9/)
 
-[🏳](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+[🏳](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11#content)
 
 ## Changing of code
 [👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashSet_Changing%20of%20code.py)
@@ -531,4 +531,34 @@ Status：Runtime 2592 ms, Memory 17.8 MB
          
          跳出while迴圈，代表目標移除值不存在，返回
 
-[🏴](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/README.md#content)
+[🏴](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11#content)
+
+
+# Try Design HashMap
+  > By myself
+  >> LeetCode：706. Design HashMap
+  
+設計一個HashMap，不使用任何已建好的hash table
+  
+## Using dict
+   > 使用python內建的dict
+   >> 後來才想到dict本身也是一種hash，所以這算是投機的作法
+   
+[👉🏽HERE👈🏽](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashMap%20of%20dict.py)
+
+#### Code
+
+
+
+
+[🚨](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11#content)
+
+## Using array and linked list
+   > 使用array跟linked list自行建立hash table
+
+[👉🏼HERE👈🏼](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11/Try%20Design%20HashMap%20of%20array%20and%20linked%20list.py)
+
+#### Code
+
+
+[🚥](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_11#content)
