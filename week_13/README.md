@@ -212,7 +212,7 @@ P.S.此處沒有使用`defaultdict`套件，當input的key不存在字典內時�
   > By myself
   >> LeetCode：111. Minimum Depth of Binary Tree
   
-  []()
+  [👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13/Try%20Minimum%20Depth%20of%20Binary%20Tree.py)
   
  要研究一下遞迴怎麼用
   
