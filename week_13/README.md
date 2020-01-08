@@ -206,3 +206,14 @@ P.S.此處沒有使用`defaultdict`套件，當input的key不存在字典內時�
 [Python判斷值是否在list或set中的效能對比分析](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/369163/)
 
 [🍪](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#content)
+
+
+# Try Minimum Depth of Binary Tree
+  > By myself
+  >> LeetCode：111. Minimum Depth of Binary Tree
+  
+  []()
+  
+ 要研究一下遞迴怎麼用
+  
+[🎂](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#content)
