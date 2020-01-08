@@ -16,6 +16,7 @@
  - [Depth-First Search](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#depth-first-search)
  - [BFS vs. DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#bfs-vs-dfs)
  - [Adjustment of Design DFS](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_13#adjustment-of-design-dfs)
+ - [Try Minimum Depth of Binary Tree](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_13#try-minimum-depth-of-binary-tree)
 
 
 
