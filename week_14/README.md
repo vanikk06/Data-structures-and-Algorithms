@@ -477,7 +477,7 @@ dict內元素本身為無序，若想依照某個特定的順序來取用dict內
 ```python
 sorted(d.items(), key=lambda d: d[1])
 ```
-> `sorted()`會對key進行排序，因此將kay轉換成其對應的value
+> `sorted()`會對key進行排序，因此將kay轉換成其對應的value，再丟入`sorted()`
 
  - `items()`：存取dict當中所有的`key-value`元素
    > 回傳值為一個list，其元素皆為tuple形式的`(key, value)`
