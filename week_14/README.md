@@ -396,6 +396,77 @@ while True:
 # List Comprehension
   > 解析式列表
 
+python內的syntactic sugar（語法糖），是為了寫程式碼時少出錯，發明的一寫簡便的方法，但不影響語法的功能
+
+通常在定義list的元素時，想對內容進行一些計算再放入，可以使用`for`迴圈
+
+e.g.使用`for`迴圈取1-10的平方
+```python
+lst = []
+for i in range(1, 11):
+    i = i ** 2 
+    lst.append(i)     
+lst
+
+#輸出
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+除此之外，還可以使用解析式列表的方式，較為簡潔
+
+- List Comprehension：[ expression for i in iterable ]
+
+```python
+lst = [ i**2 for i in range(1,11) ]
+lst
+
+#輸出
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+list內，前面（expression）是對i作的處理，後面是i從哪裡疊代
+
+進階複雜一點\
+e.g.將5以內的基數和5以內的雙數組成二元組，再將所有二元組放入list中
+
+使用`for`迴圈
+```python
+lst = []
+for i in range(1,6):
+    if i % 2 == 0:
+        continue
+    for j in range(1,6):
+        if j % 2 == 0:
+            lst.append((i,j))
+lst
+
+#輸出
+[(1, 2), (1, 4), (3, 2), (3, 4), (5, 2), (5, 4)]
+```
+
+使用解析式列表
+> 1. 注意效率\
+2. 在解析式列表內，不能有`elif`這類比較複雜的語法結構\
+3. 在解析式列表前面的expression必須是有回傳值的，如此才能放到list中
+```python
+[(i,j) for i in range(1,6) if i % 2 for j in range(1,6) if not j % 2]
+
+#輸出
+[(1, 2), (1, 4), (3, 2), (3, 4), (5, 2), (5, 4)]
+```
+> 在判斷式中，0會被當作False
+
+expression必須要有回傳值
+```python
+[print(i) for i in range(3)]
+
+#輸出
+0
+1
+2
+[None, None, None] #output
+```
+因為是`print()`所以i會打印出來，但因`print()`沒有回傳值，因此list中全都是None
+
+
 #### Source
 [Python的列表解析式，集合解析式，字典解析式](https://blog.csdn.net/LittleHuang950620/article/details/81774402)
 
