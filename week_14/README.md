@@ -475,7 +475,7 @@ expression必須要有回傳值
 
 需要注意：
 1. 解析式集合內放的元素必須要是hashable
-  > hashable：不可變的資料結構
+   > hashable：不可變的資料結構
 2. 解析式集合，可以自動去重
 
 若在解析是集合中的元素放入list
@@ -496,9 +496,10 @@ expression必須要有回傳值
   > 解析式字典
 
 用法與前兩者相同，只是除了用{ }包起外，expression必須是key：value形式
- - key：hashable
-   > 去重
- - value：不需要是hashable
+- Dict Comprehension：{ key：value for i in iterable }
+   - key：hashable
+     > 去重
+   - value：不需要是hashable
 
 ```python
 {i:[j] for i in range(3) for j in 'abc'}
