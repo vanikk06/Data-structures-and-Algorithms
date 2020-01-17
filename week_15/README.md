@@ -21,6 +21,7 @@
   
 # String Type
   > 字串型態
+  >> python致力簡潔易讀
   
 在python中，基本的字串表示方式是以`''`、`""`表示
 
@@ -32,7 +33,8 @@
 ```
 > 若有兩個連續字串，python會自動將它們結合為一個字串
 
-python致力於簡潔易讀，在字串中若包含`\`會將此認定為**跳脫字元**自動轉換為`\\`
+- 跳脫字元：`\`
+  > 在字串中若包含`\`會將此認定為自動轉換為`\\`
 
 ```python
 'c:\workspace'
@@ -47,11 +49,77 @@ python致力於簡潔易讀，在字串中若包含`\`會將此認定為**跳脫
 #輸出
 'c:\\workspace'
 ```
-若想要表示原始字串（Raw String），可在字串前加上`r`
+想要表示原始字串（Raw String），可在字串前加上`r`
+
+若自字串前加入，會將所有`\`接轉換為`\\`\
+若搭配`print()`函式，`\\`會顯示為`\`
 ```python
+r'c:\workspace'
+#輸出
+'c:\\workspace'
+
+
+r'c:\\workspace'
+#輸出
+'c:\\\\workspace'
+
+print('c:\workspace')
+#輸出
+c:\workspace
+
+
 print(r'c:\workspace')
+#輸出
+c:\workspace
+
+
+print('c:\\workspace')
+#輸出
+c:\workspace
+
+print(r'c:\\workspace')
+#輸出
+c:\\workspace
 ```
 
+#### Others
+
+其他常用的跳脫字串表示
+- `\\`：反斜線
+- `\'`：單引號
+- `\"`：雙引號
+- `\0`：空字元
+- `\n`：換行
+- `\t`：Tab
+- `\r`：歸位
+
+```python
+'I'm tall'
+#輸出
+SyntaxError: invalid syntax
+
+
+'I\'m tall'
+#輸出
+"I'm tall"
+
+
+r'I\'m tall'
+#輸出
+"I\\'m tall"
+```
+
+```python
+print('v\na')
+#輸出
+v
+a
+
+
+print(r'v\na')
+#輸出
+v\na
+```
 
 #### Source
 [字串型態](https://openhome.cc/Gossip/Python/StringType.html)
