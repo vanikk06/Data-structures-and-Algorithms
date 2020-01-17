@@ -443,8 +443,8 @@ lst
 ```
 
 使用解析式列表
-> 1. 注意效率\
-> 2. 在解析式列表內，不能有`elif`這類比較複雜的語法結構\
+> 1. 注意效率
+> 2. 在解析式列表內，不能有`elif`這類比較複雜的語法結構
 > 3. 在解析式列表前面的expression必須是有回傳值的，如此才能放到list中
 ```python
 [(i,j) for i in range(1,6) if i % 2 for j in range(1,6) if not j % 2]
@@ -464,7 +464,7 @@ expression必須要有回傳值
 2
 [None, None, None] #output
 ```
-因為是`print()`所以i會打印出來，但因`print()`沒有回傳值，因此list中全都是None
+> 因為是`print()`所以i會打印出來，但因`print()`沒有回傳值，因此list中全都是None
 
 
 #### Source
