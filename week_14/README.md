@@ -394,13 +394,10 @@ while True:
 [👨‍👨‍👦‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
 # List Comprehension
+  > 解析式列表
 
 #### Source
 [Python的列表解析式，集合解析式，字典解析式](https://blog.csdn.net/LittleHuang950620/article/details/81774402)
-
-[python神奇的列表解析式](https://zhuanlan.zhihu.com/p/34987535)
-
-[python列表解析式，生成器，及部分內建函數使用方法](https://www.itread01.com/content/1507459093.html)
 
 [👨‍👨‍👧‍👦](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#content)
 
