@@ -22,6 +22,37 @@
 # String Type
   > 字串型態
   
+在python中，基本的字串表示方式是以`''`、`""`表示
+
+```python
+'hey'"4"
+
+#輸出
+'hey4'
+```
+> 若有兩個連續字串，python會自動將它們結合為一個字串
+
+python致力於簡潔易讀，在字串中若包含`\`會將此認定為**跳脫字元**自動轉換為`\\`
+
+```python
+'c:\workspace'
+
+#輸出
+'c:\\workspace'
+```
+會等價於
+```python
+'c:\\workspace'
+
+#輸出
+'c:\\workspace'
+```
+若想要表示原始字串（Raw String），可在字串前加上`r`
+```python
+print(r'c:\workspace')
+```
+
+
 #### Source
 [字串型態](https://openhome.cc/Gossip/Python/StringType.html)
 
