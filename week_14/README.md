@@ -466,6 +466,56 @@ expression必須要有回傳值
 ```
 > 因為是`print()`所以i會打印出來，但因`print()`沒有回傳值，因此list中全都是None
 
+####  Set Comprehension
+  > 解析式集合
+
+- Set Comprehension：{ expression for i in iterable }
+
+用法與解析式列表相同，只是將[ ]改為{ }
+
+需要注意：
+1. 解析式集合內放的元素必須要是hashable
+  > hashable：不可變的資料結構
+2. 解析式集合，可以自動去重
+
+若在解析是集合中的元素放入list
+```python
+{ [i] for i in range(5) }
+```
+> 會出現`TypeError: unhashable type: 'list'`
+
+可自動去重（set功能）
+```python
+{i for i in [1,1,1,1,1,1]}
+
+#輸出
+{1}
+```
+
+####  Dict Comprehension
+  > 解析式字典
+
+用法與前兩者相同，只是除了用{ }包起外，expression必須是key：value形式
+ - key：hashable
+   > 去重
+ - value：不需要是hashable
+
+```python
+{i:[j] for i in range(3) for j in 'abc'}
+
+#輸出
+{0: ['c'], 1: ['c'], 2: ['c']}
+```
+> 因為key是去重的，所以第一個迴圈帶入第二個迴圈後，會不斷將改變的value覆蓋上去，直到與最後一個元素組成key：value
+
+
+若要一個個對應，可使用`zip()`
+```python
+{i:[j] for i,j in zip(range(3), 'abc')}
+
+#輸出
+{0: ['a'], 1: ['b'], 2: ['c']}
+```
 
 #### Source
 [Python的列表解析式，集合解析式，字典解析式](https://blog.csdn.net/LittleHuang950620/article/details/81774402)
