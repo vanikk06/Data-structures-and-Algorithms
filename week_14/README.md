@@ -669,11 +669,108 @@ dict（字典）最大的好處在於**查找或是插入的速度極快**，並
 
 #### Method 1
 
+利用`keys()`、`values()`、`index()`
+
+取出dict的key與value分別放入list中，利用`list.index()`的方式，找到value list中要查詢其key之value的index位置，再放入key list中找到目標查詢的key
+
+```python
+temp = {'one':'1', 'two':'2', 'three':'3', 'four':'4'}
+
+list(temp.keys())[list(temp.values()).index('3')]
+#輸出
+'three'
+```
+
+若value不唯一時，會回傳第一個符合的key
+```python
+temp = {'one':'1', 'two':'3', 'three':'3', 'four':'4'}
+
+list(temp.keys())[list(temp.values()).index('3')]
+#輸出
+'two'
+```
+
+若value為可改變的資料結構時，會出現錯誤
+```python
+temp = {'one':'1', 'two':'2', 'three':['3', '33'], 'four':'4'}
+
+list(temp.keys())[list(temp.values()).index('3')]
+#輸出
+ValueError: '3' is not in list
+
+list(temp.keys())[list(temp.values()).index(['3', '33'])]
+#輸出
+'three'
+```
 #### Method 2
+
+利用`items()`與解析式列表
+
+在解析式列表中，利用`items()`一個個判斷value，回傳value符合目標查詢值的key
+```python
+temp = {'one':'1', 'two':'2', 'three':'3', 'four':'4'}
+
+[key for key, value in temp.items() if value == '3']
+#輸出
+['three']
+```
+
+若value不唯一時，會回傳包含所有符合條件之key的list
+```python
+temp = {'one':'1', 'two':'3', 'three':'3', 'four':'4'}
+
+[key for key, value in temp.items() if value == '3']
+#輸出
+['two', 'three']
+```
+
+若value為可改變的資料結構時，會回傳空的list
+```python
+temp = {'one':'1', 'two':'2', 'three':['3', '33'], 'four':'4'}
+
+[key for key, value in temp.items() if value == '3']
+#輸出
+[]
+
+[key for key, value in temp.items() if value == ['3', '33']]
+#輸出
+['three']
+```
 
 #### Method 3
 
+建立一個新的dict，將原dict中key：value的形式，轉為value：key形式
+```python
+temp = {'one':'1', 'two':'3', 'three':'3', 'four':'4'}
 
+new_dict = {value:key for key, value in temp.items()}
+new_dict['3']
+#輸出
+'three'
+```
+
+若value不唯一時，因為key不能重複，所以重複的value會覆蓋上去
+```python
+temp = {'one':'1', 'two':'3', 'three':'3', 'four':'4'}
+
+new_dict = {value:key for key, value in temp.items()}
+new_dict['3']
+#輸出
+'three'
+
+new_dict
+#輸出
+{'1': 'one', '3': 'three', '4': 'four'}
+```
+
+若value為可改變的資料結構時，會出現錯誤
+```python
+temp = {'one':'1', 'two':'2', 'three':['3', '33'], 'four':'4'}
+
+new_dict = {value:key for key, value in temp.items()}
+#輸出
+TypeError: unhashable type: 'list'
+```
 
 #### Source
 [Python基礎——字典中由value查key的幾點說明](https://blog.csdn.net/ywx1832990/article/details/79145576)
