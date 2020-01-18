@@ -653,6 +653,28 @@ sorted(d.items(), key=lambda d: d[1])
 
 # key vs. value
 
+dict（字典）最大的好處在於**查找或是插入的速度極快**，並且和list不一樣，不會隨著key的增加速度變慢
+
+但dict會佔用較大的內存
+ > 以空間換取時間（速度）
+ 
+ 
+- dict：
+   - key：唯一，且不可變
+   - value：不唯一，可隨意取值
+   
+   
+如果想要用value來查找key，有以下三種方法
+> 要小心當value是可改變的資料結構時，會出錯
+
+#### Method 1
+
+#### Method 2
+
+#### Method 3
+
+
+
 #### Source
 [Python基礎——字典中由value查key的幾點說明](https://blog.csdn.net/ywx1832990/article/details/79145576)
 
