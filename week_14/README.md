@@ -427,67 +427,67 @@ SyntaxError: invalid syntax
  - 不希望它被直接import
 
 針對此命名方法有一些說明
-  1. **並不是private variable**
+ 1. **並不是private variable**
 
    所謂的private variable（私有變數）其實並不存在在python裡面，它只是一種命名習慣而已
-   > 在官方文件有提到
-   >> Private” instance variables that cannot be accessed except from inside an object don’t exist in Python. However, there is a convention that is followed by most Python code: a name prefixed with an underscore (e.g. _spam) should be treated as a non-public part of the API (whether it is a function, a method or a data member).
+    > 在官方文件有提到
+    >> Private” instance variables that cannot be accessed except from inside an object don’t exist in Python. However, there is a convention that is followed by most Python code: a name prefixed with an underscore (e.g. _spam) should be treated as a non-public part of the API (whether it is a function, a method or a data member).
  
-  2.並非無法被import，只是需要一些其他的方法
+  2. 並非無法被import，只是需要一些其他的方法
 
-   有一個叫test的module：test.py
-   ```python
-   def public_func():
-      print("I'm available.")
+     有一個叫test的module：test.py
+     ```python
+     def public_func():
+        print("I'm available.")
 
-  def _private_func():
-      print("I'm not available")
-   ```
+    def _private_func():
+        print("I'm not available")
+     ```
 
    接著使用`import *`匯入test.py
-    > ＊是由__all__定義的
+     > ＊是由__all__定義的
 
-   ```python
-   from test import *
-   public_func()
-   #輸出
-   I'm available.
+     ```python
+     from test import *
+     public_func()
+     #輸出
+     I'm available.
 
-   _private_func()
-   #輸出
-   NameError: name '_private_func' is not defined
-   ```
-   > 可以看到`_private_func()`沒有被import進來
+     _private_func()
+     #輸出
+     NameError: name '_private_func' is not defined
+     ```
+     > 可以看到`_private_func()`沒有被import進來
 
    但還是有辦法直接import
-   ```python
-   from test import _private_func
-   _private_func()
-   #輸出
-   I'm not available
-   ```
+     ```python
+     from test import _private_func
+     _private_func()
+     #輸出
+     I'm not available
+     ```
 
    或是將它定義在test.py的`__all__`裡面
-   ```python
-   __all__  = ['public_func', '_private_func']
+     ```python
+     __all__  = ['public_func', '_private_func']
 
-   def public_func():
-      print("I'm available.")
+     def public_func():
+        print("I'm available.")
 
-  def _private_func():
-      print("I'm not available")
-   ```
-   然後使用`import *`，就可以成功匯入
-   ```python
-   from test import *
-   public_func()
-   #輸出
-   I'm available.
+    def _private_func():
+        print("I'm not available")
+     ```
+     然後使用`import *`，就可以成功匯入
+     ```python
+     from test import *
+     public_func()
+     #輸出
+     I'm available.
 
-   _private_func()
-   #輸出
-   I'm not available
-   ```
+     _private_func()
+     #輸出
+     I'm not available
+     ```
 
 #### 3. `__xxx__`
 
