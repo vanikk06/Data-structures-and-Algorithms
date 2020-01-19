@@ -386,7 +386,7 @@ while True:
  3. `__xxx__`
  4. `__xxx`
 
-#### `xxx_`
+#### 1. `xxx_`
 
 此種命名方式，主要是避免與python內建函式與保留字（built-in functions/keywords）取了相同的名字
 
@@ -419,7 +419,7 @@ from = 'aji'
 SyntaxError: invalid syntax
 ```
 
-#### `_xxx`
+#### 2. `_xxx`
 
 #### Source
 [Python，你到底是在__底線__什麼啦！](https://aji.tw/python%E4%BD%A0%E5%88%B0%E5%BA%95%E6%98%AF%E5%9C%A8__%E5%BA%95%E7%B7%9A__%E4%BB%80%E9%BA%BC%E5%95%A6/)
