@@ -504,6 +504,79 @@ SyntaxError: invalid syntax
 
 #### 4. `__xxx`
 
+只有此種命名方式會觸發（trigger）所謂的name mangling
+
+- 不可隨便改變
+- 不可隨便取得屬性
+  > 避免在subclass時，發生命名碰撞（naming collision）
+  >> 若發生，可能會導致被繼承的父類裡面定義的其他method運作不正常
+  
+假設有位朋友叫作Jason，他長得像下列這樣
+```python
+class Jason:
+
+    location = 'HsinChu'
+    favorite_movie = 'Inception'
+    hobby = 'card magic'
+    __wife = 'Mary'
+
+    def profile(self):
+        """Print my personal profile."""
+        print(f'''
+            I live in {self.location}
+            My favorite movie is {self.favorite_movie}
+            My hobby is {self.hobby}
+            My wife is {self.__wife}
+        ''')
+```
+他的個人檔案會長的像這樣
+```python
+Jason().profile()
+#輸出
+            I live in HsinChu
+            My favorite movie is Inception
+            My hobby is card magic
+            My wife is Mary
+```
+
+假設有另外一位朋友叫Aji，與Jason有很多共通點\
+所以直接"繼承"Jason，但他們有兩個地方不一樣，一個是居住地location，一個是老婆__wife
+```python
+class Aji(Jason):
+
+    location = 'Taipei'
+    __wife = 'Boa'
+```
+Aji的個人檔案會是
+```python
+Aji().profile()
+#輸出
+            I live in Taipei
+            My favorite movie is Inception
+            My hobby is card magic
+            My wife is Mary
+```
+> location成功改變了，但__wife並沒有變
+
+
+另外__wife也無法直接取得
+```python
+jason = Jason()
+jason.location
+#輸出
+'HsinChu'
+
+jason.__wife
+#輸出
+AttributeError: 'Jason' object has no attribute '__wife'
+```
+不過可以透過特殊的方法取得
+```python
+jason._Jason__wife
+#輸出
+'Mary'
+```
+
 #### Source
 [Python，你到底是在__底線__什麼啦！](https://aji.tw/python%E4%BD%A0%E5%88%B0%E5%BA%95%E6%98%AF%E5%9C%A8__%E5%BA%95%E7%B7%9A__%E4%BB%80%E9%BA%BC%E5%95%A6/)
 
