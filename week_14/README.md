@@ -383,7 +383,7 @@ while True:
 在python中`_`底線（underscore）是一個特殊的命名方法，主要有四種形式：
  1. [`xxx_`](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#1-xxx_)
  2. [`_xxx`](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#2-_xxx)
- 3. [`__xxx__`]()
+ 3. [`__xxx__`](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#3-__xxx__)
  4. [`__xxx`]()
 
 #### 1. `xxx_`
@@ -427,7 +427,7 @@ SyntaxError: invalid syntax
  - 不希望它被直接import
 
 針對此命名方法有一些說明
- 1. **並不是private variable**
+1. **並不是private variable**
  
  所謂的private variable（私有變數）其實並不存在在python裡面，它只是一種命名習慣而已
  > 在官方文件有提到
@@ -492,7 +492,8 @@ def _private_func():
 #### 3. `__xxx__`
 
 基本上，此命名方法是留給python內建methods或是variables
- > __double_leading_and_trailing_underscore__ : "magic" objects or attributes that live in user-controlled namespaces. E.g. __init__ , __import__ or __file__ . **Never invent such names; only use them as documented**.
+ > __double_leading_and_trailing_underscore__ : "magic" objects or attributes that live in user-controlled namespaces.\
+ E.g. __init__ , __import__ or __file__ . **Never invent such names; only use them as documented**.
  
 除非你是python核心開發人員，否則請盡量避免使用它
  > ... So, if you are not a Python core developer or writing a PEP that may be one day become part of the Python standard library or core language definition, try to stay away from using dunder names in your API.
