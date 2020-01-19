@@ -384,7 +384,7 @@ while True:
  1. [`xxx_`](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#1-xxx_)
  2. [`_xxx`](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#2-_xxx)
  3. [`__xxx__`](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#3-__xxx__)
- 4. [`__xxx`]()
+ 4. [`__xxx`](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#4-__xxx)
 
 #### 1. `xxx_`
 
@@ -433,7 +433,7 @@ SyntaxError: invalid syntax
  > 在官方文件有提到
  >> Private” instance variables that cannot be accessed except from inside an object don’t exist in Python. However, there is a convention that is followed by most Python code: a name prefixed with an underscore (e.g. _spam) should be treated as a non-public part of the API (whether it is a function, a method or a data member).
  
- 2.並非無法被import，只是需要一些其他的方法
+2.並非無法被import，只是需要一些其他的方法
  
  有一個叫test的module：test.py
  ```python
@@ -445,7 +445,7 @@ def _private_func():
  ```
  
  接著使用`import *`匯入test.py
-  > * 是由__all__定義的
+  > ＊是由__all__定義的
   
  ```python
  from test import *
