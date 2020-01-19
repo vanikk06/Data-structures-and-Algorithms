@@ -340,7 +340,6 @@
  - [Iterators](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#iterators)
  - [Python: range is not an iterator!](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#python-range-is-not-an-iterator)
  - [Generator](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#generator)
- - [＿＿name＿＿](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#%EF%BC%BF%EF%BC%BFname%EF%BC%BF%EF%BC%BF)
  - [python –](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#python-)
  - [List Comprehension](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#list-comprehension)
  - [sort vs. sorted](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_14#sort-vs-sorted)
