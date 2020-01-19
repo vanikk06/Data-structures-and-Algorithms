@@ -380,6 +380,16 @@ while True:
 
 # python –
 
+在python中`_`底線（underscore）是一個特殊的命名方法，主要有四種形式：
+ 1. `xxx_`
+ 2. `_xxx`
+ 3. `__xxx__`
+ 4. `__xxx`
+
+#### `xxx_`
+
+#### `_xxx`
+
 #### Source
 [Python，你到底是在__底線__什麼啦！](https://aji.tw/python%E4%BD%A0%E5%88%B0%E5%BA%95%E6%98%AF%E5%9C%A8__%E5%BA%95%E7%B7%9A__%E4%BB%80%E9%BA%BC%E5%95%A6/)
 
