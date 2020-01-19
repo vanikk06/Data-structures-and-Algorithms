@@ -381,12 +381,43 @@ while True:
 # python –
 
 在python中`_`底線（underscore）是一個特殊的命名方法，主要有四種形式：
- 1. `xxx_`
+ 1. [`xxx_`](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#xxx_)
  2. `_xxx`
  3. `__xxx__`
  4. `__xxx`
 
 #### `xxx_`
+
+此種命名方式，主要是避免與python內建函式與保留字（built-in functions/keywords）取了相同的名字
+
+可以透過下列方法查看python的built-in functions/keywords
+```python
+# list all built-in keywords
+import keyword
+print(keyword.kwlist)
+
+# list all built-in keywords
+print(vars(__builtin__).keys())
+```
+
+- 若與built-in functions命名衝突：會導致function無法再被使用
+
+```python
+list = ['Aji', 'Boa', 'Jason']
+
+list(range(10))
+#輸出
+TypeError: 'list' object is not callable
+```
+> 這時就可使用`list_`來命名，以作區隔
+
+- 與built-in keywords命名衝突：不可能發生，會直接出現錯誤
+
+```python
+from = 'aji'
+#輸出
+SyntaxError: invalid syntax
+```
 
 #### `_xxx`
 
