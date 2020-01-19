@@ -382,7 +382,7 @@ while True:
 
 在python中`_`底線（underscore）是一個特殊的命名方法，主要有四種形式：
  1. [`xxx_`](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#1-xxx_)
- 2. [`_xxx`]()
+ 2. [`_xxx`](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_14#2-_xxx)
  3. [`__xxx__`]()
  4. [`__xxx`]()
 
@@ -426,7 +426,79 @@ SyntaxError: invalid syntax
  - 它可能只是測試中的function
  - 不希望它被直接import
 
+針對此命名方法有一些說明
+ 1. **並不是private variable**
+ 
+ 所謂的private variable（私有變數）其實並不存在在python裡面，它只是一種命名習慣而已
+ > 在官方文件有提到
+ >> Private” instance variables that cannot be accessed except from inside an object don’t exist in Python. However, there is a convention that is followed by most Python code: a name prefixed with an underscore (e.g. _spam) should be treated as a non-public part of the API (whether it is a function, a method or a data member).
+ 
+ 2.並非無法被import，只是需要一些其他的方法
+ 
+ 有一個叫test的module：test.py
+ ```python
+ def public_func():
+    print("I'm available.")
+
+def _private_func():
+    print("I'm not available")
+ ```
+ 
+ 接著使用`import *`匯入test.py
+  > * 是由__all__定義的
+  
+ ```python
+ from test import *
+ public_func()
+ #輸出
+ I'm available.
+ 
+ _private_func()
+ #輸出
+ NameError: name '_private_func' is not defined
+ ```
+ > 可以看到`_private_func()`沒有被import進來
+ 
+ 但還是有辦法直接import
+ ```python
+ from test import _private_func
+ _private_func()
+ #輸出
+ I'm not available
+ ```
+ 
+ 或是將它定義在test.py的`__all__`裡面
+ ```python
+ __all__  = ['public_func', '_private_func']
+ 
+ def public_func():
+    print("I'm available.")
+
+def _private_func():
+    print("I'm not available")
+ ```
+ 然後使用`import *`，就可以成功匯入
+ ```python
+ from test import *
+ public_func()
+ #輸出
+ I'm available.
+ 
+ _private_func()
+ #輸出
+ I'm not available
+ ```
+
 #### 3. `__xxx__`
+
+基本上，此命名方法是留給python內建methods或是variables
+ > __double_leading_and_trailing_underscore__ : "magic" objects or attributes that live in user-controlled namespaces. E.g. __init__ , __import__ or __file__ . **Never invent such names; only use them as documented**.
+ 
+除非你是python核心開發人員，否則請盡量避免使用它
+ > ... So, if you are not a Python core developer or writing a PEP that may be one day become part of the Python standard library or core language definition, try to stay away from using dunder names in your API.
+ 
+
+若使用此命名方式與builtins衝到的話，就會出現錯誤
 
 #### 4. `__xxx`
 
