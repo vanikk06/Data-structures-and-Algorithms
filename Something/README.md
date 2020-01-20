@@ -37,6 +37,9 @@
   
 - Ipython：一個提供互動運算的命令界面（command shell）
   > 以命令列的方式操作和互動
+  >> 與Python IDLE相似，皆為python直譯器（Interpreter）：都會立即執行並輸出結果
+
+  IPython提供強大功能的神奇函數(Magic functions)，還能執行作業系統命令
 
   優點
   - 提供強大功能的程式互動界面
@@ -46,6 +49,29 @@
   - 支持平行運算
   - 並且是Jupyter Notebook的核心
     > Jupyter Notebook原名為IPython Notebook
+
+- Jupyter Notebook：可以想像成IPython + Notebook
+
+  包含：
+   - The notebook web application
+   - Kernels：前面的IPython，是Jupyter Notebook的核心
+   - Notebook documents：開放原始碼的web開發環境
+
+  特別地方在於，可以將程式開發的過程連同程式碼、數學公式、說明文字、圖示、運算結果，甚至是影片都完整的紀錄，還可以重複編輯、修改和執行
+  
+  套件：
+  - `IPython.display Math`：可以製作漂亮的數學公式
+     ```python
+     from IPython.display import Math
+     ```
+  - `IPython.display Image`、`IPython.display HTML`、`IPython.lib.display YouTubeVideo`：多媒體呈現，可以顯示圖片、HTML，甚至是YouTube影片
+    ```python
+    from IPython.display import Image #圖片
+    
+    from IPython.display import HTML  #HTML
+    
+    from IPython.lib.display import YouTubeVideo #YouTube影片
+    ```
 
 #### Source
 [學習 Python 不可不知的開發工具 IPython 和 Jupyter Notebook](http://seansharingblog.blogspot.com/2017/09/python-ipython-jupyter-notebook.html)
