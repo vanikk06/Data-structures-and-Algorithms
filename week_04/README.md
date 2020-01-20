@@ -34,7 +34,7 @@
          - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#code-4)
          - [Q&A](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#qa)
          - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#demo)
-     - [Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#divide-and-conquer)
+- [Divide and Conquer](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_04#divide-and-conquer)
 # Sorting algorithms
 
 - Insertion Sort：插入排序法
