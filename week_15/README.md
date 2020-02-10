@@ -70,16 +70,16 @@ c:\workspace
 
 print(r'c:\workspace')
 #輸出
-c:\workspace
+\c:\workspace
 
 
 print('c:\\workspace')
 #輸出
-c:\workspace
+\c:\workspace
 
 print(r'c:\\workspace')
 #輸出
-c:\\workspace
+\c:\\workspace
 ```
 
 #### Others
