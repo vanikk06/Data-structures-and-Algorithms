@@ -7,6 +7,10 @@
 - [Error](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#error)
 - [Code](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#code)
 - [Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#demo)
+- [Other student works](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#other-student-works)
+    - [Dijkstra](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#dijkstra-1)
+    - [Kruskal](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#kruskal-1)
+
 
 # Content
   - [String Type](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15#string-type)
