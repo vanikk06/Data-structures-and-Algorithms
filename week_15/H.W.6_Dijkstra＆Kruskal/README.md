@@ -327,3 +327,13 @@ Kruskal建立edge不侷限用defaultdict
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/image/output_R6nuqr.gif)
 
 [👄](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal#content)
+
+
+# Other student works
+  > 觀摩別的同學的作業
+  
+[]()  
+  
+因這位同學的程式碼很短，想要紀錄一下，厲害的人如何用更簡潔的方式達到一樣的目的，因此特別紀錄一下
+
+
