@@ -335,7 +335,7 @@ Kruskal建立edge不侷限用defaultdict
 # Other student works
   > 觀摩別的同學的作業
   
-[]()  
+[👉🏻HERE👈🏻](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_15/H.W.6_Dijkstra%EF%BC%86Kruskal/Other%20student%20works.py)  
   
 因這位同學的程式碼很短，想要紀錄一下，厲害的人如何用更簡潔的方式達到一樣的目的，因此特別紀錄一下
 
