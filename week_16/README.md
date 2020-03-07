@@ -44,13 +44,34 @@
 # Docker
   > Container（容器）
   >> 在作業系統層級的虛擬化技術
+ 
+ ![](https://miro.medium.com/max/504/0*7pLYtIrRNXSsER2M.png)
+ 
+【Docker解決之問題】\
+改善傳統虛擬機器，因為需要額外安裝作業系統（Guest OS），導致啟動慢、佔較大記憶體的問題
+
+【Docker提供之解決方法】\
+以「應用程式」為核心虛擬化，取代傳統需要 Guest OS 的虛擬化技術
 
 - Operating System（OS）：作業系統，主要為管理、協調電腦硬體資源，使硬體資源可以正確無誤的完成使用者所下達的各種指令，同時確保整個電腦可以在一個穩定的狀況下提供服務
 
 #### § 虛擬化技術 §
 
+【虛擬化解決之問題】- 程式執行的環境問題\
+每台電腦的作業系統與硬體配置不盡相同，我的程式可能剛好只跟我的電腦上的環境相容
+
+虛擬化要做的就是「模擬出一個環境」，讓程式可以在不同硬體上執行時，都以為自己在同一個環境中執行
+
+- 常見的虛擬化技術：
+  - 虛擬機器（Virtual machine）：在**系統層級**的虛擬化技術   e.g. Virtual Box
+  - 容器（Container）：在**作業系統層級**的虛擬化技術  e.g. Docker
+
+##### 【虛擬機器】
+測試
 
 
 #### Source
+[Docker 基礎教學與介紹 101](https://medium.com/unorthodox-paranoid/docker-tutorial-101-c3808b899ac6)
+
 
 [🧼](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#content)
