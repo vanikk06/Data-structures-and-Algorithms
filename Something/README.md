@@ -250,5 +250,10 @@ Docker Repository的概念與 Git 類似，Registry 可以理解為 GitHub 這�
 
 
 #### Source
+[hypervisor](https://www.itsfun.com.tw/Hypervisor/wiki-5555507-8928386)
+
+[初探虛擬機和虛擬化](https://freedomknight.me/chu-tan-xu-ni-ji-he-xu-ni-hua/)
+
+[What is a Hypervisor?](https://www.youtube.com/watch?v=VtXNIy_noWg)
 
 [🏍🏍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
