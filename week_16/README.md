@@ -63,7 +63,8 @@
 虛擬化要做的就是「模擬出一個環境」，讓程式可以在不同硬體上執行時，都以為自己在同一個環境中執行
 
 - 常見的虛擬化技術：
-  - 虛擬機器（Virtual machine）：在**系統層級**的虛擬化技術   e.g. Virtual Box
+  - [虛擬機器（Virtual machine）](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#%E8%99%9B%E6%93%AC%E6%A9%9F%E5%99%A8)：在**系統層級**的虛擬化技術   e.g. Virtual Box
+    
   - 容器（Container）：在**作業系統層級**的虛擬化技術  e.g. Docker
 
 ##### 【虛擬機器】
