@@ -94,12 +94,17 @@
   > 一種核心層級的虛擬化技術
   >> Container（容器）：在作業系統層級的虛擬化技術
  
- ![](https://miro.medium.com/max/504/0*7pLYtIrRNXSsER2M.png)
+Docker 是一個開源專案，是基於 Google 公司推出的 Go 語言實作
+
+![](https://miro.medium.com/max/504/0*7pLYtIrRNXSsER2M.png)
  
- - []()
-    - []()
-    - []()
- - []()
+ - [虛擬化技術](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#-%E8%99%9B%E6%93%AC%E5%8C%96%E6%8A%80%E8%A1%93-)
+    - [虛擬機器](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E8%99%9B%E6%93%AC%E6%A9%9F%E5%99%A8)
+    - [容器](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E5%AE%B9%E5%99%A8)
+ - [Docker 三元素](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#-docker-%E4%B8%89%E5%85%83%E7%B4%A0-)
+    - [映像檔](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E6%98%A0%E5%83%8F%E6%AA%94)
+    - [容器](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E5%AE%B9%E5%99%A8-1)
+    - [倉庫](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E5%80%89%E5%BA%AB)
  
 【Docker解決之問題】\
 改善傳統虛擬機器，因為需要額外安裝作業系統（Guest OS），導致啟動慢、佔較大記憶體的問題
@@ -110,6 +115,11 @@
 - Operating System（OS）：作業系統，主要為管理、協調電腦硬體資源，使硬體資源可以正確無誤的完成使用者所下達的各種指令，同時確保整個電腦可以在一個穩定的狀況下提供服務
 
 [Learning more](https://philipzheng.gitbooks.io/docker_practice/content/)
+
+P.S. 不適用於 Windows家用版
+
+[安裝參考](https://www.itread01.com/content/1545817893.html)
+
 
 ### § 虛擬化技術 §
 
@@ -135,7 +145,7 @@ Virtual machine是在系統層上的虛擬化，透過 Hypervisor 在目標的�
 這些Virtual machine，可以執行完整的作業系統
 
 - Hypervisor：一個可以讓電腦在原本的作業系統（Host OS）上，再裝一個作業系統（Guest OS），且兩個作業系統彼此不會打架的平台
-  > [Learning more]()
+  > [Learning more](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#hypervisor)
 
 透過選擇不同的 Guest OS ，Virtual machine的技術就可以確保，只要我的程式在 Guest OS 可以正常運作，那放到你的電腦時可以不管你的 Host OS 是什麼，只要你的 Host OS 上先裝上我的 Guest OS ，我的程式就可以在你的電腦上正常運作
 
@@ -162,6 +172,10 @@ Container是在作業系統層上的虛擬化，透過 Container Manager 直接�
 如果 Image 是一個做蛋糕用的「模具」，Container 則是「用模具烤出來的蛋糕」，而 Repository 是用來集中放置模具們的「收納櫃」
 
 #### 〔映像檔〕
+Docker Image 是一個**唯讀的模板**，用來重複產生 Container 實體
+
+透過
+
 #### 〔容器〕
 #### 〔倉庫〕
 
@@ -169,6 +183,8 @@ Container是在作業系統層上的虛擬化，透過 Container Manager 直接�
 [Docker 基礎教學與介紹 101](https://medium.com/unorthodox-paranoid/docker-tutorial-101-c3808b899ac6)
 
 [Docker —— 從入門到實踐](https://philipzheng.gitbooks.io/docker_practice/content/)
+
+[最新Docker的安裝與使用以及常見問題 Linux Windows 2018-12-26](https://www.itread01.com/content/1545817893.html)
 
 [🏍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
 
