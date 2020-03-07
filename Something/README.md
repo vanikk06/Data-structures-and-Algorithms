@@ -1,4 +1,9 @@
 # Content
+- [import](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#import)
+- [Magic Methods](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#magic-methods)
+- [Ipython](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#ipython)
+- [Technical Term](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#technical-term)
+- [Docker](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#docker)
 
 
 
@@ -106,23 +111,25 @@
 虛擬化要做的就是「模擬出一個環境」，讓程式可以在不同硬體上執行時，都以為自己在同一個環境中執行
 
 - 常見的虛擬化技術：
-  - [虛擬機器（Virtual machine）](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#%E8%99%9B%E6%93%AC%E6%A9%9F%E5%99%A8)：在**系統層級**的虛擬化技術   e.g. Virtual Box
+  - [虛擬機器（Virtual machine）](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E8%99%9B%E6%93%AC%E6%A9%9F%E5%99%A8)：在**系統層級**的虛擬化技術   e.g. Virtual Box
     > 以「作業系統」為中心
     
-  - [容器（Container）](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#%E5%AE%B9%E5%99%A8)：在**作業系統層級**的虛擬化技術  e.g. Docker
+  - [容器（Container）](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E5%AE%B9%E5%99%A8)：在**作業系統層級**的虛擬化技術  e.g. Docker
     > 以「應用程式」為中心
 
 ##### 〔虛擬機器〕
 
 目標：將一個應用程式所需的執行環境打包起來，建立一個**獨立環境**，方便在不同的硬體中移動
 
-![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_16/image/Snipaste_2020-03-07_18-25-25.png)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/Something/image/Snipaste_2020-03-07_18-25-25.png)
 
 ##### 〔容器〕
 
 目標：
 
-![](https://miro.medium.com/max/1860/0*bL7e7IJ5s-ntdhvC.png)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/Something/image/Snipaste_2020-03-07_18-28-51.png)
 
 #### Source
 [Docker 基礎教學與介紹 101](https://medium.com/unorthodox-paranoid/docker-tutorial-101-c3808b899ac6)
+
+[🏍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
