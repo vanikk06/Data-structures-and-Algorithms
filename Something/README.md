@@ -177,14 +177,12 @@ Docker Image 是一個**唯讀的模板**，用來重複產生 Container 實體
 ※ P.S.
 - Golang：又稱 Go語言，是 Google 開發的一種靜態強型別通用編譯語言
   
-  ![]()
-  ![]()
+  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/Something/image/Snipaste_2020-03-07_21-35-38.png)
+  ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/Something/image/Snipaste_2020-03-07_21-28-57.png)
   
   - [特性介紹](https://michaelchen.tech/golang-programming/why-or-why-not-golang/)
   - [語法介紹](https://yami.io/php-to-golang/#%E8%BC%B8%E5%87%BAecho)
-  
-  
-  
+-   
 
 #### 〔容器〕
 Container 是由 Image 建立出來的**執行實例**，可以被啟動、開始、停止、刪除，每個 Container 都是相互隔離、保證安全的平台
