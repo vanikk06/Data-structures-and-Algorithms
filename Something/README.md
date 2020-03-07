@@ -111,7 +111,7 @@
 
 [Learning more](https://philipzheng.gitbooks.io/docker_practice/content/)
 
-#### § 虛擬化技術 §
+### § 虛擬化技術 §
 
 【虛擬化解決之問題】- 程式執行的環境問題\
 每台電腦的作業系統與硬體配置不盡相同，我的程式可能剛好只跟我的電腦上的環境相容
@@ -150,7 +150,7 @@ Container是在作業系統層上的虛擬化，透過 Container Manager 直接�
 
 因不需另外安裝作業系統，建立 Container 所需要的硬碟容量可以大幅降低，且啟動速度可以更快，不用等待 Guest OS 的開機時間
 
-#### § Docker 三元素 §
+### § Docker 三元素 §
 
 使用 Docker 時最重要的三個元素：
 - 映像檔（Image）：可以用來建立 Docker Container
