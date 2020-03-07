@@ -3,6 +3,7 @@
   - [Class notes](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#class-notes)
   - [BlockChain 101 Demo](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#blockchain-101-demo)
   - [Technical Term](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#technical-term)
+  - [Docker](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#docker)
 
 # pip
 
