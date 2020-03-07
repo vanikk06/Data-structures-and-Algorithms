@@ -42,8 +42,15 @@
 [🚽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#content)
 
 # Docker
-  > 
+  > Container（容器）
+  >> 在作業系統層級的虛擬化技術
 
+- Operating System（OS）：作業系統，主要為管理、協調電腦硬體資源，使硬體資源可以正確無誤的完成使用者所下達的各種指令，同時確保整個電腦可以在一個穩定的狀況下提供服務
+
+#### 虛擬化技術
+測試
+### 虛擬化技術
+測試
 
 #### Source
 
