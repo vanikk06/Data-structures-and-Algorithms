@@ -4,6 +4,7 @@
 - [Ipython](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#ipython)
 - [Technical Term](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#technical-term)
 - [Docker](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#docker)
+  - [Hypervisor](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#hypervisor)
 
 
 
@@ -90,10 +91,15 @@
 [🛵](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
 
 # Docker
-  > 一種虛擬化技術
+  > 一種核心層級的虛擬化技術
   >> Container（容器）：在作業系統層級的虛擬化技術
  
  ![](https://miro.medium.com/max/504/0*7pLYtIrRNXSsER2M.png)
+ 
+ - []()
+    - []()
+    - []()
+ - []()
  
 【Docker解決之問題】\
 改善傳統虛擬機器，因為需要額外安裝作業系統（Guest OS），導致啟動慢、佔較大記憶體的問題
@@ -102,6 +108,8 @@
 以「應用程式」為核心虛擬化，取代傳統需要 Guest OS 的虛擬化技術
 
 - Operating System（OS）：作業系統，主要為管理、協調電腦硬體資源，使硬體資源可以正確無誤的完成使用者所下達的各種指令，同時確保整個電腦可以在一個穩定的狀況下提供服務
+
+[Learning more](https://philipzheng.gitbooks.io/docker_practice/content/)
 
 #### § 虛擬化技術 §
 
@@ -142,10 +150,32 @@ Container是在作業系統層上的虛擬化，透過 Container Manager 直接�
 
 因不需另外安裝作業系統，建立 Container 所需要的硬碟容量可以大幅降低，且啟動速度可以更快，不用等待 Guest OS 的開機時間
 
+#### § Docker 三元素 §
+
+使用 Docker 時最重要的三個元素：
+- 映像檔（Image）：可以用來建立 Docker Container
+  > 唯讀（read-only）的模板
+- 容器（Container）：Container 是從 Image 建立的**執行實例**，Docker利用 Container 來執行應用
+- 倉庫（Repository）：集中存放 Image 檔案的場所
+
+以一個簡單的比喻解釋\
+如果 Image 是一個做蛋糕用的「模具」，Container 則是「用模具烤出來的蛋糕」，而 Repository 是用來集中放置模具們的「收納櫃」
+
+#### 〔映像檔〕
+#### 〔容器〕
+#### 〔倉庫〕
+
 #### Source
 [Docker 基礎教學與介紹 101](https://medium.com/unorthodox-paranoid/docker-tutorial-101-c3808b899ac6)
+
+[Docker —— 從入門到實踐](https://philipzheng.gitbooks.io/docker_practice/content/)
 
 [🏍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
 
 ## Hypervisor
   > 
+
+
+#### Source
+
+[🏍🏍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
