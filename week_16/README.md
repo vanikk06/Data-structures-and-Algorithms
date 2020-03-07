@@ -64,12 +64,14 @@
 
 - 常見的虛擬化技術：
   - [虛擬機器（Virtual machine）](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#%E8%99%9B%E6%93%AC%E6%A9%9F%E5%99%A8)：在**系統層級**的虛擬化技術   e.g. Virtual Box
+    > 以「作業系統」為中心
     
   - 容器（Container）：在**作業系統層級**的虛擬化技術  e.g. Docker
+    > 以「應用程式」為中心
 
 ##### 【虛擬機器】
-測試
 
+##### 【容器】
 
 #### Source
 [Docker 基礎教學與介紹 101](https://medium.com/unorthodox-paranoid/docker-tutorial-101-c3808b899ac6)
