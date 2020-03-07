@@ -66,12 +66,18 @@
   - [虛擬機器（Virtual machine）](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#%E8%99%9B%E6%93%AC%E6%A9%9F%E5%99%A8)：在**系統層級**的虛擬化技術   e.g. Virtual Box
     > 以「作業系統」為中心
     
-  - 容器（Container）：在**作業系統層級**的虛擬化技術  e.g. Docker
+  - [容器（Container）](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#%E5%AE%B9%E5%99%A8)：在**作業系統層級**的虛擬化技術  e.g. Docker
     > 以「應用程式」為中心
 
-##### 【虛擬機器】
+##### 〔虛擬機器〕
 
-##### 【容器】
+目標：將一個應用程式所需的執行環境打包起來，建立一個**獨立環境**，方便在不同的硬體中移動
+
+![](https://miro.medium.com/max/1860/0*fQKhoT--2NnLY9YU.png)
+
+##### 〔容器〕
+
+目標：
 
 #### Source
 [Docker 基礎教學與介紹 101](https://medium.com/unorthodox-paranoid/docker-tutorial-101-c3808b899ac6)
