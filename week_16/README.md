@@ -74,11 +74,13 @@
 
 目標：將一個應用程式所需的執行環境打包起來，建立一個**獨立環境**，方便在不同的硬體中移動
 
-![](https://miro.medium.com/max/1860/0*fQKhoT--2NnLY9YU.png)
+![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/week_16/image/Snipaste_2020-03-07_18-25-25.png)
 
 ##### 〔容器〕
 
 目標：
+
+![](https://miro.medium.com/max/1860/0*bL7e7IJ5s-ntdhvC.png)
 
 #### Source
 [Docker 基礎教學與介紹 101](https://medium.com/unorthodox-paranoid/docker-tutorial-101-c3808b899ac6)
