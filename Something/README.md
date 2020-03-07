@@ -173,10 +173,22 @@ Container是在作業系統層上的虛擬化，透過 Container Manager 直接�
 
 #### 〔映像檔〕
 Docker Image 是一個**唯讀的模板**，用來重複產生 Container 實體
+> e.g. 一個 Image 可以包含一個完整的 MySQL 服務、一個 Golang 的編譯環境、一個 Ubuntu 作業系統...等
 
-透過
+透過 Docker Image 我們可以快速的產生可以執行應用程式的 Container，而 Docker Image 可以透過撰寫命令行構成的 Dockerfile 輕鬆建立，也可以從公開的地方下載別人已經作好的 Image 來使用
+
+P.S.
+- Golang：又稱 Go語言，是 Google 開發的一種
+  
+  ![](https://2.bp.blogspot.com/-67KgORKX4QY/XFJeZ-iSY2I/AAAAAAAAMV0/Ay3d_lig03AdJzBiL5eo94uIYGdYQxwAQCLcBGAs/s1600/golang-gopher.png)
+  ![](https://golang.org/lib/godoc/images/go-logo-blue.svg)
 
 #### 〔容器〕
+Container 是由 Image 建立出來的**執行實例**，可以被啟動、開始、停止、刪除，每個 Container 都是相互隔離、保證安全的平台
+
+可以把 Container 看作是一個簡易版的 Linux 環境（包括root使用者權限、程式空間、使用者空間、網路空間...等等）和在其中執行的應用程式
+
+
 #### 〔倉庫〕
 
 #### Source
