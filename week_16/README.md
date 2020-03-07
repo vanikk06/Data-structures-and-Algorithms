@@ -32,3 +32,11 @@
 本來我是有想嘗試的，但是時間真的太短就作罷，想說學期結束之後再來努力，至少要聽懂同學在說什麼
 
 [🧻](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#content)
+
+# Technical Term
+  > 專有名詞
+
+
+
+[🚽](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/week_16#content)
+
