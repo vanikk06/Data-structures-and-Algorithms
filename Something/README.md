@@ -116,10 +116,7 @@ Docker 是一個開源專案，是基於 Google 公司推出的 Go 語言實作
 
 [Learning more](https://philipzheng.gitbooks.io/docker_practice/content/)
 
-P.S. 不適用於 Windows家用版
-
-[安裝參考](https://www.itread01.com/content/1545817893.html)
-
+P.S. 不適用於 Windows家用版（[安裝參考](https://www.itread01.com/content/1545817893.html)）
 
 ### § 虛擬化技術 §
 
@@ -177,11 +174,17 @@ Docker Image 是一個**唯讀的模板**，用來重複產生 Container 實體
 
 透過 Docker Image 我們可以快速的產生可以執行應用程式的 Container，而 Docker Image 可以透過撰寫命令行構成的 Dockerfile 輕鬆建立，也可以從公開的地方下載別人已經作好的 Image 來使用
 
-P.S.
-- Golang：又稱 Go語言，是 Google 開發的一種
+※ P.S.
+- Golang：又稱 Go語言，是 Google 開發的一種靜態強型別通用編譯語言
   
-  ![](https://2.bp.blogspot.com/-67KgORKX4QY/XFJeZ-iSY2I/AAAAAAAAMV0/Ay3d_lig03AdJzBiL5eo94uIYGdYQxwAQCLcBGAs/s1600/golang-gopher.png)
-  ![](https://golang.org/lib/godoc/images/go-logo-blue.svg)
+  ![]()
+  ![]()
+  
+  - [特性介紹](https://michaelchen.tech/golang-programming/why-or-why-not-golang/)
+  - [語法介紹](https://yami.io/php-to-golang/#%E8%BC%B8%E5%87%BAecho)
+  
+  
+  
 
 #### 〔容器〕
 Container 是由 Image 建立出來的**執行實例**，可以被啟動、開始、停止、刪除，每個 Container 都是相互隔離、保證安全的平台
@@ -197,6 +200,12 @@ Container 是由 Image 建立出來的**執行實例**，可以被啟動、開�
 [Docker —— 從入門到實踐](https://philipzheng.gitbooks.io/docker_practice/content/)
 
 [最新Docker的安裝與使用以及常見問題 Linux Windows 2018-12-26](https://www.itread01.com/content/1545817893.html)
+
+[維基百科_Go](https://zh.wikipedia.org/wiki/Go)
+
+[[Golang] 程式設計教學：為什麼用 (或不用) Golang](https://michaelchen.tech/golang-programming/why-or-why-not-golang/)
+
+[從 PHP 到 Golang 的筆記](https://yami.io/php-to-golang/#%E8%BC%B8%E5%87%BAecho)
 
 [🏍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
 
