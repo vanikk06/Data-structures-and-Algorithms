@@ -90,8 +90,8 @@
 [🛵](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
 
 # Docker
-  > Container（容器）
-  >> 在作業系統層級的虛擬化技術
+  > 一種虛擬化技術
+  >> Container（容器）：在作業系統層級的虛擬化技術
  
  ![](https://miro.medium.com/max/504/0*7pLYtIrRNXSsER2M.png)
  
@@ -117,19 +117,35 @@
   - [容器（Container）](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E5%AE%B9%E5%99%A8)：在**作業系統層級**的虛擬化技術  e.g. Docker
     > 以「應用程式」為中心
 
-##### 〔虛擬機器〕
+#### 〔虛擬機器〕
 
 目標：將一個應用程式所需的執行環境打包起來，建立一個**獨立環境**，方便在不同的硬體中移動
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/Something/image/Snipaste_2020-03-07_18-25-25.png)
 
-##### 〔容器〕
+Virtual machine是在系統層上的虛擬化，透過 Hypervisor 在目標的機器上，提供可以執行一個或多個虛擬機器的平台\
+這些Virtual machine，可以執行完整的作業系統
 
-目標：
+- Hypervisor：一個可以讓電腦在原本的作業系統（Host OS）上，再裝一個作業系統（Guest OS），且兩個作業系統彼此不會打架的平台
+  > [Learning more]()
+
+透過選擇不同的 Guest OS ，Virtual machine的技術就可以確保，只要我的程式在 Guest OS 可以正常運作，那放到你的電腦時可以不管你的 Host OS 是什麼，只要你的 Host OS 上先裝上我的 Guest OS ，我的程式就可以在你的電腦上正常運作
+
+#### 〔容器〕
+
+目標：改善Virtual machine因為需要安裝 Guest OS 導致啟動慢、佔較大記憶體的問題
 
 ![](https://github.com/vanikk06/Data-structures-and-Algorithms/blob/master/Something/image/Snipaste_2020-03-07_18-28-51.png)
+
+Container是在作業系統層上的虛擬化，透過 Container Manager 直接將一個應用程式所需要的程式碼、函式庫**打包**，建立資源控管機制隔離各個容器，並**分配 Host OS 上的系統資源**\
+透過 Container，應用程式不需要再另外安裝作業系統（Guest OS）也可以執行
+
+因不需另外安裝作業系統，建立 Container 所需要的硬碟容量可以大幅降低，且啟動速度可以更快，不用等待 Guest OS 的開機時間
 
 #### Source
 [Docker 基礎教學與介紹 101](https://medium.com/unorthodox-paranoid/docker-tutorial-101-c3808b899ac6)
 
 [🏍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
+
+## Hypervisor
+  > 
