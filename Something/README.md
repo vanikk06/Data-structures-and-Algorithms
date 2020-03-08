@@ -246,8 +246,20 @@ Docker Repository的概念與 Git 類似，Registry 可以理解為 GitHub 這�
 [🏍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
 
 ## Hypervisor
-  > 
+  > 又稱「虛擬機監視器」（Virtual Machine Monitor，VMM）
 
+Hypervisor 是一種運行在「物理伺服器」和「作業系統」之間的**中間軟體層**，是所有虛擬化技術的核心。
+
+- 字面含義：Hypervisor，n.超級監督者，引申為超級管理程式、超多功能管理器、虛擬機管理器、VMM
+  > super、hyper為同義詞，皆為「超級」的意思
+
+
+允許多個作業系統和套件共享一套基礎物理硬體，也可以視作一種虛擬環境中的「元」作業系統，它可以協調訪問伺服器上的所有物理設備（包括磁碟、記憶體...等等），也同時在各個虛擬機之間施加防護。
+當伺服器啟動並執行 Hypervisor 時，它會載入所有虛擬機客戶端的作業系統，同時會分配給每一台虛擬機適當的記憶體、CPU、網路和磁碟。
+
+- 依照 Hypervisor 安裝位置可分為兩類：
+  - Type Ⅰ：又稱為 bare-metal hypervisor（與"裸機"裝虛擬機有關），是直接裝一層 hyperviosr 在空機上面，然後將VM（Virtual Machine）的系統安裝在 hypervisor，如此的虛擬系統離硬體控制較近，VM要控制的硬體資源會直接透過 hypervisor 去操作
+  - Type Ⅱ：
 
 #### Source
 [hypervisor](https://www.itsfun.com.tw/Hypervisor/wiki-5555507-8928386)
