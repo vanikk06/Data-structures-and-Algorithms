@@ -105,6 +105,8 @@ Docker 是一個開源專案，是基於 Google 公司推出的 Go 語言實作
     - [映像檔](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E6%98%A0%E5%83%8F%E6%AA%94)
     - [容器](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E5%AE%B9%E5%99%A8-1)
     - [倉庫](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E5%80%89%E5%BA%AB)
+ - [Docker 實例]()
+ 
  
 【Docker解決之問題】\
 改善傳統虛擬機器，因為需要額外安裝作業系統（Guest OS），導致啟動慢、佔較大記憶體的問題
@@ -227,6 +229,16 @@ Docker Repository的概念與 Git 類似，Registry 可以理解為 GitHub 這�
 
 此外，[Docker Compose](https://blog.techbridge.cc/2018/09/07/docker-compose-tutorial-intro/)也是非常值得學習的工具
 
+※ P.S.
+- Alpine OS：一個 Linux 的發行版，以「安全」為理念而設計的作業系統
+- Apache Server：一個開放原始碼的網頁伺服器軟體，是最流行的 Web伺服器軟體之一
+  - 網頁伺服器（Web Server）有三個意思
+    > [Learning more](https://www.newscan.com.tw/all-knowledge/knowledge-detail-6.htm)
+    - 一台提供服務的電腦
+    - 一台負責提供網頁的電腦，主要是HTML檔案，透過HTTP協定傳給客戶端（一般是指網頁瀏覽器）
+      > HTTP：HyperText Transfer Protocol，超文本傳輸協定，是一種用於分佈式、協作式和超媒體訊息系統的應用層協定
+    - 一個提供網頁的伺服器程式
+  
 
 #### Source
 [Docker 基礎教學與介紹 101](https://medium.com/unorthodox-paranoid/docker-tutorial-101-c3808b899ac6)
@@ -242,6 +254,12 @@ Docker Repository的概念與 Git 類似，Registry 可以理解為 GitHub 這�
 [[Golang] 程式設計教學：為什麼用 (或不用) Golang](https://michaelchen.tech/golang-programming/why-or-why-not-golang/)
 
 [從 PHP 到 Golang 的筆記](https://yami.io/php-to-golang/#%E8%BC%B8%E5%87%BAecho)
+
+[維基百科_Alpine Linux](https://zh.wikipedia.org/wiki/Alpine_Linux)
+
+[維基百科_Apache HTTP伺服器](https://zh.wikipedia.org/wiki/Apache_HTTP_Server)
+
+[網頁伺服器（Web Server）是什麼?](https://www.newscan.com.tw/all-knowledge/knowledge-detail-6.htm)
 
 [🏍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
 
