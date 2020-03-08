@@ -258,8 +258,12 @@ Hypervisor 是一種運行在「物理伺服器」和「作業系統」之間的
 當伺服器啟動並執行 Hypervisor 時，它會載入所有虛擬機客戶端的作業系統，同時會分配給每一台虛擬機適當的記憶體、CPU、網路和磁碟。
 
 - 依照 Hypervisor 安裝位置可分為兩類：
-  - Type Ⅰ：又稱為 bare-metal hypervisor（與"裸機"裝虛擬機有關），是直接裝一層 hyperviosr 在空機上面，然後將VM（Virtual Machine）的系統安裝在 hypervisor，如此的虛擬系統離硬體控制較近，VM要控制的硬體資源會直接透過 hypervisor 去操作
-  - Type Ⅱ：
+  - Type Ⅰ：又稱為 bare-metal hypervisor（與"裸機"裝虛擬機有關）
+      
+      是直接裝一層 hyperviosr 在空機上面，然後將VM（Virtual Machine）的系統安裝在 hypervisor，如此的虛擬系統離硬體控制較近，VM要控制的硬體資源會**直接透過 hypervisor 去操作**
+  - Type Ⅱ：又稱為 hosted hypervisor
+  
+      與 Type Ⅰ 相反，必須先安裝作業系統之後再去安裝 hypervisor，這類的 hypervisor 的硬體控制方式是透過**原本的作業系統代為處理**
 
 #### Source
 [hypervisor](https://www.itsfun.com.tw/Hypervisor/wiki-5555507-8928386)
