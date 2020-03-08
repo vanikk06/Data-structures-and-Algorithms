@@ -87,6 +87,14 @@
 # Technical Term
   > 專有名詞
 
+- 編譯式語言（Compiled language）：在程式執行前，就用編譯器把整份程式碼翻譯好
+- 直譯式語言（Interpreted language）：在程式執行時，由一個軟體（直譯器）一行一行把程式碼一邊翻譯一邊執行
+> [Learning more](https://medium.com/@totoroLiu/%E7%B7%A8%E8%AD%AF%E8%AA%9E%E8%A8%80-vs-%E7%9B%B4%E8%AD%AF%E8%AA%9E%E8%A8%80-5f34e6bae051)
+
+#### Source
+[我想學程式，但到底該從哪個語言入門？](https://medium.com/appworks-school/most-popular-programming-language-for-first-time-learners-54b7da125e3c)
+
+[編譯語言 VS 直譯語言](https://medium.com/@totoroLiu/%E7%B7%A8%E8%AD%AF%E8%AA%9E%E8%A8%80-vs-%E7%9B%B4%E8%AD%AF%E8%AA%9E%E8%A8%80-5f34e6bae051)
 
 [🛵](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
 
