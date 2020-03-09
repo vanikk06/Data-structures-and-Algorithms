@@ -212,7 +212,7 @@ Repository 是集中存放 Image 檔案的場所，與 Registry 不完全相同�
 Docker Repository的概念與 Git 類似，Registry 可以理解為 GitHub 這樣的託管服務。\
 使用者建立自己的 Image 之後，可以使用`push`命令將其上傳到公有或私有 Repository，當下次在另外一台機器上使用這個 Image 時，只需要從 Repository 上`pull`下來即可。
 
-#### Docker 實例
+### § Docker 實例 §
 
 - Dockerize：將應用程式所需要的程式碼、套件**打包**成 Docker Image
 
