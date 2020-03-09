@@ -304,6 +304,7 @@ Hypervisor 是一種運行在「物理伺服器」和「作業系統」之間的
   > Optical Character Recognition
   >> 光學文字辨識
 
+OCR 主要目的是將圖像中文字轉化成電腦能夠識別的電子訊號。
 
 #### Source
 [什麼是 OCR?](http://www.fuji.com.tw/posts/1889)
