@@ -5,7 +5,7 @@
 - [Technical Term](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#technical-term)
 - [Docker](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#docker)
   - [Hypervisor](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#hypervisor)
-
+- [OCR](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#ocr)
 
 
 # import
