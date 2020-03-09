@@ -113,7 +113,7 @@ Docker 是一個開源專案，是基於 Google 公司推出的 Go 語言實作
     - [映像檔](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E6%98%A0%E5%83%8F%E6%AA%94)
     - [容器](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E5%AE%B9%E5%99%A8-1)
     - [倉庫](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#%E5%80%89%E5%BA%AB)
- - [Docker 實例]()
+ - [Docker 實例](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#-docker-%E5%AF%A6%E4%BE%8B-)
  
  
 【Docker解決之問題】\
@@ -299,3 +299,13 @@ Hypervisor 是一種運行在「物理伺服器」和「作業系統」之間的
 [What is a Hypervisor?](https://www.youtube.com/watch?v=VtXNIy_noWg)
 
 [🏍🏍](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
+
+# OCR
+  > Optical Character Recognition
+  >> 光學文字辨識
+
+
+#### Source
+[什麼是 OCR?](http://www.fuji.com.tw/posts/1889)
+
+[🏎](https://github.com/vanikk06/Data-structures-and-Algorithms/tree/master/Something#content)
