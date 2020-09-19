@@ -244,7 +244,7 @@ Status：Runtime 76 ms, Memory 18.6 MB
  - 箭頭指在top那筆資料
 
 #### Code
- - `__intit__`：min stack基礎的屬性設定
+ - `__init__`：min stack基礎的屬性設定
      - .topnode：在stack內top那筆資料
  - `push(x)`：增加一筆資料，變成新的top
    > 考慮stack內是否已有值存在
